@@ -1,0 +1,12 @@
+{
+  "name": "envoyai-library",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The envoyai component registry. Installable with the shadcn CLI.",
+  "scripts": {
+    "registry:build": "shadcn build"
+  },
+  "devDependencies": {
+    "shadcn": "^2.5.0"
+  }
+}
