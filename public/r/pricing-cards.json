@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "pricing-cards",
+  "title": "Pricing Cards",
+  "description": "Three-tier pricing layout with a highlighted plan, feature checklist and a call-to-action button per tier.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "button",
+    "card"
+  ],
+  "files": [
+    {
+      "path": "components/pricing-cards/pricing-cards.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\nimport { Check } from \"lucide-react\"\n\nimport { cn } from \"@/lib/utils\"\nimport { Button } from \"@/components/ui/button\"\nimport {\n  Card,\n  CardContent,\n  CardDescription,\n  CardFooter,\n  CardHeader,\n  CardTitle,\n} from \"@/components/ui/card\"\n\ninterface Tier {\n  name: string\n  price: string\n  period?: string\n  description: string\n  features: string[]\n  highlighted?: boolean\n  cta: string\n}\n\nconst TIERS: Tier[] = [\n  {\n    name: \"Starter\",\n    price: \"$0\",\n    description: \"Browse the registry and install components one at a time.\",\n    features: [\"Unlimited installs\", \"Community support\", \"Public registry access\"],\n    cta: \"Get started\",\n  },\n  {\n    name: \"Pro\",\n    price: \"$24\",\n    period: \"/mo\",\n    description: \"For teams shipping on the registry every week.\",\n    features: [\n      \"Everything in Starter\",\n      \"Private registry items\",\n      \"Version pinning\",\n      \"Priority support\",\n    ],\n    highlighted: true,\n    cta: \"Start free trial\",\n  },\n  {\n    name: \"Team\",\n    price: \"$59\",\n    period: \"/mo\",\n    description: \"Shared workspaces with seat-based access control.\",\n    features: [\n      \"Everything in Pro\",\n      \"Unlimited seats\",\n      \"Audit log\",\n      \"SSO\",\n    ],\n    cta: \"Talk to sales\",\n  },\n]\n\n/**\n * Three-tier pricing layout with a highlighted plan, feature checklist\n * and a call-to-action button per tier.\n */\nexport function PricingCards() {\n  return (\n    <section className=\"bg-background py-16 md:py-24\">\n      <div className=\"mx-auto max-w-5xl px-6\">\n        <div className=\"mx-auto mb-12 max-w-xl text-center\">\n          <h2 className=\"text-2xl font-semibold md:text-3xl\">Simple, usage-based pricing</h2>\n          <p className=\"mt-3 text-muted-foreground\">\n            Every plan installs from the same registry. Upgrade when your team needs more.\n          </p>\n        </div>\n\n        <div className=\"grid gap-6 md:grid-cols-3\">\n          {TIERS.map((tier) => (\n            <Card\n              key={tier.name}\n              className={cn(\n                \"flex flex-col\",\n                tier.highlighted && \"border-foreground shadow-lg md:-translate-y-2\"\n              )}\n            >\n              <CardHeader>\n                <div className=\"flex items-center justify-between\">\n                  <CardTitle className=\"text-base font-medium\">{tier.name}</CardTitle>\n                  {tier.highlighted && (\n                    <span className=\"rounded-full bg-primary px-2.5 py-0.5 text-xs font-medium text-primary-foreground\">\n                      Most popular\n                    </span>\n                  )}\n                </div>\n                <div className=\"flex items-baseline gap-1 pt-2\">\n                  <span className=\"text-4xl font-semibold\">{tier.price}</span>\n                  {tier.period && (\n                    <span className=\"text-sm text-muted-foreground\">{tier.period}</span>\n                  )}\n                </div>\n                <CardDescription className=\"pt-1\">{tier.description}</CardDescription>\n              </CardHeader>\n\n              <CardContent className=\"flex-1\">\n                <ul className=\"space-y-2.5\">\n                  {tier.features.map((feature) => (\n                    <li key={feature} className=\"flex items-start gap-2 text-sm\">\n                      <Check className=\"mt-0.5 size-4 shrink-0 text-primary\" />\n                      <span>{feature}</span>\n                    </li>\n                  ))}\n                </ul>\n              </CardContent>\n\n              <CardFooter>\n                <Button\n                  className=\"w-full\"\n                  variant={tier.highlighted ? \"default\" : \"outline\"}\n                >\n                  {tier.cta}\n                </Button>\n              </CardFooter>\n            </Card>\n          ))}\n        </div>\n      </div>\n    </section>\n  )\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/pricing-cards.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "marketing",
+    "pricing"
+  ],
+  "type": "registry:ui"
+}

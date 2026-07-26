@@ -5,104 +5,118 @@
   "items": [
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "deep-search",
-      "title": "Deep Search",
-      "description": "A search bar with inline clear, a filters trigger and a visual-search trigger. Controlled or uncontrolled.",
+      "name": "feature-grid",
+      "title": "Feature Grid",
+      "description": "A bento-style feature showcase: two detail cards plus a full-width highlight row with a circular status cluster.",
       "dependencies": [
         "lucide-react"
       ],
+      "registryDependencies": [
+        "card"
+      ],
       "files": [
         {
-          "path": "components/deep-search/deep-search.tsx",
+          "path": "components/feature-grid/feature-grid.tsx",
           "type": "registry:ui",
-          "target": "components/ui/deep-search.tsx"
+          "target": "components/ui/feature-grid.tsx"
         }
       ],
       "categories": [
         "component",
-        "search",
-        "input"
-      ],
-      "type": "registry:ui"
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "category-pills",
-      "title": "Category Pills",
-      "description": "A horizontally scrollable row of selectable category pills. Controlled or uncontrolled.",
-      "files": [
-        {
-          "path": "components/category-pills/category-pills.tsx",
-          "type": "registry:ui",
-          "target": "components/ui/category-pills.tsx"
-        }
-      ],
-      "categories": [
-        "component",
-        "navigation",
-        "filter"
-      ],
-      "type": "registry:ui"
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "library-sidebar",
-      "title": "Library Sidebar",
-      "description": "A sidebar of icon and label navigation entries with an active state.",
-      "files": [
-        {
-          "path": "components/library-sidebar/library-sidebar.tsx",
-          "type": "registry:ui",
-          "target": "components/ui/library-sidebar.tsx"
-        }
-      ],
-      "categories": [
-        "component",
-        "navigation",
+        "marketing",
         "layout"
       ],
       "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "theme-toggle",
-      "title": "Theme Toggle",
-      "description": "A round light and dark toggle backed by next-themes, hydration safe.",
-      "dependencies": [
-        "lucide-react",
-        "next-themes"
-      ],
+      "name": "stats-band",
+      "title": "Stats Band",
+      "description": "A horizontal strip of key metrics, divided by hairlines with a subtle accent bar above each figure.",
       "files": [
         {
-          "path": "components/theme-toggle/theme-toggle.tsx",
+          "path": "components/stats-band/stats-band.tsx",
           "type": "registry:ui",
-          "target": "components/ui/theme-toggle.tsx"
+          "target": "components/ui/stats-band.tsx"
         }
       ],
       "categories": [
         "component",
-        "theme"
+        "marketing",
+        "data"
       ],
       "type": "registry:ui"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "asset-card",
-      "title": "Asset Card",
-      "description": "A card for presenting a library asset: preview, title, description and a copy-to-clipboard install command.",
+      "name": "pricing-cards",
+      "title": "Pricing Cards",
+      "description": "Three-tier pricing layout with a highlighted plan, feature checklist and a call-to-action button per tier.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button",
+        "card"
+      ],
+      "files": [
+        {
+          "path": "components/pricing-cards/pricing-cards.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/pricing-cards.tsx"
+        }
+      ],
+      "categories": [
+        "component",
+        "marketing",
+        "pricing"
+      ],
+      "type": "registry:ui"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "testimonial-wall",
+      "title": "Testimonial Wall",
+      "description": "A responsive grid of quote cards with initials avatars, name and role — no external images required.",
       "dependencies": [
         "lucide-react"
       ],
       "files": [
         {
-          "path": "components/asset-card/asset-card.tsx",
+          "path": "components/testimonial-wall/testimonial-wall.tsx",
           "type": "registry:ui",
-          "target": "components/ui/asset-card.tsx"
+          "target": "components/ui/testimonial-wall.tsx"
         }
       ],
       "categories": [
         "component",
-        "display"
+        "marketing",
+        "social-proof"
+      ],
+      "type": "registry:ui"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "cta-banner",
+      "title": "CTA Banner",
+      "description": "A full-width call-to-action band with a soft radial backdrop, a heading, supporting copy and two buttons.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "path": "components/cta-banner/cta-banner.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/cta-banner.tsx"
+        }
+      ],
+      "categories": [
+        "component",
+        "marketing",
+        "cta"
       ],
       "type": "registry:ui"
     },

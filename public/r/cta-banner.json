@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cta-banner",
+  "title": "CTA Banner",
+  "description": "A full-width call-to-action band with a soft radial backdrop, a heading, supporting copy and two buttons.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "button"
+  ],
+  "files": [
+    {
+      "path": "components/cta-banner/cta-banner.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\nimport { ArrowRight } from \"lucide-react\"\n\nimport { Button } from \"@/components/ui/button\"\n\nexport interface CtaBannerProps {\n  heading?: string\n  description?: string\n  primaryLabel?: string\n  secondaryLabel?: string\n}\n\n/**\n * A full-width call-to-action band with a soft radial backdrop, a heading,\n * supporting copy and two buttons.\n */\nexport function CtaBanner({\n  heading = \"Start installing from the registry\",\n  description = \"Every component, template, icon and theme on this site ships as a single CLI command.\",\n  primaryLabel = \"Browse the library\",\n  secondaryLabel = \"View on GitHub\",\n}: CtaBannerProps) {\n  return (\n    <section className=\"relative overflow-hidden bg-foreground py-20 text-background md:py-28\">\n      <div\n        className=\"pointer-events-none absolute inset-0\"\n        style={{\n          background:\n            \"radial-gradient(55% 70% at 50% 0%, hsl(var(--background) / 0.14), transparent 70%)\",\n        }}\n      />\n\n      <div className=\"relative mx-auto flex max-w-2xl flex-col items-center gap-6 px-6 text-center\">\n        <h2 className=\"text-3xl font-semibold text-balance md:text-4xl\">{heading}</h2>\n        <p className=\"text-base text-background/70 text-pretty\">{description}</p>\n\n        <div className=\"flex flex-wrap justify-center gap-3 pt-2\">\n          <Button className=\"bg-background text-foreground hover:bg-background/90\">\n            {primaryLabel}\n            <ArrowRight className=\"size-4\" />\n          </Button>\n          <Button\n            variant=\"outline\"\n            className=\"border-background/25 bg-transparent text-background hover:bg-background/10 hover:text-background\"\n          >\n            {secondaryLabel}\n          </Button>\n        </div>\n      </div>\n    </section>\n  )\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/cta-banner.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "marketing",
+    "cta"
+  ],
+  "type": "registry:ui"
+}
