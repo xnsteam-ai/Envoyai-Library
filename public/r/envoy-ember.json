@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "envoy-ember",
+  "title": "Envoy Ember",
+  "description": "Warm ember accent over a near-black base — the original envoyai mark palette, tuned for UI.",
+  "cssVars": {
+    "light": {
+      "background": "oklch(0.995 0.004 60)",
+      "foreground": "oklch(0.18 0.02 40)",
+      "card": "oklch(1 0 0)",
+      "card-foreground": "oklch(0.18 0.02 40)",
+      "popover": "oklch(1 0 0)",
+      "popover-foreground": "oklch(0.18 0.02 40)",
+      "primary": "oklch(0.67 0.2 42)",
+      "primary-foreground": "oklch(0.99 0.01 60)",
+      "secondary": "oklch(0.96 0.02 60)",
+      "secondary-foreground": "oklch(0.28 0.04 42)",
+      "muted": "oklch(0.96 0.015 60)",
+      "muted-foreground": "oklch(0.55 0.03 45)",
+      "accent": "oklch(0.94 0.04 55)",
+      "accent-foreground": "oklch(0.28 0.06 42)",
+      "destructive": "oklch(0.577 0.245 27.325)",
+      "border": "oklch(0.9 0.02 55)",
+      "input": "oklch(0.9 0.02 55)",
+      "ring": "oklch(0.67 0.2 42)"
+    },
+    "dark": {
+      "background": "oklch(0.16 0.015 40)",
+      "foreground": "oklch(0.97 0.01 60)",
+      "card": "oklch(0.21 0.02 40)",
+      "card-foreground": "oklch(0.97 0.01 60)",
+      "popover": "oklch(0.21 0.02 40)",
+      "popover-foreground": "oklch(0.97 0.01 60)",
+      "primary": "oklch(0.72 0.19 45)",
+      "primary-foreground": "oklch(0.16 0.02 40)",
+      "secondary": "oklch(0.28 0.03 40)",
+      "secondary-foreground": "oklch(0.97 0.01 60)",
+      "muted": "oklch(0.28 0.03 40)",
+      "muted-foreground": "oklch(0.72 0.03 50)",
+      "accent": "oklch(0.33 0.06 42)",
+      "accent-foreground": "oklch(0.97 0.01 60)",
+      "destructive": "oklch(0.704 0.191 22.216)",
+      "border": "oklch(1 0 0 / 12%)",
+      "input": "oklch(1 0 0 / 16%)",
+      "ring": "oklch(0.72 0.19 45)"
+    }
+  },
+  "categories": [
+    "theme",
+    "color",
+    "warm"
+  ],
+  "type": "registry:theme"
+}

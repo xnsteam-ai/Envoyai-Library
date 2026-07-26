@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "library-sidebar",
+  "title": "Library Sidebar",
+  "description": "A sidebar of icon and label navigation entries with an active state.",
+  "files": [
+    {
+      "path": "components/library-sidebar/library-sidebar.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\n\nimport { cn } from \"@/lib/utils\"\n\nexport interface LibrarySidebarItem {\n  label: string\n  href?: string\n  icon?: React.ComponentType<{ className?: string }>\n}\n\nexport interface LibrarySidebarProps\n  extends Omit<React.ComponentPropsWithoutRef<\"aside\">, \"defaultValue\"> {\n  items: LibrarySidebarItem[]\n  /** Small uppercase heading above the nav. */\n  label?: string\n  /** Controlled active item label. Pair with `onValueChange`. */\n  value?: string\n  /** Uncontrolled initial active item. Defaults to the first item. */\n  defaultValue?: string\n  onValueChange?: (label: string) => void\n}\n\n/**\n * A sticky sidebar of icon + label navigation entries.\n * Renders anchors when an item has `href`, buttons otherwise.\n */\nexport function LibrarySidebar({\n  items,\n  label,\n  value,\n  defaultValue,\n  onValueChange,\n  className,\n  ...props\n}: LibrarySidebarProps) {\n  const [internalValue, setInternalValue] = React.useState(\n    defaultValue ?? items[0]?.label\n  )\n\n  const isControlled = value !== undefined\n  const active = isControlled ? value : internalValue\n\n  const select = (itemLabel: string) => {\n    if (!isControlled) setInternalValue(itemLabel)\n    onValueChange?.(itemLabel)\n  }\n\n  return (\n    <aside\n      className={cn(\"w-60 shrink-0 border-r border-border px-4 py-8\", className)}\n      {...props}\n    >\n      {label && (\n        <p className=\"mb-3 px-3 text-xs font-semibold uppercase tracking-wide text-muted-foreground\">\n          {label}\n        </p>\n      )}\n\n      <nav className=\"flex flex-col gap-0.5\">\n        {items.map((item) => {\n          const isActive = item.label === active\n          const Icon = item.icon\n          const classes = cn(\n            \"flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm transition-colors\",\n            isActive\n              ? \"bg-muted font-medium text-foreground\"\n              : \"text-muted-foreground hover:bg-accent hover:text-foreground\"\n          )\n\n          const content = (\n            <>\n              {Icon && <Icon className=\"size-4\" />}\n              {item.label}\n            </>\n          )\n\n          return item.href ? (\n            <a\n              key={item.label}\n              href={item.href}\n              aria-current={isActive ? \"page\" : undefined}\n              onClick={() => select(item.label)}\n              className={classes}\n            >\n              {content}\n            </a>\n          ) : (\n            <button\n              key={item.label}\n              type=\"button\"\n              aria-current={isActive ? \"page\" : undefined}\n              onClick={() => select(item.label)}\n              className={cn(classes, \"text-left\")}\n            >\n              {content}\n            </button>\n          )\n        })}\n      </nav>\n    </aside>\n  )\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/library-sidebar.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "navigation",
+    "layout"
+  ],
+  "type": "registry:ui"
+}

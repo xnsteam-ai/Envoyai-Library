@@ -1,0 +1,56 @@
+/**
+ * envoyai — Aurora Background
+ *
+ * Three slow-drifting colour fields. Respects `prefers-reduced-motion`:
+ * the drift stops, the gradient stays.
+ *
+ * Usage:  <div class="envoy-bg-aurora"> … </div>
+ */
+
+.envoy-bg-aurora {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  --envoy-aurora-1: #ff7a18;
+  --envoy-aurora-2: #7c3aed;
+  --envoy-aurora-3: #06b6d4;
+  --envoy-aurora-opacity: 0.5;
+}
+
+.envoy-bg-aurora::before {
+  content: "";
+  position: absolute;
+  inset: -40%;
+  z-index: -1;
+  pointer-events: none;
+  opacity: var(--envoy-aurora-opacity);
+  background:
+    radial-gradient(40% 40% at 25% 30%, var(--envoy-aurora-1) 0%, transparent 70%),
+    radial-gradient(35% 45% at 75% 25%, var(--envoy-aurora-2) 0%, transparent 70%),
+    radial-gradient(45% 40% at 55% 80%, var(--envoy-aurora-3) 0%, transparent 70%);
+  filter: blur(60px);
+  animation: envoy-aurora-drift 18s ease-in-out infinite alternate;
+}
+
+@keyframes envoy-aurora-drift {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(3%, -2%, 0) scale(1.08);
+  }
+  100% {
+    transform: translate3d(-3%, 2%, 0) scale(1.02);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .envoy-bg-aurora::before {
+    animation: none;
+  }
+}
+
+/* Calmer variant for text-heavy sections. */
+.envoy-bg-aurora--subtle {
+  --envoy-aurora-opacity: 0.25;
+}

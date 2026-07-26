@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="envoyai Noir gradient mesh">
+  <title>envoyai — Noir</title>
+  <defs>
+    <radialGradient id="mesh-noir-g0" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3a3a3a" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#3a3a3a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mesh-noir-g1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8a8a8a" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#8a8a8a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mesh-noir-g2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a1a1a" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#1a1a1a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mesh-noir-g3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#050505" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#050505" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mesh-noir-base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <filter id="mesh-noir-grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#mesh-noir-base)"/>
+    <circle cx="264" cy="224.00000000000003" r="496" fill="url(#mesh-noir-g0)"/>
+    <circle cx="936" cy="176" r="432" fill="url(#mesh-noir-g1)"/>
+    <circle cx="744" cy="624" r="544" fill="url(#mesh-noir-g2)"/>
+    <circle cx="144" cy="656" r="384" fill="url(#mesh-noir-g3)"/>
+  <rect width="1200" height="800" filter="url(#mesh-noir-grain)" opacity="0.06"/>
+</svg>

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "envoyai-templates",
+  "homepage": "https://envoyai.xyz",
+  "items": [
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "library-shell",
+      "type": "registry:block",
+      "title": "Library Shell",
+      "description": "A browse layout: sidebar sections, search bar, category filter row and a responsive results grid. Pulls in deep-search, category-pills and library-sidebar.",
+      "categories": ["template", "layout", "page"],
+      "registryDependencies": [
+        "xnsteam-ai/Envoyai-Library/deep-search",
+        "xnsteam-ai/Envoyai-Library/category-pills",
+        "xnsteam-ai/Envoyai-Library/library-sidebar"
+      ],
+      "files": [
+        {
+          "path": "library-shell/library-shell.tsx",
+          "type": "registry:block",
+          "target": "components/library-shell.tsx"
+        }
+      ]
+    }
+  ]
+}

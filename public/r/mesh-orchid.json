@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mesh-orchid",
+  "title": "Orchid Wallpaper",
+  "description": "Original gradient-mesh wallpaper in the Orchid palette. Scalable SVG, under 2 KB, no raster assets.",
+  "files": [
+    {
+      "path": "media/mesh-orchid.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 800\" width=\"1200\" height=\"800\" role=\"img\" aria-label=\"envoyai Orchid gradient mesh\">\n  <title>envoyai — Orchid</title>\n  <defs>\n    <radialGradient id=\"mesh-orchid-g0\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" stop-color=\"#c084fc\" stop-opacity=\"0.95\"/>\n      <stop offset=\"100%\" stop-color=\"#c084fc\" stop-opacity=\"0\"/>\n    </radialGradient>\n    <radialGradient id=\"mesh-orchid-g1\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" stop-color=\"#f0abfc\" stop-opacity=\"0.95\"/>\n      <stop offset=\"100%\" stop-color=\"#f0abfc\" stop-opacity=\"0\"/>\n    </radialGradient>\n    <radialGradient id=\"mesh-orchid-g2\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" stop-color=\"#581c87\" stop-opacity=\"0.95\"/>\n      <stop offset=\"100%\" stop-color=\"#581c87\" stop-opacity=\"0\"/>\n    </radialGradient>\n    <radialGradient id=\"mesh-orchid-g3\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" stop-color=\"#150425\" stop-opacity=\"0.95\"/>\n      <stop offset=\"100%\" stop-color=\"#150425\" stop-opacity=\"0\"/>\n    </radialGradient>\n    <linearGradient id=\"mesh-orchid-base\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#150425\"/>\n      <stop offset=\"100%\" stop-color=\"#000000\"/>\n    </linearGradient>\n    <filter id=\"mesh-orchid-grain\">\n      <feTurbulence type=\"fractalNoise\" baseFrequency=\"0.9\" numOctaves=\"3\" stitchTiles=\"stitch\"/>\n      <feColorMatrix type=\"saturate\" values=\"0\"/>\n    </filter>\n  </defs>\n  <rect width=\"1200\" height=\"800\" fill=\"url(#mesh-orchid-base)\"/>\n    <circle cx=\"264\" cy=\"224.00000000000003\" r=\"496\" fill=\"url(#mesh-orchid-g0)\"/>\n    <circle cx=\"936\" cy=\"176\" r=\"432\" fill=\"url(#mesh-orchid-g1)\"/>\n    <circle cx=\"744\" cy=\"624\" r=\"544\" fill=\"url(#mesh-orchid-g2)\"/>\n    <circle cx=\"144\" cy=\"656\" r=\"384\" fill=\"url(#mesh-orchid-g3)\"/>\n  <rect width=\"1200\" height=\"800\" filter=\"url(#mesh-orchid-grain)\" opacity=\"0.06\"/>\n</svg>\n",
+      "type": "registry:file",
+      "target": "public/media/mesh-orchid.svg"
+    }
+  ],
+  "categories": [
+    "image",
+    "wallpaper",
+    "gradient",
+    "svg"
+  ],
+  "type": "registry:file"
+}

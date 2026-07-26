@@ -1,0 +1,38 @@
+/**
+ * envoyai — Grid Background
+ *
+ * A blueprint grid that fades toward the edges. Theme aware: the line colour
+ * derives from your existing `--foreground` token, so it works in light and
+ * dark without extra config.
+ *
+ * Usage:  <div class="envoy-bg-grid"> … </div>
+ */
+
+.envoy-bg-grid {
+  position: relative;
+  --envoy-grid-size: 32px;
+  --envoy-grid-line: color-mix(in oklab, var(--foreground) 10%, transparent);
+}
+
+.envoy-bg-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(to right, var(--envoy-grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--envoy-grid-line) 1px, transparent 1px);
+  background-size: var(--envoy-grid-size) var(--envoy-grid-size);
+  mask-image: radial-gradient(ellipse at center, #000 40%, transparent 78%);
+  -webkit-mask-image: radial-gradient(ellipse at center, #000 40%, transparent 78%);
+}
+
+/* Children need a stacking context to sit above the grid. */
+.envoy-bg-grid > * {
+  position: relative;
+}
+
+/* Denser variant for hero sections. */
+.envoy-bg-grid--fine {
+  --envoy-grid-size: 16px;
+}

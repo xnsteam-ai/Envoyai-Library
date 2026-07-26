@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 44" width="200" height="44" role="img" aria-label="envoyai">
+  <title>envoyai wordmark</title>
+  <defs>
+    <linearGradient id="wm-bg" x1="2" y1="2" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="wm-leaf-top" x1="14" y1="28" x2="34" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9a9a9a"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="wm-leaf-bottom" x1="31" y1="17" x2="11" y2="35" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4a4a4a"/>
+      <stop offset="100%" stop-color="#d8d8d8"/>
+    </linearGradient>
+    <clipPath id="wm-clip">
+      <rect x="2" y="2" width="40" height="40" rx="11"/>
+    </clipPath>
+  </defs>
+  <rect x="2" y="2" width="40" height="40" rx="11" fill="url(#wm-bg)" stroke="#2a2a2a" stroke-width="0.75"/>
+  <g clip-path="url(#wm-clip)">
+    <path d="M14.6 28.3C11.4 25.1 11.4 19.8 14.6 16.6C17.8 13.4 22 14.5 24.2 12.3C27.4 10.2 29.5 9.1 32.7 11.2C29.5 14.5 25.3 16.6 22 18.7C18.9 21 16.8 24.1 14.6 28.3Z" fill="url(#wm-leaf-top)"/>
+    <path d="M29.5 17.7C32.7 20.9 32.7 26.2 29.5 29.4C26.3 32.6 22 31.5 19.9 33.7C16.7 35.8 14.6 36.9 11.4 34.8C14.6 31.5 18.8 29.4 22 27.3C25.2 25 27.3 21.9 29.5 17.7Z" fill="url(#wm-leaf-bottom)"/>
+  </g>
+  <text x="54" y="29" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="21" font-weight="600" letter-spacing="-0.4" fill="currentColor">envoyai</text>
+</svg>

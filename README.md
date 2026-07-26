@@ -1,11 +1,14 @@
 # envoyai Library
 
-The [envoyai](https://envoyai.xyz) component registry — shadcn-compatible, installed
-straight from GitHub. Components are copied into your project, so you own the code.
+The [envoyai](https://envoyai.xyz) asset registry — shadcn-compatible, installed
+straight from GitHub, free forever. No server, no backend, no paywall: GitHub
+itself is the registry.
 
-This repo holds **only components**. The website that browses and previews them
-lives separately in [`xnsteam-ai/envoyai`](https://github.com/xnsteam-ai/envoyai)
-and is never shipped as installable code.
+Components are copied into your project, so you own the code.
+
+This repo holds **assets only**. The website that browses and previews them lives
+separately in [`xnsteam-ai/envoyai`](https://github.com/xnsteam-ai/envoyai) and is
+never shipped as installable code.
 
 ## Install
 
@@ -13,14 +16,86 @@ Requires an existing shadcn project (`npx shadcn@latest init`).
 
 ```bash
 npx shadcn@latest add xnsteam-ai/Envoyai-Library/deep-search
+npx shadcn@latest add xnsteam-ai/Envoyai-Library/envoy-noir
+npx shadcn@latest add xnsteam-ai/Envoyai-Library/mesh-ember
 ```
 
-Swap the last segment for any item name below.
+Swap the last segment for any item name in the tables below.
 
-### Branded namespace (optional)
+## Catalogue
+
+21 items across six categories.
+
+### Component — `registry:ui`
+
+| Item | Description | Deps |
+| --- | --- | --- |
+| `deep-search` | Search bar with clear, filters and visual-search triggers | `lucide-react` |
+| `category-pills` | Scrollable row of selectable category pills | — |
+| `library-sidebar` | Icon and label sidebar navigation with active state | — |
+| `theme-toggle` | Light/dark toggle, hydration safe | `lucide-react`, `next-themes` |
+| `asset-card` | Asset preview card with copy-to-clipboard install command | `lucide-react` |
+
+### Template — `registry:block`
+
+| Item | Description |
+| --- | --- |
+| `library-shell` | Browse layout: sidebar, search, category filters, results grid |
+
+### Theme & Color — `registry:theme`
+
+| Item | Description |
+| --- | --- |
+| `envoy-noir` | House theme. Pure monochrome, high contrast in both modes |
+| `envoy-ember` | Warm ember accent over a near-black base |
+
+### Icon & Logo — `registry:ui` + `registry:file`
+
+| Item | Type | Lands at |
+| --- | --- | --- |
+| `envoy-logo` | React component | `components/ui/envoy-logo.tsx` |
+| `envoy-mark` | SVG file | `public/brand/envoy-mark.svg` |
+| `envoy-wordmark` | SVG file | `public/brand/envoy-wordmark.svg` |
+
+### Background — `registry:file`
+
+| Item | Lands at |
+| --- | --- |
+| `grid-background` | `styles/backgrounds/grid-background.css` |
+| `aurora-background` | `styles/backgrounds/aurora-background.css` |
+
+### Image & Video — `registry:file`
+
+Eight original gradient-mesh wallpapers, each under 2 KB of scalable SVG — no
+raster assets, no Git LFS, no bandwidth cost.
+
+`mesh-ember` · `mesh-noir` · `mesh-tide` · `mesh-moss` · `mesh-orchid` ·
+`mesh-dune` · `mesh-glacier` · `mesh-rosewood`
+
+All land at `public/media/<name>.svg`.
+
+## Structure
+
+The root `registry.json` uses `include` to pull in one manifest per category, so
+each part is maintained separately.
+
+```
+registry.json              ← root, include[] only
+components/registry.json   ← registry:ui
+templates/registry.json    ← registry:block
+themes/registry.json       ← registry:theme
+icons/registry.json        ← registry:ui + registry:file
+backgrounds/registry.json  ← registry:file (CSS)
+media/registry.json        ← registry:file (SVG)
+public/r/                  ← generated, one JSON per item
+```
+
+File paths inside each manifest are relative to that manifest, not to the repo root.
+
+## Branded namespace (optional)
 
 To install as `@envoyai/deep-search`, add the namespace to your `components.json`
-once, then reference items by short name:
+once:
 
 ```json
 {
@@ -34,38 +109,21 @@ once, then reference items by short name:
 npx shadcn@latest add @envoyai/deep-search
 ```
 
-This needs the generated JSON served at that URL — run `pnpm registry:build` and
-publish `public/r/` from the website deployment. The GitHub install above works
-with no hosting at all.
+This needs `public/r/` served at that URL — publish it from the website
+deployment. The GitHub install above needs no hosting at all.
 
-## Components
+## Contributing an item
 
-| Item | Description | Deps |
-| --- | --- | --- |
-| `deep-search` | Search bar with clear, filters and visual-search triggers | `lucide-react` |
-| `category-pills` | Scrollable row of selectable category pills | — |
-| `library-sidebar` | Icon and label sidebar navigation with active state | — |
-| `theme-toggle` | Light/dark toggle, hydration safe | `lucide-react`, `next-themes` |
-| `envoy-logo` | The envoyai mark as inline SVG | — |
+1. Drop the source into the matching category folder.
+2. Append an entry to that folder's `registry.json`. `files[].path` is relative to
+   that manifest; `files[].target` is where it lands in the user's project.
+3. Validate and rebuild:
 
-Every component is controlled-or-uncontrolled, forwards native props, and styles
-itself from your existing shadcn theme tokens (`--foreground`, `--muted`,
-`--border`, …). No envoyai-specific CSS to import.
+   ```bash
+   npx shadcn@latest registry validate
+   npx shadcn@latest build
+   ```
 
-## Adding a component
-
-1. Create `components/<name>/<name>.tsx`.
-2. Append an entry to `registry.json` — `files[].path` is repo-relative,
-   `files[].target` is where it lands in the user's project.
-3. Commit. The GitHub install path picks it up immediately.
+4. Commit. GitHub installs pick it up immediately.
 
 Keep this repo pure: no pages, no layouts, no site config, no app shell.
-
-## Building the JSON output
-
-```bash
-pnpm install
-pnpm registry:build
-```
-
-Writes `public/r/<name>.json` for URL-based installs. Not required for GitHub installs.

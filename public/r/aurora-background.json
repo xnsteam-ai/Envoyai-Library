@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "aurora-background",
+  "title": "Aurora Background",
+  "description": "Three slow-drifting colour fields behind your content. Honours prefers-reduced-motion.",
+  "files": [
+    {
+      "path": "backgrounds/aurora-background.css",
+      "content": "/**\n * envoyai — Aurora Background\n *\n * Three slow-drifting colour fields. Respects `prefers-reduced-motion`:\n * the drift stops, the gradient stays.\n *\n * Usage:  <div class=\"envoy-bg-aurora\"> … </div>\n */\n\n.envoy-bg-aurora {\n  position: relative;\n  overflow: hidden;\n  isolation: isolate;\n  --envoy-aurora-1: #ff7a18;\n  --envoy-aurora-2: #7c3aed;\n  --envoy-aurora-3: #06b6d4;\n  --envoy-aurora-opacity: 0.5;\n}\n\n.envoy-bg-aurora::before {\n  content: \"\";\n  position: absolute;\n  inset: -40%;\n  z-index: -1;\n  pointer-events: none;\n  opacity: var(--envoy-aurora-opacity);\n  background:\n    radial-gradient(40% 40% at 25% 30%, var(--envoy-aurora-1) 0%, transparent 70%),\n    radial-gradient(35% 45% at 75% 25%, var(--envoy-aurora-2) 0%, transparent 70%),\n    radial-gradient(45% 40% at 55% 80%, var(--envoy-aurora-3) 0%, transparent 70%);\n  filter: blur(60px);\n  animation: envoy-aurora-drift 18s ease-in-out infinite alternate;\n}\n\n@keyframes envoy-aurora-drift {\n  0% {\n    transform: translate3d(0, 0, 0) scale(1);\n  }\n  50% {\n    transform: translate3d(3%, -2%, 0) scale(1.08);\n  }\n  100% {\n    transform: translate3d(-3%, 2%, 0) scale(1.02);\n  }\n}\n\n@media (prefers-reduced-motion: reduce) {\n  .envoy-bg-aurora::before {\n    animation: none;\n  }\n}\n\n/* Calmer variant for text-heavy sections. */\n.envoy-bg-aurora--subtle {\n  --envoy-aurora-opacity: 0.25;\n}\n",
+      "type": "registry:file",
+      "target": "styles/backgrounds/aurora-background.css"
+    }
+  ],
+  "categories": [
+    "background",
+    "css",
+    "animated"
+  ],
+  "type": "registry:file"
+}

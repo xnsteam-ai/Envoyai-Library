@@ -2,83 +2,12 @@
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "envoyai",
   "homepage": "https://envoyai.xyz",
-  "items": [
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "deep-search",
-      "type": "registry:ui",
-      "title": "Deep Search",
-      "description": "A search bar with inline clear, a filters trigger and a visual-search trigger. Controlled or uncontrolled.",
-      "categories": ["search", "input"],
-      "dependencies": ["lucide-react"],
-      "files": [
-        {
-          "path": "components/deep-search/deep-search.tsx",
-          "type": "registry:ui",
-          "target": "components/ui/deep-search.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "category-pills",
-      "type": "registry:ui",
-      "title": "Category Pills",
-      "description": "A horizontally scrollable row of selectable category pills. Controlled or uncontrolled.",
-      "categories": ["navigation", "filter"],
-      "files": [
-        {
-          "path": "components/category-pills/category-pills.tsx",
-          "type": "registry:ui",
-          "target": "components/ui/category-pills.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "library-sidebar",
-      "type": "registry:ui",
-      "title": "Library Sidebar",
-      "description": "A sidebar of icon and label navigation entries with an active state.",
-      "categories": ["navigation", "layout"],
-      "files": [
-        {
-          "path": "components/library-sidebar/library-sidebar.tsx",
-          "type": "registry:ui",
-          "target": "components/ui/library-sidebar.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "theme-toggle",
-      "type": "registry:ui",
-      "title": "Theme Toggle",
-      "description": "A round light and dark toggle backed by next-themes, hydration safe.",
-      "categories": ["theme"],
-      "dependencies": ["lucide-react", "next-themes"],
-      "files": [
-        {
-          "path": "components/theme-toggle/theme-toggle.tsx",
-          "type": "registry:ui",
-          "target": "components/ui/theme-toggle.tsx"
-        }
-      ]
-    },
-    {
-      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "envoy-logo",
-      "type": "registry:ui",
-      "title": "Envoy Logo",
-      "description": "The envoyai mark as an inline SVG with per-instance gradient ids.",
-      "categories": ["brand", "icon"],
-      "files": [
-        {
-          "path": "components/envoy-logo/envoy-logo.tsx",
-          "type": "registry:ui",
-          "target": "components/ui/envoy-logo.tsx"
-        }
-      ]
-    }
+  "include": [
+    "components/registry.json",
+    "templates/registry.json",
+    "themes/registry.json",
+    "icons/registry.json",
+    "backgrounds/registry.json",
+    "media/registry.json"
   ]
 }

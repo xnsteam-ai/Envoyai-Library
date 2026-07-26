@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "library-shell",
+  "title": "Library Shell",
+  "description": "A browse layout: sidebar sections, search bar, category filter row and a responsive results grid. Pulls in deep-search, category-pills and library-sidebar.",
+  "registryDependencies": [
+    "xnsteam-ai/Envoyai-Library/deep-search",
+    "xnsteam-ai/Envoyai-Library/category-pills",
+    "xnsteam-ai/Envoyai-Library/library-sidebar"
+  ],
+  "files": [
+    {
+      "path": "templates/library-shell/library-shell.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\n\nimport { cn } from \"@/lib/utils\"\nimport { CategoryPills } from \"@/components/ui/category-pills\"\nimport { DeepSearch } from \"@/components/ui/deep-search\"\nimport { LibrarySidebar, type LibrarySidebarItem } from \"@/components/ui/library-sidebar\"\n\nexport interface LibraryShellProps\n  extends Omit<React.ComponentPropsWithoutRef<\"div\">, \"title\"> {\n  title?: string\n  sidebarLabel?: string\n  sidebarItems: LibrarySidebarItem[]\n  categories?: string[]\n  searchPlaceholder?: string\n  /** Grid content — cards, tiles, whatever the section renders. */\n  children?: React.ReactNode\n  /** Rendered in place of `children` when there is nothing to show. */\n  empty?: React.ReactNode\n  onSectionChange?: (section: string) => void\n  onCategoryChange?: (category: string) => void\n  onSearchChange?: (query: string) => void\n}\n\n/**\n * A browse layout: sidebar of sections, a search bar, a category filter row,\n * and a responsive grid for results.\n *\n * State is uncontrolled by default — pass the `on*Change` handlers to drive\n * filtering, and render the filtered results as `children`.\n */\nexport function LibraryShell({\n  title = \"All Assets\",\n  sidebarLabel = \"Library\",\n  sidebarItems,\n  categories,\n  searchPlaceholder = \"Search the library…\",\n  children,\n  empty,\n  onSectionChange,\n  onCategoryChange,\n  onSearchChange,\n  className,\n  ...props\n}: LibraryShellProps) {\n  const hasResults = React.Children.count(children) > 0\n\n  return (\n    <div className={cn(\"flex min-h-screen\", className)} {...props}>\n      <LibrarySidebar\n        label={sidebarLabel}\n        items={sidebarItems}\n        onValueChange={onSectionChange}\n        className=\"sticky top-0 hidden h-screen self-start md:block\"\n      />\n\n      <main className=\"flex-1 px-6 py-8\">\n        <h1 className=\"mb-6 text-2xl font-semibold text-foreground\">{title}</h1>\n\n        <DeepSearch\n          placeholder={searchPlaceholder}\n          onValueChange={onSearchChange}\n          className=\"mb-5\"\n        />\n\n        {categories && categories.length > 0 && (\n          <CategoryPills\n            categories={categories}\n            onValueChange={onCategoryChange}\n            className=\"mb-7\"\n          />\n        )}\n\n        {hasResults ? (\n          <div className=\"grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4\">\n            {children}\n          </div>\n        ) : (\n          empty ?? (\n            <p className=\"py-16 text-center text-sm text-muted-foreground\">\n              Nothing matches those filters.\n            </p>\n          )\n        )}\n      </main>\n    </div>\n  )\n}\n",
+      "type": "registry:block",
+      "target": "components/library-shell.tsx"
+    }
+  ],
+  "categories": [
+    "template",
+    "layout",
+    "page"
+  ],
+  "type": "registry:block"
+}

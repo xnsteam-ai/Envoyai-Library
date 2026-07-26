@@ -1,0 +1,37 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "envoyai-backgrounds",
+  "homepage": "https://envoyai.xyz",
+  "items": [
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "grid-background",
+      "type": "registry:file",
+      "title": "Grid Background",
+      "description": "A blueprint grid that fades toward the edges. Line colour derives from your --foreground token, so it works in both modes.",
+      "categories": ["background", "css", "pattern"],
+      "files": [
+        {
+          "path": "grid-background.css",
+          "type": "registry:file",
+          "target": "styles/backgrounds/grid-background.css"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "aurora-background",
+      "type": "registry:file",
+      "title": "Aurora Background",
+      "description": "Three slow-drifting colour fields behind your content. Honours prefers-reduced-motion.",
+      "categories": ["background", "css", "animated"],
+      "files": [
+        {
+          "path": "aurora-background.css",
+          "type": "registry:file",
+          "target": "styles/backgrounds/aurora-background.css"
+        }
+      ]
+    }
+  ]
+}

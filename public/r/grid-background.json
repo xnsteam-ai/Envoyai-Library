@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "grid-background",
+  "title": "Grid Background",
+  "description": "A blueprint grid that fades toward the edges. Line colour derives from your --foreground token, so it works in both modes.",
+  "files": [
+    {
+      "path": "backgrounds/grid-background.css",
+      "content": "/**\n * envoyai — Grid Background\n *\n * A blueprint grid that fades toward the edges. Theme aware: the line colour\n * derives from your existing `--foreground` token, so it works in light and\n * dark without extra config.\n *\n * Usage:  <div class=\"envoy-bg-grid\"> … </div>\n */\n\n.envoy-bg-grid {\n  position: relative;\n  --envoy-grid-size: 32px;\n  --envoy-grid-line: color-mix(in oklab, var(--foreground) 10%, transparent);\n}\n\n.envoy-bg-grid::before {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  pointer-events: none;\n  background-image:\n    linear-gradient(to right, var(--envoy-grid-line) 1px, transparent 1px),\n    linear-gradient(to bottom, var(--envoy-grid-line) 1px, transparent 1px);\n  background-size: var(--envoy-grid-size) var(--envoy-grid-size);\n  mask-image: radial-gradient(ellipse at center, #000 40%, transparent 78%);\n  -webkit-mask-image: radial-gradient(ellipse at center, #000 40%, transparent 78%);\n}\n\n/* Children need a stacking context to sit above the grid. */\n.envoy-bg-grid > * {\n  position: relative;\n}\n\n/* Denser variant for hero sections. */\n.envoy-bg-grid--fine {\n  --envoy-grid-size: 16px;\n}\n",
+      "type": "registry:file",
+      "target": "styles/backgrounds/grid-background.css"
+    }
+  ],
+  "categories": [
+    "background",
+    "css",
+    "pattern"
+  ],
+  "type": "registry:file"
+}

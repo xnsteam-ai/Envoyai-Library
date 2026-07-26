@@ -1,0 +1,499 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "envoyai",
+  "homepage": "https://envoyai.xyz",
+  "items": [
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "deep-search",
+      "title": "Deep Search",
+      "description": "A search bar with inline clear, a filters trigger and a visual-search trigger. Controlled or uncontrolled.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/deep-search/deep-search.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/deep-search.tsx"
+        }
+      ],
+      "categories": [
+        "component",
+        "search",
+        "input"
+      ],
+      "type": "registry:ui"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "category-pills",
+      "title": "Category Pills",
+      "description": "A horizontally scrollable row of selectable category pills. Controlled or uncontrolled.",
+      "files": [
+        {
+          "path": "components/category-pills/category-pills.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/category-pills.tsx"
+        }
+      ],
+      "categories": [
+        "component",
+        "navigation",
+        "filter"
+      ],
+      "type": "registry:ui"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "library-sidebar",
+      "title": "Library Sidebar",
+      "description": "A sidebar of icon and label navigation entries with an active state.",
+      "files": [
+        {
+          "path": "components/library-sidebar/library-sidebar.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/library-sidebar.tsx"
+        }
+      ],
+      "categories": [
+        "component",
+        "navigation",
+        "layout"
+      ],
+      "type": "registry:ui"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "theme-toggle",
+      "title": "Theme Toggle",
+      "description": "A round light and dark toggle backed by next-themes, hydration safe.",
+      "dependencies": [
+        "lucide-react",
+        "next-themes"
+      ],
+      "files": [
+        {
+          "path": "components/theme-toggle/theme-toggle.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/theme-toggle.tsx"
+        }
+      ],
+      "categories": [
+        "component",
+        "theme"
+      ],
+      "type": "registry:ui"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "asset-card",
+      "title": "Asset Card",
+      "description": "A card for presenting a library asset: preview, title, description and a copy-to-clipboard install command.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "components/asset-card/asset-card.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/asset-card.tsx"
+        }
+      ],
+      "categories": [
+        "component",
+        "display"
+      ],
+      "type": "registry:ui"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "library-shell",
+      "title": "Library Shell",
+      "description": "A browse layout: sidebar sections, search bar, category filter row and a responsive results grid. Pulls in deep-search, category-pills and library-sidebar.",
+      "registryDependencies": [
+        "xnsteam-ai/Envoyai-Library/deep-search",
+        "xnsteam-ai/Envoyai-Library/category-pills",
+        "xnsteam-ai/Envoyai-Library/library-sidebar"
+      ],
+      "files": [
+        {
+          "path": "templates/library-shell/library-shell.tsx",
+          "type": "registry:block",
+          "target": "components/library-shell.tsx"
+        }
+      ],
+      "categories": [
+        "template",
+        "layout",
+        "page"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "envoy-noir",
+      "title": "Envoy Noir",
+      "description": "The envoyai house theme. Pure monochrome with neutral greys, high contrast in both modes.",
+      "cssVars": {
+        "light": {
+          "background": "oklch(1 0 0)",
+          "foreground": "oklch(0.145 0 0)",
+          "card": "oklch(1 0 0)",
+          "card-foreground": "oklch(0.145 0 0)",
+          "popover": "oklch(1 0 0)",
+          "popover-foreground": "oklch(0.145 0 0)",
+          "primary": "oklch(0.145 0 0)",
+          "primary-foreground": "oklch(0.985 0 0)",
+          "secondary": "oklch(0.97 0 0)",
+          "secondary-foreground": "oklch(0.205 0 0)",
+          "muted": "oklch(0.97 0 0)",
+          "muted-foreground": "oklch(0.556 0 0)",
+          "accent": "oklch(0.97 0 0)",
+          "accent-foreground": "oklch(0.205 0 0)",
+          "destructive": "oklch(0.577 0.245 27.325)",
+          "border": "oklch(0.922 0 0)",
+          "input": "oklch(0.922 0 0)",
+          "ring": "oklch(0.708 0 0)"
+        },
+        "dark": {
+          "background": "oklch(0.145 0 0)",
+          "foreground": "oklch(0.985 0 0)",
+          "card": "oklch(0.205 0 0)",
+          "card-foreground": "oklch(0.985 0 0)",
+          "popover": "oklch(0.205 0 0)",
+          "popover-foreground": "oklch(0.985 0 0)",
+          "primary": "oklch(0.985 0 0)",
+          "primary-foreground": "oklch(0.205 0 0)",
+          "secondary": "oklch(0.269 0 0)",
+          "secondary-foreground": "oklch(0.985 0 0)",
+          "muted": "oklch(0.269 0 0)",
+          "muted-foreground": "oklch(0.708 0 0)",
+          "accent": "oklch(0.269 0 0)",
+          "accent-foreground": "oklch(0.985 0 0)",
+          "destructive": "oklch(0.704 0.191 22.216)",
+          "border": "oklch(1 0 0 / 12%)",
+          "input": "oklch(1 0 0 / 16%)",
+          "ring": "oklch(0.556 0 0)"
+        }
+      },
+      "categories": [
+        "theme",
+        "color",
+        "monochrome"
+      ],
+      "type": "registry:theme"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "envoy-ember",
+      "title": "Envoy Ember",
+      "description": "Warm ember accent over a near-black base — the original envoyai mark palette, tuned for UI.",
+      "cssVars": {
+        "light": {
+          "background": "oklch(0.995 0.004 60)",
+          "foreground": "oklch(0.18 0.02 40)",
+          "card": "oklch(1 0 0)",
+          "card-foreground": "oklch(0.18 0.02 40)",
+          "popover": "oklch(1 0 0)",
+          "popover-foreground": "oklch(0.18 0.02 40)",
+          "primary": "oklch(0.67 0.2 42)",
+          "primary-foreground": "oklch(0.99 0.01 60)",
+          "secondary": "oklch(0.96 0.02 60)",
+          "secondary-foreground": "oklch(0.28 0.04 42)",
+          "muted": "oklch(0.96 0.015 60)",
+          "muted-foreground": "oklch(0.55 0.03 45)",
+          "accent": "oklch(0.94 0.04 55)",
+          "accent-foreground": "oklch(0.28 0.06 42)",
+          "destructive": "oklch(0.577 0.245 27.325)",
+          "border": "oklch(0.9 0.02 55)",
+          "input": "oklch(0.9 0.02 55)",
+          "ring": "oklch(0.67 0.2 42)"
+        },
+        "dark": {
+          "background": "oklch(0.16 0.015 40)",
+          "foreground": "oklch(0.97 0.01 60)",
+          "card": "oklch(0.21 0.02 40)",
+          "card-foreground": "oklch(0.97 0.01 60)",
+          "popover": "oklch(0.21 0.02 40)",
+          "popover-foreground": "oklch(0.97 0.01 60)",
+          "primary": "oklch(0.72 0.19 45)",
+          "primary-foreground": "oklch(0.16 0.02 40)",
+          "secondary": "oklch(0.28 0.03 40)",
+          "secondary-foreground": "oklch(0.97 0.01 60)",
+          "muted": "oklch(0.28 0.03 40)",
+          "muted-foreground": "oklch(0.72 0.03 50)",
+          "accent": "oklch(0.33 0.06 42)",
+          "accent-foreground": "oklch(0.97 0.01 60)",
+          "destructive": "oklch(0.704 0.191 22.216)",
+          "border": "oklch(1 0 0 / 12%)",
+          "input": "oklch(1 0 0 / 16%)",
+          "ring": "oklch(0.72 0.19 45)"
+        }
+      },
+      "categories": [
+        "theme",
+        "color",
+        "warm"
+      ],
+      "type": "registry:theme"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "envoy-logo",
+      "title": "Envoy Logo",
+      "description": "The envoyai mark as a React component with per-instance gradient ids, so several can share a page.",
+      "files": [
+        {
+          "path": "icons/envoy-logo/envoy-logo.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/envoy-logo.tsx"
+        }
+      ],
+      "categories": [
+        "icon",
+        "logo",
+        "brand"
+      ],
+      "type": "registry:ui"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "envoy-mark",
+      "title": "Envoy Mark (SVG)",
+      "description": "The envoyai badge mark as a standalone SVG asset, for favicons, og images and static use.",
+      "files": [
+        {
+          "path": "icons/envoy-mark.svg",
+          "type": "registry:file",
+          "target": "public/brand/envoy-mark.svg"
+        }
+      ],
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "envoy-wordmark",
+      "title": "Envoy Wordmark (SVG)",
+      "description": "Mark plus wordmark lockup as a standalone SVG. The text inherits currentColor.",
+      "files": [
+        {
+          "path": "icons/envoy-wordmark.svg",
+          "type": "registry:file",
+          "target": "public/brand/envoy-wordmark.svg"
+        }
+      ],
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "grid-background",
+      "title": "Grid Background",
+      "description": "A blueprint grid that fades toward the edges. Line colour derives from your --foreground token, so it works in both modes.",
+      "files": [
+        {
+          "path": "backgrounds/grid-background.css",
+          "type": "registry:file",
+          "target": "styles/backgrounds/grid-background.css"
+        }
+      ],
+      "categories": [
+        "background",
+        "css",
+        "pattern"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "aurora-background",
+      "title": "Aurora Background",
+      "description": "Three slow-drifting colour fields behind your content. Honours prefers-reduced-motion.",
+      "files": [
+        {
+          "path": "backgrounds/aurora-background.css",
+          "type": "registry:file",
+          "target": "styles/backgrounds/aurora-background.css"
+        }
+      ],
+      "categories": [
+        "background",
+        "css",
+        "animated"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mesh-dune",
+      "title": "Dune Wallpaper",
+      "description": "Original gradient-mesh wallpaper in the Dune palette. Scalable SVG, under 2 KB, no raster assets.",
+      "files": [
+        {
+          "path": "media/mesh-dune.svg",
+          "type": "registry:file",
+          "target": "public/media/mesh-dune.svg"
+        }
+      ],
+      "categories": [
+        "image",
+        "wallpaper",
+        "gradient",
+        "svg"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mesh-ember",
+      "title": "Ember Wallpaper",
+      "description": "Original gradient-mesh wallpaper in the Ember palette. Scalable SVG, under 2 KB, no raster assets.",
+      "files": [
+        {
+          "path": "media/mesh-ember.svg",
+          "type": "registry:file",
+          "target": "public/media/mesh-ember.svg"
+        }
+      ],
+      "categories": [
+        "image",
+        "wallpaper",
+        "gradient",
+        "svg"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mesh-glacier",
+      "title": "Glacier Wallpaper",
+      "description": "Original gradient-mesh wallpaper in the Glacier palette. Scalable SVG, under 2 KB, no raster assets.",
+      "files": [
+        {
+          "path": "media/mesh-glacier.svg",
+          "type": "registry:file",
+          "target": "public/media/mesh-glacier.svg"
+        }
+      ],
+      "categories": [
+        "image",
+        "wallpaper",
+        "gradient",
+        "svg"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mesh-moss",
+      "title": "Moss Wallpaper",
+      "description": "Original gradient-mesh wallpaper in the Moss palette. Scalable SVG, under 2 KB, no raster assets.",
+      "files": [
+        {
+          "path": "media/mesh-moss.svg",
+          "type": "registry:file",
+          "target": "public/media/mesh-moss.svg"
+        }
+      ],
+      "categories": [
+        "image",
+        "wallpaper",
+        "gradient",
+        "svg"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mesh-noir",
+      "title": "Noir Wallpaper",
+      "description": "Original gradient-mesh wallpaper in the Noir palette. Scalable SVG, under 2 KB, no raster assets.",
+      "files": [
+        {
+          "path": "media/mesh-noir.svg",
+          "type": "registry:file",
+          "target": "public/media/mesh-noir.svg"
+        }
+      ],
+      "categories": [
+        "image",
+        "wallpaper",
+        "gradient",
+        "svg"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mesh-orchid",
+      "title": "Orchid Wallpaper",
+      "description": "Original gradient-mesh wallpaper in the Orchid palette. Scalable SVG, under 2 KB, no raster assets.",
+      "files": [
+        {
+          "path": "media/mesh-orchid.svg",
+          "type": "registry:file",
+          "target": "public/media/mesh-orchid.svg"
+        }
+      ],
+      "categories": [
+        "image",
+        "wallpaper",
+        "gradient",
+        "svg"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mesh-rosewood",
+      "title": "Rosewood Wallpaper",
+      "description": "Original gradient-mesh wallpaper in the Rosewood palette. Scalable SVG, under 2 KB, no raster assets.",
+      "files": [
+        {
+          "path": "media/mesh-rosewood.svg",
+          "type": "registry:file",
+          "target": "public/media/mesh-rosewood.svg"
+        }
+      ],
+      "categories": [
+        "image",
+        "wallpaper",
+        "gradient",
+        "svg"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mesh-tide",
+      "title": "Tide Wallpaper",
+      "description": "Original gradient-mesh wallpaper in the Tide palette. Scalable SVG, under 2 KB, no raster assets.",
+      "files": [
+        {
+          "path": "media/mesh-tide.svg",
+          "type": "registry:file",
+          "target": "public/media/mesh-tide.svg"
+        }
+      ],
+      "categories": [
+        "image",
+        "wallpaper",
+        "gradient",
+        "svg"
+      ],
+      "type": "registry:file"
+    }
+  ]
+}

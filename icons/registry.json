@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "envoyai-icons",
+  "homepage": "https://envoyai.xyz",
+  "items": [
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "envoy-logo",
+      "type": "registry:ui",
+      "title": "Envoy Logo",
+      "description": "The envoyai mark as a React component with per-instance gradient ids, so several can share a page.",
+      "categories": ["icon", "logo", "brand"],
+      "files": [
+        {
+          "path": "envoy-logo/envoy-logo.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/envoy-logo.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "envoy-mark",
+      "type": "registry:file",
+      "title": "Envoy Mark (SVG)",
+      "description": "The envoyai badge mark as a standalone SVG asset, for favicons, og images and static use.",
+      "categories": ["icon", "logo", "brand", "svg"],
+      "files": [
+        {
+          "path": "envoy-mark.svg",
+          "type": "registry:file",
+          "target": "public/brand/envoy-mark.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "envoy-wordmark",
+      "type": "registry:file",
+      "title": "Envoy Wordmark (SVG)",
+      "description": "Mark plus wordmark lockup as a standalone SVG. The text inherits currentColor.",
+      "categories": ["icon", "logo", "brand", "svg"],
+      "files": [
+        {
+          "path": "envoy-wordmark.svg",
+          "type": "registry:file",
+          "target": "public/brand/envoy-wordmark.svg"
+        }
+      ]
+    }
+  ]
+}
