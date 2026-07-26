@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 44" width="200" height="44" role="img" aria-label="envoyai">
+<!-- The wordmark text uses currentColor so it adapts when inlined. The `color`
+     attribute below is the standalone fallback, used when this file is loaded
+     via <img>, where page CSS cannot reach it. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 44" width="200" height="44" role="img" aria-label="envoyai" color="#111827">
   <title>envoyai wordmark</title>
   <defs>
     <linearGradient id="wm-bg" x1="2" y1="2" x2="42" y2="42" gradientUnits="userSpaceOnUse">
