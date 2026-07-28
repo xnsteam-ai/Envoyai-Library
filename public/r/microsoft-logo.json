@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "microsoft-logo",
+  "title": "Microsoft",
+  "description": "Microsoft brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+  "files": [
+    {
+      "path": "logos/microsoft.svg",
+      "content": "<svg fill=\"currentColor\" fill-rule=\"evenodd\" height=\"1em\" style=\"flex:none;line-height:1\" viewBox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><title>Azure</title><path d=\"M11.49 2H2v9.492h9.492V2h-.002z\"></path><path d=\"M22 2h-9.492v9.492H22V2z\"></path><path d=\"M11.49 12.508H2V22h9.492v-9.492h-.002z\"></path><path d=\"M22 12.508h-9.492V22H22v-9.492z\"></path></svg>",
+      "type": "registry:file",
+      "target": "public/logos/microsoft.svg"
+    },
+    {
+      "path": "logos/microsoft-color.svg",
+      "content": "<svg height=\"1em\" style=\"flex:none;line-height:1\" viewBox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><title>Azure</title><path d=\"M11.49 2H2v9.492h9.492V2h-.002z\" fill=\"#F25022\"></path><path d=\"M22 2h-9.492v9.492H22V2z\" fill=\"#7FBA00\"></path><path d=\"M11.49 12.508H2V22h9.492v-9.492h-.002z\" fill=\"#00A4EF\"></path><path d=\"M22 12.508h-9.492V22H22v-9.492z\" fill=\"#FFB900\"></path></svg>",
+      "type": "registry:file",
+      "target": "public/logos/microsoft-color.svg"
+    }
+  ],
+  "meta": {
+    "logoId": 77,
+    "slug": "microsoft",
+    "hasColor": true,
+    "source": "@lobehub/icons"
+  },
+  "categories": [
+    "icon",
+    "logo",
+    "brand",
+    "svg",
+    "color"
+  ],
+  "type": "registry:file"
+}

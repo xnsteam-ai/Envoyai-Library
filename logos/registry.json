@@ -1,0 +1,3975 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "envoyai-logos",
+  "homepage": "https://envoyai.xyz",
+  "items": [
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ai21-logo",
+      "type": "registry:file",
+      "title": "Ai21",
+      "description": "Ai21 brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 1,
+        "slug": "ai21",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "ai21.svg",
+          "type": "registry:file",
+          "target": "public/logos/ai21.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ai302-logo",
+      "type": "registry:file",
+      "title": "Ai302",
+      "description": "Ai302 brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 2,
+        "slug": "ai302",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "ai302.svg",
+          "type": "registry:file",
+          "target": "public/logos/ai302.svg"
+        },
+        {
+          "path": "ai302-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/ai302-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ai360-logo",
+      "type": "registry:file",
+      "title": "Ai360",
+      "description": "Ai360 brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 3,
+        "slug": "ai360",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "ai360.svg",
+          "type": "registry:file",
+          "target": "public/logos/ai360.svg"
+        },
+        {
+          "path": "ai360-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/ai360-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "aihubmix-logo",
+      "type": "registry:file",
+      "title": "AiHubMix",
+      "description": "AiHubMix brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 4,
+        "slug": "aihubmix",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "aihubmix.svg",
+          "type": "registry:file",
+          "target": "public/logos/aihubmix.svg"
+        },
+        {
+          "path": "aihubmix-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/aihubmix-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "aimass-logo",
+      "type": "registry:file",
+      "title": "AiMass",
+      "description": "AiMass brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 5,
+        "slug": "aimass",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "aimass.svg",
+          "type": "registry:file",
+          "target": "public/logos/aimass.svg"
+        },
+        {
+          "path": "aimass-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/aimass-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "aistudio-logo",
+      "type": "registry:file",
+      "title": "AiStudio",
+      "description": "AiStudio brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 6,
+        "slug": "aistudio",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "aistudio.svg",
+          "type": "registry:file",
+          "target": "public/logos/aistudio.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "akashchat-logo",
+      "type": "registry:file",
+      "title": "AkashChat",
+      "description": "AkashChat brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 7,
+        "slug": "akashchat",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "akashchat.svg",
+          "type": "registry:file",
+          "target": "public/logos/akashchat.svg"
+        },
+        {
+          "path": "akashchat-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/akashchat-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "alephalpha-logo",
+      "type": "registry:file",
+      "title": "AlephAlpha",
+      "description": "AlephAlpha brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 8,
+        "slug": "alephalpha",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "alephalpha.svg",
+          "type": "registry:file",
+          "target": "public/logos/alephalpha.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "alibaba-logo",
+      "type": "registry:file",
+      "title": "Alibaba",
+      "description": "Alibaba brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 9,
+        "slug": "alibaba",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "alibaba.svg",
+          "type": "registry:file",
+          "target": "public/logos/alibaba.svg"
+        },
+        {
+          "path": "alibaba-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/alibaba-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "alibabacloud-logo",
+      "type": "registry:file",
+      "title": "AlibabaCloud",
+      "description": "AlibabaCloud brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 10,
+        "slug": "alibabacloud",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "alibabacloud.svg",
+          "type": "registry:file",
+          "target": "public/logos/alibabacloud.svg"
+        },
+        {
+          "path": "alibabacloud-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/alibabacloud-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "antgroup-logo",
+      "type": "registry:file",
+      "title": "AntGroup",
+      "description": "AntGroup brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 11,
+        "slug": "antgroup",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "antgroup.svg",
+          "type": "registry:file",
+          "target": "public/logos/antgroup.svg"
+        },
+        {
+          "path": "antgroup-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/antgroup-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "anthropic-logo",
+      "type": "registry:file",
+      "title": "Anthropic",
+      "description": "Anthropic brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 12,
+        "slug": "anthropic",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "anthropic.svg",
+          "type": "registry:file",
+          "target": "public/logos/anthropic.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "anyscale-logo",
+      "type": "registry:file",
+      "title": "Anyscale",
+      "description": "Anyscale brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 13,
+        "slug": "anyscale",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "anyscale.svg",
+          "type": "registry:file",
+          "target": "public/logos/anyscale.svg"
+        },
+        {
+          "path": "anyscale-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/anyscale-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "apple-logo",
+      "type": "registry:file",
+      "title": "Apple",
+      "description": "Apple brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 14,
+        "slug": "apple",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "apple.svg",
+          "type": "registry:file",
+          "target": "public/logos/apple.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "atlascloud-logo",
+      "type": "registry:file",
+      "title": "AtlasCloud",
+      "description": "AtlasCloud brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 15,
+        "slug": "atlascloud",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "atlascloud.svg",
+          "type": "registry:file",
+          "target": "public/logos/atlascloud.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "aws-logo",
+      "type": "registry:file",
+      "title": "Aws",
+      "description": "Aws brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 16,
+        "slug": "aws",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "aws.svg",
+          "type": "registry:file",
+          "target": "public/logos/aws.svg"
+        },
+        {
+          "path": "aws-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/aws-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "azure-logo",
+      "type": "registry:file",
+      "title": "Azure",
+      "description": "Azure brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 17,
+        "slug": "azure",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "azure.svg",
+          "type": "registry:file",
+          "target": "public/logos/azure.svg"
+        },
+        {
+          "path": "azure-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/azure-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "azureai-logo",
+      "type": "registry:file",
+      "title": "AzureAI",
+      "description": "AzureAI brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 18,
+        "slug": "azureai",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "azureai.svg",
+          "type": "registry:file",
+          "target": "public/logos/azureai.svg"
+        },
+        {
+          "path": "azureai-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/azureai-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "baichuan-logo",
+      "type": "registry:file",
+      "title": "Baichuan",
+      "description": "Baichuan brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 19,
+        "slug": "baichuan",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "baichuan.svg",
+          "type": "registry:file",
+          "target": "public/logos/baichuan.svg"
+        },
+        {
+          "path": "baichuan-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/baichuan-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "baidu-logo",
+      "type": "registry:file",
+      "title": "Baidu",
+      "description": "Baidu brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 20,
+        "slug": "baidu",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "baidu.svg",
+          "type": "registry:file",
+          "target": "public/logos/baidu.svg"
+        },
+        {
+          "path": "baidu-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/baidu-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "baiducloud-logo",
+      "type": "registry:file",
+      "title": "BaiduCloud",
+      "description": "BaiduCloud brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 21,
+        "slug": "baiducloud",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "baiducloud.svg",
+          "type": "registry:file",
+          "target": "public/logos/baiducloud.svg"
+        },
+        {
+          "path": "baiducloud-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/baiducloud-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "bailian-logo",
+      "type": "registry:file",
+      "title": "Bailian",
+      "description": "Bailian brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 22,
+        "slug": "bailian",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "bailian.svg",
+          "type": "registry:file",
+          "target": "public/logos/bailian.svg"
+        },
+        {
+          "path": "bailian-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/bailian-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "baseten-logo",
+      "type": "registry:file",
+      "title": "Baseten",
+      "description": "Baseten brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 23,
+        "slug": "baseten",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "baseten.svg",
+          "type": "registry:file",
+          "target": "public/logos/baseten.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "bedrock-logo",
+      "type": "registry:file",
+      "title": "Bedrock",
+      "description": "Bedrock brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 24,
+        "slug": "bedrock",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "bedrock.svg",
+          "type": "registry:file",
+          "target": "public/logos/bedrock.svg"
+        },
+        {
+          "path": "bedrock-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/bedrock-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "bfl-logo",
+      "type": "registry:file",
+      "title": "Bfl",
+      "description": "Bfl brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 25,
+        "slug": "bfl",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "bfl.svg",
+          "type": "registry:file",
+          "target": "public/logos/bfl.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "bilibili-logo",
+      "type": "registry:file",
+      "title": "Bilibili",
+      "description": "Bilibili brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 26,
+        "slug": "bilibili",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "bilibili.svg",
+          "type": "registry:file",
+          "target": "public/logos/bilibili.svg"
+        },
+        {
+          "path": "bilibili-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/bilibili-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "burncloud-logo",
+      "type": "registry:file",
+      "title": "BurnCloud",
+      "description": "BurnCloud brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 27,
+        "slug": "burncloud",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "burncloud.svg",
+          "type": "registry:file",
+          "target": "public/logos/burncloud.svg"
+        },
+        {
+          "path": "burncloud-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/burncloud-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "bytedance-logo",
+      "type": "registry:file",
+      "title": "ByteDance",
+      "description": "ByteDance brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 28,
+        "slug": "bytedance",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "bytedance.svg",
+          "type": "registry:file",
+          "target": "public/logos/bytedance.svg"
+        },
+        {
+          "path": "bytedance-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/bytedance-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "centml-logo",
+      "type": "registry:file",
+      "title": "CentML",
+      "description": "CentML brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 29,
+        "slug": "centml",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "centml.svg",
+          "type": "registry:file",
+          "target": "public/logos/centml.svg"
+        },
+        {
+          "path": "centml-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/centml-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "cerebras-logo",
+      "type": "registry:file",
+      "title": "Cerebras",
+      "description": "Cerebras brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 30,
+        "slug": "cerebras",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "cerebras.svg",
+          "type": "registry:file",
+          "target": "public/logos/cerebras.svg"
+        },
+        {
+          "path": "cerebras-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/cerebras-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "civitai-logo",
+      "type": "registry:file",
+      "title": "Civitai",
+      "description": "Civitai brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 31,
+        "slug": "civitai",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "civitai.svg",
+          "type": "registry:file",
+          "target": "public/logos/civitai.svg"
+        },
+        {
+          "path": "civitai-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/civitai-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "claude-logo",
+      "type": "registry:file",
+      "title": "Claude",
+      "description": "Claude brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 32,
+        "slug": "claude",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "claude.svg",
+          "type": "registry:file",
+          "target": "public/logos/claude.svg"
+        },
+        {
+          "path": "claude-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/claude-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "cloudflare-logo",
+      "type": "registry:file",
+      "title": "Cloudflare",
+      "description": "Cloudflare brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 33,
+        "slug": "cloudflare",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "cloudflare.svg",
+          "type": "registry:file",
+          "target": "public/logos/cloudflare.svg"
+        },
+        {
+          "path": "cloudflare-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/cloudflare-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "cohere-logo",
+      "type": "registry:file",
+      "title": "Cohere",
+      "description": "Cohere brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 34,
+        "slug": "cohere",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "cohere.svg",
+          "type": "registry:file",
+          "target": "public/logos/cohere.svg"
+        },
+        {
+          "path": "cohere-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/cohere-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "cometapi-logo",
+      "type": "registry:file",
+      "title": "CometAPI",
+      "description": "CometAPI brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 35,
+        "slug": "cometapi",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "cometapi.svg",
+          "type": "registry:file",
+          "target": "public/logos/cometapi.svg"
+        },
+        {
+          "path": "cometapi-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/cometapi-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "comfyui-logo",
+      "type": "registry:file",
+      "title": "ComfyUI",
+      "description": "ComfyUI brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 36,
+        "slug": "comfyui",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "comfyui.svg",
+          "type": "registry:file",
+          "target": "public/logos/comfyui.svg"
+        },
+        {
+          "path": "comfyui-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/comfyui-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "copilot-logo",
+      "type": "registry:file",
+      "title": "Copilot",
+      "description": "Copilot brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 37,
+        "slug": "copilot",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "copilot.svg",
+          "type": "registry:file",
+          "target": "public/logos/copilot.svg"
+        },
+        {
+          "path": "copilot-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/copilot-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "crusoe-logo",
+      "type": "registry:file",
+      "title": "Crusoe",
+      "description": "Crusoe brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 38,
+        "slug": "crusoe",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "crusoe.svg",
+          "type": "registry:file",
+          "target": "public/logos/crusoe.svg"
+        },
+        {
+          "path": "crusoe-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/crusoe-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "deepinfra-logo",
+      "type": "registry:file",
+      "title": "DeepInfra",
+      "description": "DeepInfra brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 39,
+        "slug": "deepinfra",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "deepinfra.svg",
+          "type": "registry:file",
+          "target": "public/logos/deepinfra.svg"
+        },
+        {
+          "path": "deepinfra-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/deepinfra-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "deepmind-logo",
+      "type": "registry:file",
+      "title": "DeepMind",
+      "description": "DeepMind brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 40,
+        "slug": "deepmind",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "deepmind.svg",
+          "type": "registry:file",
+          "target": "public/logos/deepmind.svg"
+        },
+        {
+          "path": "deepmind-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/deepmind-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "deepseek-logo",
+      "type": "registry:file",
+      "title": "DeepSeek",
+      "description": "DeepSeek brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 41,
+        "slug": "deepseek",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "deepseek.svg",
+          "type": "registry:file",
+          "target": "public/logos/deepseek.svg"
+        },
+        {
+          "path": "deepseek-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/deepseek-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "doubao-logo",
+      "type": "registry:file",
+      "title": "Doubao",
+      "description": "Doubao brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 42,
+        "slug": "doubao",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "doubao.svg",
+          "type": "registry:file",
+          "target": "public/logos/doubao.svg"
+        },
+        {
+          "path": "doubao-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/doubao-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "exa-logo",
+      "type": "registry:file",
+      "title": "Exa",
+      "description": "Exa brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 43,
+        "slug": "exa",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "exa.svg",
+          "type": "registry:file",
+          "target": "public/logos/exa.svg"
+        },
+        {
+          "path": "exa-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/exa-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "fal-logo",
+      "type": "registry:file",
+      "title": "Fal",
+      "description": "Fal brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 44,
+        "slug": "fal",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "fal.svg",
+          "type": "registry:file",
+          "target": "public/logos/fal.svg"
+        },
+        {
+          "path": "fal-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/fal-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "featherless-logo",
+      "type": "registry:file",
+      "title": "Featherless",
+      "description": "Featherless brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 45,
+        "slug": "featherless",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "featherless.svg",
+          "type": "registry:file",
+          "target": "public/logos/featherless.svg"
+        },
+        {
+          "path": "featherless-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/featherless-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "fireworks-logo",
+      "type": "registry:file",
+      "title": "Fireworks",
+      "description": "Fireworks brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 46,
+        "slug": "fireworks",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "fireworks.svg",
+          "type": "registry:file",
+          "target": "public/logos/fireworks.svg"
+        },
+        {
+          "path": "fireworks-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/fireworks-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "friendli-logo",
+      "type": "registry:file",
+      "title": "Friendli",
+      "description": "Friendli brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 47,
+        "slug": "friendli",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "friendli.svg",
+          "type": "registry:file",
+          "target": "public/logos/friendli.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "gemini-logo",
+      "type": "registry:file",
+      "title": "Gemini",
+      "description": "Gemini brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 48,
+        "slug": "gemini",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "gemini.svg",
+          "type": "registry:file",
+          "target": "public/logos/gemini.svg"
+        },
+        {
+          "path": "gemini-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/gemini-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "giteeai-logo",
+      "type": "registry:file",
+      "title": "GiteeAI",
+      "description": "GiteeAI brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 49,
+        "slug": "giteeai",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "giteeai.svg",
+          "type": "registry:file",
+          "target": "public/logos/giteeai.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "github-logo",
+      "type": "registry:file",
+      "title": "Github",
+      "description": "Github brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 50,
+        "slug": "github",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "github.svg",
+          "type": "registry:file",
+          "target": "public/logos/github.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "githubcopilot-logo",
+      "type": "registry:file",
+      "title": "GithubCopilot",
+      "description": "GithubCopilot brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 51,
+        "slug": "githubcopilot",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "githubcopilot.svg",
+          "type": "registry:file",
+          "target": "public/logos/githubcopilot.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "google-logo",
+      "type": "registry:file",
+      "title": "Google",
+      "description": "Google brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 52,
+        "slug": "google",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "google.svg",
+          "type": "registry:file",
+          "target": "public/logos/google.svg"
+        },
+        {
+          "path": "google-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/google-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "googlecloud-logo",
+      "type": "registry:file",
+      "title": "GoogleCloud",
+      "description": "GoogleCloud brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 53,
+        "slug": "googlecloud",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "googlecloud.svg",
+          "type": "registry:file",
+          "target": "public/logos/googlecloud.svg"
+        },
+        {
+          "path": "googlecloud-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/googlecloud-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "groq-logo",
+      "type": "registry:file",
+      "title": "Groq",
+      "description": "Groq brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 54,
+        "slug": "groq",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "groq.svg",
+          "type": "registry:file",
+          "target": "public/logos/groq.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "higress-logo",
+      "type": "registry:file",
+      "title": "Higress",
+      "description": "Higress brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 55,
+        "slug": "higress",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "higress.svg",
+          "type": "registry:file",
+          "target": "public/logos/higress.svg"
+        },
+        {
+          "path": "higress-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/higress-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "huawei-logo",
+      "type": "registry:file",
+      "title": "Huawei",
+      "description": "Huawei brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 56,
+        "slug": "huawei",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "huawei.svg",
+          "type": "registry:file",
+          "target": "public/logos/huawei.svg"
+        },
+        {
+          "path": "huawei-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/huawei-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "huaweicloud-logo",
+      "type": "registry:file",
+      "title": "HuaweiCloud",
+      "description": "HuaweiCloud brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 57,
+        "slug": "huaweicloud",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "huaweicloud.svg",
+          "type": "registry:file",
+          "target": "public/logos/huaweicloud.svg"
+        },
+        {
+          "path": "huaweicloud-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/huaweicloud-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "huggingface-logo",
+      "type": "registry:file",
+      "title": "HuggingFace",
+      "description": "HuggingFace brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 58,
+        "slug": "huggingface",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "huggingface.svg",
+          "type": "registry:file",
+          "target": "public/logos/huggingface.svg"
+        },
+        {
+          "path": "huggingface-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/huggingface-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "hunyuan-logo",
+      "type": "registry:file",
+      "title": "Hunyuan",
+      "description": "Hunyuan brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 59,
+        "slug": "hunyuan",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "hunyuan.svg",
+          "type": "registry:file",
+          "target": "public/logos/hunyuan.svg"
+        },
+        {
+          "path": "hunyuan-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/hunyuan-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "hyperbolic-logo",
+      "type": "registry:file",
+      "title": "Hyperbolic",
+      "description": "Hyperbolic brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 60,
+        "slug": "hyperbolic",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "hyperbolic.svg",
+          "type": "registry:file",
+          "target": "public/logos/hyperbolic.svg"
+        },
+        {
+          "path": "hyperbolic-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/hyperbolic-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ibm-logo",
+      "type": "registry:file",
+      "title": "IBM",
+      "description": "IBM brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 61,
+        "slug": "ibm",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "ibm.svg",
+          "type": "registry:file",
+          "target": "public/logos/ibm.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "iflytekcloud-logo",
+      "type": "registry:file",
+      "title": "IFlyTekCloud",
+      "description": "IFlyTekCloud brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 62,
+        "slug": "iflytekcloud",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "iflytekcloud.svg",
+          "type": "registry:file",
+          "target": "public/logos/iflytekcloud.svg"
+        },
+        {
+          "path": "iflytekcloud-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/iflytekcloud-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "inference-logo",
+      "type": "registry:file",
+      "title": "Inference",
+      "description": "Inference brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 63,
+        "slug": "inference",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "inference.svg",
+          "type": "registry:file",
+          "target": "public/logos/inference.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "infermatic-logo",
+      "type": "registry:file",
+      "title": "Infermatic",
+      "description": "Infermatic brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 64,
+        "slug": "infermatic",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "infermatic.svg",
+          "type": "registry:file",
+          "target": "public/logos/infermatic.svg"
+        },
+        {
+          "path": "infermatic-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/infermatic-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "infinigence-logo",
+      "type": "registry:file",
+      "title": "Infinigence",
+      "description": "Infinigence brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 65,
+        "slug": "infinigence",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "infinigence.svg",
+          "type": "registry:file",
+          "target": "public/logos/infinigence.svg"
+        },
+        {
+          "path": "infinigence-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/infinigence-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "internlm-logo",
+      "type": "registry:file",
+      "title": "InternLM",
+      "description": "InternLM brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 66,
+        "slug": "internlm",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "internlm.svg",
+          "type": "registry:file",
+          "target": "public/logos/internlm.svg"
+        },
+        {
+          "path": "internlm-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/internlm-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "jina-logo",
+      "type": "registry:file",
+      "title": "Jina",
+      "description": "Jina brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 67,
+        "slug": "jina",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "jina.svg",
+          "type": "registry:file",
+          "target": "public/logos/jina.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "kluster-logo",
+      "type": "registry:file",
+      "title": "Kluster",
+      "description": "Kluster brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 68,
+        "slug": "kluster",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "kluster.svg",
+          "type": "registry:file",
+          "target": "public/logos/kluster.svg"
+        },
+        {
+          "path": "kluster-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/kluster-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "lambda-logo",
+      "type": "registry:file",
+      "title": "Lambda",
+      "description": "Lambda brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 69,
+        "slug": "lambda",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "lambda.svg",
+          "type": "registry:file",
+          "target": "public/logos/lambda.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "leptonai-logo",
+      "type": "registry:file",
+      "title": "LeptonAI",
+      "description": "LeptonAI brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 70,
+        "slug": "leptonai",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "leptonai.svg",
+          "type": "registry:file",
+          "target": "public/logos/leptonai.svg"
+        },
+        {
+          "path": "leptonai-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/leptonai-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "lg-logo",
+      "type": "registry:file",
+      "title": "LG",
+      "description": "LG brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 71,
+        "slug": "lg",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "lg.svg",
+          "type": "registry:file",
+          "target": "public/logos/lg.svg"
+        },
+        {
+          "path": "lg-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/lg-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "lmstudio-logo",
+      "type": "registry:file",
+      "title": "LmStudio",
+      "description": "LmStudio brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 72,
+        "slug": "lmstudio",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "lmstudio.svg",
+          "type": "registry:file",
+          "target": "public/logos/lmstudio.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "lobehub-logo",
+      "type": "registry:file",
+      "title": "LobeHub",
+      "description": "LobeHub brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 73,
+        "slug": "lobehub",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "lobehub.svg",
+          "type": "registry:file",
+          "target": "public/logos/lobehub.svg"
+        },
+        {
+          "path": "lobehub-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/lobehub-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "longcat-logo",
+      "type": "registry:file",
+      "title": "LongCat",
+      "description": "LongCat brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 74,
+        "slug": "longcat",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "longcat.svg",
+          "type": "registry:file",
+          "target": "public/logos/longcat.svg"
+        },
+        {
+          "path": "longcat-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/longcat-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "menlo-logo",
+      "type": "registry:file",
+      "title": "Menlo",
+      "description": "Menlo brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 75,
+        "slug": "menlo",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "menlo.svg",
+          "type": "registry:file",
+          "target": "public/logos/menlo.svg"
+        },
+        {
+          "path": "menlo-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/menlo-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "meta-logo",
+      "type": "registry:file",
+      "title": "Meta",
+      "description": "Meta brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 76,
+        "slug": "meta",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "meta.svg",
+          "type": "registry:file",
+          "target": "public/logos/meta.svg"
+        },
+        {
+          "path": "meta-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/meta-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "microsoft-logo",
+      "type": "registry:file",
+      "title": "Microsoft",
+      "description": "Microsoft brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 77,
+        "slug": "microsoft",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "microsoft.svg",
+          "type": "registry:file",
+          "target": "public/logos/microsoft.svg"
+        },
+        {
+          "path": "microsoft-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/microsoft-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "minimax-logo",
+      "type": "registry:file",
+      "title": "Minimax",
+      "description": "Minimax brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 78,
+        "slug": "minimax",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "minimax.svg",
+          "type": "registry:file",
+          "target": "public/logos/minimax.svg"
+        },
+        {
+          "path": "minimax-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/minimax-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mistral-logo",
+      "type": "registry:file",
+      "title": "Mistral",
+      "description": "Mistral brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 79,
+        "slug": "mistral",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "mistral.svg",
+          "type": "registry:file",
+          "target": "public/logos/mistral.svg"
+        },
+        {
+          "path": "mistral-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/mistral-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "modelscope-logo",
+      "type": "registry:file",
+      "title": "ModelScope",
+      "description": "ModelScope brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 80,
+        "slug": "modelscope",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "modelscope.svg",
+          "type": "registry:file",
+          "target": "public/logos/modelscope.svg"
+        },
+        {
+          "path": "modelscope-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/modelscope-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "moonshot-logo",
+      "type": "registry:file",
+      "title": "Moonshot",
+      "description": "Moonshot brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 81,
+        "slug": "moonshot",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "moonshot.svg",
+          "type": "registry:file",
+          "target": "public/logos/moonshot.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "nebius-logo",
+      "type": "registry:file",
+      "title": "Nebius",
+      "description": "Nebius brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 82,
+        "slug": "nebius",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "nebius.svg",
+          "type": "registry:file",
+          "target": "public/logos/nebius.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "newapi-logo",
+      "type": "registry:file",
+      "title": "NewAPI",
+      "description": "NewAPI brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 83,
+        "slug": "newapi",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "newapi.svg",
+          "type": "registry:file",
+          "target": "public/logos/newapi.svg"
+        },
+        {
+          "path": "newapi-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/newapi-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "nousresearch-logo",
+      "type": "registry:file",
+      "title": "NousResearch",
+      "description": "NousResearch brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 84,
+        "slug": "nousresearch",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "nousresearch.svg",
+          "type": "registry:file",
+          "target": "public/logos/nousresearch.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "novita-logo",
+      "type": "registry:file",
+      "title": "Novita",
+      "description": "Novita brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 85,
+        "slug": "novita",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "novita.svg",
+          "type": "registry:file",
+          "target": "public/logos/novita.svg"
+        },
+        {
+          "path": "novita-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/novita-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "nplcloud-logo",
+      "type": "registry:file",
+      "title": "NPLCloud",
+      "description": "NPLCloud brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 86,
+        "slug": "nplcloud",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "nplcloud.svg",
+          "type": "registry:file",
+          "target": "public/logos/nplcloud.svg"
+        },
+        {
+          "path": "nplcloud-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/nplcloud-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "nvidia-logo",
+      "type": "registry:file",
+      "title": "Nvidia",
+      "description": "Nvidia brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 87,
+        "slug": "nvidia",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "nvidia.svg",
+          "type": "registry:file",
+          "target": "public/logos/nvidia.svg"
+        },
+        {
+          "path": "nvidia-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/nvidia-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ollama-logo",
+      "type": "registry:file",
+      "title": "Ollama",
+      "description": "Ollama brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 88,
+        "slug": "ollama",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "ollama.svg",
+          "type": "registry:file",
+          "target": "public/logos/ollama.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "openai-logo",
+      "type": "registry:file",
+      "title": "OpenAI",
+      "description": "OpenAI brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 89,
+        "slug": "openai",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "openai.svg",
+          "type": "registry:file",
+          "target": "public/logos/openai.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "openrouter-logo",
+      "type": "registry:file",
+      "title": "OpenRouter",
+      "description": "OpenRouter brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 90,
+        "slug": "openrouter",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "openrouter.svg",
+          "type": "registry:file",
+          "target": "public/logos/openrouter.svg"
+        },
+        {
+          "path": "openrouter-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/openrouter-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "parasail-logo",
+      "type": "registry:file",
+      "title": "Parasail",
+      "description": "Parasail brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 91,
+        "slug": "parasail",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "parasail.svg",
+          "type": "registry:file",
+          "target": "public/logos/parasail.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "perplexity-logo",
+      "type": "registry:file",
+      "title": "Perplexity",
+      "description": "Perplexity brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 92,
+        "slug": "perplexity",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "perplexity.svg",
+          "type": "registry:file",
+          "target": "public/logos/perplexity.svg"
+        },
+        {
+          "path": "perplexity-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/perplexity-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "player2-logo",
+      "type": "registry:file",
+      "title": "Player2",
+      "description": "Player2 brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 93,
+        "slug": "player2",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "player2.svg",
+          "type": "registry:file",
+          "target": "public/logos/player2.svg"
+        },
+        {
+          "path": "player2-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/player2-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "ppio-logo",
+      "type": "registry:file",
+      "title": "PPIO",
+      "description": "PPIO brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 94,
+        "slug": "ppio",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "ppio.svg",
+          "type": "registry:file",
+          "target": "public/logos/ppio.svg"
+        },
+        {
+          "path": "ppio-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/ppio-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "qiniu-logo",
+      "type": "registry:file",
+      "title": "Qiniu",
+      "description": "Qiniu brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 95,
+        "slug": "qiniu",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "qiniu.svg",
+          "type": "registry:file",
+          "target": "public/logos/qiniu.svg"
+        },
+        {
+          "path": "qiniu-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/qiniu-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "qwen-logo",
+      "type": "registry:file",
+      "title": "Qwen",
+      "description": "Qwen brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 96,
+        "slug": "qwen",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "qwen.svg",
+          "type": "registry:file",
+          "target": "public/logos/qwen.svg"
+        },
+        {
+          "path": "qwen-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/qwen-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "replicate-logo",
+      "type": "registry:file",
+      "title": "Replicate",
+      "description": "Replicate brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 97,
+        "slug": "replicate",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "replicate.svg",
+          "type": "registry:file",
+          "target": "public/logos/replicate.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "sambanova-logo",
+      "type": "registry:file",
+      "title": "SambaNova",
+      "description": "SambaNova brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 98,
+        "slug": "sambanova",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "sambanova.svg",
+          "type": "registry:file",
+          "target": "public/logos/sambanova.svg"
+        },
+        {
+          "path": "sambanova-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/sambanova-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "search1api-logo",
+      "type": "registry:file",
+      "title": "Search1API",
+      "description": "Search1API brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 99,
+        "slug": "search1api",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "search1api.svg",
+          "type": "registry:file",
+          "target": "public/logos/search1api.svg"
+        },
+        {
+          "path": "search1api-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/search1api-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "searchapi-logo",
+      "type": "registry:file",
+      "title": "SearchApi",
+      "description": "SearchApi brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 100,
+        "slug": "searchapi",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "searchapi.svg",
+          "type": "registry:file",
+          "target": "public/logos/searchapi.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "sensenova-logo",
+      "type": "registry:file",
+      "title": "SenseNova",
+      "description": "SenseNova brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 101,
+        "slug": "sensenova",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "sensenova.svg",
+          "type": "registry:file",
+          "target": "public/logos/sensenova.svg"
+        },
+        {
+          "path": "sensenova-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/sensenova-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "siliconcloud-logo",
+      "type": "registry:file",
+      "title": "SiliconCloud",
+      "description": "SiliconCloud brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 102,
+        "slug": "siliconcloud",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "siliconcloud.svg",
+          "type": "registry:file",
+          "target": "public/logos/siliconcloud.svg"
+        },
+        {
+          "path": "siliconcloud-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/siliconcloud-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "snowflake-logo",
+      "type": "registry:file",
+      "title": "Snowflake",
+      "description": "Snowflake brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 103,
+        "slug": "snowflake",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "snowflake.svg",
+          "type": "registry:file",
+          "target": "public/logos/snowflake.svg"
+        },
+        {
+          "path": "snowflake-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/snowflake-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "sophnet-logo",
+      "type": "registry:file",
+      "title": "SophNet",
+      "description": "SophNet brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 104,
+        "slug": "sophnet",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "sophnet.svg",
+          "type": "registry:file",
+          "target": "public/logos/sophnet.svg"
+        },
+        {
+          "path": "sophnet-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/sophnet-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "spark-logo",
+      "type": "registry:file",
+      "title": "Spark",
+      "description": "Spark brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 105,
+        "slug": "spark",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "spark.svg",
+          "type": "registry:file",
+          "target": "public/logos/spark.svg"
+        },
+        {
+          "path": "spark-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/spark-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "stability-logo",
+      "type": "registry:file",
+      "title": "Stability",
+      "description": "Stability brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 106,
+        "slug": "stability",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "stability.svg",
+          "type": "registry:file",
+          "target": "public/logos/stability.svg"
+        },
+        {
+          "path": "stability-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/stability-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "statecloud-logo",
+      "type": "registry:file",
+      "title": "StateCloud",
+      "description": "StateCloud brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 107,
+        "slug": "statecloud",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "statecloud.svg",
+          "type": "registry:file",
+          "target": "public/logos/statecloud.svg"
+        },
+        {
+          "path": "statecloud-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/statecloud-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "stepfun-logo",
+      "type": "registry:file",
+      "title": "Stepfun",
+      "description": "Stepfun brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 108,
+        "slug": "stepfun",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "stepfun.svg",
+          "type": "registry:file",
+          "target": "public/logos/stepfun.svg"
+        },
+        {
+          "path": "stepfun-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/stepfun-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "straico-logo",
+      "type": "registry:file",
+      "title": "Straico",
+      "description": "Straico brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 109,
+        "slug": "straico",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "straico.svg",
+          "type": "registry:file",
+          "target": "public/logos/straico.svg"
+        },
+        {
+          "path": "straico-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/straico-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "streamlake-logo",
+      "type": "registry:file",
+      "title": "StreamLake",
+      "description": "StreamLake brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 110,
+        "slug": "streamlake",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "streamlake.svg",
+          "type": "registry:file",
+          "target": "public/logos/streamlake.svg"
+        },
+        {
+          "path": "streamlake-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/streamlake-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "submodel-logo",
+      "type": "registry:file",
+      "title": "SubModel",
+      "description": "SubModel brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 111,
+        "slug": "submodel",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "submodel.svg",
+          "type": "registry:file",
+          "target": "public/logos/submodel.svg"
+        },
+        {
+          "path": "submodel-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/submodel-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "targon-logo",
+      "type": "registry:file",
+      "title": "Targon",
+      "description": "Targon brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 112,
+        "slug": "targon",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "targon.svg",
+          "type": "registry:file",
+          "target": "public/logos/targon.svg"
+        },
+        {
+          "path": "targon-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/targon-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "tencent-logo",
+      "type": "registry:file",
+      "title": "Tencent",
+      "description": "Tencent brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 113,
+        "slug": "tencent",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "tencent.svg",
+          "type": "registry:file",
+          "target": "public/logos/tencent.svg"
+        },
+        {
+          "path": "tencent-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/tencent-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "tencentcloud-logo",
+      "type": "registry:file",
+      "title": "TencentCloud",
+      "description": "TencentCloud brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 114,
+        "slug": "tencentcloud",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "tencentcloud.svg",
+          "type": "registry:file",
+          "target": "public/logos/tencentcloud.svg"
+        },
+        {
+          "path": "tencentcloud-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/tencentcloud-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "tii-logo",
+      "type": "registry:file",
+      "title": "TII",
+      "description": "TII brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 115,
+        "slug": "tii",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "tii.svg",
+          "type": "registry:file",
+          "target": "public/logos/tii.svg"
+        },
+        {
+          "path": "tii-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/tii-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "upstage-logo",
+      "type": "registry:file",
+      "title": "Upstage",
+      "description": "Upstage brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 116,
+        "slug": "upstage",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "upstage.svg",
+          "type": "registry:file",
+          "target": "public/logos/upstage.svg"
+        },
+        {
+          "path": "upstage-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/upstage-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "v0-logo",
+      "type": "registry:file",
+      "title": "V0",
+      "description": "V0 brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 117,
+        "slug": "v0",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "v0.svg",
+          "type": "registry:file",
+          "target": "public/logos/v0.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "vercel-logo",
+      "type": "registry:file",
+      "title": "Vercel",
+      "description": "Vercel brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 118,
+        "slug": "vercel",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "vercel.svg",
+          "type": "registry:file",
+          "target": "public/logos/vercel.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "vertexai-logo",
+      "type": "registry:file",
+      "title": "VertexAI",
+      "description": "VertexAI brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 119,
+        "slug": "vertexai",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "vertexai.svg",
+          "type": "registry:file",
+          "target": "public/logos/vertexai.svg"
+        },
+        {
+          "path": "vertexai-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/vertexai-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "vllm-logo",
+      "type": "registry:file",
+      "title": "VLLM",
+      "description": "VLLM brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 120,
+        "slug": "vllm",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "vllm.svg",
+          "type": "registry:file",
+          "target": "public/logos/vllm.svg"
+        },
+        {
+          "path": "vllm-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/vllm-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "volcengine-logo",
+      "type": "registry:file",
+      "title": "Volcengine",
+      "description": "Volcengine brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 121,
+        "slug": "volcengine",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "volcengine.svg",
+          "type": "registry:file",
+          "target": "public/logos/volcengine.svg"
+        },
+        {
+          "path": "volcengine-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/volcengine-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "wenxin-logo",
+      "type": "registry:file",
+      "title": "Wenxin",
+      "description": "Wenxin brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 122,
+        "slug": "wenxin",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "wenxin.svg",
+          "type": "registry:file",
+          "target": "public/logos/wenxin.svg"
+        },
+        {
+          "path": "wenxin-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/wenxin-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "workersai-logo",
+      "type": "registry:file",
+      "title": "WorkersAI",
+      "description": "WorkersAI brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 123,
+        "slug": "workersai",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "workersai.svg",
+          "type": "registry:file",
+          "target": "public/logos/workersai.svg"
+        },
+        {
+          "path": "workersai-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/workersai-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "xai-logo",
+      "type": "registry:file",
+      "title": "XAI",
+      "description": "XAI brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 124,
+        "slug": "xai",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "xai.svg",
+          "type": "registry:file",
+          "target": "public/logos/xai.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "xiaomimimo-logo",
+      "type": "registry:file",
+      "title": "XiaomiMiMo",
+      "description": "XiaomiMiMo brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 125,
+        "slug": "xiaomimimo",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "xiaomimimo.svg",
+          "type": "registry:file",
+          "target": "public/logos/xiaomimimo.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "xinference-logo",
+      "type": "registry:file",
+      "title": "Xinference",
+      "description": "Xinference brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 126,
+        "slug": "xinference",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "xinference.svg",
+          "type": "registry:file",
+          "target": "public/logos/xinference.svg"
+        },
+        {
+          "path": "xinference-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/xinference-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "yandex-logo",
+      "type": "registry:file",
+      "title": "Yandex",
+      "description": "Yandex brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 127,
+        "slug": "yandex",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "yandex.svg",
+          "type": "registry:file",
+          "target": "public/logos/yandex.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "zenmux-logo",
+      "type": "registry:file",
+      "title": "ZenMux",
+      "description": "ZenMux brand logo (monochrome). Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
+      "meta": {
+        "logoId": 128,
+        "slug": "zenmux",
+        "hasColor": false,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "zenmux.svg",
+          "type": "registry:file",
+          "target": "public/logos/zenmux.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "zeroone-logo",
+      "type": "registry:file",
+      "title": "ZeroOne",
+      "description": "ZeroOne brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 129,
+        "slug": "zeroone",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "zeroone.svg",
+          "type": "registry:file",
+          "target": "public/logos/zeroone.svg"
+        },
+        {
+          "path": "zeroone-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/zeroone-color.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "zhipu-logo",
+      "type": "registry:file",
+      "title": "ZhiPu",
+      "description": "ZhiPu brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg",
+        "color"
+      ],
+      "meta": {
+        "logoId": 130,
+        "slug": "zhipu",
+        "hasColor": true,
+        "source": "@lobehub/icons"
+      },
+      "files": [
+        {
+          "path": "zhipu.svg",
+          "type": "registry:file",
+          "target": "public/logos/zhipu.svg"
+        },
+        {
+          "path": "zhipu-color.svg",
+          "type": "registry:file",
+          "target": "public/logos/zhipu-color.svg"
+        }
+      ]
+    }
+  ]
+}

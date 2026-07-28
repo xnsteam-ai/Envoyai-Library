@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "modelscope-logo",
+  "title": "ModelScope",
+  "description": "ModelScope brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+  "files": [
+    {
+      "path": "logos/modelscope.svg",
+      "content": "<svg fill=\"currentColor\" fill-rule=\"evenodd\" height=\"1em\" style=\"flex:none;line-height:1\" viewBox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><title>ModelScope</title><path d=\"M2.667 5.3H8v2.667H5.333v2.666H2.667V8.467H.5v2.166h2.167V13.3H0V7.967h2.667V5.3zM2.667 13.3h2.666v2.667H8v2.666H2.667V13.3zM8 10.633h2.667V13.3H8v-2.667zM13.333 13.3v2.667h-2.666V13.3h2.666zM13.333 13.3v-2.667H16V13.3h-2.667z\"></path><path clip-rule=\"evenodd\" d=\"M21.333 13.3v-2.667h-2.666V7.967H16V5.3h5.333v2.667H24V13.3h-2.667zm0-2.667H23.5V8.467h-2.167v2.166z\"></path><path d=\"M21.333 13.3v5.333H16v-2.666h2.667V13.3h2.666z\"></path></svg>",
+      "type": "registry:file",
+      "target": "public/logos/modelscope.svg"
+    },
+    {
+      "path": "logos/modelscope-color.svg",
+      "content": "<svg height=\"1em\" style=\"flex:none;line-height:1\" viewBox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><title>ModelScope</title><path d=\"M0 7.967h2.667v2.667H0zM8 10.633h2.667V13.3H8z\" fill=\"#36CED0\"></path><path d=\"M0 10.633h2.667V13.3H0zM2.667 13.3h2.666v2.667H8v2.666H2.667V13.3zM2.667 5.3H8v2.667H5.333v2.666H2.667V5.3zM10.667 13.3h2.667v2.667h-2.667z\" fill=\"#624AFF\"></path><path d=\"M24 7.967h-2.667v2.667H24zM16 10.633h-2.667V13.3H16z\" fill=\"#36CED0\"></path><path d=\"M24 10.633h-2.667V13.3H24zM21.333 13.3h-2.666v2.667H16v2.666h5.333V13.3zM21.333 5.3H16v2.667h2.667v2.666h2.666V5.3z\" fill=\"#624AFF\"></path></svg>",
+      "type": "registry:file",
+      "target": "public/logos/modelscope-color.svg"
+    }
+  ],
+  "meta": {
+    "logoId": 80,
+    "slug": "modelscope",
+    "hasColor": true,
+    "source": "@lobehub/icons"
+  },
+  "categories": [
+    "icon",
+    "logo",
+    "brand",
+    "svg",
+    "color"
+  ],
+  "type": "registry:file"
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tencent-logo",
+  "title": "Tencent",
+  "description": "Tencent brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+  "files": [
+    {
+      "path": "logos/tencent.svg",
+      "content": "<svg fill=\"currentColor\" fill-rule=\"evenodd\" height=\"1em\" style=\"flex:none;line-height:1\" viewBox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><title>Tencent</title><path d=\"M9.976 1L24 9.8l-10.587.015L10.723 23H5.489L8.18 9.8H3.244L1 5.4h8.077L9.976 1z\"></path></svg>",
+      "type": "registry:file",
+      "target": "public/logos/tencent.svg"
+    },
+    {
+      "path": "logos/tencent-color.svg",
+      "content": "<svg height=\"1em\" style=\"flex:none;line-height:1\" viewBox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><title>Tencent</title><path d=\"M9.976 1L24 9.8l-10.587.015L10.723 23H5.489L8.18 9.8H3.244L1 5.4h8.077L9.976 1z\" fill=\"#0052D9\" fill-rule=\"evenodd\"></path></svg>",
+      "type": "registry:file",
+      "target": "public/logos/tencent-color.svg"
+    }
+  ],
+  "meta": {
+    "logoId": 113,
+    "slug": "tencent",
+    "hasColor": true,
+    "source": "@lobehub/icons"
+  },
+  "categories": [
+    "icon",
+    "logo",
+    "brand",
+    "svg",
+    "color"
+  ],
+  "type": "registry:file"
+}

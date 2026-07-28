@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "straico-logo",
+  "title": "Straico",
+  "description": "Straico brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+  "files": [
+    {
+      "path": "logos/straico.svg",
+      "content": "<svg fill=\"currentColor\" fill-rule=\"evenodd\" height=\"1em\" style=\"flex:none;line-height:1\" viewBox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><title>Straico</title><path d=\"M22 6h-5.278l3.166-6h-8.443L3 16h6.333v8L22 6z\"></path></svg>",
+      "type": "registry:file",
+      "target": "public/logos/straico.svg"
+    },
+    {
+      "path": "logos/straico-color.svg",
+      "content": "<svg height=\"1em\" style=\"flex:none;line-height:1\" viewBox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><title>Straico</title><path d=\"M22 6h-5.278l3.166-6h-8.443L3 16h6.333v8L22 6z\" fill=\"#464BBA\"></path></svg>",
+      "type": "registry:file",
+      "target": "public/logos/straico-color.svg"
+    }
+  ],
+  "meta": {
+    "logoId": 109,
+    "slug": "straico",
+    "hasColor": true,
+    "source": "@lobehub/icons"
+  },
+  "categories": [
+    "icon",
+    "logo",
+    "brand",
+    "svg",
+    "color"
+  ],
+  "type": "registry:file"
+}

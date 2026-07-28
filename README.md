@@ -36,6 +36,26 @@ Swap the last segment for any item name in the tables below.
 | `theme-toggle` | Light/dark toggle, hydration safe | `lucide-react`, `next-themes` |
 | `asset-card` | Asset preview card with copy-to-clipboard install command | `lucide-react` |
 
+### Icon & Logo — brand logos
+
+130 AI and LLM provider logos, each shipping a monochrome SVG plus a full-colour
+variant where one exists (98 of them). Install by slug:
+
+```bash
+npx shadcn@latest add xnsteam-ai/Envoyai-Library/openai-logo
+```
+
+Each carries a `meta` block with a stable `logoId`, its `slug`, and whether a
+colour variant exists — that id is what the site's `/logo/{id}/{slug}` pages and
+PNG links are keyed on, so it must stay stable. Ids are assigned alphabetically
+by slug, so adding a brand never renumbers the others.
+
+**Provenance.** These marks are vendored from
+[`@lobehub/icons`](https://github.com/lobehub/lobe-icons) (MIT). The MIT licence
+covers the packaging, not the marks: every logo remains the trademark of its
+owner and is included for identification only. Using one does not imply
+endorsement, and brand-guideline rules still apply to whoever ships it.
+
 ### Template — `registry:block`
 
 | Item | Description |

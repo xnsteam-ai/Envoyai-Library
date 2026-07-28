@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "infinigence-logo",
+  "title": "Infinigence",
+  "description": "Infinigence brand logo in monochrome and full colour. Vendored from @lobehub/icons.",
+  "files": [
+    {
+      "path": "logos/infinigence.svg",
+      "content": "<svg fill=\"currentColor\" fill-rule=\"evenodd\" height=\"1em\" style=\"flex:none;line-height:1\" viewBox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><title>Infinigence</title><path d=\"M14.186 19.885V4.226H5v4.137h4.226v11.522H5V24h13.412v-4.115h-4.226z\"></path><path d=\"M18.412 0h-4.226v4.226h4.226V0z\"></path></svg>",
+      "type": "registry:file",
+      "target": "public/logos/infinigence.svg"
+    },
+    {
+      "path": "logos/infinigence-color.svg",
+      "content": "<svg height=\"1em\" style=\"flex:none;line-height:1\" viewBox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><title>Infinigence</title><path d=\"M14.186 19.885V4.226H5v4.137h4.226v11.522H5V24h13.412v-4.115h-4.226z\" fill=\"#7F1084\"></path><path d=\"M18.412 0h-4.226v4.226h4.226V0z\" fill=\"#2EA7E0\"></path></svg>",
+      "type": "registry:file",
+      "target": "public/logos/infinigence-color.svg"
+    }
+  ],
+  "meta": {
+    "logoId": 65,
+    "slug": "infinigence",
+    "hasColor": true,
+    "source": "@lobehub/icons"
+  },
+  "categories": [
+    "icon",
+    "logo",
+    "brand",
+    "svg",
+    "color"
+  ],
+  "type": "registry:file"
+}

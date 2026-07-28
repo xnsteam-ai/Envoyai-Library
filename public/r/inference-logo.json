@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "inference-logo",
+  "title": "Inference",
+  "description": "Inference brand logo (monochrome). Vendored from @lobehub/icons.",
+  "files": [
+    {
+      "path": "logos/inference.svg",
+      "content": "<svg fill=\"currentColor\" fill-rule=\"evenodd\" height=\"1em\" style=\"flex:none;line-height:1\" viewBox=\"0 0 24 24\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><title>Inference</title><path d=\"M22 21.376h-4.89V2.62H22v18.756zM14.532 21.376h-3.469V2.62h3.469v18.756zM8.764 21.376h-2.66V2.62h2.66v18.756zM3.903 21.376H2V2.62h1.903v18.756z\"></path></svg>",
+      "type": "registry:file",
+      "target": "public/logos/inference.svg"
+    }
+  ],
+  "meta": {
+    "logoId": 63,
+    "slug": "inference",
+    "hasColor": false,
+    "source": "@lobehub/icons"
+  },
+  "categories": [
+    "icon",
+    "logo",
+    "brand",
+    "svg"
+  ],
+  "type": "registry:file"
+}

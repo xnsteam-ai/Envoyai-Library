@@ -8,6 +8,7 @@
     "themes/registry.json",
     "icons/registry.json",
     "backgrounds/registry.json",
-    "media/registry.json"
+    "media/registry.json",
+    "logos/registry.json"
   ]
 }
