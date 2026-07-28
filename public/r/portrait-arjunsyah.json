@@ -22,7 +22,62 @@
     "licence": "Unsplash License",
     "width": 3456,
     "height": 5184,
-    "color": "#f3f3f3"
+    "color": "#f3f3f3",
+    "createdAt": "2018-02-15",
+    "unsplashTags": [
+      "forest",
+      "portrait",
+      "man",
+      "sunset",
+      "face",
+      "boy",
+      "potrait",
+      "closeup",
+      "folk",
+      "people",
+      "human",
+      "indonesia",
+      "dimples"
+    ],
+    "masterPrompt": {
+      "subject": {
+        "ageRange": "early-to-mid 20s",
+        "descentCues": "Not confidently determinable; photographer's own tags reference Indonesia",
+        "hair": "Dark, side-swept wave",
+        "features": "Light mustache, defined brow",
+        "expression": "Soft closed-mouth smile, direct gaze",
+        "clothing": "Pale sage-mint crew-neck top"
+      },
+      "composition": {
+        "shotType": "Medium close-up",
+        "angle": "Eye-level, straight-on",
+        "placement": "Centered",
+        "distance": "Conversational",
+        "depthOfField": "Very shallow — background heavily blurred",
+        "focusPoint": "Eyes and face"
+      },
+      "environment": {
+        "setting": "Outdoor, tall-grass field at sunset",
+        "background": "Golden-hour backlit field with a hazy sun-flare",
+        "depthLayers": "Foreground subject, blurred grass midground, sun-flare background"
+      },
+      "lighting": {
+        "quality": "Soft, warm backlight with a rim-light effect",
+        "direction": "Behind and slightly above the subject (backlit sunset)",
+        "colorTemp": "Warm, golden",
+        "shadows": "Soft, minimal on the face — a fill light appears present"
+      },
+      "camera": {
+        "lensFeel": "Telephoto portrait, ~85–135mm feel (heavy background compression)",
+        "quality": "Clean digital capture, high resolution, warm color cast",
+        "artifacts": "Natural lens flare and haze",
+        "aesthetic": "Natural golden-hour outdoor portrait"
+      },
+      "atmosphere": {
+        "mood": "Warm, dreamy, relaxed",
+        "narrative": "A candid golden-hour outdoor portrait backlit by the setting sun in a field"
+      }
+    }
   },
   "categories": [
     "image",

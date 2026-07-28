@@ -22,7 +22,55 @@
     "licence": "Unsplash License",
     "width": 2965,
     "height": 4448,
-    "color": "#c0c0c0"
+    "color": "#c0c0c0",
+    "createdAt": "2020-04-20",
+    "unsplashTags": [
+      "portrait",
+      "people",
+      "black",
+      "face",
+      "head",
+      "moscow"
+    ],
+    "masterPrompt": {
+      "subject": {
+        "ageRange": "late 20s",
+        "descentCues": "Not confidently determinable; photographer's own tag references Moscow",
+        "hair": "Very short buzzcut, dark",
+        "features": "Strong brow, straight nose, closed neutral mouth, light stubble",
+        "expression": "Serious, intense, direct",
+        "clothing": "Black crew-neck top, blends into the background"
+      },
+      "composition": {
+        "shotType": "Close-up, tightly cropped",
+        "angle": "Eye-level, straight-on",
+        "placement": "Centered",
+        "distance": "Intimate",
+        "depthOfField": "Not applicable — solid black background",
+        "focusPoint": "Eyes"
+      },
+      "environment": {
+        "setting": "Studio / indoor, low-key",
+        "background": "Pure black, no visible detail",
+        "depthLayers": "None — flat black backdrop"
+      },
+      "lighting": {
+        "quality": "Hard, single-source directional, low-key",
+        "direction": "Front, slightly above",
+        "colorTemp": "Not applicable — monochrome",
+        "shadows": "Deep, high-contrast falloff into black"
+      },
+      "camera": {
+        "lensFeel": "Portrait lens, ~85–105mm feel",
+        "quality": "Clean digital black-and-white, fine grain-like texture, high resolution",
+        "artifacts": "Subtle film-grain texture",
+        "aesthetic": "Dramatic low-key black-and-white studio portrait"
+      },
+      "atmosphere": {
+        "mood": "Serious, intense, moody",
+        "narrative": "A stark low-key black-and-white study isolating the face against pure black"
+      }
+    }
   },
   "categories": [
     "image",

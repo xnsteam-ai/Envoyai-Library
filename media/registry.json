@@ -27,7 +27,69 @@
         "licence": "Unsplash License",
         "width": 3276,
         "height": 4096,
-        "color": "#0c2640"
+        "color": "#0c2640",
+        "createdAt": "2018-08-17",
+        "unsplashTags": [
+          "woman",
+          "girl",
+          "portrait",
+          "art",
+          "people",
+          "fashion",
+          "blue",
+          "model",
+          "human",
+          "face",
+          "female",
+          "beauty",
+          "reference",
+          "style",
+          "pose",
+          "close up",
+          "head",
+          "person wallpaper",
+          "brown hair",
+          "profile"
+        ],
+        "masterPrompt": {
+          "subject": {
+            "ageRange": "mid-20s",
+            "descentCues": "Not confidently determinable from the image alone",
+            "hair": "Short, dark brown, center-parted, slicked back with a wet-look finish",
+            "features": "Defined cheekbones, straight nose, full lips, dark brown eyes",
+            "expression": "Neutral, composed, direct gaze",
+            "clothing": "Dark navy crew-neck top"
+          },
+          "composition": {
+            "shotType": "Close-up portrait",
+            "angle": "Eye-level, straight-on",
+            "placement": "Centered",
+            "distance": "Intimate",
+            "depthOfField": "Shallow — background softly out of focus",
+            "focusPoint": "Eyes and face"
+          },
+          "environment": {
+            "setting": "Studio, seamless backdrop",
+            "background": "Plain light lavender-grey seamless paper",
+            "depthLayers": "Subject only; no midground props"
+          },
+          "lighting": {
+            "quality": "Hard, directional gel lighting in a split-light setup",
+            "direction": "Two sources: cool blue gel from camera-left, warm skin-tone practical from camera-right",
+            "colorTemp": "Mixed — cool blue vs warm amber, high contrast split down the center of the face",
+            "shadows": "Hard-edged transition line bisecting the face"
+          },
+          "camera": {
+            "lensFeel": "Portrait lens, ~85mm feel",
+            "quality": "Clean digital capture, high resolution, no visible grain",
+            "artifacts": "None significant",
+            "aesthetic": "Editorial / high-fashion studio portrait"
+          },
+          "atmosphere": {
+            "mood": "Cool, composed, editorial",
+            "narrative": "A studio beauty portrait using colored gels to split the face into two lighting moods"
+          }
+        }
       },
       "files": [
         {
@@ -61,7 +123,55 @@
         "licence": "Unsplash License",
         "width": 2965,
         "height": 4448,
-        "color": "#c0c0c0"
+        "color": "#c0c0c0",
+        "createdAt": "2020-04-20",
+        "unsplashTags": [
+          "portrait",
+          "people",
+          "black",
+          "face",
+          "head",
+          "moscow"
+        ],
+        "masterPrompt": {
+          "subject": {
+            "ageRange": "late 20s",
+            "descentCues": "Not confidently determinable; photographer's own tag references Moscow",
+            "hair": "Very short buzzcut, dark",
+            "features": "Strong brow, straight nose, closed neutral mouth, light stubble",
+            "expression": "Serious, intense, direct",
+            "clothing": "Black crew-neck top, blends into the background"
+          },
+          "composition": {
+            "shotType": "Close-up, tightly cropped",
+            "angle": "Eye-level, straight-on",
+            "placement": "Centered",
+            "distance": "Intimate",
+            "depthOfField": "Not applicable — solid black background",
+            "focusPoint": "Eyes"
+          },
+          "environment": {
+            "setting": "Studio / indoor, low-key",
+            "background": "Pure black, no visible detail",
+            "depthLayers": "None — flat black backdrop"
+          },
+          "lighting": {
+            "quality": "Hard, single-source directional, low-key",
+            "direction": "Front, slightly above",
+            "colorTemp": "Not applicable — monochrome",
+            "shadows": "Deep, high-contrast falloff into black"
+          },
+          "camera": {
+            "lensFeel": "Portrait lens, ~85–105mm feel",
+            "quality": "Clean digital black-and-white, fine grain-like texture, high resolution",
+            "artifacts": "Subtle film-grain texture",
+            "aesthetic": "Dramatic low-key black-and-white studio portrait"
+          },
+          "atmosphere": {
+            "mood": "Serious, intense, moody",
+            "narrative": "A stark low-key black-and-white study isolating the face against pure black"
+          }
+        }
       },
       "files": [
         {
@@ -95,7 +205,65 @@
         "licence": "Unsplash License",
         "width": 3605,
         "height": 5425,
-        "color": "#404040"
+        "color": "#404040",
+        "createdAt": "2018-03-08",
+        "unsplashTags": [
+          "woman",
+          "girl",
+          "portrait",
+          "people",
+          "face",
+          "female",
+          "grey",
+          "studio",
+          "indoor",
+          "peru",
+          "young",
+          "lip",
+          "brunette",
+          "stare",
+          "gaze",
+          "iquitos"
+        ],
+        "masterPrompt": {
+          "subject": {
+            "ageRange": "mid-20s",
+            "descentCues": "Not confidently determinable; photographer's own tags reference Peru / Iquitos",
+            "hair": "Dark, braided and pulled back",
+            "features": "Defined eyebrows, dark eyes, dark red-mauve lipstick",
+            "expression": "Neutral, direct stare",
+            "clothing": "Bare shoulders, no visible clothing"
+          },
+          "composition": {
+            "shotType": "Extreme close-up (eyes to chin)",
+            "angle": "Eye-level, straight-on",
+            "placement": "Centered",
+            "distance": "Very intimate",
+            "depthOfField": "Shallow — background softly blurred",
+            "focusPoint": "Eyes and lips"
+          },
+          "environment": {
+            "setting": "Studio",
+            "background": "Flat cool blue-grey seamless",
+            "depthLayers": "Subject only"
+          },
+          "lighting": {
+            "quality": "Soft, diffused directional",
+            "direction": "Upper-left, soft key light",
+            "colorTemp": "Cool background against warm skin tone",
+            "shadows": "Soft, gentle falloff"
+          },
+          "camera": {
+            "lensFeel": "Macro / portrait lens, ~100mm feel",
+            "quality": "Clean digital capture, high resolution, slight soft-focus glow",
+            "artifacts": "Subtle soft-glow diffusion",
+            "aesthetic": "Beauty-editorial close-up"
+          },
+          "atmosphere": {
+            "mood": "Intense, intimate, beauty-editorial",
+            "narrative": "An extreme beauty close-up emphasizing eyes and lips against a cool backdrop"
+          }
+        }
       },
       "files": [
         {
@@ -129,7 +297,69 @@
         "licence": "Unsplash License",
         "width": 3299,
         "height": 4948,
-        "color": "#262626"
+        "color": "#262626",
+        "createdAt": "2018-02-14",
+        "unsplashTags": [
+          "background",
+          "woman",
+          "girl",
+          "portrait",
+          "people",
+          "human",
+          "face",
+          "female",
+          "beauty",
+          "grey",
+          "hair",
+          "neon",
+          "lady",
+          "lights",
+          "standing",
+          "holding",
+          "behind",
+          "caucasian",
+          "black",
+          "white"
+        ],
+        "masterPrompt": {
+          "subject": {
+            "ageRange": "late 20s to 30s",
+            "descentCues": "Not confidently determinable — only half the face is visible",
+            "hair": "Short, dark, side-swept",
+            "features": "Strong eyebrow and eye visible on the lit half of the face",
+            "expression": "Intense, watchful",
+            "clothing": "Dark top, mostly in shadow"
+          },
+          "composition": {
+            "shotType": "Extreme close-up, asymmetrical half-face crop",
+            "angle": "Eye-level, slight three-quarter",
+            "placement": "Off-center, left of frame; right half of frame is pure black",
+            "distance": "Very intimate",
+            "depthOfField": "Shallow, soft blur visible top-left",
+            "focusPoint": "The single visible eye"
+          },
+          "environment": {
+            "setting": "Indoor, near a window",
+            "background": "Dark, mostly obscured",
+            "depthLayers": "Minimal; a window/blind structure is visible top-left"
+          },
+          "lighting": {
+            "quality": "Hard, directional, striped",
+            "direction": "Venetian-blind / slatted window light from camera-left",
+            "colorTemp": "Not applicable — monochrome",
+            "shadows": "Hard horizontal light streaks across hair and face; the other half of the face is in total shadow"
+          },
+          "camera": {
+            "lensFeel": "Portrait lens, ~85mm feel",
+            "quality": "Clean digital black-and-white, high resolution",
+            "artifacts": "None significant",
+            "aesthetic": "Moody, film-noir-inspired black-and-white portrait"
+          },
+          "atmosphere": {
+            "mood": "Mysterious, dramatic, noir",
+            "narrative": "A film-noir-style half-face portrait lit by hard slatted window light"
+          }
+        }
       },
       "files": [
         {
@@ -163,7 +393,66 @@
         "licence": "Unsplash License",
         "width": 1999,
         "height": 3000,
-        "color": "#262626"
+        "color": "#262626",
+        "createdAt": "2020-03-23",
+        "unsplashTags": [
+          "portrait",
+          "man",
+          "blue",
+          "green",
+          "human",
+          "red",
+          "photo",
+          "boy",
+          "body",
+          "skin",
+          "photographer",
+          "eyes",
+          "men",
+          "creative",
+          "vision",
+          "brown",
+          "fotografia"
+        ],
+        "masterPrompt": {
+          "subject": {
+            "ageRange": "late 20s",
+            "descentCues": "Not confidently determinable; warm skin tone",
+            "hair": "Wavy, shoulder-length dark hair, pushed back",
+            "features": "Light beard and stubble, defined brow",
+            "expression": "Slight closed-mouth smile",
+            "clothing": "Dark top, mostly obscured by shadow"
+          },
+          "composition": {
+            "shotType": "Close-up",
+            "angle": "Eye-level, straight-on, slightly low",
+            "placement": "Centered",
+            "distance": "Intimate",
+            "depthOfField": "Shallow — background a soft green glow",
+            "focusPoint": "Eyes"
+          },
+          "environment": {
+            "setting": "Indoor, dark studio or room",
+            "background": "Dark with a teal-green ambient glow",
+            "depthLayers": "Minimal, atmospheric haze"
+          },
+          "lighting": {
+            "quality": "Hard, dual-color gel lighting",
+            "direction": "Teal/green key from below-left; warm red-orange accent cutting diagonally across the face",
+            "colorTemp": "Mixed — cool teal-green dominant, warm red accent",
+            "shadows": "Deep, colored, dramatic"
+          },
+          "camera": {
+            "lensFeel": "Portrait lens, ~50–85mm feel",
+            "quality": "Clean digital capture, high resolution",
+            "artifacts": "None significant",
+            "aesthetic": "Cyberpunk-adjacent, moody color-gel portrait"
+          },
+          "atmosphere": {
+            "mood": "Moody, atmospheric, cinematic",
+            "narrative": "A cinematic dual-gel-lit portrait evoking a nightlife or cyberpunk mood"
+          }
+        }
       },
       "files": [
         {
@@ -197,7 +486,62 @@
         "licence": "Unsplash License",
         "width": 3456,
         "height": 5184,
-        "color": "#f3f3f3"
+        "color": "#f3f3f3",
+        "createdAt": "2018-02-15",
+        "unsplashTags": [
+          "forest",
+          "portrait",
+          "man",
+          "sunset",
+          "face",
+          "boy",
+          "potrait",
+          "closeup",
+          "folk",
+          "people",
+          "human",
+          "indonesia",
+          "dimples"
+        ],
+        "masterPrompt": {
+          "subject": {
+            "ageRange": "early-to-mid 20s",
+            "descentCues": "Not confidently determinable; photographer's own tags reference Indonesia",
+            "hair": "Dark, side-swept wave",
+            "features": "Light mustache, defined brow",
+            "expression": "Soft closed-mouth smile, direct gaze",
+            "clothing": "Pale sage-mint crew-neck top"
+          },
+          "composition": {
+            "shotType": "Medium close-up",
+            "angle": "Eye-level, straight-on",
+            "placement": "Centered",
+            "distance": "Conversational",
+            "depthOfField": "Very shallow — background heavily blurred",
+            "focusPoint": "Eyes and face"
+          },
+          "environment": {
+            "setting": "Outdoor, tall-grass field at sunset",
+            "background": "Golden-hour backlit field with a hazy sun-flare",
+            "depthLayers": "Foreground subject, blurred grass midground, sun-flare background"
+          },
+          "lighting": {
+            "quality": "Soft, warm backlight with a rim-light effect",
+            "direction": "Behind and slightly above the subject (backlit sunset)",
+            "colorTemp": "Warm, golden",
+            "shadows": "Soft, minimal on the face — a fill light appears present"
+          },
+          "camera": {
+            "lensFeel": "Telephoto portrait, ~85–135mm feel (heavy background compression)",
+            "quality": "Clean digital capture, high resolution, warm color cast",
+            "artifacts": "Natural lens flare and haze",
+            "aesthetic": "Natural golden-hour outdoor portrait"
+          },
+          "atmosphere": {
+            "mood": "Warm, dreamy, relaxed",
+            "narrative": "A candid golden-hour outdoor portrait backlit by the setting sun in a field"
+          }
+        }
       },
       "files": [
         {
@@ -231,7 +575,68 @@
         "licence": "Unsplash License",
         "width": 4000,
         "height": 6000,
-        "color": "#262626"
+        "color": "#262626",
+        "createdAt": "2018-10-22",
+        "unsplashTags": [
+          "woman",
+          "girl",
+          "portrait",
+          "black",
+          "face",
+          "female",
+          "white",
+          "grey",
+          "eyes",
+          "monochrome",
+          "gray",
+          "young",
+          "head",
+          "darkness",
+          "detail",
+          "closeup",
+          "intense",
+          "gaze",
+          "people"
+        ],
+        "masterPrompt": {
+          "subject": {
+            "ageRange": "20s",
+            "descentCues": "Not confidently determinable — only eyes-to-lips are in frame",
+            "hair": "Long, dark, loose",
+            "features": "Only the eyes-to-lips region is visible in frame",
+            "expression": "Intense, unblinking, direct stare",
+            "clothing": "Not visible — cropped out of frame"
+          },
+          "composition": {
+            "shotType": "Extreme close-up (eyes-to-chin crop)",
+            "angle": "Eye-level, straight-on",
+            "placement": "Centered",
+            "distance": "Extremely intimate",
+            "depthOfField": "Not applicable — no background visible",
+            "focusPoint": "Eyes"
+          },
+          "environment": {
+            "setting": "Unknown / indoor",
+            "background": "Not visible, dark",
+            "depthLayers": "None visible"
+          },
+          "lighting": {
+            "quality": "Soft, even front light with deep local shadows",
+            "direction": "Frontal, slightly above",
+            "colorTemp": "Not applicable — monochrome",
+            "shadows": "Deep shadow pockets under the eyes and beside the nose"
+          },
+          "camera": {
+            "lensFeel": "Macro-portrait feel",
+            "quality": "Clean digital black-and-white, visible fine grain texture",
+            "artifacts": "Subtle grain",
+            "aesthetic": "High-contrast, intense black-and-white beauty close-up"
+          },
+          "atmosphere": {
+            "mood": "Intense, confrontational, raw",
+            "narrative": "A raw, extremely tight black-and-white close-up focused entirely on the eyes"
+          }
+        }
       },
       "files": [
         {
@@ -265,7 +670,57 @@
         "licence": "Unsplash License",
         "width": 5773,
         "height": 8660,
-        "color": "#402626"
+        "color": "#402626",
+        "createdAt": "2020-04-03",
+        "unsplashTags": [
+          "portrait",
+          "human",
+          "face",
+          "photography",
+          "photo",
+          "smile",
+          "head",
+          "tribe"
+        ],
+        "masterPrompt": {
+          "subject": {
+            "ageRange": "60s–70s",
+            "descentCues": "Not confidently determinable; deeply weathered skin consistent with outdoor manual labor",
+            "hair": "Short, curly, grey / salt-and-pepper",
+            "features": "Deep wrinkles, deep-set eyes, heavily weathered skin texture",
+            "expression": "Neutral, weathered, calm",
+            "clothing": "Striped collared shirt"
+          },
+          "composition": {
+            "shotType": "Extreme close-up",
+            "angle": "Eye-level, straight-on",
+            "placement": "Centered",
+            "distance": "Very intimate",
+            "depthOfField": "Shallow — background fully blurred and dark",
+            "focusPoint": "Eyes and skin texture"
+          },
+          "environment": {
+            "setting": "Outdoor or indoor documentary setting",
+            "background": "Dark, blurred, indistinct",
+            "depthLayers": "Subject only, no distinguishable background elements"
+          },
+          "lighting": {
+            "quality": "Soft, warm, directional",
+            "direction": "Front, slightly above",
+            "colorTemp": "Warm amber-brown grade with a heavy vignette",
+            "shadows": "Moderate — emphasizes skin texture and wrinkles"
+          },
+          "camera": {
+            "lensFeel": "Portrait lens, ~85mm feel",
+            "quality": "Warm color grade, heavy vignette, high texture and skin detail",
+            "artifacts": "Vignette darkening at the edges",
+            "aesthetic": "Documentary-style character portrait"
+          },
+          "atmosphere": {
+            "mood": "Weathered, dignified, documentary",
+            "narrative": "A warm-toned documentary character portrait emphasizing age and texture"
+          }
+        }
       },
       "files": [
         {
@@ -299,7 +754,51 @@
         "licence": "Unsplash License",
         "width": 3497,
         "height": 4856,
-        "color": "#8c8c8c"
+        "color": "#8c8c8c",
+        "createdAt": "2022-09-12",
+        "unsplashTags": [
+          "portrait",
+          "grey"
+        ],
+        "masterPrompt": {
+          "subject": {
+            "ageRange": "late teens to early 20s",
+            "descentCues": "Not confidently determinable; fair skin tone",
+            "hair": "Long, straight-to-wavy dark hair, center-parted, partially covering the face",
+            "features": "Pale, even skin, soft features, half-lidded eyes",
+            "expression": "Neutral, melancholic, half-lidded gaze",
+            "clothing": "Thin spaghetti-strap top"
+          },
+          "composition": {
+            "shotType": "Medium close-up",
+            "angle": "Eye-level, straight-on",
+            "placement": "Centered",
+            "distance": "Intimate",
+            "depthOfField": "Soft overall focus, low background contrast",
+            "focusPoint": "Eyes, though the whole frame reads soft"
+          },
+          "environment": {
+            "setting": "Studio",
+            "background": "Flat light grey seamless",
+            "depthLayers": "Subject only"
+          },
+          "lighting": {
+            "quality": "Soft, flat, even, low-contrast",
+            "direction": "Diffused frontal, no strong directionality",
+            "colorTemp": "Not applicable — desaturated monochrome",
+            "shadows": "Minimal, very soft"
+          },
+          "camera": {
+            "lensFeel": "Portrait lens with a soft-diffusion filter feel",
+            "quality": "Soft-focus, hazy, slightly overexposed highlights",
+            "artifacts": "Soft diffusion glow, slight haze",
+            "aesthetic": "Ethereal, dreamy, romantic monochrome"
+          },
+          "atmosphere": {
+            "mood": "Melancholic, dreamy, ethereal",
+            "narrative": "A soft, hazy monochrome portrait with an ethereal, dreamlike quality"
+          }
+        }
       },
       "files": [
         {
@@ -333,7 +832,62 @@
         "licence": "Unsplash License",
         "width": 3456,
         "height": 4608,
-        "color": "#262626"
+        "color": "#262626",
+        "createdAt": "2019-09-09",
+        "unsplashTags": [
+          "portrait",
+          "people",
+          "black",
+          "face",
+          "head",
+          "woman",
+          "human",
+          "female",
+          "photography",
+          "white",
+          "photo",
+          "skin",
+          "selfie"
+        ],
+        "masterPrompt": {
+          "subject": {
+            "ageRange": "20s",
+            "descentCues": "Not confidently determinable; fair skin tone",
+            "hair": "Dark, slicked back, center-parted",
+            "features": "Nose / septum ring, direct intense eyes",
+            "expression": "Neutral, direct, serious",
+            "clothing": "Not visible — dark and obscured"
+          },
+          "composition": {
+            "shotType": "Close-up",
+            "angle": "Eye-level, straight-on",
+            "placement": "Centered",
+            "distance": "Intimate",
+            "depthOfField": "Not applicable — pure black surrounds the face",
+            "focusPoint": "Eyes"
+          },
+          "environment": {
+            "setting": "Unknown, dark studio",
+            "background": "Pure black, near-total vignette",
+            "depthLayers": "None — face isolated in a black void"
+          },
+          "lighting": {
+            "quality": "Hard, tightly controlled spotlight",
+            "direction": "Frontal, slightly above, tightly focused",
+            "colorTemp": "Not applicable — monochrome",
+            "shadows": "Extreme falloff into black at the edges of the face"
+          },
+          "camera": {
+            "lensFeel": "Portrait lens, ~85mm feel",
+            "quality": "Clean digital black-and-white, high contrast",
+            "artifacts": "None significant",
+            "aesthetic": "Spotlight / void studio portrait"
+          },
+          "atmosphere": {
+            "mood": "Isolated, intense, stark",
+            "narrative": "A stark spotlight portrait with the face floating in an otherwise pure-black void"
+          }
+        }
       },
       "files": [
         {

@@ -22,7 +22,69 @@
     "licence": "Unsplash License",
     "width": 3299,
     "height": 4948,
-    "color": "#262626"
+    "color": "#262626",
+    "createdAt": "2018-02-14",
+    "unsplashTags": [
+      "background",
+      "woman",
+      "girl",
+      "portrait",
+      "people",
+      "human",
+      "face",
+      "female",
+      "beauty",
+      "grey",
+      "hair",
+      "neon",
+      "lady",
+      "lights",
+      "standing",
+      "holding",
+      "behind",
+      "caucasian",
+      "black",
+      "white"
+    ],
+    "masterPrompt": {
+      "subject": {
+        "ageRange": "late 20s to 30s",
+        "descentCues": "Not confidently determinable — only half the face is visible",
+        "hair": "Short, dark, side-swept",
+        "features": "Strong eyebrow and eye visible on the lit half of the face",
+        "expression": "Intense, watchful",
+        "clothing": "Dark top, mostly in shadow"
+      },
+      "composition": {
+        "shotType": "Extreme close-up, asymmetrical half-face crop",
+        "angle": "Eye-level, slight three-quarter",
+        "placement": "Off-center, left of frame; right half of frame is pure black",
+        "distance": "Very intimate",
+        "depthOfField": "Shallow, soft blur visible top-left",
+        "focusPoint": "The single visible eye"
+      },
+      "environment": {
+        "setting": "Indoor, near a window",
+        "background": "Dark, mostly obscured",
+        "depthLayers": "Minimal; a window/blind structure is visible top-left"
+      },
+      "lighting": {
+        "quality": "Hard, directional, striped",
+        "direction": "Venetian-blind / slatted window light from camera-left",
+        "colorTemp": "Not applicable — monochrome",
+        "shadows": "Hard horizontal light streaks across hair and face; the other half of the face is in total shadow"
+      },
+      "camera": {
+        "lensFeel": "Portrait lens, ~85mm feel",
+        "quality": "Clean digital black-and-white, high resolution",
+        "artifacts": "None significant",
+        "aesthetic": "Moody, film-noir-inspired black-and-white portrait"
+      },
+      "atmosphere": {
+        "mood": "Mysterious, dramatic, noir",
+        "narrative": "A film-noir-style half-face portrait lit by hard slatted window light"
+      }
+    }
   },
   "categories": [
     "image",

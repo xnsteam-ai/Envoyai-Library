@@ -22,7 +22,69 @@
     "licence": "Unsplash License",
     "width": 3276,
     "height": 4096,
-    "color": "#0c2640"
+    "color": "#0c2640",
+    "createdAt": "2018-08-17",
+    "unsplashTags": [
+      "woman",
+      "girl",
+      "portrait",
+      "art",
+      "people",
+      "fashion",
+      "blue",
+      "model",
+      "human",
+      "face",
+      "female",
+      "beauty",
+      "reference",
+      "style",
+      "pose",
+      "close up",
+      "head",
+      "person wallpaper",
+      "brown hair",
+      "profile"
+    ],
+    "masterPrompt": {
+      "subject": {
+        "ageRange": "mid-20s",
+        "descentCues": "Not confidently determinable from the image alone",
+        "hair": "Short, dark brown, center-parted, slicked back with a wet-look finish",
+        "features": "Defined cheekbones, straight nose, full lips, dark brown eyes",
+        "expression": "Neutral, composed, direct gaze",
+        "clothing": "Dark navy crew-neck top"
+      },
+      "composition": {
+        "shotType": "Close-up portrait",
+        "angle": "Eye-level, straight-on",
+        "placement": "Centered",
+        "distance": "Intimate",
+        "depthOfField": "Shallow — background softly out of focus",
+        "focusPoint": "Eyes and face"
+      },
+      "environment": {
+        "setting": "Studio, seamless backdrop",
+        "background": "Plain light lavender-grey seamless paper",
+        "depthLayers": "Subject only; no midground props"
+      },
+      "lighting": {
+        "quality": "Hard, directional gel lighting in a split-light setup",
+        "direction": "Two sources: cool blue gel from camera-left, warm skin-tone practical from camera-right",
+        "colorTemp": "Mixed — cool blue vs warm amber, high contrast split down the center of the face",
+        "shadows": "Hard-edged transition line bisecting the face"
+      },
+      "camera": {
+        "lensFeel": "Portrait lens, ~85mm feel",
+        "quality": "Clean digital capture, high resolution, no visible grain",
+        "artifacts": "None significant",
+        "aesthetic": "Editorial / high-fashion studio portrait"
+      },
+      "atmosphere": {
+        "mood": "Cool, composed, editorial",
+        "narrative": "A studio beauty portrait using colored gels to split the face into two lighting moods"
+      }
+    }
   },
   "categories": [
     "image",

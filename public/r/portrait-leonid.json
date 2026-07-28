@@ -22,7 +22,51 @@
     "licence": "Unsplash License",
     "width": 3497,
     "height": 4856,
-    "color": "#8c8c8c"
+    "color": "#8c8c8c",
+    "createdAt": "2022-09-12",
+    "unsplashTags": [
+      "portrait",
+      "grey"
+    ],
+    "masterPrompt": {
+      "subject": {
+        "ageRange": "late teens to early 20s",
+        "descentCues": "Not confidently determinable; fair skin tone",
+        "hair": "Long, straight-to-wavy dark hair, center-parted, partially covering the face",
+        "features": "Pale, even skin, soft features, half-lidded eyes",
+        "expression": "Neutral, melancholic, half-lidded gaze",
+        "clothing": "Thin spaghetti-strap top"
+      },
+      "composition": {
+        "shotType": "Medium close-up",
+        "angle": "Eye-level, straight-on",
+        "placement": "Centered",
+        "distance": "Intimate",
+        "depthOfField": "Soft overall focus, low background contrast",
+        "focusPoint": "Eyes, though the whole frame reads soft"
+      },
+      "environment": {
+        "setting": "Studio",
+        "background": "Flat light grey seamless",
+        "depthLayers": "Subject only"
+      },
+      "lighting": {
+        "quality": "Soft, flat, even, low-contrast",
+        "direction": "Diffused frontal, no strong directionality",
+        "colorTemp": "Not applicable — desaturated monochrome",
+        "shadows": "Minimal, very soft"
+      },
+      "camera": {
+        "lensFeel": "Portrait lens with a soft-diffusion filter feel",
+        "quality": "Soft-focus, hazy, slightly overexposed highlights",
+        "artifacts": "Soft diffusion glow, slight haze",
+        "aesthetic": "Ethereal, dreamy, romantic monochrome"
+      },
+      "atmosphere": {
+        "mood": "Melancholic, dreamy, ethereal",
+        "narrative": "A soft, hazy monochrome portrait with an ethereal, dreamlike quality"
+      }
+    }
   },
   "categories": [
     "image",

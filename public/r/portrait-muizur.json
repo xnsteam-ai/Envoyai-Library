@@ -22,7 +22,57 @@
     "licence": "Unsplash License",
     "width": 5773,
     "height": 8660,
-    "color": "#402626"
+    "color": "#402626",
+    "createdAt": "2020-04-03",
+    "unsplashTags": [
+      "portrait",
+      "human",
+      "face",
+      "photography",
+      "photo",
+      "smile",
+      "head",
+      "tribe"
+    ],
+    "masterPrompt": {
+      "subject": {
+        "ageRange": "60s–70s",
+        "descentCues": "Not confidently determinable; deeply weathered skin consistent with outdoor manual labor",
+        "hair": "Short, curly, grey / salt-and-pepper",
+        "features": "Deep wrinkles, deep-set eyes, heavily weathered skin texture",
+        "expression": "Neutral, weathered, calm",
+        "clothing": "Striped collared shirt"
+      },
+      "composition": {
+        "shotType": "Extreme close-up",
+        "angle": "Eye-level, straight-on",
+        "placement": "Centered",
+        "distance": "Very intimate",
+        "depthOfField": "Shallow — background fully blurred and dark",
+        "focusPoint": "Eyes and skin texture"
+      },
+      "environment": {
+        "setting": "Outdoor or indoor documentary setting",
+        "background": "Dark, blurred, indistinct",
+        "depthLayers": "Subject only, no distinguishable background elements"
+      },
+      "lighting": {
+        "quality": "Soft, warm, directional",
+        "direction": "Front, slightly above",
+        "colorTemp": "Warm amber-brown grade with a heavy vignette",
+        "shadows": "Moderate — emphasizes skin texture and wrinkles"
+      },
+      "camera": {
+        "lensFeel": "Portrait lens, ~85mm feel",
+        "quality": "Warm color grade, heavy vignette, high texture and skin detail",
+        "artifacts": "Vignette darkening at the edges",
+        "aesthetic": "Documentary-style character portrait"
+      },
+      "atmosphere": {
+        "mood": "Weathered, dignified, documentary",
+        "narrative": "A warm-toned documentary character portrait emphasizing age and texture"
+      }
+    }
   },
   "categories": [
     "image",

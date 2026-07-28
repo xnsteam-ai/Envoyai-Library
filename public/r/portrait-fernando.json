@@ -22,7 +22,66 @@
     "licence": "Unsplash License",
     "width": 1999,
     "height": 3000,
-    "color": "#262626"
+    "color": "#262626",
+    "createdAt": "2020-03-23",
+    "unsplashTags": [
+      "portrait",
+      "man",
+      "blue",
+      "green",
+      "human",
+      "red",
+      "photo",
+      "boy",
+      "body",
+      "skin",
+      "photographer",
+      "eyes",
+      "men",
+      "creative",
+      "vision",
+      "brown",
+      "fotografia"
+    ],
+    "masterPrompt": {
+      "subject": {
+        "ageRange": "late 20s",
+        "descentCues": "Not confidently determinable; warm skin tone",
+        "hair": "Wavy, shoulder-length dark hair, pushed back",
+        "features": "Light beard and stubble, defined brow",
+        "expression": "Slight closed-mouth smile",
+        "clothing": "Dark top, mostly obscured by shadow"
+      },
+      "composition": {
+        "shotType": "Close-up",
+        "angle": "Eye-level, straight-on, slightly low",
+        "placement": "Centered",
+        "distance": "Intimate",
+        "depthOfField": "Shallow — background a soft green glow",
+        "focusPoint": "Eyes"
+      },
+      "environment": {
+        "setting": "Indoor, dark studio or room",
+        "background": "Dark with a teal-green ambient glow",
+        "depthLayers": "Minimal, atmospheric haze"
+      },
+      "lighting": {
+        "quality": "Hard, dual-color gel lighting",
+        "direction": "Teal/green key from below-left; warm red-orange accent cutting diagonally across the face",
+        "colorTemp": "Mixed — cool teal-green dominant, warm red accent",
+        "shadows": "Deep, colored, dramatic"
+      },
+      "camera": {
+        "lensFeel": "Portrait lens, ~50–85mm feel",
+        "quality": "Clean digital capture, high resolution",
+        "artifacts": "None significant",
+        "aesthetic": "Cyberpunk-adjacent, moody color-gel portrait"
+      },
+      "atmosphere": {
+        "mood": "Moody, atmospheric, cinematic",
+        "narrative": "A cinematic dual-gel-lit portrait evoking a nightlife or cyberpunk mood"
+      }
+    }
   },
   "categories": [
     "image",

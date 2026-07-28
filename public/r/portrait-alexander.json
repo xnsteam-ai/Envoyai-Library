@@ -22,7 +22,68 @@
     "licence": "Unsplash License",
     "width": 4000,
     "height": 6000,
-    "color": "#262626"
+    "color": "#262626",
+    "createdAt": "2018-10-22",
+    "unsplashTags": [
+      "woman",
+      "girl",
+      "portrait",
+      "black",
+      "face",
+      "female",
+      "white",
+      "grey",
+      "eyes",
+      "monochrome",
+      "gray",
+      "young",
+      "head",
+      "darkness",
+      "detail",
+      "closeup",
+      "intense",
+      "gaze",
+      "people"
+    ],
+    "masterPrompt": {
+      "subject": {
+        "ageRange": "20s",
+        "descentCues": "Not confidently determinable — only eyes-to-lips are in frame",
+        "hair": "Long, dark, loose",
+        "features": "Only the eyes-to-lips region is visible in frame",
+        "expression": "Intense, unblinking, direct stare",
+        "clothing": "Not visible — cropped out of frame"
+      },
+      "composition": {
+        "shotType": "Extreme close-up (eyes-to-chin crop)",
+        "angle": "Eye-level, straight-on",
+        "placement": "Centered",
+        "distance": "Extremely intimate",
+        "depthOfField": "Not applicable — no background visible",
+        "focusPoint": "Eyes"
+      },
+      "environment": {
+        "setting": "Unknown / indoor",
+        "background": "Not visible, dark",
+        "depthLayers": "None visible"
+      },
+      "lighting": {
+        "quality": "Soft, even front light with deep local shadows",
+        "direction": "Frontal, slightly above",
+        "colorTemp": "Not applicable — monochrome",
+        "shadows": "Deep shadow pockets under the eyes and beside the nose"
+      },
+      "camera": {
+        "lensFeel": "Macro-portrait feel",
+        "quality": "Clean digital black-and-white, visible fine grain texture",
+        "artifacts": "Subtle grain",
+        "aesthetic": "High-contrast, intense black-and-white beauty close-up"
+      },
+      "atmosphere": {
+        "mood": "Intense, confrontational, raw",
+        "narrative": "A raw, extremely tight black-and-white close-up focused entirely on the eyes"
+      }
+    }
   },
   "categories": [
     "image",

@@ -22,7 +22,65 @@
     "licence": "Unsplash License",
     "width": 3605,
     "height": 5425,
-    "color": "#404040"
+    "color": "#404040",
+    "createdAt": "2018-03-08",
+    "unsplashTags": [
+      "woman",
+      "girl",
+      "portrait",
+      "people",
+      "face",
+      "female",
+      "grey",
+      "studio",
+      "indoor",
+      "peru",
+      "young",
+      "lip",
+      "brunette",
+      "stare",
+      "gaze",
+      "iquitos"
+    ],
+    "masterPrompt": {
+      "subject": {
+        "ageRange": "mid-20s",
+        "descentCues": "Not confidently determinable; photographer's own tags reference Peru / Iquitos",
+        "hair": "Dark, braided and pulled back",
+        "features": "Defined eyebrows, dark eyes, dark red-mauve lipstick",
+        "expression": "Neutral, direct stare",
+        "clothing": "Bare shoulders, no visible clothing"
+      },
+      "composition": {
+        "shotType": "Extreme close-up (eyes to chin)",
+        "angle": "Eye-level, straight-on",
+        "placement": "Centered",
+        "distance": "Very intimate",
+        "depthOfField": "Shallow — background softly blurred",
+        "focusPoint": "Eyes and lips"
+      },
+      "environment": {
+        "setting": "Studio",
+        "background": "Flat cool blue-grey seamless",
+        "depthLayers": "Subject only"
+      },
+      "lighting": {
+        "quality": "Soft, diffused directional",
+        "direction": "Upper-left, soft key light",
+        "colorTemp": "Cool background against warm skin tone",
+        "shadows": "Soft, gentle falloff"
+      },
+      "camera": {
+        "lensFeel": "Macro / portrait lens, ~100mm feel",
+        "quality": "Clean digital capture, high resolution, slight soft-focus glow",
+        "artifacts": "Subtle soft-glow diffusion",
+        "aesthetic": "Beauty-editorial close-up"
+      },
+      "atmosphere": {
+        "mood": "Intense, intimate, beauty-editorial",
+        "narrative": "An extreme beauty close-up emphasizing eyes and lips against a cool backdrop"
+      }
+    }
   },
   "categories": [
     "image",

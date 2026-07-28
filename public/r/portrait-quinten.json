@@ -22,7 +22,62 @@
     "licence": "Unsplash License",
     "width": 3456,
     "height": 4608,
-    "color": "#262626"
+    "color": "#262626",
+    "createdAt": "2019-09-09",
+    "unsplashTags": [
+      "portrait",
+      "people",
+      "black",
+      "face",
+      "head",
+      "woman",
+      "human",
+      "female",
+      "photography",
+      "white",
+      "photo",
+      "skin",
+      "selfie"
+    ],
+    "masterPrompt": {
+      "subject": {
+        "ageRange": "20s",
+        "descentCues": "Not confidently determinable; fair skin tone",
+        "hair": "Dark, slicked back, center-parted",
+        "features": "Nose / septum ring, direct intense eyes",
+        "expression": "Neutral, direct, serious",
+        "clothing": "Not visible — dark and obscured"
+      },
+      "composition": {
+        "shotType": "Close-up",
+        "angle": "Eye-level, straight-on",
+        "placement": "Centered",
+        "distance": "Intimate",
+        "depthOfField": "Not applicable — pure black surrounds the face",
+        "focusPoint": "Eyes"
+      },
+      "environment": {
+        "setting": "Unknown, dark studio",
+        "background": "Pure black, near-total vignette",
+        "depthLayers": "None — face isolated in a black void"
+      },
+      "lighting": {
+        "quality": "Hard, tightly controlled spotlight",
+        "direction": "Frontal, slightly above, tightly focused",
+        "colorTemp": "Not applicable — monochrome",
+        "shadows": "Extreme falloff into black at the edges of the face"
+      },
+      "camera": {
+        "lensFeel": "Portrait lens, ~85mm feel",
+        "quality": "Clean digital black-and-white, high contrast",
+        "artifacts": "None significant",
+        "aesthetic": "Spotlight / void studio portrait"
+      },
+      "atmosphere": {
+        "mood": "Isolated, intense, stark",
+        "narrative": "A stark spotlight portrait with the face floating in an otherwise pure-black void"
+      }
+    }
   },
   "categories": [
     "image",
