@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-messenger-logo",
+  "title": "MessengerLogo",
+  "description": "Phosphor MessengerLogo icon in regular, bold, duotone weights. Also: logos, facebook, social media.",
+  "files": [
+    {
+      "path": "icons/phosphor/messenger-logo-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M181.66,106.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0L112,123.31,85.66,149.66a8,8,0,0,1-11.32-11.32l32-32a8,8,0,0,1,11.32,0L144,132.69l26.34-26.35A8,8,0,0,1,181.66,106.34ZM232,128A104,104,0,0,1,79.12,219.82L45.07,231.17a16,16,0,0,1-20.24-20.24l11.35-34.05A104,104,0,1,1,232,128Zm-16,0A88,88,0,1,0,51.81,172.06a8,8,0,0,1,.66,6.54L40,216,77.4,203.52a8,8,0,0,1,6.54.67A88,88,0,0,0,216,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/messenger-logo-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/messenger-logo-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M184.49,120.49l-32,32a12,12,0,0,1-17,0L112,129,88.49,152.49a12,12,0,0,1-17-17l32-32a12,12,0,0,1,17,0L144,127l23.51-23.52a12,12,0,0,1,17,17ZM236,128A108,108,0,0,1,78.77,224.15L46.34,235A20,20,0,0,1,21,209.66l10.81-32.43A108,108,0,1,1,236,128Zm-24,0A84,84,0,1,0,55.27,170.05a12,12,0,0,1,1,9.82l-9.93,29.79,29.79-9.93a12.1,12.1,0,0,1,3.8-.62,12,12,0,0,1,6,1.62A84,84,0,0,0,212,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/messenger-logo-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/messenger-logo-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,128A96,96,0,0,1,79.93,211.11h0L42.54,223.58a8,8,0,0,1-10.12-10.12l12.47-37.39h0A96,96,0,1,1,224,128Z\" opacity=\"0.2\"/><path d=\"M181.66,106.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0L112,123.31,85.66,149.66a8,8,0,0,1-11.32-11.32l32-32a8,8,0,0,1,11.32,0L144,132.69l26.34-26.35A8,8,0,0,1,181.66,106.34ZM232,128A104,104,0,0,1,79.12,219.82L45.07,231.17a16,16,0,0,1-20.24-20.24l11.35-34.05A104,104,0,1,1,232,128Zm-16,0A88,88,0,1,0,51.81,172.06a8,8,0,0,1,.66,6.54L40,216,77.4,203.52a8,8,0,0,1,6.54.67A88,88,0,0,0,216,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/messenger-logo-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "MessengerLogo",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "logos",
+      "facebook",
+      "social media"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "brands",
+    "communications"
+  ],
+  "type": "registry:file"
+}

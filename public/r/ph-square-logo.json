@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-square-logo",
+  "title": "SquareLogo",
+  "description": "Phosphor SquareLogo icon in regular, bold, duotone weights. Also: squareup, payment.",
+  "files": [
+    {
+      "path": "icons/phosphor/square-logo-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H48V48H208V208ZM160,88H96a8,8,0,0,0-8,8v64a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V96A8,8,0,0,0,160,88Zm-8,64H104V104h48Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/square-logo-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/square-logo-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,28H48A20,20,0,0,0,28,48V208a20,20,0,0,0,20,20H208a20,20,0,0,0,20-20V48A20,20,0,0,0,208,28Zm-4,176H52V52H204ZM96,172h64a12,12,0,0,0,12-12V96a12,12,0,0,0-12-12H96A12,12,0,0,0,84,96v64A12,12,0,0,0,96,172Zm12-64h40v40H108Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/square-logo-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/square-logo-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M160,96v64H96V96Z\" opacity=\"0.2\"/><path d=\"M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H48V48H208V208ZM160,88H96a8,8,0,0,0-8,8v64a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V96A8,8,0,0,0,160,88Zm-8,64H104V104h48Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/square-logo-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "SquareLogo",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "squareup",
+      "payment"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "brands",
+    "commerce",
+    "finances"
+  ],
+  "type": "registry:file"
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-shipping-container",
+  "title": "ShippingContainer",
+  "description": "Phosphor ShippingContainer icon in regular, bold, duotone weights. Also: shipping, transportation, places, locations.",
+  "files": [
+    {
+      "path": "icons/phosphor/shipping-container-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M236.4,70.65,130.2,40.31a8,8,0,0,0-3.33-.23L21.74,55.1A16.08,16.08,0,0,0,8,70.94V185.06A16.08,16.08,0,0,0,21.74,200.9l105.13,15A8.47,8.47,0,0,0,128,216a7.85,7.85,0,0,0,2.2-.31l106.2-30.34A16.07,16.07,0,0,0,248,170V86A16.07,16.07,0,0,0,236.4,70.65ZM96,120H80V62.94l40-5.72V198.78l-40-5.72V136H96a8,8,0,0,0,0-16ZM24,70.94l40-5.72V120H48a8,8,0,0,0,0,16H64v54.78l-40-5.72ZM136,197.39V58.61L232,86V170Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/shipping-container-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/shipping-container-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M237.5,66.8,131.3,36.46a12.07,12.07,0,0,0-5-.34l-105.13,15A20.1,20.1,0,0,0,4,70.94V185.06a20.1,20.1,0,0,0,17.17,19.8l105.13,15a12.15,12.15,0,0,0,1.7.12,12,12,0,0,0,3.3-.46L237.5,189.2A20.09,20.09,0,0,0,252,170V86A20.08,20.08,0,0,0,237.5,66.8ZM92,116H84V66.41l32-4.57V194.16l-32-4.57V140h8a12,12,0,0,0,0-24ZM28,74.41l32-4.57V116H52a12,12,0,0,0,0,24h8v46.16l-32-4.57ZM228,167l-88,25.14V63.91l88,25.14Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/shipping-container-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/shipping-container-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M240,86V170a8,8,0,0,1-5.8,7.69L128,208V48L234.2,78.34A8,8,0,0,1,240,86Z\" opacity=\"0.2\"/><path d=\"M236.4,70.65,130.2,40.31a8,8,0,0,0-3.33-.23L21.74,55.1A16.08,16.08,0,0,0,8,70.94V185.06A16.08,16.08,0,0,0,21.74,200.9l105.13,15A8.47,8.47,0,0,0,128,216a7.85,7.85,0,0,0,2.2-.31l106.2-30.34A16.07,16.07,0,0,0,248,170V86A16.07,16.07,0,0,0,236.4,70.65ZM96,120H80V62.94l40-5.72V198.78l-40-5.72V136H96a8,8,0,0,0,0-16ZM24,70.94l40-5.72V120H48a8,8,0,0,0,0,16H64v54.78l-40-5.72ZM136,197.39V58.61L232,86V170Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/shipping-container-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "ShippingContainer",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "shipping",
+      "transportation",
+      "places",
+      "locations"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "maps & travel",
+    "objects",
+    "commerce"
+  ],
+  "type": "registry:file"
+}

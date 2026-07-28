@@ -1,0 +1,57 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-subway",
+  "title": "Subway",
+  "description": "Phosphor Subway icon in regular, bold, duotone weights. Also: vehicles, underground, train, tunnel, metro, light rail, public transit, transportation.",
+  "files": [
+    {
+      "path": "icons/phosphor/subway-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,96V208a8,8,0,0,1-16,0V96a56.06,56.06,0,0,0-56-56H104A56.06,56.06,0,0,0,48,96V208a8,8,0,0,1-16,0V96a72.08,72.08,0,0,1,72-72h48A72.08,72.08,0,0,1,224,96Zm-40,0v72a24,24,0,0,1-19.29,23.53l2.45,4.89a8,8,0,0,1-14.32,7.16L147.06,192H108.94l-5.78,11.58a8,8,0,0,1-14.32-7.16l2.45-4.89A24,24,0,0,1,72,168V96A24,24,0,0,1,96,72h64A24,24,0,0,1,184,96ZM88,96v48h80V96a8,8,0,0,0-8-8H96A8,8,0,0,0,88,96Zm32,64v16h16V160ZM96,176h8V160H88v8A8,8,0,0,0,96,176Zm72-8v-8H152v16h8A8,8,0,0,0,168,168Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/subway-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/subway-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M228,96V208a12,12,0,0,1-24,0V96a52.06,52.06,0,0,0-52-52H104A52.06,52.06,0,0,0,52,96V208a12,12,0,0,1-24,0V96a76.08,76.08,0,0,1,76-76h48A76.08,76.08,0,0,1,228,96Zm-40,0v72a28,28,0,0,1-18.89,26.47l2,5.07a12,12,0,0,1-6.68,15.6A11.86,11.86,0,0,1,160,216a12,12,0,0,1-11.14-7.54l-5-12.46H112.12l-5,12.46A12,12,0,0,1,96,216a11.86,11.86,0,0,1-4.46-.86,12,12,0,0,1-6.68-15.6l2-5.07A28,28,0,0,1,68,168V96A28,28,0,0,1,96,68h64A28,28,0,0,1,188,96ZM92,96v36h72V96a4,4,0,0,0-4-4H96A4,4,0,0,0,92,96Zm72,72V156H140v16h20A4,4,0,0,0,164,168Zm-48,4V156H92v12a4,4,0,0,0,4,4Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/subway-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/subway-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M152,32H104A64,64,0,0,0,40,96V208H216V96A64,64,0,0,0,152,32Zm24,136a16,16,0,0,1-16,16H96a16,16,0,0,1-16-16V96A16,16,0,0,1,96,80h64a16,16,0,0,1,16,16Z\" opacity=\"0.2\"/><path d=\"M224,96V208a8,8,0,0,1-16,0V96a56.06,56.06,0,0,0-56-56H104A56.06,56.06,0,0,0,48,96V208a8,8,0,0,1-16,0V96a72.08,72.08,0,0,1,72-72h48A72.08,72.08,0,0,1,224,96Zm-40,0v72a24,24,0,0,1-19.29,23.53l2.45,4.89a8,8,0,0,1-14.32,7.16L147.06,192H108.94l-5.78,11.58a8,8,0,0,1-14.32-7.16l2.45-4.89A24,24,0,0,1,72,168V96A24,24,0,0,1,96,72h64A24,24,0,0,1,184,96ZM88,96v48h80V96a8,8,0,0,0-8-8H96A8,8,0,0,0,88,96Zm32,64v16h16V160ZM96,176h8V160H88v8A8,8,0,0,0,96,176Zm72-8v-8H152v16h8A8,8,0,0,0,168,168Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/subway-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Subway",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "vehicles",
+      "underground",
+      "train",
+      "tunnel",
+      "metro",
+      "light rail",
+      "public transit",
+      "transportation",
+      "commuter",
+      "traveling",
+      "places",
+      "locations"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "maps & travel",
+    "objects"
+  ],
+  "type": "registry:file"
+}

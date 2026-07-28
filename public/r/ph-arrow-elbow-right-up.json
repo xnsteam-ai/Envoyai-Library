@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-arrow-elbow-right-up",
+  "title": "ArrowElbowRightUp",
+  "description": "Phosphor ArrowElbowRightUp icon in regular, bold, duotone weights. Also: directional, pointer, pointing, arrowhead.",
+  "files": [
+    {
+      "path": "icons/phosphor/arrow-elbow-right-up-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M221.66,101.66a8,8,0,0,1-11.32,0L176,67.31V192a8,8,0,0,1-8,8H24a8,8,0,0,1,0-16H160V67.31l-34.34,34.35a8,8,0,0,1-11.32-11.32l48-48a8,8,0,0,1,11.32,0l48,48A8,8,0,0,1,221.66,101.66Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/arrow-elbow-right-up-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/arrow-elbow-right-up-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224.49,104.49a12,12,0,0,1-17,0L180,77V192a12,12,0,0,1-12,12H24a12,12,0,0,1,0-24H156V77l-27.51,27.52a12,12,0,1,1-17-17l48-48a12,12,0,0,1,17,0l48,48A12,12,0,0,1,224.49,104.49Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/arrow-elbow-right-up-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/arrow-elbow-right-up-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,96H120l48-48Z\" opacity=\"0.2\"/><path d=\"M221.66,90.34l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,120,104h40v80H24a8,8,0,0,0,0,16H168a8,8,0,0,0,8-8V104h40a8,8,0,0,0,5.66-13.66ZM139.31,88,168,59.31,196.69,88Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/arrow-elbow-right-up-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "ArrowElbowRightUp",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "directional",
+      "pointer",
+      "pointing",
+      "arrowhead"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "arrows"
+  ],
+  "type": "registry:file"
+}

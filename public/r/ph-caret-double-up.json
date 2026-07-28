@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-caret-double-up",
+  "title": "CaretDoubleUp",
+  "description": "Phosphor CaretDoubleUp icon in regular, bold, duotone weights. Also: chevron, directional, pointer, pointing, arrowhead, triangle.",
+  "files": [
+    {
+      "path": "icons/phosphor/caret-double-up-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M213.66,194.34a8,8,0,0,1-11.32,11.32L128,131.31,53.66,205.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0Zm-160-68.68L128,51.31l74.34,74.35a8,8,0,0,0,11.32-11.32l-80-80a8,8,0,0,0-11.32,0l-80,80a8,8,0,0,0,11.32,11.32Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/caret-double-up-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/caret-double-up-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216.49,191.51a12,12,0,0,1-17,17L128,137,56.49,208.49a12,12,0,0,1-17-17l80-80a12,12,0,0,1,17,0Zm-160-63L128,57l71.51,71.52a12,12,0,0,0,17-17l-80-80a12,12,0,0,0-17,0l-80,80a12,12,0,0,0,17,17Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/caret-double-up-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/caret-double-up-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,200H48l80-80Z\" opacity=\"0.2\"/><path d=\"M133.66,114.34a8,8,0,0,0-11.32,0l-80,80A8,8,0,0,0,48,208H208a8,8,0,0,0,5.66-13.66ZM67.31,192,128,131.31,188.69,192Zm-25-66.34a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,0l80,80a8,8,0,0,1-11.32,11.32L128,51.31,53.66,125.66A8,8,0,0,1,42.34,125.66Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/caret-double-up-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "CaretDoubleUp",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "chevron",
+      "directional",
+      "pointer",
+      "pointing",
+      "arrowhead",
+      "triangle"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "arrows"
+  ],
+  "type": "registry:file"
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-push-pin-simple",
+  "title": "PushPinSimple",
+  "description": "Phosphor PushPinSimple icon in regular, bold, duotone weights. Also: favorites, favorited, pushpin.",
+  "files": [
+    {
+      "path": "icons/phosphor/push-pin-simple-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,168h-9.29L185.54,48H192a8,8,0,0,0,0-16H64a8,8,0,0,0,0,16h6.46L49.29,168H40a8,8,0,0,0,0,16h80v56a8,8,0,0,0,16,0V184h80a8,8,0,0,0,0-16ZM86.71,48h82.58l21.17,120H65.54Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/push-pin-simple-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/push-pin-simple-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,164h-5.93L190.3,52H192a12,12,0,0,0,0-24H64a12,12,0,0,0,0,24h1.7L45.93,164H40a12,12,0,0,0,0,24h76v52a12,12,0,0,0,24,0V188h76a12,12,0,0,0,0-24ZM90.07,52h75.86L185.7,164H70.3Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/push-pin-simple-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/push-pin-simple-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,176H56L80,40h96Z\" opacity=\"0.2\"/><path d=\"M216,168h-9.29L185.54,48H192a8,8,0,0,0,0-16H64a8,8,0,0,0,0,16h6.46L49.29,168H40a8,8,0,0,0,0,16h80v56a8,8,0,0,0,16,0V184h80a8,8,0,0,0,0-16ZM86.71,48h82.58l21.17,120H65.54Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/push-pin-simple-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "PushPinSimple",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "favorites",
+      "favorited",
+      "pushpin"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "office",
+    "maps & travel",
+    "objects"
+  ],
+  "type": "registry:file"
+}

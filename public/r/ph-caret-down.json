@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-caret-down",
+  "title": "CaretDown",
+  "description": "Phosphor CaretDown icon in regular, bold, duotone weights. Also: chevron, directional, pointer, pointing, arrowhead, triangle.",
+  "files": [
+    {
+      "path": "icons/phosphor/caret-down-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/caret-down-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/caret-down-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/caret-down-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/caret-down-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,96l-80,80L48,96Z\" opacity=\"0.2\"/><path d=\"M215.39,92.94A8,8,0,0,0,208,88H48a8,8,0,0,0-5.66,13.66l80,80a8,8,0,0,0,11.32,0l80-80A8,8,0,0,0,215.39,92.94ZM128,164.69,67.31,104H188.69Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/caret-down-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "CaretDown",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "chevron",
+      "directional",
+      "pointer",
+      "pointing",
+      "arrowhead",
+      "triangle"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "arrows"
+  ],
+  "type": "registry:file"
+}

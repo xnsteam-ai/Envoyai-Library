@@ -1,0 +1,45 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-checkerboard",
+  "title": "Checkerboard",
+  "description": "Phosphor Checkerboard icon in regular, bold, duotone weights. Also: crossword.",
+  "files": [
+    {
+      "path": "icons/phosphor/checkerboard-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm-12.69,88L136,60.69V48h12.69L208,107.32V120ZM136,83.31,172.69,120H136Zm72,1.38L171.31,48H208ZM120,48v72H48V48ZM107.31,208,48,148.69V136H60.69L120,195.31V208ZM120,172.69,83.31,136H120Zm-72-1.38L84.69,208H48ZM208,208H136V136h72v72Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/checkerboard-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/checkerboard-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M228,48a20,20,0,0,0-20-20H48A20,20,0,0,0,28,48V208a20,20,0,0,0,20,20H208a20,20,0,0,0,20-20Zm-35,68L140,63V52h11l53,53v11ZM140,97l19,19H140ZM204,71,185,52h19ZM116,52V68h0v48H52V52ZM105,204,52,151V140H63l53,53v11Zm11-45L97,140h19ZM52,185l19,19H52Zm88,19V188h0V140h64v64Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/checkerboard-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/checkerboard-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M40,128h88v88H48a8,8,0,0,1-8-8ZM208,40H128v88h88V48A8,8,0,0,0,208,40Z\" opacity=\"0.2\"/><path d=\"M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,88H136V48h72ZM120,48v72H48V48ZM48,136h72v72H48Zm160,72H136V136h72v72Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/checkerboard-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Checkerboard",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "crossword"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "games"
+  ],
+  "type": "registry:file"
+}

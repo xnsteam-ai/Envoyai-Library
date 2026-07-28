@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-four-k",
+  "title": "FourK",
+  "description": "Phosphor FourK icon in regular, bold, duotone weights. Also: uhd, resolution, video.",
+  "files": [
+    {
+      "path": "icons/phosphor/four-k-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M24,48a8,8,0,0,1,8-8H224a8,8,0,0,1,0,16H32A8,8,0,0,1,24,48ZM224,200H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16ZM144,72a8,8,0,0,0-8,8v96a8,8,0,0,0,16,0V147l13.09-15,28,48A8,8,0,1,0,206.91,172l-30.7-52.63L206,85.27a8,8,0,1,0-12-10.54l-42,48V80A8,8,0,0,0,144,72ZM88,176V160H40a8,8,0,0,1-6.31-12.91l56-72A8,8,0,0,1,104,80v64h8a8,8,0,0,1,0,16h-8v16a8,8,0,0,1-16,0Zm0-32V103.32L56.36,144Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/four-k-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/four-k-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M20,44A12,12,0,0,1,32,32H224a12,12,0,0,1,0,24H32A12,12,0,0,1,20,44ZM224,200H32a12,12,0,0,0,0,24H224a12,12,0,0,0,0-24ZM148,68a12,12,0,0,0-12,12v96a12,12,0,0,0,24,0V148.51l8.44-9.65,25.19,43.19A12,12,0,0,0,214.37,170l-29.26-50.14L213,87.9A12,12,0,1,0,195,72.1l-35,40V80A12,12,0,0,0,148,68ZM80,176V164H36a12,12,0,0,1-9.47-19.37l56-72A12,12,0,0,1,104,80v60h4a12,12,0,0,1,0,24h-4v12a12,12,0,0,1-24,0Zm0-36V115L60.54,140Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/four-k-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/four-k-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,48V208H32V48Z\" opacity=\"0.2\"/><path d=\"M24,48a8,8,0,0,1,8-8H224a8,8,0,0,1,0,16H32A8,8,0,0,1,24,48ZM224,200H32a8,8,0,0,0,0,16H224a8,8,0,0,0,0-16ZM144,72a8,8,0,0,0-8,8v96a8,8,0,0,0,16,0V147l13.09-15,28,48A8,8,0,1,0,206.91,172l-30.7-52.63L206,85.27a8,8,0,1,0-12-10.54l-42,48V80A8,8,0,0,0,144,72ZM88,176V160H40a8,8,0,0,1-6.31-12.91l56-72A8,8,0,0,1,104,80v64h8a8,8,0,0,1,0,16h-8v16a8,8,0,0,1-16,0Zm0-32V103.32L56.36,144Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/four-k-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "FourK",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "uhd",
+      "resolution",
+      "video"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "media"
+  ],
+  "type": "registry:file"
+}

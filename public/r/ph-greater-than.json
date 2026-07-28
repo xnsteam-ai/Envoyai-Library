@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-greater-than",
+  "title": "GreaterThan",
+  "description": "Phosphor GreaterThan icon in regular, bold, duotone weights. Also: >, greater than, gt, comparison, mathematics, arithmetic, calculator.",
+  "files": [
+    {
+      "path": "icons/phosphor/greater-than-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,128a8,8,0,0,1-4.58,7.23l-152,72a8,8,0,1,1-6.85-14.46L197.31,128,60.58,63.23a8,8,0,1,1,6.85-14.46l152,72A8,8,0,0,1,224,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/greater-than-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/greater-than-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M228,128a12,12,0,0,1-6.86,10.84l-152,72a12,12,0,0,1-10.27-21.69L188,128,58.87,66.85A12,12,0,0,1,69.14,45.16l152,72A12,12,0,0,1,228,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/greater-than-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/greater-than-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,128,64,200V56Z\" opacity=\"0.2\"/><path d=\"M224,128a8,8,0,0,1-4.58,7.23l-152,72a8,8,0,1,1-6.85-14.46L197.31,128,60.58,63.23a8,8,0,1,1,6.85-14.46l152,72A8,8,0,0,1,224,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/greater-than-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "GreaterThan",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      ">",
+      "greater than",
+      "gt",
+      "comparison",
+      "mathematics",
+      "arithmetic",
+      "calculator"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "finances",
+    "technology & development"
+  ],
+  "type": "registry:file"
+}

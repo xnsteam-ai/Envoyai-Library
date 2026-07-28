@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-magnifying-glass",
+  "title": "MagnifyingGlass",
+  "description": "Phosphor MagnifyingGlass icon in regular, bold, duotone weights. Also: search, find, locate, query, inspect.",
+  "files": [
+    {
+      "path": "icons/phosphor/magnifying-glass-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/magnifying-glass-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/magnifying-glass-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M232.49,215.51,185,168a92.12,92.12,0,1,0-17,17l47.53,47.54a12,12,0,0,0,17-17ZM44,112a68,68,0,1,1,68,68A68.07,68.07,0,0,1,44,112Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/magnifying-glass-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/magnifying-glass-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M192,112a80,80,0,1,1-80-80A80,80,0,0,1,192,112Z\" opacity=\"0.2\"/><path d=\"M229.66,218.34,179.6,168.28a88.21,88.21,0,1,0-11.32,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/magnifying-glass-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "MagnifyingGlass",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "search",
+      "find",
+      "locate",
+      "query",
+      "inspect"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "editor",
+    "system"
+  ],
+  "type": "registry:file"
+}

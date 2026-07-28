@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-meteor",
+  "title": "Meteor",
+  "description": "Phosphor Meteor icon in regular, bold, duotone weights. Also: astronomy, asteroid, fireball.",
+  "files": [
+    {
+      "path": "icons/phosphor/meteor-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M96,120a40,40,0,1,0,40,40A40,40,0,0,0,96,120Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,96,184Zm125.66-61.66a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32-11.32l48-48A8,8,0,0,1,221.66,122.34ZM160,136a8,8,0,0,1-5.66-13.66l24-24a8,8,0,0,1,11.32,11.32l-24,24A8,8,0,0,1,160,136Zm69.66-66.34-16,16a8,8,0,0,1-11.32-11.32l16-16a8,8,0,0,1,11.32,11.32ZM122.34,90.34l72-72a8,8,0,1,1,11.32,11.32l-72,72a8,8,0,0,1-11.32-11.32ZM146.91,199.6a8,8,0,0,1,0,11.31A72,72,0,1,1,45.09,109.09l82.74-82.75a8,8,0,1,1,11.32,11.32L56.4,120.4a56,56,0,0,0,79.2,79.2A8,8,0,0,1,146.91,199.6Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/meteor-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/meteor-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M96,124a36,36,0,1,0,36,36A36,36,0,0,0,96,124Zm0,48a12,12,0,1,1,12-12A12,12,0,0,1,96,172Zm128.49-52.49a12,12,0,0,1,0,17l-48,48a12,12,0,0,1-17-17l48-48A12,12,0,0,1,224.49,119.51Zm-36-20a12,12,0,0,1,0,17l-20,20a12,12,0,0,1-17-17l20-20A12,12,0,0,1,188.49,99.51Zm44-27-16,16a12,12,0,0,1-17-17l16-16a12,12,0,0,1,17,17Zm-113,15,72-72a12,12,0,0,1,17,17l-72,72a12,12,0,1,1-17-17Zm30.23,109.26a12,12,0,0,1,0,17A76,76,0,1,1,42.26,106.26L125,23.51a12,12,0,1,1,17,17L59.23,123.23a52,52,0,0,0,73.54,73.54A12,12,0,0,1,149.74,196.77Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/meteor-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/meteor-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M128,160a32,32,0,1,1-32-32A32,32,0,0,1,128,160Z\" opacity=\"0.2\"/><path d=\"M96,120a40,40,0,1,0,40,40A40,40,0,0,0,96,120Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,96,184Zm125.66-61.66a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32-11.32l48-48A8,8,0,0,1,221.66,122.34Zm-56,11.32a8,8,0,0,1-11.32-11.32l24-24a8,8,0,0,1,11.32,11.32Zm64-64-16,16a8,8,0,0,1-11.32-11.32l16-16a8,8,0,0,1,11.32,11.32ZM122.34,90.34l72-72a8,8,0,1,1,11.32,11.32l-72,72a8,8,0,0,1-11.32-11.32ZM146.91,199.6a8,8,0,0,1,0,11.31A72,72,0,1,1,45.09,109.09l82.74-82.75a8,8,0,1,1,11.32,11.32L56.4,120.4a56,56,0,0,0,79.2,79.2A8,8,0,0,1,146.91,199.6Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/meteor-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Meteor",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "astronomy",
+      "asteroid",
+      "fireball"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "weather",
+    "nature"
+  ],
+  "type": "registry:file"
+}

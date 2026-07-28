@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-control",
+  "title": "Control",
+  "description": "Phosphor Control icon in regular, bold, duotone weights. Also: ctrl, key, keyboard, shortcut, caret.",
+  "files": [
+    {
+      "path": "icons/phosphor/control-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M205.66,125.66a8,8,0,0,1-11.32,0L128,59.31,61.66,125.66a8,8,0,0,1-11.32-11.32l72-72a8,8,0,0,1,11.32,0l72,72A8,8,0,0,1,205.66,125.66Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/control-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/control-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208.49,128.49a12,12,0,0,1-17,0L128,65,64.49,128.49a12,12,0,0,1-17-17l72-72a12,12,0,0,1,17,0l72,72A12,12,0,0,1,208.49,128.49Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/control-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/control-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,120H56l72-72Z\" opacity=\"0.2\"/><path d=\"M205.66,114.34l-72-72a8,8,0,0,0-11.32,0l-72,72A8,8,0,0,0,56,128H200a8,8,0,0,0,5.66-13.66ZM75.31,112,128,59.31,180.69,112Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/control-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Control",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "ctrl",
+      "key",
+      "keyboard",
+      "shortcut",
+      "caret"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "system"
+  ],
+  "type": "registry:file"
+}

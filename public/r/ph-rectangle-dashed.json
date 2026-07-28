@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-rectangle-dashed",
+  "title": "RectangleDashed",
+  "description": "Phosphor RectangleDashed icon in regular, bold, duotone weights. Also: 4, shapes, polygons, box, missing.",
+  "files": [
+    {
+      "path": "icons/phosphor/rectangle-dashed-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M80,48a8,8,0,0,1-8,8H40V72a8,8,0,0,1-16,0V56A16,16,0,0,1,40,40H72A8,8,0,0,1,80,48ZM32,152a8,8,0,0,0,8-8V112a8,8,0,0,0-16,0v32A8,8,0,0,0,32,152Zm40,48H40V184a8,8,0,0,0-16,0v16a16,16,0,0,0,16,16H72a8,8,0,0,0,0-16Zm72,0H112a8,8,0,0,0,0,16h32a8,8,0,0,0,0-16Zm80-24a8,8,0,0,0-8,8v16H184a8,8,0,0,0,0,16h32a16,16,0,0,0,16-16V184A8,8,0,0,0,224,176Zm0-72a8,8,0,0,0-8,8v32a8,8,0,0,0,16,0V112A8,8,0,0,0,224,104Zm-8-64H184a8,8,0,0,0,0,16h32V72a8,8,0,0,0,16,0V56A16,16,0,0,0,216,40Zm-72,0H112a8,8,0,0,0,0,16h32a8,8,0,0,0,0-16Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/rectangle-dashed-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/rectangle-dashed-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M84,48A12,12,0,0,1,72,60H44V72a12,12,0,0,1-24,0V56A20,20,0,0,1,40,36H72A12,12,0,0,1,84,48ZM32,156a12,12,0,0,0,12-12V112a12,12,0,0,0-24,0v32A12,12,0,0,0,32,156Zm40,40H44V184a12,12,0,0,0-24,0v16a20,20,0,0,0,20,20H72a12,12,0,0,0,0-24Zm72,0H112a12,12,0,0,0,0,24h32a12,12,0,0,0,0-24Zm80-24a12,12,0,0,0-12,12v12H184a12,12,0,0,0,0,24h32a20,20,0,0,0,20-20V184A12,12,0,0,0,224,172Zm0-72a12,12,0,0,0-12,12v32a12,12,0,0,0,24,0V112A12,12,0,0,0,224,100Zm-8-64H184a12,12,0,0,0,0,24h28V72a12,12,0,0,0,24,0V56A20,20,0,0,0,216,36Zm-72,0H112a12,12,0,0,0,0,24h32a12,12,0,0,0,0-24Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/rectangle-dashed-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/rectangle-dashed-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,56V200a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8H216A8,8,0,0,1,224,56Z\" opacity=\"0.2\"/><path d=\"M80,48a8,8,0,0,1-8,8H40V72a8,8,0,0,1-16,0V56A16,16,0,0,1,40,40H72A8,8,0,0,1,80,48ZM32,152a8,8,0,0,0,8-8V112a8,8,0,0,0-16,0v32A8,8,0,0,0,32,152Zm40,48H40V184a8,8,0,0,0-16,0v16a16,16,0,0,0,16,16H72a8,8,0,0,0,0-16Zm72,0H112a8,8,0,0,0,0,16h32a8,8,0,0,0,0-16Zm80-24a8,8,0,0,0-8,8v16H184a8,8,0,0,0,0,16h32a16,16,0,0,0,16-16V184A8,8,0,0,0,224,176Zm0-72a8,8,0,0,0-8,8v32a8,8,0,0,0,16,0V112A8,8,0,0,0,224,104Zm-8-64H184a8,8,0,0,0,0,16h32V72a8,8,0,0,0,16,0V56A16,16,0,0,0,216,40Zm-72,0H112a8,8,0,0,0,0,16h32a8,8,0,0,0,0-16Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/rectangle-dashed-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "RectangleDashed",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "4",
+      "shapes",
+      "polygons",
+      "box",
+      "missing"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "design"
+  ],
+  "type": "registry:file"
+}

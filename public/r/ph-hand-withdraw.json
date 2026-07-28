@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-hand-withdraw",
+  "title": "HandWithdraw",
+  "description": "Phosphor HandWithdraw icon in regular, bold, duotone weights. Also: take, remove, withdrawal, atm, emoji.",
+  "files": [
+    {
+      "path": "icons/phosphor/hand-withdraw-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M232,198.65V240a8,8,0,0,1-16,0V198.65A74.84,74.84,0,0,0,192,144v58.35a8,8,0,0,1-14.69,4.38l-10.68-16.31c-.08-.12-.16-.25-.23-.38a12,12,0,0,0-20.89,11.83l22.13,33.79a8,8,0,0,1-13.39,8.76l-22.26-34-.24-.38A28,28,0,0,1,176,176.4V64H160a8,8,0,0,1,0-16h16a16,16,0,0,1,16,16v59.62A90.89,90.89,0,0,1,232,198.65ZM88,56a8,8,0,0,0-8-8H64A16,16,0,0,0,48,64V200a8,8,0,0,0,16,0V64H80A8,8,0,0,0,88,56Zm69.66,42.34a8,8,0,0,0-11.32,0L128,116.69V16a8,8,0,0,0-16,0V116.69L93.66,98.34a8,8,0,0,0-11.32,11.32l32,32a8,8,0,0,0,11.32,0l32-32A8,8,0,0,0,157.66,98.34Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/hand-withdraw-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/hand-withdraw-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M236,198.65V240a12,12,0,0,1-24,0V198.65A70.66,70.66,0,0,0,196,154v48.27a12,12,0,0,1-22,6.57l-10.67-16.3c-.13-.19-.25-.38-.36-.58a8,8,0,0,0-14,7.77l22,33.66a12,12,0,1,1-20.08,13.14l-22.26-34c-.12-.19-.24-.38-.35-.58A32,32,0,0,1,172,168.3V68h-8a12,12,0,0,1,0-24h12a20,20,0,0,1,20,20v57.52A94.91,94.91,0,0,1,236,198.65ZM88,56A12,12,0,0,0,76,44H64A20,20,0,0,0,44,64V200a12,12,0,0,0,24,0V68h8A12,12,0,0,0,88,56Zm68.49,60.48a12,12,0,0,0-17-17L132,107V16a12,12,0,0,0-24,0v91l-7.51-7.52a12,12,0,0,0-17,17l28,28a12,12,0,0,0,17,0Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/hand-withdraw-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/hand-withdraw-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M184,64V202.31L173.32,186a20,20,0,0,0-36.9,14H56V64a8,8,0,0,1,8-8H176A8,8,0,0,1,184,64Z\" opacity=\"0.2\"/><path d=\"M232,198.65V240a8,8,0,0,1-16,0V198.65A74.84,74.84,0,0,0,192,144v58.35a8,8,0,0,1-14.69,4.38l-10.68-16.31c-.08-.12-.16-.25-.23-.38a12,12,0,0,0-20.89,11.83l22.13,33.79a8,8,0,0,1-13.39,8.76l-22.26-34-.24-.38A28,28,0,0,1,176,176.4V64H160a8,8,0,0,1,0-16h16a16,16,0,0,1,16,16v59.62A90.89,90.89,0,0,1,232,198.65ZM88,56a8,8,0,0,0-8-8H64A16,16,0,0,0,48,64V200a8,8,0,0,0,16,0V64H80A8,8,0,0,0,88,56Zm69.66,42.34a8,8,0,0,0-11.32,0L128,116.69V16a8,8,0,0,0-16,0V116.69L93.66,98.34a8,8,0,0,0-11.32,11.32l32,32a8,8,0,0,0,11.32,0l32-32A8,8,0,0,0,157.66,98.34Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/hand-withdraw-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "HandWithdraw",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "take",
+      "remove",
+      "withdrawal",
+      "atm",
+      "emoji"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "people",
+    "commerce",
+    "finances"
+  ],
+  "type": "registry:file"
+}

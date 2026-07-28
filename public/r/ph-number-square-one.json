@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-number-square-one",
+  "title": "NumberSquareOne",
+  "description": "Phosphor NumberSquareOne icon in regular, bold, duotone weights. Also: 1, numbers, numerals, digits, mathematics, arithmetic, calculator.",
+  "files": [
+    {
+      "path": "icons/phosphor/number-square-one-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H48V48H208V208ZM140,80v96a8,8,0,0,1-16,0V95l-11.56,7.71a8,8,0,1,1-8.88-13.32l24-16A8,8,0,0,1,140,80Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/number-square-one-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/number-square-one-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,28H48A20,20,0,0,0,28,48V208a20,20,0,0,0,20,20H208a20,20,0,0,0,20-20V48A20,20,0,0,0,208,28Zm-4,176H52V52H204ZM98,102.66A12,12,0,0,1,101.34,86l24-16A12,12,0,0,1,144,80v96a12,12,0,0,1-24,0V102.42L114.66,106A12,12,0,0,1,98,102.66Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/number-square-one-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/number-square-one-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,48V208a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8H208A8,8,0,0,1,216,48Z\" opacity=\"0.2\"/><path d=\"M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H48V48H208V208ZM140,80v96a8,8,0,0,1-16,0V95l-11.56,7.71a8,8,0,1,1-8.88-13.32l24-16A8,8,0,0,1,140,80Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/number-square-one-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "NumberSquareOne",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "1",
+      "numbers",
+      "numerals",
+      "digits",
+      "mathematics",
+      "arithmetic",
+      "calculator"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "finances"
+  ],
+  "type": "registry:file"
+}

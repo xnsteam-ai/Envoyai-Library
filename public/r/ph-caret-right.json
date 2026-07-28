@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-caret-right",
+  "title": "CaretRight",
+  "description": "Phosphor CaretRight icon in regular, bold, duotone weights. Also: chevron, directional, pointer, pointing, arrowhead, triangle.",
+  "files": [
+    {
+      "path": "icons/phosphor/caret-right-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/caret-right-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/caret-right-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M184.49,136.49l-80,80a12,12,0,0,1-17-17L159,128,87.51,56.49a12,12,0,1,1,17-17l80,80A12,12,0,0,1,184.49,136.49Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/caret-right-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/caret-right-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M176,128,96,208V48Z\" opacity=\"0.2\"/><path d=\"M181.66,122.34l-80-80A8,8,0,0,0,88,48V208a8,8,0,0,0,13.66,5.66l80-80A8,8,0,0,0,181.66,122.34ZM104,188.69V67.31L164.69,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/caret-right-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "CaretRight",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "chevron",
+      "directional",
+      "pointer",
+      "pointing",
+      "arrowhead",
+      "triangle"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "arrows"
+  ],
+  "type": "registry:file"
+}

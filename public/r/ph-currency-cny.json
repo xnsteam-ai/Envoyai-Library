@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-currency-cny",
+  "title": "CurrencyCny",
+  "description": "Phosphor CurrencyCny icon in regular, bold, duotone weights. Also: money, yuan, payment, paying, purchase.",
+  "files": [
+    {
+      "path": "icons/phosphor/currency-cny-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M56,56a8,8,0,0,1,8-8H192a8,8,0,0,1,0,16H64A8,8,0,0,1,56,56ZM216,160a8,8,0,0,0-8,8v16H176a16,16,0,0,1-16-16V120h48a8,8,0,0,0,0-16H48a8,8,0,0,0,0,16H96v8a56.06,56.06,0,0,1-56,56,8,8,0,0,0,0,16,72.08,72.08,0,0,0,72-72v-8h32v48a32,32,0,0,0,32,32h40a8,8,0,0,0,8-8V168A8,8,0,0,0,216,160Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/currency-cny-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/currency-cny-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M52,56A12,12,0,0,1,64,44H192a12,12,0,0,1,0,24H64A12,12,0,0,1,52,56ZM216,156a12,12,0,0,0-12,12v12H176a12,12,0,0,1-12-12V124h44a12,12,0,0,0,0-24H48a12,12,0,0,0,0,24H92v4a52.06,52.06,0,0,1-52,52,12,12,0,0,0,0,24,76.08,76.08,0,0,0,76-76v-4h24v44a36,36,0,0,0,36,36h40a12,12,0,0,0,12-12V168A12,12,0,0,0,216,156Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/currency-cny-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/currency-cny-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M192,56v56H64V56Z\" opacity=\"0.2\"/><path d=\"M56,56a8,8,0,0,1,8-8H192a8,8,0,0,1,0,16H64A8,8,0,0,1,56,56ZM216,160a8,8,0,0,0-8,8v16H176a16,16,0,0,1-16-16V120h48a8,8,0,0,0,0-16H48a8,8,0,0,0,0,16H96v8a56.06,56.06,0,0,1-56,56,8,8,0,0,0,0,16,72.08,72.08,0,0,0,72-72v-8h32v48a32,32,0,0,0,32,32h40a8,8,0,0,0,8-8V168A8,8,0,0,0,216,160Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/currency-cny-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "CurrencyCny",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "money",
+      "yuan",
+      "payment",
+      "paying",
+      "purchase"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "commerce",
+    "finances"
+  ],
+  "type": "registry:file"
+}

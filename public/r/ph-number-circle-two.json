@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-number-circle-two",
+  "title": "NumberCircleTwo",
+  "description": "Phosphor NumberCircleTwo icon in regular, bold, duotone weights. Also: 2, round, numbers, numerals, digits, mathematics, arithmetic, calculator.",
+  "files": [
+    {
+      "path": "icons/phosphor/number-circle-two-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm25.56-92.74L120,168h32a8,8,0,0,1,0,16H104a8,8,0,0,1-6.4-12.8l43.17-57.56a16,16,0,1,0-27.86-15,8,8,0,0,1-15.09-5.34,32,32,0,1,1,55.74,29.93Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/number-circle-two-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/number-circle-two-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M128,20A108,108,0,1,0,236,128,108.12,108.12,0,0,0,128,20Zm0,192a84,84,0,1,1,84-84A84.09,84.09,0,0,1,128,212Zm28.75-86.33L128,164h24a12,12,0,0,1,0,24H104a12,12,0,0,1-9.6-19.2l43.17-57.56A12,12,0,1,0,116.68,100a12,12,0,0,1-22.63-8,36.3,36.3,0,0,1,5.2-9.67,36,36,0,0,1,57.5,43.34Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/number-circle-two-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/number-circle-two-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,128a96,96,0,1,1-96-96A96,96,0,0,1,224,128Z\" opacity=\"0.2\"/><path d=\"M153.56,123.26,120,168h32a8,8,0,0,1,0,16H104a8,8,0,0,1-6.4-12.8l43.17-57.56a16,16,0,1,0-27.86-15,8,8,0,0,1-15.09-5.34,32,32,0,1,1,55.74,29.93ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/number-circle-two-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "NumberCircleTwo",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "2",
+      "round",
+      "numbers",
+      "numerals",
+      "digits",
+      "mathematics",
+      "arithmetic",
+      "calculator"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "finances"
+  ],
+  "type": "registry:file"
+}

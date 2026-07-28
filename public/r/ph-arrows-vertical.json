@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-arrows-vertical",
+  "title": "ArrowsVertical",
+  "description": "Phosphor ArrowsVertical icon in regular, bold, duotone weights. Also: directional, pointer, cursor, resize, expand, up, down.",
+  "files": [
+    {
+      "path": "icons/phosphor/arrows-vertical-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M165.66,194.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L120,212.69V43.31L101.66,61.66A8,8,0,0,1,90.34,50.34l32-32a8,8,0,0,1,11.32,0l32,32a8,8,0,0,1-11.32,11.32L136,43.31V212.69l18.34-18.35A8,8,0,0,1,165.66,194.34Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/arrows-vertical-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/arrows-vertical-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M168.49,191.51a12,12,0,0,1,0,17l-32,32a12,12,0,0,1-17,0l-32-32a12,12,0,0,1,17-17L116,203V53L104.49,64.49a12,12,0,1,1-17-17l32-32a12,12,0,0,1,17,0l32,32a12,12,0,0,1-17,17L140,53V203l11.51-11.52A12,12,0,0,1,168.49,191.51Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/arrows-vertical-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/arrows-vertical-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M160,56V200l-32,32L96,200V56l32-32Z\" opacity=\"0.2\"/><path d=\"M165.66,194.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L120,212.69V43.31L101.66,61.66A8,8,0,0,1,90.34,50.34l32-32a8,8,0,0,1,11.32,0l32,32a8,8,0,0,1-11.32,11.32L136,43.31V212.69l18.34-18.35A8,8,0,0,1,165.66,194.34Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/arrows-vertical-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "ArrowsVertical",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "directional",
+      "pointer",
+      "cursor",
+      "resize",
+      "expand",
+      "up",
+      "down"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "arrows"
+  ],
+  "type": "registry:file"
+}

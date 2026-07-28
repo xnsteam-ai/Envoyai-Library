@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-skip-back",
+  "title": "SkipBack",
+  "description": "Phosphor SkipBack icon in regular, bold, duotone weights. Also: music, audio, seek, scrub, scan, back, backwards, reverse.",
+  "files": [
+    {
+      "path": "icons/phosphor/skip-back-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M199.81,34a16,16,0,0,0-16.24.43L64,109.23V40a8,8,0,0,0-16,0V216a8,8,0,0,0,16,0V146.77l119.57,74.78A15.95,15.95,0,0,0,208,208.12V47.88A15.86,15.86,0,0,0,199.81,34ZM192,208,64.16,128,192,48.07Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/skip-back-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/skip-back-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M201.75,30.52a20,20,0,0,0-20.3.53L68,102V40a12,12,0,0,0-24,0V216a12,12,0,0,0,24,0V154l113.45,71A20,20,0,0,0,212,208.12V47.88A19.86,19.86,0,0,0,201.75,30.52ZM188,200.73,71.7,128,188,55.27Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/skip-back-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/skip-back-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,47.88V208.12a8,8,0,0,1-12.19,6.65L59.7,134.65a7.83,7.83,0,0,1,0-13.3L187.81,41.23A8,8,0,0,1,200,47.88Z\" opacity=\"0.2\"/><path d=\"M199.81,34a16,16,0,0,0-16.24.43L64,109.23V40a8,8,0,0,0-16,0V216a8,8,0,0,0,16,0V146.77l119.57,74.78A15.95,15.95,0,0,0,208,208.12V47.88A15.86,15.86,0,0,0,199.81,34ZM192,208,64.16,128,192,48.07Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/skip-back-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "SkipBack",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "music",
+      "audio",
+      "seek",
+      "scrub",
+      "scan",
+      "back",
+      "backwards",
+      "reverse",
+      "previous"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "media",
+    "system"
+  ],
+  "type": "registry:file"
+}

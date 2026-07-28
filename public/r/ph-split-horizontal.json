@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-split-horizontal",
+  "title": "SplitHorizontal",
+  "description": "Phosphor SplitHorizontal icon in regular, bold, duotone weights. Also: resize, columns.",
+  "files": [
+    {
+      "path": "icons/phosphor/split-horizontal-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M112,48V208a8,8,0,0,1-16,0V136H43.31l18.35,18.34a8,8,0,0,1-11.32,11.32l-32-32a8,8,0,0,1,0-11.32l32-32a8,8,0,0,1,11.32,11.32L43.31,120H96V48a8,8,0,0,1,16,0Zm125.66,74.34-32-32a8,8,0,0,0-11.32,11.32L212.69,120H160V48a8,8,0,0,0-16,0V208a8,8,0,0,0,16,0V136h52.69l-18.35,18.34a8,8,0,0,0,11.32,11.32l32-32A8,8,0,0,0,237.66,122.34Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/split-horizontal-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/split-horizontal-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M116,48V208a12,12,0,0,1-24,0V140H53l11.52,11.51a12,12,0,0,1-17,17l-32-32a12,12,0,0,1,0-17l32-32a12,12,0,1,1,17,17L53,116H92V48a12,12,0,0,1,24,0Zm124.49,71.51-32-32a12,12,0,0,0-17,17L203,116H164V48a12,12,0,0,0-24,0V208a12,12,0,0,0,24,0V140h39l-11.52,11.51a12,12,0,0,0,17,17l32-32A12,12,0,0,0,240.49,119.51Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/split-horizontal-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/split-horizontal-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M232,128l-32,32V96ZM56,160V96L24,128Z\" opacity=\"0.2\"/><path d=\"M104,40a8,8,0,0,0-8,8v72H64V96a8,8,0,0,0-13.66-5.66l-32,32a8,8,0,0,0,0,11.32l32,32A8,8,0,0,0,64,160V136H96v72a8,8,0,0,0,16,0V48A8,8,0,0,0,104,40ZM48,140.69,35.31,128,48,115.31Zm189.66-18.35-32-32A8,8,0,0,0,192,96v24H160V48a8,8,0,0,0-16,0V208a8,8,0,0,0,16,0V136h32v24a8,8,0,0,0,13.66,5.66l32-32A8,8,0,0,0,237.66,122.34ZM208,140.69V115.31L220.69,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/split-horizontal-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "SplitHorizontal",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "resize",
+      "columns"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "arrows",
+    "design",
+    "editor"
+  ],
+  "type": "registry:file"
+}

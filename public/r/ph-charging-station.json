@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-charging-station",
+  "title": "ChargingStation",
+  "description": "Phosphor ChargingStation icon in regular, bold, duotone weights. Also: ev, charge, fuel, pump.",
+  "files": [
+    {
+      "path": "icons/phosphor/charging-station-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M134.62,123.51a8,8,0,0,1,.81,7.46l-16,40A8,8,0,0,1,104.57,165l11.61-29H96a8,8,0,0,1-7.43-11l16-40A8,8,0,1,1,119.43,91l-11.61,29H128A8,8,0,0,1,134.62,123.51ZM248,86.63V168a24,24,0,0,1-48,0V128a8,8,0,0,0-8-8H176v88h16a8,8,0,0,1,0,16H32a8,8,0,0,1,0-16H48V56A24,24,0,0,1,72,32h80a24,24,0,0,1,24,24v48h16a24,24,0,0,1,24,24v40a8,8,0,0,0,16,0V86.63A8,8,0,0,0,229.66,81L210.34,61.66a8,8,0,0,1,11.32-11.32L241,69.66A23.85,23.85,0,0,1,248,86.63ZM160,208V56a8,8,0,0,0-8-8H72a8,8,0,0,0-8,8V208Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/charging-station-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/charging-station-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M137.94,121.27a12,12,0,0,1,1.2,11.19l-16,40A12,12,0,0,1,112,180a11.86,11.86,0,0,1-4.46-.86,12,12,0,0,1-6.68-15.6L110.28,140H96a12,12,0,0,1-11.14-16.46l16-40a12,12,0,0,1,22.28,8.92L113.72,116H128A12,12,0,0,1,137.94,121.27ZM256,86.63V166a30,30,0,0,1-60,0V128a4,4,0,0,0-4-4H180v80h12a12,12,0,0,1,0,24H32a12,12,0,0,1,0-24H44V56A28,28,0,0,1,72,28h80a28,28,0,0,1,28,28v44h12a28,28,0,0,1,28,28v38a6,6,0,0,0,12,0V86.63a4,4,0,0,0-1.17-2.83L211.51,64.49a12,12,0,0,1,17-17L247.8,66.83A27.81,27.81,0,0,1,256,86.63ZM156,204V56a4,4,0,0,0-4-4H72a4,4,0,0,0-4,4V204Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/charging-station-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/charging-station-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M168,56V216H56V56A16,16,0,0,1,72,40h80A16,16,0,0,1,168,56Z\" opacity=\"0.2\"/><path d=\"M134.62,123.51a8,8,0,0,1,.81,7.46l-16,40A8,8,0,0,1,104.57,165l11.61-29H96a8,8,0,0,1-7.43-11l16-40A8,8,0,1,1,119.43,91l-11.61,29H128A8,8,0,0,1,134.62,123.51ZM248,86.63V168a24,24,0,0,1-48,0V128a8,8,0,0,0-8-8H176v88h16a8,8,0,0,1,0,16H32a8,8,0,0,1,0-16H48V56A24,24,0,0,1,72,32h80a24,24,0,0,1,24,24v48h16a24,24,0,0,1,24,24v40a8,8,0,0,0,16,0V86.63A8,8,0,0,0,229.66,81L210.34,61.66a8,8,0,0,1,11.32-11.32L241,69.66A23.85,23.85,0,0,1,248,86.63ZM160,208V56a8,8,0,0,0-8-8H72a8,8,0,0,0-8,8V208Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/charging-station-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "ChargingStation",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "ev",
+      "charge",
+      "fuel",
+      "pump"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "maps & travel",
+    "objects"
+  ],
+  "type": "registry:file"
+}

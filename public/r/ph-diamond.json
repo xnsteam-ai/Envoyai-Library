@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-diamond",
+  "title": "Diamond",
+  "description": "Phosphor Diamond icon in regular, bold, duotone weights. Also: rectangle, shapes, polygons, diamonds, suits, cards, gambling, casino.",
+  "files": [
+    {
+      "path": "icons/phosphor/diamond-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M235.33,116.72,139.28,20.66a16,16,0,0,0-22.56,0l-96,96.06a16,16,0,0,0,0,22.56l96.05,96.06h0a16,16,0,0,0,22.56,0l96.05-96.06a16,16,0,0,0,0-22.56ZM128,224h0L32,128,128,32,224,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/diamond-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/diamond-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M238.16,113.89,142.1,17.83a20,20,0,0,0-28.21,0l-96,96.06a20,20,0,0,0,0,28.22l96.05,96.06h0a20,20,0,0,0,28.21,0l96-96.06a20,20,0,0,0,0-28.22ZM128,218.33,37.68,128,128,37.67,218.32,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/diamond-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/diamond-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M229.67,133.62l-96,96a7.94,7.94,0,0,1-11.24,0l-96-96a7.94,7.94,0,0,1,0-11.24l96.05-96a7.94,7.94,0,0,1,11.24,0l96,96.05A7.94,7.94,0,0,1,229.67,133.62Z\" opacity=\"0.2\"/><path d=\"M235.33,116.72,139.28,20.66a16,16,0,0,0-22.56,0l-96,96.06a16,16,0,0,0,0,22.56l96.05,96.06h0a16,16,0,0,0,22.56,0l96.05-96.06a16,16,0,0,0,0-22.56ZM128,224h0L32,128,128,32,224,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/diamond-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Diamond",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "rectangle",
+      "shapes",
+      "polygons",
+      "diamonds",
+      "suits",
+      "cards",
+      "gambling",
+      "casino",
+      "gaming"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "design",
+    "games"
+  ],
+  "type": "registry:file"
+}

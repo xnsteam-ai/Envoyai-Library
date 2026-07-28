@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-barn",
+  "title": "Barn",
+  "description": "Phosphor Barn icon in regular, bold, duotone weights. Also: animals, livestock, buildings, farming, agriculture.",
+  "files": [
+    {
+      "path": "icons/phosphor/barn-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M240,192h-8V130.57l1.49,2.08a8,8,0,1,0,13-9.3l-40-56a8,8,0,0,0-2-1.94L137,18.77l-.1-.07a16,16,0,0,0-17.76,0l-.1.07L51.45,65.42a8,8,0,0,0-2,1.94l-40,56a8,8,0,1,0,13,9.3L24,130.57V192H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM40,108.17,61.7,77.79,128,32l66.3,45.78L216,108.17V192H192V120a8,8,0,0,0-8-8H72a8,8,0,0,0-8,8v72H40Zm88,42L97,128H159Zm48-14.62v48.91L141.76,160ZM114.24,160,80,184.46V135.55ZM128,169.83,159,192H97ZM104,88a8,8,0,0,1,8-8h32a8,8,0,1,1,0,16H112A8,8,0,0,1,104,88Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/barn-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/barn-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M100,84a12,12,0,0,1,12-12h32a12,12,0,0,1,0,24H112A12,12,0,0,1,100,84ZM252,200a12,12,0,0,1-12,12H16a12,12,0,0,1,0-24h4V139.31A12,12,0,0,1,6.24,121l40-56a11.91,11.91,0,0,1,2.94-2.9l67.56-46.65.17-.11a19.94,19.94,0,0,1,22.18,0l.17.11,67.56,46.65a11.91,11.91,0,0,1,2.94,2.9l40,56A12,12,0,0,1,236,139.31V188h4A12,12,0,0,1,252,200ZM44,188H64V124a12,12,0,0,1,12-12H180a12,12,0,0,1,12,12v64h20V109.45L191.45,80.69,128,36.87,64.55,80.69,44,109.45Zm124-52H113.9L168,174.07ZM88,188h58.1L88,147.12Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/barn-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/barn-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M184,120v80H72V120Z\" opacity=\"0.2\"/><path d=\"M240,192h-8V130.57l1.49,2.08a8,8,0,1,0,13-9.3l-40-56a8,8,0,0,0-2-1.94L137,18.77l-.1-.07a16,16,0,0,0-17.76,0l-.1.07L51.45,65.42a8,8,0,0,0-2,1.94l-40,56a8,8,0,1,0,13,9.3L24,130.57V192H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM40,108.17,61.7,77.79,128,32l66.3,45.78L216,108.17V192H192V120a8,8,0,0,0-8-8H72a8,8,0,0,0-8,8v72H40Zm88,42L97,128H159Zm48-14.62v48.91L141.76,160ZM114.24,160,80,184.46V135.55ZM128,169.83,159,192H97ZM104,88a8,8,0,0,1,8-8h32a8,8,0,1,1,0,16H112A8,8,0,0,1,104,88Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/barn-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Barn",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "animals",
+      "livestock",
+      "buildings",
+      "farming",
+      "agriculture"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "commerce",
+    "maps & travel"
+  ],
+  "type": "registry:file"
+}

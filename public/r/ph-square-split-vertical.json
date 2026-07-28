@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-square-split-vertical",
+  "title": "SquareSplitVertical",
+  "description": "Phosphor SquareSplitVertical icon in regular, bold, duotone weights. Also: shapes, polygons, rows.",
+  "files": [
+    {
+      "path": "icons/phosphor/square-split-vertical-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,40H56A16,16,0,0,0,40,56V200a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,16v64H56V56Zm0,144H56V136H200v64Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/square-split-vertical-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/square-split-vertical-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,36H56A20,20,0,0,0,36,56V200a20,20,0,0,0,20,20H200a20,20,0,0,0,20-20V56A20,20,0,0,0,200,36Zm-4,24v56H60V60ZM60,196V140H196v56Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/square-split-vertical-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/square-split-vertical-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,56V200a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8H200A8,8,0,0,1,208,56Z\" opacity=\"0.2\"/><path d=\"M200,40H56A16,16,0,0,0,40,56V200a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,16v64H56V56Zm0,144H56V136H200v64Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/square-split-vertical-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "SquareSplitVertical",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "shapes",
+      "polygons",
+      "rows"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "design",
+    "editor"
+  ],
+  "type": "registry:file"
+}

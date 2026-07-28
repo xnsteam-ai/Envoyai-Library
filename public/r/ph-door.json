@@ -1,0 +1,46 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-door",
+  "title": "Door",
+  "description": "Phosphor Door icon in regular, bold, duotone weights. Also: entrance, exit.",
+  "files": [
+    {
+      "path": "icons/phosphor/door-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M232,216H208V40a16,16,0,0,0-16-16H64A16,16,0,0,0,48,40V216H24a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16ZM64,40H192V216H64Zm104,92a12,12,0,1,1-12-12A12,12,0,0,1,168,132Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/door-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/door-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M232,212H212V40a20,20,0,0,0-20-20H64A20,20,0,0,0,44,40V212H24a12,12,0,0,0,0,24H232a12,12,0,0,0,0-24ZM68,44H188V212H68Zm104,88a16,16,0,1,1-16-16A16,16,0,0,1,172,132Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/door-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/door-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,40V224H56V40a8,8,0,0,1,8-8H192A8,8,0,0,1,200,40Z\" opacity=\"0.2\"/><path d=\"M232,216H208V40a16,16,0,0,0-16-16H64A16,16,0,0,0,48,40V216H24a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16ZM64,40H192V216H64Zm104,92a12,12,0,1,1-12-12A12,12,0,0,1,168,132Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/door-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Door",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "entrance",
+      "exit"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "objects"
+  ],
+  "type": "registry:file"
+}

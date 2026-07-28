@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-trash-simple",
+  "title": "TrashSimple",
+  "description": "Phosphor TrashSimple icon in regular, bold, duotone weights. Also: garbage, remove, delete, destroy, recycle, recycling.",
+  "files": [
+    {
+      "path": "icons/phosphor/trash-simple-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,48H40a8,8,0,0,0,0,16h8V208a16,16,0,0,0,16,16H192a16,16,0,0,0,16-16V64h8a8,8,0,0,0,0-16ZM192,208H64V64H192ZM80,24a8,8,0,0,1,8-8h80a8,8,0,0,1,0,16H88A8,8,0,0,1,80,24Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/trash-simple-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/trash-simple-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,48H40a12,12,0,0,0,0,24h4V208a20,20,0,0,0,20,20H192a20,20,0,0,0,20-20V72h4a12,12,0,0,0,0-24ZM188,204H68V72H188ZM76,20A12,12,0,0,1,88,8h80a12,12,0,0,1,0,24H88A12,12,0,0,1,76,20Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/trash-simple-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/trash-simple-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,56V208a8,8,0,0,1-8,8H64a8,8,0,0,1-8-8V56Z\" opacity=\"0.2\"/><path d=\"M216,48H40a8,8,0,0,0,0,16h8V208a16,16,0,0,0,16,16H192a16,16,0,0,0,16-16V64h8a8,8,0,0,0,0-16ZM192,208H64V64H192ZM80,24a8,8,0,0,1,8-8h80a8,8,0,0,1,0,16H88A8,8,0,0,1,80,24Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/trash-simple-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "TrashSimple",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "garbage",
+      "remove",
+      "delete",
+      "destroy",
+      "recycle",
+      "recycling"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "office",
+    "system"
+  ],
+  "type": "registry:file"
+}

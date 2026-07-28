@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-intersect",
+  "title": "Intersect",
+  "description": "Phosphor Intersect icon in regular, bold, duotone weights. Also: round, join, union, merge, combine, intersecting, intersection.",
+  "files": [
+    {
+      "path": "icons/phosphor/intersect-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M174.63,81.37a80,80,0,1,0-93.26,93.26,80,80,0,1,0,93.26-93.26ZM100.69,136,120,155.31A63.48,63.48,0,0,1,96,160,63.48,63.48,0,0,1,100.69,136Zm33.75,11.13-25.57-25.57a64.65,64.65,0,0,1,12.69-12.69l25.57,25.57A64.65,64.65,0,0,1,134.44,147.13ZM155.31,120,136,100.69A63.48,63.48,0,0,1,160,96,63.48,63.48,0,0,1,155.31,120ZM32,96a64,64,0,0,1,126-16A80.08,80.08,0,0,0,80.05,158,64.11,64.11,0,0,1,32,96ZM160,224A64.11,64.11,0,0,1,98,176,80.08,80.08,0,0,0,176,98,64,64,0,0,1,160,224Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/intersect-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/intersect-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M178,78A84,84,0,1,0,78,178,84,84,0,1,0,178,78Zm-22.19,22.19a59.57,59.57,0,0,1-9.81,28.9L126.94,110A59.57,59.57,0,0,1,155.84,100.16Zm-79.5,52.51a60,60,0,1,1,76.33-76.33A84.11,84.11,0,0,0,76.34,152.67Zm23.82,3.17a59.57,59.57,0,0,1,9.81-28.9L129.06,146A59.57,59.57,0,0,1,100.16,155.84ZM160,220a60.09,60.09,0,0,1-56.67-40.34,84.11,84.11,0,0,0,76.33-76.33A60,60,0,0,1,160,220Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/intersect-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/intersect-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M168,96a72,72,0,0,1-72,72,73.37,73.37,0,0,1-7.6-.4A73.37,73.37,0,0,1,88,160a72,72,0,0,1,72-72,73.37,73.37,0,0,1,7.6.4A73.37,73.37,0,0,1,168,96Z\" opacity=\"0.2\"/><path d=\"M174.63,81.37a80,80,0,1,0-93.26,93.26,80,80,0,1,0,93.26-93.26ZM32,96a64,64,0,0,1,126-16A80.08,80.08,0,0,0,80.05,158,64.11,64.11,0,0,1,32,96Zm128,0a64.07,64.07,0,0,1-64,64A64.07,64.07,0,0,1,160,96Zm0,128A64.11,64.11,0,0,1,98,176,80.08,80.08,0,0,0,176,98,64,64,0,0,1,160,224Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/intersect-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Intersect",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "round",
+      "join",
+      "union",
+      "merge",
+      "combine",
+      "intersecting",
+      "intersection"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "design",
+    "editor"
+  ],
+  "type": "registry:file"
+}

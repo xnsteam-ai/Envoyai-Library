@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-git-commit",
+  "title": "GitCommit",
+  "description": "Phosphor GitCommit icon in regular, bold, duotone weights. Also: github, vcs, source control, version control, versioning, commits.",
+  "files": [
+    {
+      "path": "icons/phosphor/git-commit-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M248,120H183.42a56,56,0,0,0-110.84,0H8a8,8,0,0,0,0,16H72.58a56,56,0,0,0,110.84,0H248a8,8,0,0,0,0-16ZM128,168a40,40,0,1,1,40-40A40,40,0,0,1,128,168Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/git-commit-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/git-commit-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M244,116H186.79a60,60,0,0,0-117.58,0H12a12,12,0,0,0,0,24H69.21a60,60,0,0,0,117.58,0H244a12,12,0,0,0,0-24ZM128,164a36,36,0,1,1,36-36A36,36,0,0,1,128,164Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/git-commit-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/git-commit-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M176,128a48,48,0,1,1-48-48A48,48,0,0,1,176,128Z\" opacity=\"0.2\"/><path d=\"M248,120H183.42a56,56,0,0,0-110.84,0H8a8,8,0,0,0,0,16H72.58a56,56,0,0,0,110.84,0H248a8,8,0,0,0,0-16ZM128,168a40,40,0,1,1,40-40A40,40,0,0,1,128,168Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/git-commit-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "GitCommit",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "github",
+      "vcs",
+      "source control",
+      "version control",
+      "versioning",
+      "commits"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "technology & development"
+  ],
+  "type": "registry:file"
+}

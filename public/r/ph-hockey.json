@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-hockey",
+  "title": "Hockey",
+  "description": "Phosphor Hockey icon in regular, bold, duotone weights. Also: sports, nhl, stick, puck.",
+  "files": [
+    {
+      "path": "icons/phosphor/hockey-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,152H130.9L38.1,42.82A8,8,0,0,0,25.9,53.18L159.51,210.36A16,16,0,0,0,171.7,216H224a16,16,0,0,0,16-16V168A16,16,0,0,0,224,152Zm-79.5,16H192v32H171.7ZM224,200H208V168h16ZM112.18,179.55a8,8,0,0,0-11.27.91L84.3,200H64V168H85.2a8,8,0,0,0,0-16H32a16,16,0,0,0-16,16v32a16,16,0,0,0,16,16H84.3a16,16,0,0,0,12.19-5.64l16.61-19.53A8,8,0,0,0,112.18,179.55ZM32,168H48v32H32Zm117.9-45.18,68-80a8,8,0,0,1,12.2,10.36l-68,80a8,8,0,1,1-12.2-10.36Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/hockey-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/hockey-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,148H132.75L41.14,40.23A12,12,0,0,0,22.86,55.77l95.16,112,.06.07L156.46,213A20,20,0,0,0,171.7,220H224a20,20,0,0,0,20-20V168A20,20,0,0,0,224,148Zm-70.85,24H180v24h-6.45ZM220,196H204V172h16Zm-66.34-83.77,61.2-72a12,12,0,0,1,18.28,15.54l-61.2,72a12,12,0,1,1-18.28-15.54Zm-44.14,70.45a12,12,0,0,0-16.91,1.37L82.45,196H76V171.93A12,12,0,0,0,74.7,148H32a20,20,0,0,0-20,20v32a20,20,0,0,0,20,20H84.3A20,20,0,0,0,99.54,213l11.35-13.36A12,12,0,0,0,109.52,182.68ZM36,172H52v24H36Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/hockey-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/hockey-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,160v48H171.7a8,8,0,0,1-6.1-2.82l-38-44.7L90.4,205.12A8,8,0,0,1,84.25,208H56V160H200Z\" opacity=\"0.2\"/><path d=\"M224,152H130.9L38.1,42.82A8,8,0,0,0,25.9,53.18L159.51,210.36A16,16,0,0,0,171.7,216H224a16,16,0,0,0,16-16V168A16,16,0,0,0,224,152Zm-79.5,16H192v32H171.7ZM224,200H208V168h16ZM112.18,179.55a8,8,0,0,0-11.27.92L84.3,200H64V168H85.2a8,8,0,0,0,0-16H32a16,16,0,0,0-16,16v32a16,16,0,0,0,16,16H84.3a16,16,0,0,0,12.19-5.64l16.61-19.53A8,8,0,0,0,112.18,179.55ZM32,168H48v32H32Zm117.9-45.18,68-80a8,8,0,0,1,12.2,10.36l-68,80a8,8,0,1,1-12.2-10.36Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/hockey-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Hockey",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "sports",
+      "nhl",
+      "stick",
+      "puck"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "games",
+    "health & wellness",
+    "objects"
+  ],
+  "type": "registry:file"
+}

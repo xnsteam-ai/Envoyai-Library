@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-arrow-bend-double-up-left",
+  "title": "ArrowBendDoubleUpLeft",
+  "description": "Phosphor ArrowBendDoubleUpLeft icon in regular, bold, duotone weights. Also: directional, pointer, pointing, arrowhead, reply-all.",
+  "files": [
+    {
+      "path": "icons/phosphor/arrow-bend-double-up-left-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M85.66,146.34a8,8,0,0,1-11.32,11.32l-48-48a8,8,0,0,1,0-11.32l48-48A8,8,0,0,1,85.66,61.66L43.31,104ZM128,96H99.31l34.35-34.34a8,8,0,0,0-11.32-11.32l-48,48a8,8,0,0,0,0,11.32l48,48a8,8,0,0,0,11.32-11.32L99.31,112H128a88.1,88.1,0,0,1,88,88,8,8,0,0,0,16,0A104.11,104.11,0,0,0,128,96Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/arrow-bend-double-up-left-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/arrow-bend-double-up-left-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M88.49,143.51a12,12,0,0,1-17,17l-48-48a12,12,0,0,1,0-17l48-48a12,12,0,0,1,17,17L49,104ZM128,92H117l27.52-27.52a12,12,0,0,0-17-17l-48,48a12,12,0,0,0,0,17l48,48a12,12,0,0,0,17-17L117,116h11a84.09,84.09,0,0,1,84,84,12,12,0,0,0,24,0A108.12,108.12,0,0,0,128,92Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/arrow-bend-double-up-left-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/arrow-bend-double-up-left-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M128,56v96L80,104Z\" opacity=\"0.2\"/><path d=\"M85.66,146.34a8,8,0,0,1-11.32,11.32l-48-48a8,8,0,0,1,0-11.32l48-48A8,8,0,0,1,85.66,61.66L43.31,104ZM232,200a8,8,0,0,1-16,0,88.11,88.11,0,0,0-80-87.63V152a8,8,0,0,1-13.66,5.66l-48-48a8,8,0,0,1,0-11.32l48-48A8,8,0,0,1,136,56V96.3A104.15,104.15,0,0,1,232,200ZM120,75.31,91.31,104,120,132.69Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/arrow-bend-double-up-left-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "ArrowBendDoubleUpLeft",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "directional",
+      "pointer",
+      "pointing",
+      "arrowhead",
+      "reply-all"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "arrows"
+  ],
+  "type": "registry:file"
+}

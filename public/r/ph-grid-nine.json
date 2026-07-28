@@ -1,0 +1,55 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-grid-nine",
+  "title": "GridNine",
+  "description": "Phosphor GridNine icon in regular, bold, duotone weights. Also: 9, apps, applications, squares, tiles, cells, tables, tabular.",
+  "files": [
+    {
+      "path": "icons/phosphor/grid-nine-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,48H40A16,16,0,0,0,24,64V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V64A16,16,0,0,0,216,48ZM104,144V112h48v32Zm48,16v32H104V160ZM40,112H88v32H40Zm64-16V64h48V96Zm64,16h48v32H168Zm48-16H168V64h48ZM88,64V96H40V64ZM40,160H88v32H40Zm176,32H168V160h48v32Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/grid-nine-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/grid-nine-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,44H40A20,20,0,0,0,20,64V192a20,20,0,0,0,20,20H216a20,20,0,0,0,20-20V64A20,20,0,0,0,216,44ZM108,140V116h40v24Zm40,24v24H108V164ZM44,116H84v24H44Zm64-24V68h40V92Zm64,24h40v24H172Zm40-24H172V68h40ZM84,68V92H44V68ZM44,164H84v24H44Zm128,24V164h40v24Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/grid-nine-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/grid-nine-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,64V192a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V64a8,8,0,0,1,8-8H216A8,8,0,0,1,224,64Z\" opacity=\"0.2\"/><path d=\"M216,48H40A16,16,0,0,0,24,64V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V64A16,16,0,0,0,216,48ZM104,144V112h48v32Zm48,16v32H104V160ZM40,112H88v32H40Zm64-16V64h48V96Zm64,16h48v32H168Zm48-16H168V64h48ZM88,64V96H40V64ZM40,160H88v32H40Zm176,32H168V160h48v32Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/grid-nine-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "GridNine",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "9",
+      "apps",
+      "applications",
+      "squares",
+      "tiles",
+      "cells",
+      "tables",
+      "tabular",
+      "spreadsheets",
+      "excel"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "design",
+    "system"
+  ],
+  "type": "registry:file"
+}

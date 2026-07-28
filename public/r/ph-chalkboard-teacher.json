@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-chalkboard-teacher",
+  "title": "ChalkboardTeacher",
+  "description": "Phosphor ChalkboardTeacher icon in regular, bold, duotone weights. Also: blackboard, whiteboard, classroom, education, school, college, university.",
+  "files": [
+    {
+      "path": "icons/phosphor/chalkboard-teacher-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H53.39a8,8,0,0,0,7.23-4.57,48,48,0,0,1,86.76,0,8,8,0,0,0,7.23,4.57H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM80,144a24,24,0,1,1,24,24A24,24,0,0,1,80,144Zm136,56H159.43a64.39,64.39,0,0,0-28.83-26.16,40,40,0,1,0-53.2,0A64.39,64.39,0,0,0,48.57,200H40V56H216ZM56,96V80a8,8,0,0,1,8-8H192a8,8,0,0,1,8,8v96a8,8,0,0,1-8,8H176a8,8,0,0,1,0-16h8V88H72v8a8,8,0,0,1-16,0Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/chalkboard-teacher-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/chalkboard-teacher-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M56,84A12,12,0,0,1,68,72H188a12,12,0,0,1,12,12v88a12,12,0,0,1-24,0V96H68A12,12,0,0,1,56,84ZM236,56V200a20,20,0,0,1-20,20H149.26a12,12,0,0,1-11.4-8.26,36,36,0,0,0-67.74,0A12,12,0,0,1,58.74,220H40a20,20,0,0,1-20-20V56A20,20,0,0,1,40,36H216A20,20,0,0,1,236,56ZM104,164a16,16,0,1,0-16-16A16,16,0,0,0,104,164ZM212,60H44V196h6.92a60.18,60.18,0,0,1,21.76-23.16,40,40,0,1,1,62.64,0A60.18,60.18,0,0,1,157.08,196H212Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/chalkboard-teacher-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/chalkboard-teacher-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M192,80v96H104a32,32,0,1,0-32-32H64V80Z\" opacity=\"0.2\"/><path d=\"M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H53.39a8,8,0,0,0,7.23-4.57,48,48,0,0,1,86.76,0,8,8,0,0,0,7.23,4.57H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM80,144a24,24,0,1,1,24,24A24,24,0,0,1,80,144Zm136,56H159.43a64.39,64.39,0,0,0-28.83-26.16,40,40,0,1,0-53.2,0A64.39,64.39,0,0,0,48.57,200H40V56H216ZM56,96V80a8,8,0,0,1,8-8H192a8,8,0,0,1,8,8v96a8,8,0,0,1-8,8H176a8,8,0,0,1,0-16h8V88H72v8a8,8,0,0,1-16,0Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/chalkboard-teacher-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "ChalkboardTeacher",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "blackboard",
+      "whiteboard",
+      "classroom",
+      "education",
+      "school",
+      "college",
+      "university"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "maps & travel",
+    "objects",
+    "people"
+  ],
+  "type": "registry:file"
+}

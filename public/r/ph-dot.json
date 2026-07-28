@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-dot",
+  "title": "Dot",
+  "description": "Phosphor Dot icon in regular, bold, duotone weights. Also: dots, circles, shapes, polygons.",
+  "files": [
+    {
+      "path": "icons/phosphor/dot-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M140,128a12,12,0,1,1-12-12A12,12,0,0,1,140,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/dot-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/dot-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M144,128a16,16,0,1,1-16-16A16,16,0,0,1,144,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/dot-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/dot-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M176,128a48,48,0,1,1-48-48A48,48,0,0,1,176,128Z\" opacity=\"0.2\"/><path d=\"M140,128a12,12,0,1,1-12-12A12,12,0,0,1,140,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/dot-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Dot",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "dots",
+      "circles",
+      "shapes",
+      "polygons"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "system"
+  ],
+  "type": "registry:file"
+}

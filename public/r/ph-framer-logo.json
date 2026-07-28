@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-framer-logo",
+  "title": "FramerLogo",
+  "description": "Phosphor FramerLogo icon in regular, bold, duotone weights. Also: logos, interface, ui, motion, prototype, prototyping.",
+  "files": [
+    {
+      "path": "icons/phosphor/framer-logo-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,104V40a8,8,0,0,0-8-8H56a8,8,0,0,0-5.31,14L107,96H56a8,8,0,0,0-8,8v64a8,8,0,0,0,2.34,5.66l72,72A8,8,0,0,0,136,240V176h64a8,8,0,0,0,5.31-14L149,112h51A8,8,0,0,0,208,104Zm-29,56H128a8,8,0,0,0-8,8v52.69l-56-56V112h61Zm13-64H131L77,48H192Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/framer-logo-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/framer-logo-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M212,104V40a12,12,0,0,0-12-12H56a12,12,0,0,0-8,21L96.44,92H56a12,12,0,0,0-12,12v64a12,12,0,0,0,3.52,8.49l72,72A12,12,0,0,0,140,240V180h60a12,12,0,0,0,8-21l-48.41-43H200A12,12,0,0,0,212,104Zm-43.56,52H128a12,12,0,0,0-12,12v43L68,163V116h55.44ZM188,92H132.56l-45-40H188Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/framer-logo-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/framer-logo-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,104H128L56,40H200ZM56,168l72,72V168h72l-72-64H56Z\" opacity=\"0.2\"/><path d=\"M208,104V40a8,8,0,0,0-8-8H56a8,8,0,0,0-5.31,14L107,96H56a8,8,0,0,0-8,8v64a8,8,0,0,0,2.34,5.66l72,72A8,8,0,0,0,136,240V176h64a8,8,0,0,0,5.31-14L149,112h51A8,8,0,0,0,208,104Zm-29,56H128a8,8,0,0,0-8,8v52.69l-56-56V112h61Zm13-64H131L77,48H192Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/framer-logo-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "FramerLogo",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "logos",
+      "interface",
+      "ui",
+      "motion",
+      "prototype",
+      "prototyping"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "brands",
+    "design"
+  ],
+  "type": "registry:file"
+}

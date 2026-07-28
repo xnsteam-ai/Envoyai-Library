@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-brackets-round",
+  "title": "BracketsRound",
+  "description": "Phosphor BracketsRound icon in regular, bold, duotone weights. Also: code, parentheses, round brackets, round braces.",
+  "files": [
+    {
+      "path": "icons/phosphor/brackets-round-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M40,128c0,58.29,34.67,80.25,36.15,81.16a8,8,0,0,1-8.27,13.7C66.09,221.78,24,195.75,24,128S66.09,34.22,67.88,33.14a8,8,0,0,1,8.26,13.7C74.54,47.83,40,69.82,40,128ZM188.12,33.14a8,8,0,0,0-8.27,13.7C181.33,47.75,216,69.71,216,128s-34.67,80.25-36.12,81.14a8,8,0,0,0,8.24,13.72C189.91,221.78,232,195.75,232,128S189.91,34.22,188.12,33.14Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/brackets-round-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/brackets-round-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M82.33,222.19a12,12,0,0,1-16.5,4.09C64,225.16,20,198,20,128S64,30.84,65.83,29.72A12,12,0,0,1,78.24,50.25C76.71,51.21,44,72.31,44,128s32.85,76.88,34.25,77.75A12,12,0,0,1,82.33,222.19ZM190.17,29.72a12,12,0,1,0-12.42,20.53C179.15,51.12,212,72.19,212,128s-32.85,76.88-34.17,77.7a12,12,0,1,0,12.34,20.58C192,225.16,236,198,236,128S192,30.84,190.17,29.72Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/brackets-round-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/brackets-round-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,128c0,64-40,88-40,88H72s-40-24-40-88S72,40,72,40H184S224,64,224,128Z\" opacity=\"0.2\"/><path d=\"M40,128c0,58.29,34.67,80.25,36.15,81.16a8,8,0,0,1-8.27,13.7C66.09,221.78,24,195.75,24,128S66.09,34.22,67.88,33.14a8,8,0,0,1,8.26,13.7C74.54,47.83,40,69.82,40,128ZM188.12,33.14a8,8,0,0,0-8.27,13.7C181.33,47.75,216,69.71,216,128s-34.67,80.25-36.12,81.14a8,8,0,0,0,8.24,13.72C189.91,221.78,232,195.75,232,128S189.91,34.22,188.12,33.14Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/brackets-round-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "BracketsRound",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "code",
+      "parentheses",
+      "round brackets",
+      "round braces"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "technology & development",
+    "editor"
+  ],
+  "type": "registry:file"
+}

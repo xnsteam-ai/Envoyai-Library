@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-envelope-simple-open",
+  "title": "EnvelopeSimpleOpen",
+  "description": "Phosphor EnvelopeSimpleOpen icon in regular, bold, duotone weights. Also: mail, email, send, sent, message, read, post, letter.",
+  "files": [
+    {
+      "path": "icons/phosphor/envelope-simple-open-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M228.44,89.34l-96-64a8,8,0,0,0-8.88,0l-96,64A8,8,0,0,0,24,96V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V96A8,8,0,0,0,228.44,89.34ZM128,41.61l81.91,54.61-67,47.78H113.11l-67-47.78ZM40,200V111.53l65.9,47a8,8,0,0,0,4.65,1.49h34.9a8,8,0,0,0,4.65-1.49l65.9-47V200Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/envelope-simple-open-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/envelope-simple-open-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M230.66,86l-96-64a12,12,0,0,0-13.32,0l-96,64A12,12,0,0,0,20,96V200a20,20,0,0,0,20,20H216a20,20,0,0,0,20-20V96A12,12,0,0,0,230.66,86ZM128,46.42l74.86,49.91L141.61,140H114.39L53.14,96.33ZM44,196V119.29l59.58,42.48a12,12,0,0,0,7,2.23h34.9a12,12,0,0,0,7-2.23L212,119.29V196Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/envelope-simple-open-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/envelope-simple-open-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,96l-78.55,56h-34.9L32,96l96-64Z\" opacity=\"0.2\"/><path d=\"M228.44,89.34l-96-64a8,8,0,0,0-8.88,0l-96,64A8,8,0,0,0,24,96V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V96A8,8,0,0,0,228.44,89.34ZM128,41.61l81.91,54.61-67,47.78H113.11l-67-47.78ZM40,200V111.53l65.9,47a8,8,0,0,0,4.65,1.49h34.9a8,8,0,0,0,4.65-1.49l65.9-47V200Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/envelope-simple-open-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "EnvelopeSimpleOpen",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "mail",
+      "email",
+      "send",
+      "sent",
+      "message",
+      "read",
+      "post",
+      "letter"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "communications"
+  ],
+  "type": "registry:file"
+}

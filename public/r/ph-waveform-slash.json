@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-waveform-slash",
+  "title": "WaveformSlash",
+  "description": "Phosphor WaveformSlash icon in regular, bold, duotone weights. Also: audio, sound, spectrum, spectrograph, music.",
+  "files": [
+    {
+      "path": "icons/phosphor/waveform-slash-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M56,96v64a8,8,0,0,1-16,0V96a8,8,0,0,1,16,0ZM53.92,34.62A8,8,0,1,0,42.08,45.38L80,87.09V224a8,8,0,0,0,16,0V104.69l24,26.4V192a8,8,0,0,0,16,0V148.69l66.08,72.69a8,8,0,1,0,11.84-10.76ZM88,44.43a8,8,0,0,0,8-8V32a8,8,0,0,0-16,0v4.43A8,8,0,0,0,88,44.43Zm40,44a8,8,0,0,0,8-8V64a8,8,0,0,0-16,0V80.43A8,8,0,0,0,128,88.43Zm40,44a8,8,0,0,0,8-8V96a8,8,0,0,0-16,0v28.43A8,8,0,0,0,168,132.43ZM208,72a8,8,0,0,0-8,8v88.43a8,8,0,0,0,16,0V80A8,8,0,0,0,208,72Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/waveform-slash-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/waveform-slash-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M60,96v64a12,12,0,0,1-24,0V96a12,12,0,0,1,24,0ZM56.88,31.93A12,12,0,1,0,39.12,48.07L76,88.64V224a12,12,0,0,0,24,0V115l16,17.6V192a12,12,0,0,0,24,0V159l59.12,65a12,12,0,0,0,17.76-16.14ZM128,80.54a12,12,0,0,0,12-12V64a12,12,0,0,0-24,0v4.54A12,12,0,0,0,128,80.54Zm40,44a12,12,0,0,0,12-12V96a12,12,0,0,0-24,0v16.54A12,12,0,0,0,168,124.54ZM208,68a12,12,0,0,0-12,12v76.54a12,12,0,0,0,24,0V80A12,12,0,0,0,208,68Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/waveform-slash-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/waveform-slash-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,96v64H48V96Z\" opacity=\"0.2\"/><path d=\"M56,96v64a8,8,0,0,1-16,0V96a8,8,0,0,1,16,0ZM53.92,34.62A8,8,0,1,0,42.08,45.38L80,87.09V224a8,8,0,0,0,16,0V104.69l24,26.4V192a8,8,0,0,0,16,0V148.69l66.08,72.69a8,8,0,1,0,11.84-10.76ZM88,44.43a8,8,0,0,0,8-8V32a8,8,0,0,0-16,0v4.43A8,8,0,0,0,88,44.43Zm40,44a8,8,0,0,0,8-8V64a8,8,0,0,0-16,0V80.43A8,8,0,0,0,128,88.43Zm40,44a8,8,0,0,0,8-8V96a8,8,0,0,0-16,0v28.43A8,8,0,0,0,168,132.43ZM208,72a8,8,0,0,0-8,8v88.43a8,8,0,0,0,16,0V80A8,8,0,0,0,208,72Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/waveform-slash-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "WaveformSlash",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "audio",
+      "sound",
+      "spectrum",
+      "spectrograph",
+      "music"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "media"
+  ],
+  "type": "registry:file"
+}

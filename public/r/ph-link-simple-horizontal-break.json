@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-link-simple-horizontal-break",
+  "title": "LinkSimpleHorizontalBreak",
+  "description": "Phosphor LinkSimpleHorizontalBreak icon in regular, bold, duotone weights. Also: anchor, hyperlink, hypertext, chains, chained, errors, broken.",
+  "files": [
+    {
+      "path": "icons/phosphor/link-simple-horizontal-break-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M24,128a40,40,0,0,0,40,40h40a8,8,0,0,1,0,16H64A56,56,0,0,1,64,72h40a8,8,0,0,1,0,16H64A40,40,0,0,0,24,128ZM192,72H152a8,8,0,0,0,0,16h40a40,40,0,0,1,0,80H152a8,8,0,0,0,0,16h40a56,56,0,0,0,0-112Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/link-simple-horizontal-break-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/link-simple-horizontal-break-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M28,128a36,36,0,0,0,36,36h40a12,12,0,0,1,0,24H64A60,60,0,0,1,64,68h40a12,12,0,0,1,0,24H64A36,36,0,0,0,28,128ZM192,68H152a12,12,0,0,0,0,24h40a36,36,0,0,1,0,72H152a12,12,0,0,0,0,24h40a60,60,0,0,0,0-120Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/link-simple-horizontal-break-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/link-simple-horizontal-break-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M240,128h0a48,48,0,0,1-48,48H64a48,48,0,0,1-48-48h0A48,48,0,0,1,64,80H192A48,48,0,0,1,240,128Z\" opacity=\"0.2\"/><path d=\"M24,128a40,40,0,0,0,40,40h40a8,8,0,0,1,0,16H64A56,56,0,0,1,64,72h40a8,8,0,0,1,0,16H64A40,40,0,0,0,24,128ZM192,72H152a8,8,0,0,0,0,16h40a40,40,0,0,1,0,80H152a8,8,0,0,0,0,16h40a56,56,0,0,0,0-112Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/link-simple-horizontal-break-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "LinkSimpleHorizontalBreak",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "anchor",
+      "hyperlink",
+      "hypertext",
+      "chains",
+      "chained",
+      "errors",
+      "broken"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "communications",
+    "objects"
+  ],
+  "type": "registry:file"
+}

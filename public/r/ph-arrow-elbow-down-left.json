@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-arrow-elbow-down-left",
+  "title": "ArrowElbowDownLeft",
+  "description": "Phosphor ArrowElbowDownLeft icon in regular, bold, duotone weights. Also: directional, pointer, pointing, arrowhead.",
+  "files": [
+    {
+      "path": "icons/phosphor/arrow-elbow-down-left-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,32V176a8,8,0,0,1-8,8H67.31l34.35,34.34a8,8,0,0,1-11.32,11.32l-48-48a8,8,0,0,1,0-11.32l48-48a8,8,0,0,1,11.32,11.32L67.31,168H184V32a8,8,0,0,1,16,0Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/arrow-elbow-down-left-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/arrow-elbow-down-left-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M204,32V176a12,12,0,0,1-12,12H77l27.52,27.51a12,12,0,0,1-17,17l-48-48a12,12,0,0,1,0-17l48-48a12,12,0,1,1,17,17L77,164H180V32a12,12,0,0,1,24,0Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/arrow-elbow-down-left-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/arrow-elbow-down-left-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M96,128v96L48,176Z\" opacity=\"0.2\"/><path d=\"M192,24a8,8,0,0,0-8,8V168H104V128a8,8,0,0,0-13.66-5.66l-48,48a8,8,0,0,0,0,11.32l48,48A8,8,0,0,0,104,224V184h88a8,8,0,0,0,8-8V32A8,8,0,0,0,192,24ZM88,204.69,59.31,176,88,147.31Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/arrow-elbow-down-left-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "ArrowElbowDownLeft",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "directional",
+      "pointer",
+      "pointing",
+      "arrowhead"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "arrows"
+  ],
+  "type": "registry:file"
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-spade",
+  "title": "Spade",
+  "description": "Phosphor Spade icon in regular, bold, duotone weights. Also: spades, suits, cards, gambling, casino, gaming.",
+  "files": [
+    {
+      "path": "icons/phosphor/spade-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M131.58,16.85a8,8,0,0,0-7.16,0C120.32,18.9,24,67.84,24,136a56,56,0,0,0,74.15,53L88.34,221.7A8,8,0,0,0,96,232h64a8,8,0,0,0,7.66-10.3L157.85,189A56,56,0,0,0,232,136C232,67.84,135.68,18.9,131.58,16.85ZM176,176a40,40,0,0,1-26.29-9.85,8,8,0,0,0-12.92,8.33L149.25,216h-42.5l12.46-41.52a8,8,0,0,0-12.92-8.33A40,40,0,0,1,40,136c0-29.88,24.41-56.55,44.89-73.66A279.13,279.13,0,0,1,128,33.06a279.13,279.13,0,0,1,43.11,29.28C208.21,93.34,216,119.51,216,136A40,40,0,0,1,176,176Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/spade-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/spade-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M133.37,13.27a12,12,0,0,0-10.74,0C118.44,15.36,20,65.4,20,136a60,60,0,0,0,69.51,59.25l-5.28,26.4A12,12,0,0,0,96,236h64a12,12,0,0,0,11.77-14.35l-5.28-26.4A60,60,0,0,0,236,136C236,65.4,137.56,15.36,133.37,13.27ZM176,172a35.88,35.88,0,0,1-19.09-5.47,12,12,0,0,0-18.14,12.52L145.36,212H110.64l6.59-32.95a12,12,0,0,0-18.14-12.52A36,36,0,0,1,44,136c0-28.29,23.57-53.95,43.34-70.49A274.68,274.68,0,0,1,128,37.63a274.16,274.16,0,0,1,40.66,27.88C188.43,82.05,212,107.71,212,136A36,36,0,0,1,176,172Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/spade-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/spade-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,136a48,48,0,0,1-79.55,36.18L160,224H96l15.55-51.82A48,48,0,0,1,32,136c0-64,96-112,96-112S224,72,224,136Z\" opacity=\"0.2\"/><path d=\"M131.58,16.85a8,8,0,0,0-7.16,0C120.32,18.9,24,67.84,24,136a56,56,0,0,0,74.15,53L88.34,221.7A8,8,0,0,0,96,232h64a8,8,0,0,0,7.66-10.3L157.85,189A56,56,0,0,0,232,136C232,67.84,135.68,18.9,131.58,16.85ZM176,176a40,40,0,0,1-26.29-9.85,8,8,0,0,0-12.92,8.33L149.25,216h-42.5l12.46-41.52a8,8,0,0,0-12.92-8.33A40,40,0,0,1,40,136c0-29.88,24.41-56.55,44.89-73.66A279.13,279.13,0,0,1,128,33.06a279.13,279.13,0,0,1,43.11,29.28C208.21,93.34,216,119.51,216,136A40,40,0,0,1,176,176Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/spade-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Spade",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "spades",
+      "suits",
+      "cards",
+      "gambling",
+      "casino",
+      "gaming"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "games"
+  ],
+  "type": "registry:file"
+}

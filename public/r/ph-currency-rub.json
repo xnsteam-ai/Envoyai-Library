@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-currency-rub",
+  "title": "CurrencyRub",
+  "description": "Phosphor CurrencyRub icon in regular, bold, duotone weights. Also: money, rubles, payment, paying, purchase.",
+  "files": [
+    {
+      "path": "icons/phosphor/currency-rub-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M148,152a60,60,0,0,0,0-120H88a8,8,0,0,0-8,8v96H56a8,8,0,0,0,0,16H80v16H56a8,8,0,0,0,0,16H80v32a8,8,0,0,0,16,0V184h48a8,8,0,0,0,0-16H96V152ZM96,48h52a44,44,0,0,1,0,88H96Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/currency-rub-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/currency-rub-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M148,156a64,64,0,0,0,0-128H88A12,12,0,0,0,76,40v92H56a12,12,0,0,0,0,24H76v16H56a12,12,0,0,0,0,24H76v20a12,12,0,0,0,24,0V196h44a12,12,0,0,0,0-24H100V156ZM100,52h48a40,40,0,0,1,0,80H100Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/currency-rub-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/currency-rub-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,92a52,52,0,0,1-52,52H88V40h60A52,52,0,0,1,200,92Z\" opacity=\"0.2\"/><path d=\"M148,152a60,60,0,0,0,0-120H88a8,8,0,0,0-8,8v96H56a8,8,0,0,0,0,16H80v16H56a8,8,0,0,0,0,16H80v32a8,8,0,0,0,16,0V184h48a8,8,0,0,0,0-16H96V152ZM96,48h52a44,44,0,0,1,0,88H96Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/currency-rub-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "CurrencyRub",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "money",
+      "rubles",
+      "payment",
+      "paying",
+      "purchase"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "commerce",
+    "finances"
+  ],
+  "type": "registry:file"
+}

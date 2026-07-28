@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-box-arrow-up",
+  "title": "BoxArrowUp",
+  "description": "Phosphor BoxArrowUp icon in regular, bold, duotone weights. Also: unarchive, archival, upload.",
+  "files": [
+    {
+      "path": "icons/phosphor/box-arrow-up-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M223.16,68.42l-16-32A8,8,0,0,0,200,32H56a8,8,0,0,0-7.16,4.42l-16,32A8.08,8.08,0,0,0,32,72V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V72A8.08,8.08,0,0,0,223.16,68.42ZM60.94,48H195.06l8,16H52.94ZM208,208H48V80H208V208Zm-42.34-77.66a8,8,0,0,1-11.32,11.32L136,123.31V184a8,8,0,0,1-16,0V123.31l-18.34,18.35a8,8,0,0,1-11.32-11.32l32-32a8,8,0,0,1,11.32,0Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/box-arrow-up-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/box-arrow-up-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M226.73,66.63l-16-32A12,12,0,0,0,200,28H56a12,12,0,0,0-10.73,6.63l-16,32A12,12,0,0,0,28,72V208a20,20,0,0,0,20,20H208a20,20,0,0,0,20-20V72A12,12,0,0,0,226.73,66.63ZM192.58,52l6,12H57.42l6-12ZM52,204V88H204V204Zm116.49-68.49a12,12,0,0,1-17,17L140,141v39a12,12,0,0,1-24,0V141l-11.51,11.52a12,12,0,0,1-17-17l32-32a12,12,0,0,1,17,0Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/box-arrow-up-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/box-arrow-up-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,72V208a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V72Z\" opacity=\"0.2\"/><path d=\"M223.16,68.42l-16-32A8,8,0,0,0,200,32H56a8,8,0,0,0-7.16,4.42l-16,32A8.08,8.08,0,0,0,32,72V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V72A8.08,8.08,0,0,0,223.16,68.42ZM60.94,48H195.06l8,16H52.94ZM208,208H48V80H208V208Zm-42.34-77.66a8,8,0,0,1-11.32,11.32L136,123.31V184a8,8,0,0,1-16,0V123.31l-18.34,18.35a8,8,0,0,1-11.32-11.32l32-32a8,8,0,0,1,11.32,0Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/box-arrow-up-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "BoxArrowUp",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "unarchive",
+      "archival",
+      "upload"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "office",
+    "system"
+  ],
+  "type": "registry:file"
+}

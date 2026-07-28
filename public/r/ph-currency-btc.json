@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-currency-btc",
+  "title": "CurrencyBtc",
+  "description": "Phosphor CurrencyBtc icon in regular, bold, duotone weights. Also: money, btc, bitcoin, crypto, cryptocurrency, payment, paying, purchase.",
+  "files": [
+    {
+      "path": "icons/phosphor/currency-btc-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M178.48,115.7A44,44,0,0,0,152,40.19V24a8,8,0,0,0-16,0V40H120V24a8,8,0,0,0-16,0V40H72a8,8,0,0,0,0,16h8V192H72a8,8,0,0,0,0,16h32v16a8,8,0,0,0,16,0V208h16v16a8,8,0,0,0,16,0V208h8a48,48,0,0,0,18.48-92.3ZM176,84a28,28,0,0,1-28,28H96V56h52A28,28,0,0,1,176,84ZM160,192H96V128h64a32,32,0,0,1,0,64Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/currency-btc-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/currency-btc-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M185.08,114.46A48,48,0,0,0,160,37.52V24a12,12,0,0,0-24,0V36H120V24a12,12,0,0,0-24,0V36H72a12,12,0,0,0,0,24h4V188H72a12,12,0,0,0,0,24H96v12a12,12,0,0,0,24,0V212h16v12a12,12,0,0,0,24,0V212a52,52,0,0,0,25.08-97.54ZM172,84a24,24,0,0,1-24,24H100V60h48A24,24,0,0,1,172,84ZM160,188H100V132h60a28,28,0,0,1,0,56Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/currency-btc-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/currency-btc-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,160a40,40,0,0,1-40,40H88V48h60a36,36,0,0,1,0,72h12A40,40,0,0,1,200,160Z\" opacity=\"0.2\"/><path d=\"M178.48,115.7A44,44,0,0,0,152,40.19V24a8,8,0,0,0-16,0V40H120V24a8,8,0,0,0-16,0V40H72a8,8,0,0,0,0,16h8V192H72a8,8,0,0,0,0,16h32v16a8,8,0,0,0,16,0V208h16v16a8,8,0,0,0,16,0V208h8a48,48,0,0,0,18.48-92.3ZM96,56h52a28,28,0,0,1,0,56H96Zm64,136H96V128h64a32,32,0,0,1,0,64Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/currency-btc-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "CurrencyBtc",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "money",
+      "btc",
+      "bitcoin",
+      "crypto",
+      "cryptocurrency",
+      "payment",
+      "paying",
+      "purchase"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "commerce",
+    "finances"
+  ],
+  "type": "registry:file"
+}

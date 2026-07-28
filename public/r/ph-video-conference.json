@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-video-conference",
+  "title": "VideoConference",
+  "description": "Phosphor VideoConference icon in regular, bold, duotone weights. Also: video call, zoom, skype, discord, facetime, meeting.",
+  "files": [
+    {
+      "path": "icons/phosphor/video-conference-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,80H168V56h48ZM40,56H152V200H40ZM216,200H168V136h48v64ZM180,88a12,12,0,1,1,12,12A12,12,0,0,1,180,88Zm24,80a12,12,0,1,1-12-12A12,12,0,0,1,204,168Zm-68.25-2a39.76,39.76,0,0,0-17.19-23.34,32,32,0,1,0-45.12,0A39.84,39.84,0,0,0,56.25,166a8,8,0,0,0,15.5,4c2.64-10.25,13.06-18,24.25-18s21.62,7.73,24.25,18a8,8,0,1,0,15.5-4ZM80,120a16,16,0,1,1,16,16A16,16,0,0,1,80,120Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/video-conference-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/video-conference-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,36H40A20,20,0,0,0,20,56V200a20,20,0,0,0,20,20H216a20,20,0,0,0,20-20V56A20,20,0,0,0,216,36Zm-4,80H156V60h56ZM52,120a12,12,0,1,1,12,12A12,12,0,0,1,52,120Zm-8,49.77C46.69,161.84,55,156,64,156c9.43,0,18.19,6.44,20.38,15a12,12,0,0,0,23.24-6,43.22,43.22,0,0,0-15.16-23A36,36,0,0,0,44,90.08V60h88V196H44ZM156,196V140h56v56ZM168,88a16,16,0,1,1,16,16A16,16,0,0,1,168,88Zm32,80a16,16,0,1,1-16-16A16,16,0,0,1,200,168Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/video-conference-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/video-conference-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M40,48a8,8,0,0,0-8,8V200a8,8,0,0,0,8,8H160V48Zm56,96a24,24,0,1,1,24-24A24,24,0,0,1,96,144Z\" opacity=\"0.2\"/><path d=\"M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,80H168V56h48ZM40,56H152V200H40ZM216,200H168V136h48v64ZM180,88a12,12,0,1,1,12,12A12,12,0,0,1,180,88Zm24,80a12,12,0,1,1-12-12A12,12,0,0,1,204,168Zm-68.25-2a39.76,39.76,0,0,0-17.19-23.34,32,32,0,1,0-45.12,0A39.84,39.84,0,0,0,56.25,166a8,8,0,0,0,15.5,4c2.64-10.25,13.06-18,24.25-18s21.62,7.73,24.25,18a8,8,0,1,0,15.5-4ZM80,120a16,16,0,1,1,16,16A16,16,0,0,1,80,120Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/video-conference-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "VideoConference",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "video call",
+      "zoom",
+      "skype",
+      "discord",
+      "facetime",
+      "meeting"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "media",
+    "system",
+    "communications"
+  ],
+  "type": "registry:file"
+}

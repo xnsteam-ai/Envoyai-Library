@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-magnet-straight",
+  "title": "MagnetStraight",
+  "description": "Phosphor MagnetStraight icon in regular, bold, duotone weights. Also: magnetism, science, physics.",
+  "files": [
+    {
+      "path": "icons/phosphor/magnet-straight-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,40H160a16,16,0,0,0-16,16v88a16,16,0,0,1-32,0V56A16,16,0,0,0,96,40H56A16,16,0,0,0,40,56v88a88,88,0,0,0,88,88h.67c48.15-.36,87.33-40.29,87.33-89V56A16,16,0,0,0,200,40Zm0,16V88H160V56ZM96,56V88H56V56Zm32.55,160A72,72,0,0,1,56,144V104H96v40a32,32,0,0,0,64,0V104h40v39C200,183,168,215.71,128.55,216Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/magnet-straight-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/magnet-straight-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,36H160a20,20,0,0,0-20,20v88a12,12,0,0,1-24,0V56A20,20,0,0,0,96,36H56A20,20,0,0,0,36,56v88a92,92,0,0,0,92,92h.71c50.34-.38,91.3-42.1,91.3-93V56A20,20,0,0,0,200,36Zm-4,24V84H164V60ZM92,60V84H60V60Zm36.52,152H128a68,68,0,0,1-68-68V108H92v36a36,36,0,0,0,72,0V108h32v35C196,180.77,165.73,211.72,128.52,212Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/magnet-straight-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/magnet-straight-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M104,56V96H48V56a8,8,0,0,1,8-8H96A8,8,0,0,1,104,56Zm96-8H160a8,8,0,0,0-8,8V96h56V56A8,8,0,0,0,200,48Z\" opacity=\"0.2\"/><path d=\"M200,40H160a16,16,0,0,0-16,16v88a16,16,0,0,1-32,0V56A16,16,0,0,0,96,40H56A16,16,0,0,0,40,56v88a88,88,0,0,0,88,88h.67c48.15-.36,87.33-40.29,87.33-89V56A16,16,0,0,0,200,40Zm0,16V88H160V56ZM96,56V88H56V56Zm32.55,160A72,72,0,0,1,56,144V104H96v40a32,32,0,0,0,64,0V104h40v39C200,183,168,215.71,128.55,216Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/magnet-straight-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "MagnetStraight",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "magnetism",
+      "science",
+      "physics"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "technology & development",
+    "objects"
+  ],
+  "type": "registry:file"
+}

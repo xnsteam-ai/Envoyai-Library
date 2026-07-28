@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-security-camera",
+  "title": "SecurityCamera",
+  "description": "Phosphor SecurityCamera icon in regular, bold, duotone weights. Also: cctv, surveillance, video, monitor, motion detector, safety.",
+  "files": [
+    {
+      "path": "icons/phosphor/security-camera-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M248,136a8,8,0,0,0-8,8v16H195.31L177,141.66l50.34-50.35a16,16,0,0,0,0-22.62l-56-56a16,16,0,0,0-22.63,0L2.92,158.94A10,10,0,0,0,10,176H49.37l35.32,35.31a16,16,0,0,0,22.62,0L165.66,153,184,171.31A15.86,15.86,0,0,0,195.31,176H240v16a8,8,0,0,0,16,0V144A8,8,0,0,0,248,136ZM160,24l12.69,12.69L49.37,160H24.46ZM96,200,64,168,184,48l32,32Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/security-camera-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/security-camera-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M244,132a12,12,0,0,0-12,12v12H197l-14.35-14.34,47.52-47.52a20,20,0,0,0,0-28.28l-56-56a20,20,0,0,0-28.32,0L6.42,150.47A22,22,0,0,0,22,188h33.7l26.14,26.14a20,20,0,0,0,28.29,0l55.51-55.51,15.52,15.51A19.86,19.86,0,0,0,195.31,180H232v12a12,12,0,0,0,24,0V144A12,12,0,0,0,244,132ZM160,29.67l15,15L55.71,164H26.81ZM96,194.34,77.65,176,192,61.66,210.34,80l-53.17,53.17h0Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/security-camera-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/security-camera-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M221.66,85.66l-120,120a8,8,0,0,1-11.32,0L52.69,168,184,36.69l37.66,37.65A8,8,0,0,1,221.66,85.66Z\" opacity=\"0.2\"/><path d=\"M248,136a8,8,0,0,0-8,8v16H195.31L177,141.66l50.34-50.35a16,16,0,0,0,0-22.62l-56-56a16,16,0,0,0-22.63,0L2.92,158.94A10,10,0,0,0,10,176H49.37l35.32,35.31a16,16,0,0,0,22.62,0L165.66,153,184,171.31A15.86,15.86,0,0,0,195.31,176H240v16a8,8,0,0,0,16,0V144A8,8,0,0,0,248,136ZM160,24l12.69,12.69L49.37,160H24.46ZM96,200,64,168,184,48l32,32Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/security-camera-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "SecurityCamera",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "cctv",
+      "surveillance",
+      "video",
+      "monitor",
+      "motion detector",
+      "safety"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "objects",
+    "system"
+  ],
+  "type": "registry:file"
+}

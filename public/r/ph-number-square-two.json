@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-number-square-two",
+  "title": "NumberSquareTwo",
+  "description": "Phosphor NumberSquareTwo icon in regular, bold, duotone weights. Also: 2, numbers, numerals, digits, mathematics, arithmetic, calculator.",
+  "files": [
+    {
+      "path": "icons/phosphor/number-square-two-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H48V48H208V208Zm-48-32a8,8,0,0,1-8,8H104a8,8,0,0,1-6.4-12.8l43.17-57.56a16,16,0,1,0-27.86-15,8,8,0,0,1-15.09-5.34,32.43,32.43,0,0,1,4.62-8.59,32,32,0,1,1,51.11,38.52L120,168h32A8,8,0,0,1,160,176Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/number-square-two-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/number-square-two-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,28H48A20,20,0,0,0,28,48V208a20,20,0,0,0,20,20H208a20,20,0,0,0,20-20V48A20,20,0,0,0,208,28Zm-4,176H52V52H204Zm-66.43-92.76a12,12,0,0,0-2.35-16.82,12,12,0,0,0-16.8,2.36,11.7,11.7,0,0,0-1.74,3.22,12,12,0,0,1-22.63-8,36.45,36.45,0,0,1,5.2-9.67,36,36,0,0,1,57.5,43.34L128,164h24a12,12,0,0,1,0,24H104a12,12,0,0,1-9.6-19.2Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/number-square-two-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/number-square-two-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,48V208a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8H208A8,8,0,0,1,216,48Z\" opacity=\"0.2\"/><path d=\"M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H48V48H208V208Zm-48-32a8,8,0,0,1-8,8H104a8,8,0,0,1-6.4-12.8l43.17-57.56a16,16,0,1,0-27.86-15,8,8,0,0,1-15.09-5.34,32.43,32.43,0,0,1,4.62-8.59,32,32,0,1,1,51.11,38.52L120,168h32A8,8,0,0,1,160,176Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/number-square-two-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "NumberSquareTwo",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "2",
+      "numbers",
+      "numerals",
+      "digits",
+      "mathematics",
+      "arithmetic",
+      "calculator"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "finances"
+  ],
+  "type": "registry:file"
+}

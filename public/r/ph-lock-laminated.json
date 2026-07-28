@@ -1,0 +1,56 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-lock-laminated",
+  "title": "LockLaminated",
+  "description": "Phosphor LockLaminated icon in regular, bold, duotone weights. Also: padlock, security, secured, authentication, authenticated, login, locked, encrypted.",
+  "files": [
+    {
+      "path": "icons/phosphor/lock-laminated-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,80H176V56a48,48,0,0,0-96,0V80H48A16,16,0,0,0,32,96V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V96A16,16,0,0,0,208,80ZM48,128H208v16H48Zm0,32H208v16H48ZM96,56a32,32,0,0,1,64,0V80H96ZM208,96v16H48V96Zm0,112H48V192H208v16Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/lock-laminated-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/lock-laminated-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,76H180V56A52,52,0,0,0,76,56V76H48A20,20,0,0,0,28,96V208a20,20,0,0,0,20,20H208a20,20,0,0,0,20-20V96A20,20,0,0,0,208,76ZM52,144H204v16H52Zm48-88a28,28,0,0,1,56,0V76H100Zm104,44v20H52V100ZM52,204V184H204v20Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/lock-laminated-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/lock-laminated-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,96V208a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8H208A8,8,0,0,1,216,96Z\" opacity=\"0.2\"/><path d=\"M208,80H176V56a48,48,0,0,0-96,0V80H48A16,16,0,0,0,32,96V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V96A16,16,0,0,0,208,80ZM48,128H208v16H48Zm0,32H208v16H48ZM96,56a32,32,0,0,1,64,0V80H96ZM208,96v16H48V96Zm0,112H48V192H208v16Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/lock-laminated-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "LockLaminated",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "padlock",
+      "security",
+      "secured",
+      "authentication",
+      "authenticated",
+      "login",
+      "locked",
+      "encrypted",
+      "encryption",
+      "privacy",
+      "private"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "objects",
+    "system"
+  ],
+  "type": "registry:file"
+}

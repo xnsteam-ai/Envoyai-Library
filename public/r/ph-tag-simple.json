@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-tag-simple",
+  "title": "TagSimple",
+  "description": "Phosphor TagSimple icon in regular, bold, duotone weights. Also: tags, hashtag, labels, sale, sell, price, discount.",
+  "files": [
+    {
+      "path": "icons/phosphor/tag-simple-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M246.66,123.56,201,55.13A15.94,15.94,0,0,0,187.72,48H40A16,16,0,0,0,24,64V192a16,16,0,0,0,16,16H187.72A16,16,0,0,0,201,200.88l45.63-68.44A8,8,0,0,0,246.66,123.56ZM187.72,192H40V64H187.72l42.66,64Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/tag-simple-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/tag-simple-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M250,121.34,204.36,52.91A20,20,0,0,0,187.72,44H40A20,20,0,0,0,20,64V192a20,20,0,0,0,20,20H187.72a20,20,0,0,0,16.64-8.91L250,134.66A12,12,0,0,0,250,121.34ZM185.58,188H44V68H185.58l40,60Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/tag-simple-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/tag-simple-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M240,128l-45.62,68.44a8,8,0,0,1-6.66,3.56H40a8,8,0,0,1-8-8V64a8,8,0,0,1,8-8H187.72a8,8,0,0,1,6.66,3.56Z\" opacity=\"0.2\"/><path d=\"M246.66,123.56,201,55.13A15.94,15.94,0,0,0,187.72,48H40A16,16,0,0,0,24,64V192a16,16,0,0,0,16,16H187.72A16,16,0,0,0,201,200.88l45.63-68.44A8,8,0,0,0,246.66,123.56ZM187.72,192H40V64H187.72l42.66,64Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/tag-simple-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "TagSimple",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "tags",
+      "hashtag",
+      "labels",
+      "sale",
+      "sell",
+      "price",
+      "discount"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "commerce",
+    "technology & development",
+    "objects"
+  ],
+  "type": "registry:file"
+}

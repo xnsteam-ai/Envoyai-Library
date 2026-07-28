@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-paperclip-horizontal",
+  "title": "PaperclipHorizontal",
+  "description": "Phosphor PaperclipHorizontal icon in regular, bold, duotone weights. Also: attachments, mail, email, office.",
+  "files": [
+    {
+      "path": "icons/phosphor/paperclip-horizontal-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M248,128a56.06,56.06,0,0,1-56,56H48a40,40,0,0,1,0-80H192a24,24,0,0,1,0,48H80a8,8,0,0,1,0-16H192a8,8,0,0,0,0-16H48a24,24,0,0,0,0,48H192a40,40,0,0,0,0-80H80a8,8,0,0,1,0-16H192A56.06,56.06,0,0,1,248,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/paperclip-horizontal-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/paperclip-horizontal-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M252,128a60.07,60.07,0,0,1-60,60H44a40,40,0,0,1,0-80H184a12,12,0,0,1,0,24H44a16,16,0,0,0,0,32H192a36,36,0,0,0,0-72H80a12,12,0,0,1,0-24H192A60.07,60.07,0,0,1,252,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/paperclip-horizontal-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/paperclip-horizontal-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M240,128a48,48,0,0,1-48,48H48a32,32,0,0,1,0-64H80V80H192A48,48,0,0,1,240,128Z\" opacity=\"0.2\"/><path d=\"M248,128a56.06,56.06,0,0,1-56,56H48a40,40,0,0,1,0-80H192a24,24,0,0,1,0,48H80a8,8,0,0,1,0-16H192a8,8,0,0,0,0-16H48a24,24,0,0,0,0,48H192a40,40,0,0,0,0-80H80a8,8,0,0,1,0-16H192A56.06,56.06,0,0,1,248,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/paperclip-horizontal-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "PaperclipHorizontal",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "attachments",
+      "mail",
+      "email",
+      "office"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "communications",
+    "editor",
+    "office",
+    "objects"
+  ],
+  "type": "registry:file"
+}

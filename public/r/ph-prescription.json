@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-prescription",
+  "title": "Prescription",
+  "description": "Phosphor Prescription icon in regular, bold, duotone weights. Also: rx, medicine, drugs, pharmacy, pharmacist, pharmaceuticals, doctor.",
+  "files": [
+    {
+      "path": "icons/phosphor/prescription-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M183.31,188l22.35-22.34a8,8,0,0,0-11.32-11.32L172,176.69l-41.15-41.16A52,52,0,0,0,124,32H72a8,8,0,0,0-8,8V192a8,8,0,0,0,16,0V136h28.69l52,52-22.35,22.34a8,8,0,0,0,11.32,11.32L172,199.31l22.34,22.35a8,8,0,0,0,11.32-11.32ZM80,48h44a36,36,0,0,1,0,72H80Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/prescription-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/prescription-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M189,188l19.52-19.51a12,12,0,0,0-17-17L172,171,138.93,138A56,56,0,0,0,124,28H72A12,12,0,0,0,60,40V192a12,12,0,0,0,24,0V140h23l48,48-19.52,19.51a12,12,0,0,0,17,17L172,205l19.51,19.52a12,12,0,0,0,17-17ZM84,52h40a32,32,0,0,1,0,64H84Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/prescription-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/prescription-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M168,84a44,44,0,0,1-44,44H72V40h52A44,44,0,0,1,168,84Z\" opacity=\"0.2\"/><path d=\"M183.31,188l22.35-22.34a8,8,0,0,0-11.32-11.32L172,176.69l-41.15-41.16A52,52,0,0,0,124,32H72a8,8,0,0,0-8,8V192a8,8,0,0,0,16,0V136h28.69l52,52-22.35,22.34a8,8,0,0,0,11.32,11.32L172,199.31l22.34,22.35a8,8,0,0,0,11.32-11.32ZM80,48h44a36,36,0,0,1,0,72H80Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/prescription-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Prescription",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "rx",
+      "medicine",
+      "drugs",
+      "pharmacy",
+      "pharmacist",
+      "pharmaceuticals",
+      "doctor"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "health & wellness"
+  ],
+  "type": "registry:file"
+}

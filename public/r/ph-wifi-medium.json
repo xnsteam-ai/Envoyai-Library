@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-wifi-medium",
+  "title": "WifiMedium",
+  "description": "Phosphor WifiMedium icon in regular, bold, duotone weights. Also: wireless, internet, network, connection, connectivity.",
+  "files": [
+    {
+      "path": "icons/phosphor/wifi-medium-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M140,204a12,12,0,1,1-12-12A12,12,0,0,1,140,204Zm65-81.23a124,124,0,0,0-153.94,0A8,8,0,0,0,61,135.31a108,108,0,0,1,134.06,0,8,8,0,0,0,11.24-1.3A8,8,0,0,0,205,122.77Zm-32.26,35.76a76.05,76.05,0,0,0-89.42,0,8,8,0,0,0,9.42,12.94,60,60,0,0,1,70.58,0,8,8,0,1,0,9.42-12.94Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/wifi-medium-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/wifi-medium-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M144,204a16,16,0,1,1-16-16A16,16,0,0,1,144,204Zm63.45-84.36a128,128,0,0,0-158.9,0,12,12,0,0,0,14.9,18.81,104,104,0,0,1,129.1,0,12,12,0,0,0,14.9-18.81ZM175.07,155.3a80.05,80.05,0,0,0-94.14,0,12,12,0,0,0,14.14,19.4,56,56,0,0,1,65.86,0,12,12,0,1,0,14.14-19.4Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/wifi-medium-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/wifi-medium-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M202.33,130.94l-68.18,82.18a8,8,0,0,1-12.3,0L53.67,130.94a116,116,0,0,1,148.66,0Z\" opacity=\"0.2\"/><path d=\"M247.89,80.91a15.93,15.93,0,0,0-6.17-10.81A186.67,186.67,0,0,0,128,32,186.67,186.67,0,0,0,14.28,70.1,15.93,15.93,0,0,0,8.11,80.91,15.65,15.65,0,0,0,11.65,92.8l104,125.43A15.93,15.93,0,0,0,128,224h0a15.93,15.93,0,0,0,12.31-5.77h0l104-125.43A15.65,15.65,0,0,0,247.89,80.91ZM128,208l-62.87-75.8a107.89,107.89,0,0,1,125.74,0Zm73.12-88.16a124,124,0,0,0-146.24,0L24.09,82.74A170.76,170.76,0,0,1,128,48,170.76,170.76,0,0,1,231.91,82.74Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/wifi-medium-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "WifiMedium",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "wireless",
+      "internet",
+      "network",
+      "connection",
+      "connectivity"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "system"
+  ],
+  "type": "registry:file"
+}

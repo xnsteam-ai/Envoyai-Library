@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-chart-bar-horizontal",
+  "title": "ChartBarHorizontal",
+  "description": "Phosphor ChartBarHorizontal icon in regular, bold, duotone weights. Also: graphs, graphing, charts, statistics, histogram, analyze, analysis.",
+  "files": [
+    {
+      "path": "icons/phosphor/chart-bar-horizontal-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,96H184V56a8,8,0,0,0-8-8H56V40a8,8,0,0,0-16,0V216a8,8,0,0,0,16,0v-8h88a8,8,0,0,0,8-8V160h72a8,8,0,0,0,8-8V104A8,8,0,0,0,224,96ZM168,64V96H56V64ZM136,192H56V160h80Zm80-48H56V112H216Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/chart-bar-horizontal-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/chart-bar-horizontal-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,92H188V56a12,12,0,0,0-12-12H60V40a12,12,0,0,0-24,0V216a12,12,0,0,0,24,0v-4h84a12,12,0,0,0,12-12V164h68a12,12,0,0,0,12-12V104A12,12,0,0,0,224,92ZM164,68V92H60V68ZM132,188H60V164h72Zm80-48H60V116H212Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/chart-bar-horizontal-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/chart-bar-horizontal-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,104v48H48V104Z\" opacity=\"0.2\"/><path d=\"M224,96H184V56a8,8,0,0,0-8-8H56V40a8,8,0,0,0-16,0V216a8,8,0,0,0,16,0v-8h88a8,8,0,0,0,8-8V160h72a8,8,0,0,0,8-8V104A8,8,0,0,0,224,96ZM168,64V96H56V64ZM136,192H56V160h80Zm80-48H56V112H216Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/chart-bar-horizontal-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "ChartBarHorizontal",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "graphs",
+      "graphing",
+      "charts",
+      "statistics",
+      "histogram",
+      "analyze",
+      "analysis"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "finances",
+    "office"
+  ],
+  "type": "registry:file"
+}

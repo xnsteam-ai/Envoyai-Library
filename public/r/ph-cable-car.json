@@ -1,0 +1,55 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-cable-car",
+  "title": "CableCar",
+  "description": "Phosphor CableCar icon in regular, bold, duotone weights. Also: vehicles, gondola, skiing, mountains, public transit, transportation, commuter, traveling.",
+  "files": [
+    {
+      "path": "icons/phosphor/cable-car-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M247.87,30.59a8,8,0,0,0-9.28-6.46l-224,40A8,8,0,0,0,16,80a8.6,8.6,0,0,0,1.42-.12L120,61.55V96H64a32,32,0,0,0-32,32v64a32,32,0,0,0,32,32H192a32,32,0,0,0,32-32V128a32,32,0,0,0-32-32H136V58.7L241.4,39.88A8,8,0,0,0,247.87,30.59ZM104,160V112h48v48ZM64,112H88v48H48V128A16,16,0,0,1,64,112Zm128,96H64a16,16,0,0,1-16-16V176H208v16A16,16,0,0,1,192,208Zm16-80v32H168V112h24A16,16,0,0,1,208,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/cable-car-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/cable-car-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M251.81,29.89a12,12,0,0,0-13.92-9.7l-224,40A12,12,0,0,0,16,84a11.77,11.77,0,0,0,2.12-.19L116,66.33V92H64a36,36,0,0,0-36,36v64a36,36,0,0,0,36,36H192a36,36,0,0,0,36-36V128a36,36,0,0,0-36-36H140V62.05L242.11,43.81A12,12,0,0,0,251.81,29.89ZM108,156V116h40v40ZM64,116H84v40H52V128A12,12,0,0,1,64,116Zm128,88H64a12,12,0,0,1-12-12V180H204v12A12,12,0,0,1,192,204Zm12-76v28H172V116h20A12,12,0,0,1,204,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/cable-car-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/cable-car-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,128v40H40V128a24,24,0,0,1,24-24H192A24,24,0,0,1,216,128Z\" opacity=\"0.2\"/><path d=\"M247.87,30.59a8,8,0,0,0-9.28-6.46l-224,40A8,8,0,0,0,16,80a8.6,8.6,0,0,0,1.42-.12L120,61.56V96H64a32,32,0,0,0-32,32v64a32,32,0,0,0,32,32H192a32,32,0,0,0,32-32V128a32,32,0,0,0-32-32H136V58.7L241.4,39.88A8,8,0,0,0,247.87,30.59ZM104,160V112h48v48ZM64,112H88v48H48V128A16,16,0,0,1,64,112Zm128,96H64a16,16,0,0,1-16-16V176H208v16A16,16,0,0,1,192,208Zm16-80v32H168V112h24A16,16,0,0,1,208,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/cable-car-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "CableCar",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "vehicles",
+      "gondola",
+      "skiing",
+      "mountains",
+      "public transit",
+      "transportation",
+      "commuter",
+      "traveling",
+      "places",
+      "locations"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "maps & travel",
+    "objects"
+  ],
+  "type": "registry:file"
+}

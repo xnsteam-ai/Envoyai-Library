@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-square-half-bottom",
+  "title": "SquareHalfBottom",
+  "description": "Phosphor SquareHalfBottom icon in regular, bold, duotone weights. Also: 4, shapes, polygons, box, columns, sidebar, split vertical.",
+  "files": [
+    {
+      "path": "icons/phosphor/square-half-bottom-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,40H56A16,16,0,0,0,40,56V200a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,16v64H56V56Zm-96,80v64H88V136Zm16,0h16v64H120Zm32,0h16v64H152Zm-96,0H72v64H56Zm144,64H184V136h16v64Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/square-half-bottom-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/square-half-bottom-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,36H56A20,20,0,0,0,36,56V200a20,20,0,0,0,20,20H200a20,20,0,0,0,20-20V56A20,20,0,0,0,200,36Zm-4,24v56H60V60Zm-80,80v56H100V140Zm24,0h16v56H140Zm-80,0H76v56H60Zm120,56V140h16v56Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/square-half-bottom-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/square-half-bottom-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,128v72a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V128Z\" opacity=\"0.2\"/><path d=\"M200,40H56A16,16,0,0,0,40,56V200a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,16v64H56V56Zm0,144H56V136H200v64Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/square-half-bottom-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "SquareHalfBottom",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "4",
+      "shapes",
+      "polygons",
+      "box",
+      "columns",
+      "sidebar",
+      "split vertical"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "design"
+  ],
+  "type": "registry:file"
+}

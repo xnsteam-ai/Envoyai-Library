@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-wave-sawtooth",
+  "title": "WaveSawtooth",
+  "description": "Phosphor WaveSawtooth icon in regular, bold, duotone weights. Also: synth, synthesizer, sound, audio, music, waveform.",
+  "files": [
+    {
+      "path": "icons/phosphor/wave-sawtooth-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M236.19,134.81l-104,64A8,8,0,0,1,120,192V78.32L28.19,134.81a8,8,0,0,1-8.38-13.62l104-64A8,8,0,0,1,136,64V177.68l91.81-56.49a8,8,0,0,1,8.38,13.62Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/wave-sawtooth-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/wave-sawtooth-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M238.29,138.22l-104,64A12,12,0,0,1,116,192V85.47L30.29,138.22a12,12,0,0,1-12.58-20.44l104-64A12,12,0,0,1,140,64V170.53l85.71-52.75a12,12,0,1,1,12.58,20.44Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/wave-sawtooth-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/wave-sawtooth-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M128,64v64H24Zm104,64H128v64Z\" opacity=\"0.2\"/><path d=\"M236.19,134.81l-104,64A8,8,0,0,1,120,192V78.32L28.19,134.81a8,8,0,0,1-8.38-13.62l104-64A8,8,0,0,1,136,64V177.68l91.81-56.49a8,8,0,0,1,8.38,13.62Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/wave-sawtooth-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "WaveSawtooth",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "synth",
+      "synthesizer",
+      "sound",
+      "audio",
+      "music",
+      "waveform"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "media"
+  ],
+  "type": "registry:file"
+}

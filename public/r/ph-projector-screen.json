@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-projector-screen",
+  "title": "ProjectorScreen",
+  "description": "Phosphor ProjectorScreen icon in regular, bold, duotone weights. Also: projection, presentation, slideshow, movies, charts, statistics, analyze, analysis.",
+  "files": [
+    {
+      "path": "icons/phosphor/projector-screen-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M232,64V48a16,16,0,0,0-16-16H40A16,16,0,0,0,24,48V64A16,16,0,0,0,40,80v96H32a8,8,0,0,0,0,16h88v17.38a24,24,0,1,0,16,0V192h88a8,8,0,0,0,0-16h-8V80A16,16,0,0,0,232,64ZM128,240a8,8,0,1,1,8-8A8,8,0,0,1,128,240ZM40,48H216V64H40ZM200,176H56V80H200Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/projector-screen-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/projector-screen-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M236,72V48a20,20,0,0,0-20-20H40A20,20,0,0,0,20,48V72A20,20,0,0,0,36,91.6V164H32a12,12,0,0,0,0,24h84v23.22a24,24,0,1,0,24,0V188h84a12,12,0,0,0,0-24h-4V91.6A20,20,0,0,0,236,72ZM44,52H212V68H44ZM60,164V92H196v72Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/projector-screen-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/projector-screen-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,72V184H48V72Z\" opacity=\"0.2\"/><path d=\"M232,64V48a16,16,0,0,0-16-16H40A16,16,0,0,0,24,48V64A16,16,0,0,0,40,80v96H32a8,8,0,0,0,0,16h88v17.38a24,24,0,1,0,16,0V192h88a8,8,0,0,0,0-16h-8V80A16,16,0,0,0,232,64ZM128,240a8,8,0,1,1,8-8A8,8,0,0,1,128,240ZM40,48H216V64H40ZM200,176H56V80H200Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/projector-screen-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "ProjectorScreen",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "projection",
+      "presentation",
+      "slideshow",
+      "movies",
+      "charts",
+      "statistics",
+      "analyze",
+      "analysis"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "finances",
+    "media",
+    "office"
+  ],
+  "type": "registry:file"
+}

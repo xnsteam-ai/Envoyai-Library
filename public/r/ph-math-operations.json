@@ -1,0 +1,57 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-math-operations",
+  "title": "MathOperations",
+  "description": "Phosphor MathOperations icon in regular, bold, duotone weights. Also: addition, sum, subtraction, difference, multiply, multiplication, product, divide.",
+  "files": [
+    {
+      "path": "icons/phosphor/math-operations-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M112,72a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16h64A8,8,0,0,1,112,72Zm-8,104H80V152a8,8,0,0,0-16,0v24H40a8,8,0,0,0,0,16H64v24a8,8,0,0,0,16,0V192h24a8,8,0,0,0,0-16Zm48,0h64a8,8,0,0,0,0-16H152a8,8,0,0,0,0,16Zm64,16H152a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Zm-61.66-90.34a8,8,0,0,0,11.32,0L184,83.31l18.34,18.35a8,8,0,0,0,11.32-11.32L195.31,72l18.35-18.34a8,8,0,0,0-11.32-11.32L184,60.69,165.66,42.34a8,8,0,0,0-11.32,11.32L172.69,72,154.34,90.34A8,8,0,0,0,154.34,101.66Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/math-operations-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/math-operations-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M116,72a12,12,0,0,1-12,12H40a12,12,0,0,1,0-24h64A12,12,0,0,1,116,72ZM104,172H84V152a12,12,0,0,0-24,0v20H40a12,12,0,0,0,0,24H60v20a12,12,0,0,0,24,0V196h20a12,12,0,0,0,0-24Zm48,4h64a12,12,0,0,0,0-24H152a12,12,0,0,0,0,24Zm64,16H152a12,12,0,0,0,0,24h64a12,12,0,0,0,0-24Zm-64.49-87.51a12,12,0,0,0,17,0L184,89l15.51,15.52a12,12,0,0,0,17-17L201,72l15.52-15.51a12,12,0,0,0-17-17L184,55,168.49,39.51a12,12,0,0,0-17,17L167,72,151.51,87.51A12,12,0,0,0,151.51,104.49Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/math-operations-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/math-operations-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,56V200a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V56A16,16,0,0,1,56,40H200A16,16,0,0,1,216,56Z\" opacity=\"0.2\"/><path d=\"M112,72a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16h64A8,8,0,0,1,112,72Zm-8,104H80V152a8,8,0,0,0-16,0v24H40a8,8,0,0,0,0,16H64v24a8,8,0,0,0,16,0V192h24a8,8,0,0,0,0-16Zm48,0h64a8,8,0,0,0,0-16H152a8,8,0,0,0,0,16Zm64,16H152a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Zm-61.66-90.34a8,8,0,0,0,11.32,0L184,83.31l18.34,18.35a8,8,0,0,0,11.32-11.32L195.31,72l18.35-18.34a8,8,0,0,0-11.32-11.32L184,60.69,165.66,42.34a8,8,0,0,0-11.32,11.32L172.69,72,154.34,90.34A8,8,0,0,0,154.34,101.66Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/math-operations-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "MathOperations",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "addition",
+      "sum",
+      "subtraction",
+      "difference",
+      "multiply",
+      "multiplication",
+      "product",
+      "divide",
+      "division",
+      "divisor",
+      "dividend",
+      "quotient"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "technology & development",
+    "finances"
+  ],
+  "type": "registry:file"
+}

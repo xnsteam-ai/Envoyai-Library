@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-radical",
+  "title": "Radical",
+  "description": "Phosphor Radical icon in regular, bold, duotone weights. Also: √, radix, radicand, square root, squareroot, mathematics, arithmetic, calculator.",
+  "files": [
+    {
+      "path": "icons/phosphor/radical-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M248,80v24a8,8,0,0,1-16,0V88H133.55L87.49,210.81a8,8,0,0,1-15,0l-48-128a8,8,0,1,1,15-5.62L80,185.22l40.51-108A8,8,0,0,1,128,72H240A8,8,0,0,1,248,80Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/radical-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/radical-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M252,80v24a12,12,0,0,1-24,0V92H136.32L91.24,212.21a12,12,0,0,1-22.47,0l-48-128a12,12,0,1,1,22.47-8.43l36.76,98,36.77-98A12,12,0,0,1,128,68H240A12,12,0,0,1,252,80Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/radical-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/radical-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M240,80V192a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V80Z\" opacity=\"0.2\"/><path d=\"M248,80v24a8,8,0,0,1-16,0V88H133.55L87.49,210.81a8,8,0,0,1-15,0l-48-128a8,8,0,1,1,15-5.62L80,185.22l40.51-108A8,8,0,0,1,128,72H240A8,8,0,0,1,248,80Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/radical-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Radical",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "√",
+      "radix",
+      "radicand",
+      "square root",
+      "squareroot",
+      "mathematics",
+      "arithmetic",
+      "calculator"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "technology & development",
+    "finances"
+  ],
+  "type": "registry:file"
+}

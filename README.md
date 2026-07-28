@@ -36,6 +36,27 @@ Swap the last segment for any item name in the tables below.
 | `theme-toggle` | Light/dark toggle, hydration safe | `lucide-react`, `next-themes` |
 | `asset-card` | Asset preview card with copy-to-clipboard install command | `lucide-react` |
 
+### Icon — Phosphor set
+
+1,512 icons from [Phosphor](https://phosphoricons.com) (MIT), each shipping
+three weights: regular, bold and duotone.
+
+```bash
+npx shadcn@latest add xnsteam-ai/Envoyai-Library/ph-acorn
+```
+
+Names are prefixed `ph-` because both sets have a `cube`, a `compass` and a
+`terminal` — the prefix keeps them from colliding with the hand-drawn envoyai
+glyphs. Each item's `meta` records its `set`, `pascalName`, available `weights`
+and search `tags`; Phosphor's own categories become filter tags.
+
+Phosphor draws with fills rather than strokes, so weight is a different file
+rather than a `stroke-width` — that is why three weights ship per icon.
+
+> Iconsax was considered and ruled out: its licence forbids redistributing loose
+> icon files on both the free and premium tiers, which is exactly what a
+> registry does.
+
 ### Icon & Logo — brand logos
 
 130 AI and LLM provider logos, each shipping a monochrome SVG plus a full-colour

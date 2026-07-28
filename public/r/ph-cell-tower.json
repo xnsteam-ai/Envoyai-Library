@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-cell-tower",
+  "title": "CellTower",
+  "description": "Phosphor CellTower icon in regular, bold, duotone weights. Also: wireless, cellular, broadcast, phone, mobile, network, connection, connectivity.",
+  "files": [
+    {
+      "path": "icons/phosphor/cell-tower-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M135.16,84.42a8,8,0,0,0-14.32,0l-72,144a8,8,0,0,0,14.31,7.16L77,208h102.1l13.79,27.58A8,8,0,0,0,200,240a8,8,0,0,0,7.15-11.58ZM128,105.89,155.06,160H100.94ZM85,192l8-16h70.1l8,16Zm74.54-98.26a32,32,0,1,0-63,0,8,8,0,1,1-15.74,2.85,48,48,0,1,1,94.46,0,8,8,0,0,1-7.86,6.58,8.74,8.74,0,0,1-1.43-.13A8,8,0,0,1,159.49,93.74ZM64.15,136.21a80,80,0,1,1,127.7,0,8,8,0,0,1-12.76-9.65,64,64,0,1,0-102.18,0,8,8,0,0,1-12.76,9.65Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/cell-tower-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/cell-tower-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M138.67,86.51a12,12,0,0,0-21.34,0l-72,140a12,12,0,1,0,21.34,11l11-21.49H178.28l11.05,21.49a12,12,0,1,0,21.34-11ZM128,118.24,145.36,152H110.64ZM90.07,192l8.22-16h59.42l8.22,16ZM174.51,68.73a12,12,0,1,1-21.45,10.75,28,28,0,0,0-50.37.52A12,12,0,1,1,81,69.7,52.28,52.28,0,0,1,128,40,51.74,51.74,0,0,1,174.51,68.73Zm-124.58,76a92,92,0,1,1,156.14,0A12,12,0,0,1,185.71,132a68,68,0,1,0-115.42,0A12,12,0,0,1,49.93,144.7Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/cell-tower-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/cell-tower-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,88a72,72,0,0,1-39.8,64.4L128,88,95.8,152.4A72,72,0,1,1,200,88Z\" opacity=\"0.2\"/><path d=\"M135.16,84.42a8,8,0,0,0-14.32,0l-72,144a8,8,0,0,0,14.31,7.16L77,208h102.1l13.79,27.58A8,8,0,0,0,200,240a8,8,0,0,0,7.15-11.58ZM128,105.89,155.06,160H100.94ZM85,192l8-16h70.1l8,16Zm74.54-98.26a32,32,0,1,0-63,0,8,8,0,1,1-15.74,2.85,48,48,0,1,1,94.46,0,8,8,0,0,1-7.86,6.58,8.74,8.74,0,0,1-1.43-.13A8,8,0,0,1,159.49,93.74ZM64.15,136.21a80,80,0,1,1,127.7,0,8,8,0,0,1-12.76-9.65,64,64,0,1,0-102.18,0,8,8,0,0,1-12.76,9.65Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/cell-tower-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "CellTower",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "wireless",
+      "cellular",
+      "broadcast",
+      "phone",
+      "mobile",
+      "network",
+      "connection",
+      "connectivity"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "system"
+  ],
+  "type": "registry:file"
+}

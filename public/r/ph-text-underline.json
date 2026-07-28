@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-text-underline",
+  "title": "TextUnderline",
+  "description": "Phosphor TextUnderline icon in regular, bold, duotone weights. Also: typography, typeface, print, font, underscore, emphasis.",
+  "files": [
+    {
+      "path": "icons/phosphor/text-underline-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,224a8,8,0,0,1-8,8H64a8,8,0,0,1,0-16H192A8,8,0,0,1,200,224Zm-72-24a64.07,64.07,0,0,0,64-64V56a8,8,0,0,0-16,0v80a48,48,0,0,1-96,0V56a8,8,0,0,0-16,0v80A64.07,64.07,0,0,0,128,200Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/text-underline-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/text-underline-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M204,224a12,12,0,0,1-12,12H64a12,12,0,0,1,0-24H192A12,12,0,0,1,204,224Zm-76-28a68.07,68.07,0,0,0,68-68V56a12,12,0,0,0-24,0v72a44,44,0,0,1-88,0V56a12,12,0,0,0-24,0v72A68.07,68.07,0,0,0,128,196Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/text-underline-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/text-underline-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M184,56v80a56,56,0,0,1-112,0V56Z\" opacity=\"0.2\"/><path d=\"M200,224a8,8,0,0,1-8,8H64a8,8,0,0,1,0-16H192A8,8,0,0,1,200,224Zm-72-24a64.07,64.07,0,0,0,64-64V56a8,8,0,0,0-16,0v80a48,48,0,0,1-96,0V56a8,8,0,0,0-16,0v80A64.07,64.07,0,0,0,128,200Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/text-underline-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "TextUnderline",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "typography",
+      "typeface",
+      "print",
+      "font",
+      "underscore",
+      "emphasis"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "design",
+    "editor"
+  ],
+  "type": "registry:file"
+}

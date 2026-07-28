@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-suitcase-simple",
+  "title": "SuitcaseSimple",
+  "description": "Phosphor SuitcaseSimple icon in regular, bold, duotone weights. Also: briefcase, valise, baggage, folders, portfolio.",
+  "files": [
+    {
+      "path": "icons/phosphor/suitcase-simple-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v72H40V72Zm0,128H40V160H216v40Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/suitcase-simple-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/suitcase-simple-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,48H180V40a28,28,0,0,0-28-28H104A28,28,0,0,0,76,40v8H40A20,20,0,0,0,20,68V196a20,20,0,0,0,20,20H216a20,20,0,0,0,20-20V68A20,20,0,0,0,216,48ZM100,40a4,4,0,0,1,4-4h48a4,4,0,0,1,4,4v8H100ZM212,72v64H44V72ZM44,192V160H212v32Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/suitcase-simple-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/suitcase-simple-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,152v48a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V152Z\" opacity=\"0.2\"/><path d=\"M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v72H40V72Zm0,128H40V160H216v40Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/suitcase-simple-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "SuitcaseSimple",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "briefcase",
+      "valise",
+      "baggage",
+      "folders",
+      "portfolio"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "office",
+    "objects"
+  ],
+  "type": "registry:file"
+}

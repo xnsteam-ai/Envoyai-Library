@@ -1,0 +1,56 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-martini",
+  "title": "Martini",
+  "description": "Phosphor Martini icon in regular, bold, duotone weights. Also: glass, drinks, beverages, cocktails, places, locations, bars, restaurants.",
+  "files": [
+    {
+      "path": "icons/phosphor/martini-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M237.66,45.66A8,8,0,0,0,232,32H24a8,8,0,0,0-5.66,13.66L120,147.31V208H88a8,8,0,0,0,0,16h80a8,8,0,0,0,0-16H136V147.31ZM43.31,48H212.69l-16,16H59.31ZM128,132.69,75.31,80H180.69Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/martini-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/martini-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M243.09,35.41A12,12,0,0,0,232,28H24a12,12,0,0,0-8.48,20.49L116,149v55H88a12,12,0,0,0,0,24h80a12,12,0,0,0,0-24H140V149L240.48,48.49A12,12,0,0,0,243.09,35.41ZM203,52,191,64H65L53,52Zm-75,75L89,88H167Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/martini-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/martini-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,72l-72,72L56,72Z\" opacity=\"0.2\"/><path d=\"M237.66,45.66A8,8,0,0,0,232,32H24a8,8,0,0,0-5.66,13.66L120,147.31V208H88a8,8,0,0,0,0,16h80a8,8,0,0,0,0-16H136V147.31ZM75.31,80H180.69L128,132.69ZM212.69,48l-16,16H59.31l-16-16Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/martini-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Martini",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "glass",
+      "drinks",
+      "beverages",
+      "cocktails",
+      "places",
+      "locations",
+      "bars",
+      "restaurants",
+      "food",
+      "dining"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "commerce",
+    "maps & travel",
+    "objects"
+  ],
+  "type": "registry:file"
+}

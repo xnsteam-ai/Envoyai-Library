@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-egg-crack",
+  "title": "EggCrack",
+  "description": "Phosphor EggCrack icon in regular, bold, duotone weights. Also: chicken, food, meal, baby, hatch, break.",
+  "files": [
+    {
+      "path": "icons/phosphor/egg-crack-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M186.66,59.56C168.47,32.29,146.54,16,128,16S87.53,32.29,69.34,59.56C50.7,87.54,40,121.23,40,152a88,88,0,0,0,176,0C216,121.23,205.3,87.54,186.66,59.56ZM128,224a72.08,72.08,0,0,1-72-72c0-27.69,9.72-58.15,26.66-83.56C97.19,46.64,115.41,32,128,32c9.5,0,22.2,8.33,34.1,21.78L122,98.67a8,8,0,0,0,4,13.09l24.6,6.15-6.5,32.52a8,8,0,0,0,6.27,9.41A7.77,7.77,0,0,0,152,160a8,8,0,0,0,7.83-6.43l8-40a8,8,0,0,0-5.9-9.33l-19.16-4.79L172.1,66.6c.42.61.83,1.22,1.24,1.84C190.28,93.85,200,124.31,200,152A72.08,72.08,0,0,1,128,224Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/egg-crack-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/egg-crack-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M190,57.34C171.06,29,147.88,12,128,12S84.94,29,66,57.34C46.94,86,36,120.46,36,152a92,92,0,0,0,184,0C220,120.46,209.06,86,190,57.34ZM128,220a68.07,68.07,0,0,1-68-68c0-61.12,46.19-116,68-116,7.59,0,18.13,6.65,28.64,17.88L119.05,96a12,12,0,0,0,6,19.63l20.9,5.23-5.76,28.78a12,12,0,0,0,9.42,14.12A11.87,11.87,0,0,0,152,164a12,12,0,0,0,11.76-9.65l8-40a12,12,0,0,0-8.86-14l-12.74-3.19,21.4-24C185.2,94.34,196,122.44,196,152A68.07,68.07,0,0,1,128,220Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/egg-crack-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/egg-crack-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,152a80,80,0,0,1-160,0C48,88,96,24,128,24S208,88,208,152Z\" opacity=\"0.2\"/><path d=\"M186.66,59.56C168.47,32.29,146.54,16,128,16S87.53,32.29,69.34,59.56C50.7,87.54,40,121.23,40,152a88,88,0,0,0,176,0C216,121.23,205.3,87.54,186.66,59.56ZM128,224a72.08,72.08,0,0,1-72-72c0-27.69,9.72-58.15,26.66-83.56C97.19,46.64,115.41,32,128,32c9.5,0,22.2,8.33,34.1,21.78L122,98.67a8,8,0,0,0,4,13.09l24.6,6.15-6.5,32.52a8,8,0,0,0,6.27,9.41A7.77,7.77,0,0,0,152,160a8,8,0,0,0,7.83-6.43l8-40a8,8,0,0,0-5.9-9.33l-19.16-4.79L172.1,66.6c.42.61.83,1.22,1.24,1.84C190.28,93.85,200,124.31,200,152A72.08,72.08,0,0,1,128,224Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/egg-crack-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "EggCrack",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "chicken",
+      "food",
+      "meal",
+      "baby",
+      "hatch",
+      "break"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "commerce",
+    "nature"
+  ],
+  "type": "registry:file"
+}

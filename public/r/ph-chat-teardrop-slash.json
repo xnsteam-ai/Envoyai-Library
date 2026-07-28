@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-chat-teardrop-slash",
+  "title": "ChatTeardropSlash",
+  "description": "Phosphor ChatTeardropSlash icon in regular, bold, duotone weights. Also: messages, messaging, sms, texting, comment, bubble.",
+  "files": [
+    {
+      "path": "icons/phosphor/chat-teardrop-slash-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M53.92,34.62A8,8,0,1,0,42.08,45.38l13.18,14.5A99.39,99.39,0,0,0,32,124v84a16,16,0,0,0,16,16h84a100.33,100.33,0,0,0,56.53-17.53l13.55,14.91a8,8,0,1,0,11.84-10.76ZM132,208H48V124A83.46,83.46,0,0,1,66.15,71.85L177.66,194.51A83,83,0,0,1,132,208Zm100-84a99.87,99.87,0,0,1-14.35,51.65,8,8,0,0,1-13.7-8.28A84,84,0,0,0,95.66,48.25a8,8,0,0,1-6.94-14.42A100,100,0,0,1,232,124Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/chat-teardrop-slash-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/chat-teardrop-slash-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M56.88,31.93A12,12,0,1,0,39.12,48.07L50,60a103.37,103.37,0,0,0-22,64v84a20,20,0,0,0,20,20h84a104.32,104.32,0,0,0,55.87-16.31l11.25,12.38a12,12,0,0,0,17.76-16.14ZM132,204H52V124A79.51,79.51,0,0,1,66.46,78.14l105,115.49A79.08,79.08,0,0,1,132,204Zm104-80a102.9,102.9,0,0,1-10.36,45.29A12,12,0,0,1,204,158.83,79.25,79.25,0,0,0,212,124,80.07,80.07,0,0,0,104.16,49a12,12,0,0,1-8.35-22.5A104.07,104.07,0,0,1,236,124Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/chat-teardrop-slash-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/chat-teardrop-slash-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,124h0a92,92,0,0,1-92,92H48a8,8,0,0,1-8-8V124a92,92,0,0,1,92-92h0A92,92,0,0,1,224,124Z\" opacity=\"0.2\"/><path d=\"M53.92,34.62A8,8,0,1,0,42.08,45.38l13.18,14.5A99.39,99.39,0,0,0,32,124v84a16,16,0,0,0,16,16h84a100.33,100.33,0,0,0,56.53-17.53l13.55,14.91a8,8,0,1,0,11.84-10.76ZM132,208H48V124A83.46,83.46,0,0,1,66.15,71.85L177.66,194.51A83,83,0,0,1,132,208Zm100-84a99.87,99.87,0,0,1-14.35,51.65,8,8,0,0,1-13.7-8.28A84,84,0,0,0,95.66,48.25a8,8,0,0,1-6.94-14.42A100,100,0,0,1,232,124Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/chat-teardrop-slash-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "ChatTeardropSlash",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "messages",
+      "messaging",
+      "sms",
+      "texting",
+      "comment",
+      "bubble"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "communications"
+  ],
+  "type": "registry:file"
+}

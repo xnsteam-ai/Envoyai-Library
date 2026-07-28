@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-pipe",
+  "title": "Pipe",
+  "description": "Phosphor Pipe icon in regular, bold, duotone weights. Also: tube, plumber, plumbing, construction.",
+  "files": [
+    {
+      "path": "icons/phosphor/pipe-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M232,104H208V56h24a8,8,0,0,0,0-16H205.83A16,16,0,0,0,192,32H176a16,16,0,0,0-13.83,8H144A104.11,104.11,0,0,0,40,144v18.16A16,16,0,0,0,32,176v16a16,16,0,0,0,8,13.84V232a8,8,0,0,0,16,0V208h48v24a8,8,0,0,0,16,0V205.84A16,16,0,0,0,128,192V176a16,16,0,0,0-8-13.84V144a24,24,0,0,1,24-24h18.17A16,16,0,0,0,176,128h16a16,16,0,0,0,13.83-8H232a8,8,0,0,0,0-16ZM112,176v16H48V176Zm-8-32v16H56V144a88.1,88.1,0,0,1,88-88h16v48H144A40,40,0,0,0,104,144Zm72-32V48h16v63.8c0,.07,0,.13,0,.2Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/pipe-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/pipe-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M232,100H216V60h16a12,12,0,0,0,0-24H212a20,20,0,0,0-16-8H172a20,20,0,0,0-16,8H144A108.12,108.12,0,0,0,36,144v12a20,20,0,0,0-8,16v24a20,20,0,0,0,8,16v20a12,12,0,0,0,24,0V216h40v16a12,12,0,0,0,24,0V212a20,20,0,0,0,8-16V172a20,20,0,0,0-8-16V144a20,20,0,0,1,20-20h12a20,20,0,0,0,16,8h24a20,20,0,0,0,16-8h20a12,12,0,0,0,0-24ZM108,176v16H52V176Zm-8-32v8H60v-8a84.09,84.09,0,0,1,84-84h8v40h-8A44.05,44.05,0,0,0,100,144Zm76-92h16v56H176Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/pipe-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/pipe-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M168,48v64H144a32,32,0,0,0-32,32v24H48V144a96,96,0,0,1,96-96Z\" opacity=\"0.2\"/><path d=\"M232,104H208V56h24a8,8,0,0,0,0-16H205.83A16,16,0,0,0,192,32H176a16,16,0,0,0-13.83,8H144A104.11,104.11,0,0,0,40,144v18.16A16,16,0,0,0,32,176v16a16,16,0,0,0,8,13.84V232a8,8,0,0,0,16,0V208h48v24a8,8,0,0,0,16,0V205.84A16,16,0,0,0,128,192V176a16,16,0,0,0-8-13.84V144a24,24,0,0,1,24-24h18.17A16,16,0,0,0,176,128h16a16,16,0,0,0,13.83-8H232a8,8,0,0,0,0-16ZM112,176v16H48V176Zm-8-32v16H56V144a88.1,88.1,0,0,1,88-88h16v48H144A40,40,0,0,0,104,144Zm72-32V48h16v63.8c0,.07,0,.13,0,.2Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/pipe-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Pipe",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "tube",
+      "plumber",
+      "plumbing",
+      "construction"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "commerce",
+    "objects"
+  ],
+  "type": "registry:file"
+}

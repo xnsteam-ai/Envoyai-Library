@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-calendar-slash",
+  "title": "CalendarSlash",
+  "description": "Phosphor CalendarSlash icon in regular, bold, duotone weights. Also: dates, times, events, schedule, remove, delete, cancel. unavailable.",
+  "files": [
+    {
+      "path": "icons/phosphor/calendar-slash-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M53.92,34.62A8,8,0,0,0,48,32,16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a8,8,0,0,0,5.92-13.38ZM73.55,80H48V51.88ZM48,208V96H88.1L189.92,208ZM224,48V177.23a8,8,0,1,1-16,0V96H134.88a8,8,0,0,1,0-16H208V48H184v8a8,8,0,0,1-16,0V48H91.25a8,8,0,0,1,0-16H168V24a8,8,0,0,1,16,0v8h24A16,16,0,0,1,224,48Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/calendar-slash-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/calendar-slash-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M56.88,31.93A12,12,0,0,0,48,28,20,20,0,0,0,28,48V208a20,20,0,0,0,20,20H208a12,12,0,0,0,8.88-20.07ZM52,204V62.24L180.87,204ZM228,48V165.34a12,12,0,1,1-24,0V100H145.69a12,12,0,0,1,0-24H204V52H188a12,12,0,0,1-24,0H102.06a12,12,0,0,1,0-24H164V24a12,12,0,0,1,24,0v4h20A20,20,0,0,1,228,48Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/calendar-slash-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/calendar-slash-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,48V88H40V48a8,8,0,0,1,8-8H208A8,8,0,0,1,216,48Z\" opacity=\"0.2\"/><path d=\"M53.92,34.62A8,8,0,0,0,48,32,16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a8,8,0,0,0,5.92-13.38ZM73.55,80H48V51.88ZM48,208V96H88.1L189.92,208ZM224,48V177.23a8,8,0,1,1-16,0V96H134.88a8,8,0,0,1,0-16H208V48H184v8a8,8,0,0,1-16,0V48H91.25a8,8,0,0,1,0-16H168V24a8,8,0,0,1,16,0v8h24A16,16,0,0,1,224,48Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/calendar-slash-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "CalendarSlash",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "dates",
+      "times",
+      "events",
+      "schedule",
+      "remove",
+      "delete",
+      "cancel. unavailable"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "office",
+    "system"
+  ],
+  "type": "registry:file"
+}

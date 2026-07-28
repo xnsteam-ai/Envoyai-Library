@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-hash-straight",
+  "title": "HashStraight",
+  "description": "Phosphor HashStraight icon in regular, bold, duotone weights. Also: hashtag, octothorpe, pound sign, number sign, tic-tac-toe, symbol.",
+  "files": [
+    {
+      "path": "icons/phosphor/hash-straight-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,152H168V104h48a8,8,0,0,0,0-16H168V40a8,8,0,0,0-16,0V88H104V40a8,8,0,0,0-16,0V88H40a8,8,0,0,0,0,16H88v48H40a8,8,0,0,0,0,16H88v48a8,8,0,0,0,16,0V168h48v48a8,8,0,0,0,16,0V168h48a8,8,0,0,0,0-16Zm-112,0V104h48v48Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/hash-straight-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/hash-straight-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,148H172V108h44a12,12,0,0,0,0-24H172V40a12,12,0,0,0-24,0V84H108V40a12,12,0,0,0-24,0V84H40a12,12,0,0,0,0,24H84v40H40a12,12,0,0,0,0,24H84v44a12,12,0,0,0,24,0V172h40v44a12,12,0,0,0,24,0V172h44a12,12,0,0,0,0-24Zm-108,0V108h40v40Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/hash-straight-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/hash-straight-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M160,96v64H96V96Z\" opacity=\"0.2\"/><path d=\"M216,152H168V104h48a8,8,0,0,0,0-16H168V40a8,8,0,0,0-16,0V88H104V40a8,8,0,0,0-16,0V88H40a8,8,0,0,0,0,16H88v48H40a8,8,0,0,0,0,16H88v48a8,8,0,0,0,16,0V168h48v48a8,8,0,0,0,16,0V168h48a8,8,0,0,0,0-16Zm-112,0V104h48v48Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/hash-straight-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "HashStraight",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "hashtag",
+      "octothorpe",
+      "pound sign",
+      "number sign",
+      "tic-tac-toe",
+      "symbol"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "communications"
+  ],
+  "type": "registry:file"
+}

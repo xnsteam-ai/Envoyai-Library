@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-map-pin-simple-area",
+  "title": "MapPinSimpleArea",
+  "description": "Phosphor MapPinSimpleArea icon in regular, bold, duotone weights. Also: maps, places, markers, pins, locations, poi, point of interest.",
+  "files": [
+    {
+      "path": "icons/phosphor/map-pin-simple-area-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M120,103.2V176a8,8,0,0,0,16,0V103.2a40,40,0,1,0-16,0ZM128,40a24,24,0,1,1-24,24A24,24,0,0,1,128,40ZM240,176c0,31.18-57.71,48-112,48S16,207.18,16,176c0-7.74,3.81-19.13,22-29.41,12.26-6.94,29.12-12.27,48.77-15.42A8,8,0,1,1,89.27,147c-17.54,2.82-33,7.63-43.42,13.55C37.05,165.5,32,171.14,32,176c0,13.36,36.52,32,96,32s96-18.64,96-32c0-4.86-5.05-10.5-13.85-15.49-10.46-5.92-25.88-10.73-43.42-13.55a8,8,0,1,1,2.54-15.79c19.65,3.15,36.51,8.48,48.77,15.42C236.19,156.87,240,168.26,240,176Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/map-pin-simple-area-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/map-pin-simple-area-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M116,106.32V176a12,12,0,0,0,24,0V106.32a44,44,0,1,0-24,0ZM128,44a20,20,0,1,1-20,20A20,20,0,0,1,128,44ZM244,176c0,21.59-23.9,34-38.15,39.48C184.86,223.56,157.22,228,128,228c-57.64,0-116-17.86-116-52,0-22.23,26.12-40.2,69.88-48.06a12,12,0,1,1,4.24,23.62C51.93,157.71,36,169.78,36,176c0,4,7.12,11.07,22.77,17.08,18.3,7,42.89,10.92,69.23,10.92s50.93-3.88,69.23-10.92C212.87,187.07,220,180,220,176c0-6.22-15.93-18.29-50.12-24.44a12,12,0,1,1,4.24-23.62C217.88,135.8,244,153.77,244,176Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/map-pin-simple-area-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/map-pin-simple-area-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M160,64a32,32,0,1,1-32-32A32,32,0,0,1,160,64Z\" opacity=\"0.2\"/><path d=\"M120,103.2V176a8,8,0,0,0,16,0V103.2a40,40,0,1,0-16,0ZM128,40a24,24,0,1,1-24,24A24,24,0,0,1,128,40ZM240,176c0,31.18-57.71,48-112,48S16,207.18,16,176c0-7.74,3.81-19.13,22-29.41,12.26-6.94,29.12-12.27,48.77-15.42A8,8,0,1,1,89.27,147c-17.54,2.82-33,7.63-43.42,13.55C37.05,165.5,32,171.14,32,176c0,13.36,36.52,32,96,32s96-18.64,96-32c0-4.86-5.05-10.5-13.85-15.49-10.46-5.92-25.88-10.73-43.42-13.55a8,8,0,1,1,2.54-15.79c19.65,3.15,36.51,8.48,48.77,15.42C236.19,156.87,240,168.26,240,176Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/map-pin-simple-area-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "MapPinSimpleArea",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "maps",
+      "places",
+      "markers",
+      "pins",
+      "locations",
+      "poi",
+      "point of interest"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "maps & travel"
+  ],
+  "type": "registry:file"
+}

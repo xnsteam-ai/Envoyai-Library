@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-gender-male",
+  "title": "GenderMale",
+  "description": "Phosphor GenderMale icon in regular, bold, duotone weights. Also: man, masculine, mars.",
+  "files": [
+    {
+      "path": "icons/phosphor/gender-male-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,32H168a8,8,0,0,0,0,16h28.69L154.62,90.07a80,80,0,1,0,11.31,11.31L208,59.32V88a8,8,0,0,0,16,0V40A8,8,0,0,0,216,32ZM149.24,197.29a64,64,0,1,1,0-90.53A64.1,64.1,0,0,1,149.24,197.29Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/gender-male-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/gender-male-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,28H168a12,12,0,0,0,0,24h19L154.28,84.74a84,84,0,1,0,17,17L204,69V88a12,12,0,0,0,24,0V40A12,12,0,0,0,216,28ZM146.41,194.46a60,60,0,1,1,0-84.87A60.1,60.1,0,0,1,146.41,194.46Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/gender-male-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/gender-male-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M154.91,202.91a72,72,0,1,1,0-101.82A72,72,0,0,1,154.91,202.91Z\" opacity=\"0.2\"/><path d=\"M216,32H168a8,8,0,0,0,0,16h28.69L154.62,90.07a80,80,0,1,0,11.31,11.31L208,59.32V88a8,8,0,0,0,16,0V40A8,8,0,0,0,216,32ZM149.24,197.29a64,64,0,1,1,0-90.53A64.1,64.1,0,0,1,149.24,197.29Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/gender-male-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "GenderMale",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "man",
+      "masculine",
+      "mars"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "people"
+  ],
+  "type": "registry:file"
+}

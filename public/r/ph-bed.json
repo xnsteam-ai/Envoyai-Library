@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-bed",
+  "title": "Bed",
+  "description": "Phosphor Bed icon in regular, bold, duotone weights. Also: hotels, accommodations, sleeping, places, locations, medical, hospital.",
+  "files": [
+    {
+      "path": "icons/phosphor/bed-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,72H32V48a8,8,0,0,0-16,0V208a8,8,0,0,0,16,0V176H240v32a8,8,0,0,0,16,0V112A40,40,0,0,0,216,72ZM32,88h72v72H32Zm88,72V88h96a24,24,0,0,1,24,24v48Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/bed-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/bed-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M212,68H36V48a12,12,0,0,0-24,0V208a12,12,0,0,0,24,0V180H232v28a12,12,0,0,0,24,0V112A44.05,44.05,0,0,0,212,68ZM100,156H36V92h64Zm132,0H124V92h88a20,20,0,0,1,20,20Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/bed-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/bed-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M248,112v56H112V80H216A32,32,0,0,1,248,112Z\" opacity=\"0.2\"/><path d=\"M216,72H32V48a8,8,0,0,0-16,0V208a8,8,0,0,0,16,0V176H240v32a8,8,0,0,0,16,0V112A40,40,0,0,0,216,72ZM32,88h72v72H32Zm88,72V88h96a24,24,0,0,1,24,24v48Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/bed-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Bed",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "hotels",
+      "accommodations",
+      "sleeping",
+      "places",
+      "locations",
+      "medical",
+      "hospital"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "health & wellness",
+    "maps & travel",
+    "objects"
+  ],
+  "type": "registry:file"
+}

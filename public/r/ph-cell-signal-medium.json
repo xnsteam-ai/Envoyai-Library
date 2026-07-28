@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-cell-signal-medium",
+  "title": "CellSignalMedium",
+  "description": "Phosphor CellSignalMedium icon in regular, bold, duotone weights. Also: wireless, cellular, phone, mobile, network, connection, connectivity, reception.",
+  "files": [
+    {
+      "path": "icons/phosphor/cell-signal-medium-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M128,112v88a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0ZM80,144a8,8,0,0,0-8,8v48a8,8,0,0,0,16,0V152A8,8,0,0,0,80,144ZM40,184a8,8,0,0,0-8,8v8a8,8,0,0,0,16,0v-8A8,8,0,0,0,40,184Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/cell-signal-medium-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/cell-signal-medium-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M132,112v88a12,12,0,0,1-24,0V112a12,12,0,0,1,24,0ZM80,140a12,12,0,0,0-12,12v48a12,12,0,0,0,24,0V152A12,12,0,0,0,80,140ZM40,180a12,12,0,0,0-12,12v8a12,12,0,0,0,24,0v-8A12,12,0,0,0,40,180Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/cell-signal-medium-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/cell-signal-medium-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M120,100.7V208H32a8,8,0,0,1-5.66-13.66Z\" opacity=\"0.2\"/><path d=\"M198.12,25.23a16,16,0,0,0-17.44,3.46l-160,160A16,16,0,0,0,32,216H192a16,16,0,0,0,16-16V40A15.94,15.94,0,0,0,198.12,25.23ZM112,120v80H32Zm80,80H128V104l64-64Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/cell-signal-medium-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "CellSignalMedium",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "wireless",
+      "cellular",
+      "phone",
+      "mobile",
+      "network",
+      "connection",
+      "connectivity",
+      "reception",
+      "service"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "system"
+  ],
+  "type": "registry:file"
+}

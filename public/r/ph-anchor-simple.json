@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-anchor-simple",
+  "title": "AnchorSimple",
+  "description": "Phosphor AnchorSimple icon in regular, bold, duotone weights. Also: nautical, boats, ships, hope, safety, insurance.",
+  "files": [
+    {
+      "path": "icons/phosphor/anchor-simple-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,112H200a8,8,0,0,0,0,16h15.64A88.15,88.15,0,0,1,136,207.63V95a32,32,0,1,0-16,0V207.63A88.15,88.15,0,0,1,40.36,128H56a8,8,0,0,0,0-16H32a8,8,0,0,0-8,8,104,104,0,0,0,208,0A8,8,0,0,0,224,112ZM112,64a16,16,0,1,1,16,16A16,16,0,0,1,112,64Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/anchor-simple-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/anchor-simple-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,108H200a12,12,0,0,0,0,24h11.15A84.21,84.21,0,0,1,140,203.14V97.94a36,36,0,1,0-24,0v105.2A84.21,84.21,0,0,1,44.85,132H56a12,12,0,0,0,0-24H32a12,12,0,0,0-12,12,108,108,0,0,0,216,0A12,12,0,0,0,224,108ZM128,52a12,12,0,1,1-12,12A12,12,0,0,1,128,52Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/anchor-simple-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/anchor-simple-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M152,64a24,24,0,1,1-24-24A24,24,0,0,1,152,64Z\" opacity=\"0.2\"/><path d=\"M224,112H200a8,8,0,0,0,0,16h15.64A88.15,88.15,0,0,1,136,207.63V95a32,32,0,1,0-16,0V207.63A88.15,88.15,0,0,1,40.36,128H56a8,8,0,0,0,0-16H32a8,8,0,0,0-8,8,104,104,0,0,0,208,0A8,8,0,0,0,224,112ZM112,64a16,16,0,1,1,16,16A16,16,0,0,1,112,64Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/anchor-simple-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "AnchorSimple",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "nautical",
+      "boats",
+      "ships",
+      "hope",
+      "safety",
+      "insurance"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "communications",
+    "maps & travel",
+    "objects"
+  ],
+  "type": "registry:file"
+}

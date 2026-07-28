@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-lamp-pendant",
+  "title": "LampPendant",
+  "description": "Phosphor LampPendant icon in regular, bold, duotone weights. Also: light, furniture, appliances.",
+  "files": [
+    {
+      "path": "icons/phosphor/lamp-pendant-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M176,74.78V72a16,16,0,0,0-16-16H136V16a8,8,0,0,0-16,0V56H96A16,16,0,0,0,80,72v2.78A111.73,111.73,0,0,0,16,176a8,8,0,0,0,8,8H88a40,40,0,0,0,80,0h64a8,8,0,0,0,8-8A111.73,111.73,0,0,0,176,74.78ZM128,208a24,24,0,0,1-24-24h48A24,24,0,0,1,128,208ZM32.33,168A95.79,95.79,0,0,1,91.08,87.35,8,8,0,0,0,96,80V72h64v8a8,8,0,0,0,4.92,7.38A95.79,95.79,0,0,1,223.67,168Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/lamp-pendant-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/lamp-pendant-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M180,72.28V72a20,20,0,0,0-20-20H140V16a12,12,0,0,0-24,0V52H96A20,20,0,0,0,76,72v.28A115.7,115.7,0,0,0,12,176a12,12,0,0,0,12,12H84.19a44,44,0,0,0,87.62,0H232a12,12,0,0,0,12-12A115.7,115.7,0,0,0,180,72.28ZM128,204a20,20,0,0,1-19.6-16h39.2A20,20,0,0,1,128,204ZM36.78,164A91.75,91.75,0,0,1,92.62,91.05,12,12,0,0,0,100,80V76h56v4a12,12,0,0,0,7.38,11.08,91.75,91.75,0,0,1,55.84,73Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/lamp-pendant-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/lamp-pendant-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M232,176H24A104,104,0,0,1,88,80V72a8,8,0,0,1,8-8h64a8,8,0,0,1,8,8v8A104,104,0,0,1,232,176Z\" opacity=\"0.2\"/><path d=\"M176,74.78V72a16,16,0,0,0-16-16H136V16a8,8,0,0,0-16,0V56H96A16,16,0,0,0,80,72v2.78A111.73,111.73,0,0,0,16,176a8,8,0,0,0,8,8H88a40,40,0,0,0,80,0h64a8,8,0,0,0,8-8A111.73,111.73,0,0,0,176,74.78ZM128,208a24,24,0,0,1-24-24h48A24,24,0,0,1,128,208ZM32.33,168A95.79,95.79,0,0,1,91.08,87.35,8,8,0,0,0,96,80V72h64v8a8,8,0,0,0,4.92,7.38A95.79,95.79,0,0,1,223.67,168Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/lamp-pendant-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "LampPendant",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "light",
+      "furniture",
+      "appliances"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "commerce",
+    "objects"
+  ],
+  "type": "registry:file"
+}

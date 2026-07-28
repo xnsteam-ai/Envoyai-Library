@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-bookmark",
+  "title": "Bookmark",
+  "description": "Phosphor Bookmark icon in regular, bold, duotone weights. Also: reading, reader, novel, story, placeholder, favorites, favorited, library.",
+  "files": [
+    {
+      "path": "icons/phosphor/bookmark-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,12.24,6.78L128,193.43l59.77,37.35A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,16V161.57l-51.77-32.35a8,8,0,0,0-8.48,0L72,161.56V48ZM132.23,177.22a8,8,0,0,0-8.48,0L72,209.57V180.43l56-35,56,35v29.14Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/bookmark-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/bookmark-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M184,28H72A20,20,0,0,0,52,48V224a12,12,0,0,0,18.36,10.18l57.63-36,57.65,36A12,12,0,0,0,204,224V48A20,20,0,0,0,184,28Zm-4,24V154.35l-45.65-28.53a12,12,0,0,0-12.72,0L76,154.35V52ZM134.35,173.82a12,12,0,0,0-12.72,0L76,202.35v-19.7l52-32.5,52,32.5v19.7Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/bookmark-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/bookmark-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M192,176v48l-64-40L64,224V176l64-40Z\" opacity=\"0.2\"/><path d=\"M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,12.24,6.78L128,193.43l59.77,37.35A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,16V161.57l-51.77-32.35a8,8,0,0,0-8.48,0L72,161.56V48ZM132.23,177.22a8,8,0,0,0-8.48,0L72,209.57V180.43l56-35,56,35v29.14Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/bookmark-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Bookmark",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "reading",
+      "reader",
+      "novel",
+      "story",
+      "placeholder",
+      "favorites",
+      "favorited",
+      "library"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "office",
+    "media",
+    "objects"
+  ],
+  "type": "registry:file"
+}

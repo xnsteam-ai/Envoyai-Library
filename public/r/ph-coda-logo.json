@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-coda-logo",
+  "title": "CodaLogo",
+  "description": "Phosphor CodaLogo icon in regular, bold, duotone weights. Also: project management, productivity, documentation, wiki, logos.",
+  "files": [
+    {
+      "path": "icons/phosphor/coda-logo-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M176,88a39.79,39.79,0,0,1,21.53,6.1A12,12,0,0,0,216,84V48a16,16,0,0,0-16-16H56A16,16,0,0,0,40,48V208a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V172a12,12,0,0,0-18.44-10.11c-7.25,4.65-13.41,6.41-21.24,6.11H176a40,40,0,0,1,0-80Zm-56,40a56.07,56.07,0,0,0,55.84,56A48.37,48.37,0,0,0,200,178.89V208H56V48H200V77.23A56.3,56.3,0,0,0,120,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/coda-logo-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/coda-logo-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M176,92a35.79,35.79,0,0,1,19.38,5.47A16,16,0,0,0,220,84V48a20,20,0,0,0-20-20H56A20,20,0,0,0,36,48V208a20,20,0,0,0,20,20H200a20,20,0,0,0,20-20V172a16,16,0,0,0-24.6-13.48c-6.58,4.22-11.89,5.76-18.92,5.48H176a36,36,0,0,1,0-72Zm-.24,96A52.4,52.4,0,0,0,196,185v19H60V52H196V71.3A61.55,61.55,0,0,0,176,68a60,60,0,0,0-.24,120Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/coda-logo-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/coda-logo-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M128,128a48,48,0,0,0,48,48c10.27.41,17.9-2.25,25.88-7.37A4,4,0,0,1,208,172v36a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8H200a8,8,0,0,1,8,8V84a4,4,0,0,1-6.15,3.36A48.24,48.24,0,0,0,128,128Z\" opacity=\"0.2\"/><path d=\"M176,88a39.79,39.79,0,0,1,21.53,6.1A12,12,0,0,0,216,84V48a16,16,0,0,0-16-16H56A16,16,0,0,0,40,48V208a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V172a12,12,0,0,0-18.44-10.11c-7.25,4.65-13.41,6.41-21.24,6.11H176a40,40,0,0,1,0-80Zm-56,40a56.07,56.07,0,0,0,55.84,56A48.4,48.4,0,0,0,200,178.89V208H56V48H200V77.23A56.3,56.3,0,0,0,120,128Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/coda-logo-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "CodaLogo",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "project management",
+      "productivity",
+      "documentation",
+      "wiki",
+      "logos"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "brands"
+  ],
+  "type": "registry:file"
+}

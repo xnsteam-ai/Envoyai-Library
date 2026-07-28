@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-text-h",
+  "title": "TextH",
+  "description": "Phosphor TextH icon in regular, bold, duotone weights. Also: heading, typography, print.",
+  "files": [
+    {
+      "path": "icons/phosphor/text-h-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,56V200a8,8,0,0,1-16,0V136H64v64a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v64H192V56a8,8,0,0,1,16,0Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/text-h-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/text-h-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M212,56V200a12,12,0,0,1-24,0V140H68v60a12,12,0,0,1-24,0V56a12,12,0,0,1,24,0v60H188V56a12,12,0,0,1,24,0Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/text-h-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/text-h-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,56V200H56V56Z\" opacity=\"0.2\"/><path d=\"M208,56V200a8,8,0,0,1-16,0V136H64v64a8,8,0,0,1-16,0V56a8,8,0,0,1,16,0v64H192V56a8,8,0,0,1,16,0Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/text-h-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "TextH",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "heading",
+      "typography",
+      "print"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "design",
+    "editor"
+  ],
+  "type": "registry:file"
+}

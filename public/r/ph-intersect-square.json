@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-intersect-square",
+  "title": "IntersectSquare",
+  "description": "Phosphor IntersectSquare icon in regular, bold, duotone weights. Also: venn-diagram, join, intersection.",
+  "files": [
+    {
+      "path": "icons/phosphor/intersect-square-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,88H168V40a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8V160a8,8,0,0,0,8,8H88v48a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V96A8,8,0,0,0,216,88ZM48,152V48H152V88H96a8,8,0,0,0-8,8v56Zm56-36.69L140.69,152H104Zm48,25.38L115.31,104H152ZM208,208H104V168h56a8,8,0,0,0,8-8V104h40Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/intersect-square-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/intersect-square-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,84H172V40a12,12,0,0,0-12-12H40A12,12,0,0,0,28,40V160a12,12,0,0,0,12,12H84v44a12,12,0,0,0,12,12H216a12,12,0,0,0,12-12V96A12,12,0,0,0,216,84ZM52,148V52h96V84H96A12,12,0,0,0,84,96v52Zm56-23,23,23H108ZM148,131l-23-23h23Zm56,73H108V172h52a12,12,0,0,0,12-12V108h32Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/intersect-square-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/intersect-square-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M160,96v64H96V96Z\" opacity=\"0.2\"/><path d=\"M216,88H168V40a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8V160a8,8,0,0,0,8,8H88v48a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V96A8,8,0,0,0,216,88ZM48,152V48H152V88H96a8,8,0,0,0-8,8v56Zm104-48v48H104V104Zm56,104H104V168h56a8,8,0,0,0,8-8V104h40Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/intersect-square-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "IntersectSquare",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "venn-diagram",
+      "join",
+      "intersection"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "design",
+    "editor"
+  ],
+  "type": "registry:file"
+}

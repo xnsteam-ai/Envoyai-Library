@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-disc",
+  "title": "Disc",
+  "description": "Phosphor Disc icon in regular, bold, duotone weights. Also: cd-rom, compact disk, album, record.",
+  "files": [
+    {
+      "path": "icons/phosphor/disc-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm39.2,96a39.77,39.77,0,0,0-5.84-14l34.23-34.24a87.54,87.54,0,0,1,20,48.28ZM152,128a24,24,0,1,1-24-24A24,24,0,0,1,152,128Zm-24,88A88,88,0,1,1,184.28,60.4L150,94.64A40,40,0,1,0,167.2,136h48.43A88.11,88.11,0,0,1,128,216Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/disc-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/disc-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M128,20A108,108,0,1,0,236,128,108.12,108.12,0,0,0,128,20Zm42.32,96a44,44,0,0,0-3.91-9.44l28.84-28.84A83.55,83.55,0,0,1,211.13,116ZM148,128a20,20,0,1,1-20-20A20,20,0,0,1,148,128Zm-20,84A84,84,0,1,1,178.28,60.75L149.43,89.59A44,44,0,1,0,170.32,140h40.81A84.12,84.12,0,0,1,128,212Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/disc-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/disc-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,128a96,96,0,1,1-28.12-67.88l-45.25,45.25h0A32,32,0,1,0,160,128Z\" opacity=\"0.2\"/><path d=\"M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm39.2,96a39.77,39.77,0,0,0-5.84-14l34.23-34.24a87.54,87.54,0,0,1,20,48.28ZM152,128a24,24,0,1,1-24-24A24,24,0,0,1,152,128Zm-24,88A88,88,0,1,1,184.28,60.4L150,94.64A40,40,0,1,0,167.2,136h48.43A88.11,88.11,0,0,1,128,216Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/disc-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Disc",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "cd-rom",
+      "compact disk",
+      "album",
+      "record"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "technology & development",
+    "media",
+    "objects"
+  ],
+  "type": "registry:file"
+}

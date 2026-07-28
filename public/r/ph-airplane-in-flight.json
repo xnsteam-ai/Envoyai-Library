@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-airplane-in-flight",
+  "title": "AirplaneInFlight",
+  "description": "Phosphor AirplaneInFlight icon in regular, bold, duotone weights. Also: vehicles, airports, flights, flying, planes, transit, transportation, traveling.",
+  "files": [
+    {
+      "path": "icons/phosphor/airplane-in-flight-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,216a8,8,0,0,1-8,8H72a8,8,0,1,1,0-16H216A8,8,0,0,1,224,216Zm24-80v24a8,8,0,0,1-8,8H61.07a39.75,39.75,0,0,1-38.31-28.51L8.69,92.6A16,16,0,0,1,24,72h8a8,8,0,0,1,5.65,2.34L59.32,96H81.81l-9-26.94A16,16,0,0,1,88,48h8a8,8,0,0,1,5.66,2.34L147.32,96H208A40,40,0,0,1,248,136Zm-16,0a24,24,0,0,0-24-24H144a8,8,0,0,1-5.65-2.34L92.69,64H88l12.49,37.47A8,8,0,0,1,92.91,112H56a8,8,0,0,1-5.66-2.34L28.69,88H24l14.07,46.9a23.85,23.85,0,0,0,23,17.1H232Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/airplane-in-flight-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/airplane-in-flight-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M228,216a12,12,0,0,1-12,12H72a12,12,0,0,1,0-24H216A12,12,0,0,1,228,216Zm24-80v24a12,12,0,0,1-12,12H61.07a43.72,43.72,0,0,1-42.14-31.36L4.86,93.75A20,20,0,0,1,24,68h8a12,12,0,0,1,8.48,3.51L61,92H76.27L69,70.32A20,20,0,0,1,88,44h8a12,12,0,0,1,8.48,3.51L149,92h59A44.05,44.05,0,0,1,252,136Zm-24,0a20,20,0,0,0-20-20H144a12,12,0,0,1-8.48-3.51L94.83,71.79l9.47,28.42A12,12,0,0,1,92.91,116H56a12,12,0,0,1-8.49-3.51L30.4,95.36l11.51,38.39A19.89,19.89,0,0,0,61.07,148H228Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/airplane-in-flight-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/airplane-in-flight-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M240,136v24H61.06a32,32,0,0,1-30.65-22.8L16.34,90.3A8,8,0,0,1,24,80h8l24,24H92.91L80.42,66.53A8,8,0,0,1,88,56h8l48,48h64A32,32,0,0,1,240,136Z\" opacity=\"0.2\"/><path d=\"M224,216a8,8,0,0,1-8,8H72a8,8,0,1,1,0-16H216A8,8,0,0,1,224,216Zm24-80v24a8,8,0,0,1-8,8H61.07a39.75,39.75,0,0,1-38.31-28.51L8.69,92.6A16,16,0,0,1,24,72h8a8,8,0,0,1,5.65,2.34L59.32,96H81.81l-9-26.94A16,16,0,0,1,88,48h8a8,8,0,0,1,5.66,2.34L147.32,96H208A40,40,0,0,1,248,136Zm-16,0a24,24,0,0,0-24-24H144a8,8,0,0,1-5.65-2.34L92.69,64H88l12.49,37.47A8,8,0,0,1,92.91,112H56a8,8,0,0,1-5.66-2.34L28.69,88H24l14.07,46.9a23.85,23.85,0,0,0,23,17.1H232Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/airplane-in-flight-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "AirplaneInFlight",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "vehicles",
+      "airports",
+      "flights",
+      "flying",
+      "planes",
+      "transit",
+      "transportation",
+      "traveling",
+      "arrival"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "maps & travel",
+    "objects"
+  ],
+  "type": "registry:file"
+}

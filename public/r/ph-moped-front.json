@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-moped-front",
+  "title": "MopedFront",
+  "description": "Phosphor MopedFront icon in regular, bold, duotone weights. Also: scooter, vehicles, vespa, transportation, travel.",
+  "files": [
+    {
+      "path": "icons/phosphor/moped-front-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,40H167.2a40,40,0,0,0-78.4,0H48a8,8,0,0,0,0,16H88.8a40,40,0,0,0,12.58,21.82A64.08,64.08,0,0,0,64,136v64a16,16,0,0,0,16,16H96a32,32,0,0,0,64,0h16a16,16,0,0,0,16-16V136a64.08,64.08,0,0,0-37.38-58.18A40,40,0,0,0,167.2,56H208a8,8,0,0,0,0-16ZM144,216a16,16,0,0,1-32,0V168a16,16,0,0,1,32,0Zm32-80v64H160V168a32,32,0,0,0-64,0v32H80V136a48,48,0,0,1,96,0ZM104,48a24,24,0,1,1,24,24A24,24,0,0,1,104,48Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/moped-front-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/moped-front-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,36H170.32a44,44,0,0,0-84.64,0H48a12,12,0,0,0,0,24H85.68a43.89,43.89,0,0,0,9,16.73A68,68,0,0,0,60,136v64a20,20,0,0,0,20,20H96a32,32,0,0,0,64,0h16a20,20,0,0,0,20-20V136a68,68,0,0,0-34.72-59.27,43.89,43.89,0,0,0,9-16.73H208a12,12,0,0,0,0-24ZM136,220a8,8,0,0,1-16,0V164a8,8,0,0,1,16,0Zm36-24H160V164a32,32,0,0,0-64,0v32H84V136a44,44,0,0,1,88,0ZM108,48a20,20,0,1,1,20,20A20,20,0,0,1,108,48Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/moped-front-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/moped-front-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M152,168v48a24,24,0,0,1-48,0V168a24,24,0,0,1,48,0ZM128,80A32,32,0,1,0,96,48,32,32,0,0,0,128,80Z\" opacity=\"0.2\"/><path d=\"M208,40H167.2a40,40,0,0,0-78.4,0H48a8,8,0,0,0,0,16H88.8a40,40,0,0,0,12.58,21.82A64.08,64.08,0,0,0,64,136v64a16,16,0,0,0,16,16H96a32,32,0,0,0,64,0h16a16,16,0,0,0,16-16V136a64.08,64.08,0,0,0-37.38-58.18A40,40,0,0,0,167.2,56H208a8,8,0,0,0,0-16ZM144,216a16,16,0,0,1-32,0V168a16,16,0,0,1,32,0Zm32-80v64H160V168a32,32,0,0,0-64,0v32H80V136a48,48,0,0,1,96,0ZM104,48a24,24,0,1,1,24,24A24,24,0,0,1,104,48Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/moped-front-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "MopedFront",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "scooter",
+      "vehicles",
+      "vespa",
+      "transportation",
+      "travel"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "maps & travel",
+    "objects"
+  ],
+  "type": "registry:file"
+}

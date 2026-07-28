@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-pentagon",
+  "title": "Pentagon",
+  "description": "Phosphor Pentagon icon in regular, bold, duotone weights. Also: shapes, polygons, 5.",
+  "files": [
+    {
+      "path": "icons/phosphor/pentagon-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M225.56,87.56,137.64,19.25l-.18-.14a15.93,15.93,0,0,0-18.92,0l-.18.14L30.44,87.56a16,16,0,0,0-5.7,17.63l32,107.54.06.17A15.94,15.94,0,0,0,72,224H184a15.94,15.94,0,0,0,15.23-11.1l.06-.17,32-107.54A16,16,0,0,0,225.56,87.56Zm-9.62,13L184,208H72l-32-107.44-.06-.17h0l.18-.14L128,32l87.82,68.23.18.14Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/pentagon-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/pentagon-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M228,84.38l-87.9-68.29-.26-.2a19.92,19.92,0,0,0-23.66,0l-.26.2L28,84.38a20,20,0,0,0-7.09,22l32,107.51.08.26A19.93,19.93,0,0,0,72,228H184a19.93,19.93,0,0,0,19-13.87l.08-.26,32-107.51A20,20,0,0,0,228,84.38ZM181,204H75L44.62,101.87,128,37.09l83.38,64.78Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/pentagon-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/pentagon-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M223.61,102.83l-32,107.62A8,8,0,0,1,184,216H72a8,8,0,0,1-7.62-5.55l-32-107.62a8,8,0,0,1,2.88-8.9l88-68.38a8,8,0,0,1,9.46,0l88,68.38A8,8,0,0,1,223.61,102.83Z\" opacity=\"0.2\"/><path d=\"M225.56,87.56,137.64,19.25l-.18-.14a15.93,15.93,0,0,0-18.92,0l-.18.14L30.44,87.56a16,16,0,0,0-5.7,17.63l32,107.54.06.17A15.94,15.94,0,0,0,72,224H184a15.94,15.94,0,0,0,15.23-11.1l.06-.17,32-107.54A16,16,0,0,0,225.56,87.56Zm-9.62,13L184,208H72l-32-107.44-.06-.17h0l.18-.14L128,32l87.82,68.23.18.14Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/pentagon-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Pentagon",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "shapes",
+      "polygons",
+      "5"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "design"
+  ],
+  "type": "registry:file"
+}

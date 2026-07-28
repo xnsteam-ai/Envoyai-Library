@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-article-medium",
+  "title": "ArticleMedium",
+  "description": "Phosphor ArticleMedium icon in regular, bold, duotone weights. Also: reading, writing, journals, periodicals, text, newspaper.",
+  "files": [
+    {
+      "path": "icons/phosphor/article-medium-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M56,136a8,8,0,0,1-8,8H24a8,8,0,0,1,0-16h8V64H24a8,8,0,0,1,0-16H40v0a8,8,0,0,1,6.78,3.74L80,104.91l33.22-53.15A8,8,0,0,1,120,48v0h16a8,8,0,0,1,0,16h-8v64h8a8,8,0,0,1,0,16H112a8,8,0,0,1,0-16V83.89L86.78,124.24a8,8,0,0,1-13.56,0L48,83.89V128A8,8,0,0,1,56,136Zm112-24h64a8,8,0,0,0,0-16H168a8,8,0,0,0,0,16Zm64,16H168a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Zm0,32H80a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16Zm0,32H80a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/article-medium-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/article-medium-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M56,132a12,12,0,0,1-12,12H24a12,12,0,0,1,0-24h4V68H24a12,12,0,0,1,0-24H40a12,12,0,0,1,10,5.33l30,45,30-45A12,12,0,0,1,120,44h16a12,12,0,0,1,0,24h-4v52h4a12,12,0,0,1,0,24H116a12,12,0,0,1-8-20.93V95.63l-18,27a12,12,0,0,1-20,0l-18-27v27.44A12,12,0,0,1,56,132Zm120-28h56a12,12,0,0,0,0-24H176a12,12,0,0,0,0,24Zm56,16H176a12,12,0,0,0,0,24h56a12,12,0,0,0,0-24Zm0,40H80a12,12,0,0,0,0,24H232a12,12,0,0,0,0-24Zm0,40H80a12,12,0,0,0,0,24H232a12,12,0,0,0,0-24Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/article-medium-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/article-medium-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M232,104v96H80V168h88V104Z\" opacity=\"0.2\"/><path d=\"M56,136a8,8,0,0,1-8,8H24a8,8,0,0,1,0-16h8V64H24a8,8,0,0,1,0-16H40v0a8,8,0,0,1,6.78,3.74L80,104.91l33.22-53.15A8,8,0,0,1,120,48v0h16a8,8,0,0,1,0,16h-8v64h8a8,8,0,0,1,0,16H112a8,8,0,0,1,0-16V83.89L86.78,124.24a8,8,0,0,1-13.56,0L48,83.89V128A8,8,0,0,1,56,136Zm112-24h64a8,8,0,0,0,0-16H168a8,8,0,0,0,0,16Zm64,16H168a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Zm0,32H80a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16Zm0,32H80a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/article-medium-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "ArticleMedium",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "reading",
+      "writing",
+      "journals",
+      "periodicals",
+      "text",
+      "newspaper"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "media",
+    "objects"
+  ],
+  "type": "registry:file"
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-browser",
+  "title": "Browser",
+  "description": "Phosphor Browser icon in regular, bold, duotone weights. Also: web browsers, windows, internet, website, webpage, chrome, edge, firefox.",
+  "files": [
+    {
+      "path": "icons/phosphor/browser-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,16V88H40V56Zm0,144H40V104H216v96Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/browser-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/browser-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216,36H40A20,20,0,0,0,20,56V200a20,20,0,0,0,20,20H216a20,20,0,0,0,20-20V56A20,20,0,0,0,216,36Zm-4,24V84H44V60ZM44,196V108H212v88Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/browser-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/browser-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,56V96H32V56a8,8,0,0,1,8-8H216A8,8,0,0,1,224,56Z\" opacity=\"0.2\"/><path d=\"M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,16V88H40V56Zm0,144H40V104H216v96Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/browser-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Browser",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "web browsers",
+      "windows",
+      "internet",
+      "website",
+      "webpage",
+      "chrome",
+      "edge",
+      "firefox"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "communications",
+    "system"
+  ],
+  "type": "registry:file"
+}

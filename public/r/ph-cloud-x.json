@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-cloud-x",
+  "title": "CloudX",
+  "description": "Phosphor CloudX icon in regular, bold, duotone weights. Also: serverless, backup, storage, errors.",
+  "files": [
+    {
+      "path": "icons/phosphor/cloud-x-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M160,40A88.09,88.09,0,0,0,81.29,88.67,64,64,0,1,0,72,216h88a88,88,0,0,0,0-176Zm0,160H72a48,48,0,0,1,0-96c1.1,0,2.2,0,3.29.11A88,88,0,0,0,72,128a8,8,0,0,0,16,0,72,72,0,1,1,72,72Zm29.66-82.34L171.31,136l18.35,18.34a8,8,0,0,1-11.32,11.32L160,147.31l-18.34,18.35a8,8,0,0,1-11.32-11.32L148.69,136l-18.35-18.34a8,8,0,0,1,11.32-11.32L160,124.69l18.34-18.35a8,8,0,0,1,11.32,11.32Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/cloud-x-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/cloud-x-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M160,36A92.09,92.09,0,0,0,79,84.36,68,68,0,1,0,72,220h88a92,92,0,0,0,0-184Zm0,160H72a44,44,0,0,1-1.82-88A91.86,91.86,0,0,0,68,128a12,12,0,0,0,24,0,68,68,0,1,1,68,68Zm32.49-79.51L177,132l15.52,15.51a12,12,0,0,1-17,17L160,149l-15.51,15.52a12,12,0,1,1-17-17L143,132l-15.52-15.51a12,12,0,1,1,17-17L160,115l15.51-15.52a12,12,0,0,1,17,17Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/cloud-x-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/cloud-x-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M240,127.62a80,80,0,0,1-80,80H72A56,56,0,1,1,85.92,97.36l0,.1A80,80,0,0,1,240,127.62Z\" opacity=\"0.2\"/><path d=\"M160,40A88.09,88.09,0,0,0,81.29,88.67,64,64,0,1,0,72,216h88a88,88,0,0,0,0-176Zm0,160H72a48,48,0,0,1,0-96c1.1,0,2.2,0,3.29.11A88,88,0,0,0,72,128a8,8,0,0,0,16,0,72,72,0,1,1,72,72Zm29.66-82.34L171.31,136l18.35,18.34a8,8,0,0,1-11.32,11.32L160,147.31l-18.34,18.35a8,8,0,0,1-11.32-11.32L148.69,136l-18.35-18.34a8,8,0,0,1,11.32-11.32L160,124.69l18.34-18.35a8,8,0,0,1,11.32,11.32Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/cloud-x-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "CloudX",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "serverless",
+      "backup",
+      "storage",
+      "errors"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "system"
+  ],
+  "type": "registry:file"
+}

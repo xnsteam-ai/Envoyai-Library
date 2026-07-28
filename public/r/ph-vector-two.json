@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-vector-two",
+  "title": "VectorTwo",
+  "description": "Phosphor VectorTwo icon in regular, bold, duotone weights. Also: 2d, xy, cartesian, coordinates, plane, dimensions, mathematics.",
+  "files": [
+    {
+      "path": "icons/phosphor/vector-two-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M229.66,197.66l-32,32a8,8,0,0,1-11.32-11.32L204.69,200H80a8,8,0,0,1-8-8V59.31L53.66,77.66A8,8,0,0,1,42.34,66.34l32-32a8,8,0,0,1,11.32,0l32,32a8,8,0,0,1-11.32,11.32L88,59.31V184H204.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,229.66,197.66Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/vector-two-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/vector-two-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M232.49,200.49l-32,32a12,12,0,0,1-17-17L195,204H80a12,12,0,0,1-12-12V69L56.49,80.49a12,12,0,1,1-17-17l32-32a12,12,0,0,1,17,0l32,32a12,12,0,0,1-17,17L92,69V180H195l-11.52-11.51a12,12,0,0,1,17-17l32,32A12,12,0,0,1,232.49,200.49Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/vector-two-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/vector-two-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,56V192H80V40H208A16,16,0,0,1,224,56Z\" opacity=\"0.2\"/><path d=\"M229.66,197.66l-32,32a8,8,0,0,1-11.32-11.32L204.69,200H80a8,8,0,0,1-8-8V59.31L53.66,77.66A8,8,0,0,1,42.34,66.34l32-32a8,8,0,0,1,11.32,0l32,32a8,8,0,0,1-11.32,11.32L88,59.31V184H204.69l-18.35-18.34a8,8,0,0,1,11.32-11.32l32,32A8,8,0,0,1,229.66,197.66Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/vector-two-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "VectorTwo",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "2d",
+      "xy",
+      "cartesian",
+      "coordinates",
+      "plane",
+      "dimensions",
+      "mathematics"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "arrows",
+    "technology & development",
+    "design"
+  ],
+  "type": "registry:file"
+}

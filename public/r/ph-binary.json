@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-binary",
+  "title": "Binary",
+  "description": "Phosphor Binary icon in regular, bold, duotone weights. Also: digital, 0, 1, programming, coding, executable.",
+  "files": [
+    {
+      "path": "icons/phosphor/binary-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M94,24C71.63,24,56,43.74,56,72s15.63,48,38,48,38-19.74,38-48S116.37,24,94,24Zm0,80c-17.37,0-22-20.11-22-32s4.63-32,22-32,22,20.11,22,32S111.37,104,94,104Zm72,32c-22.37,0-38,19.74-38,48s15.63,48,38,48,38-19.74,38-48S188.37,136,166,136Zm0,80c-17.37,0-22-20.11-22-32s4.63-32,22-32,22,20.11,22,32S183.37,216,166,216ZM145,49.22a8,8,0,0,1,3.11-10.88l24-13.33A8,8,0,0,1,184,32v80a8,8,0,0,1-16,0V45.6l-12.12,6.73A8,8,0,0,1,145,49.22ZM104,144v80a8,8,0,0,1-16,0V157.6l-12.12,6.73a8,8,0,0,1-7.76-14l24-13.33A8,8,0,0,1,104,144Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/binary-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/binary-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M92,24C68.45,24,52,43.74,52,72s16.45,48,40,48,40-19.74,40-48S115.55,24,92,24Zm0,72C76.45,96,76,74.46,76,72s.45-24,16-24,16,21.54,16,24S107.55,96,92,96Zm53.27-42.63a12,12,0,0,1,5.36-16.1l24-12A12,12,0,0,1,192,36v72a12,12,0,0,1-24,0V55.42l-6.63,3.31A12,12,0,0,1,145.27,53.37ZM164,136c-23.55,0-40,19.74-40,48s16.45,48,40,48,40-19.74,40-48S187.55,136,164,136Zm0,72c-15.55,0-16-21.54-16-24s.45-24,16-24,16,21.54,16,24S179.55,208,164,208Zm-60-60v72a12,12,0,0,1-24,0V167.42l-6.63,3.31a12,12,0,1,1-10.74-21.46l24-12A12,12,0,0,1,104,148Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/binary-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/binary-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,48V208a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V48A16,16,0,0,1,48,32H208A16,16,0,0,1,224,48Z\" opacity=\"0.2\"/><path d=\"M94,24C71.63,24,56,43.74,56,72s15.63,48,38,48,38-19.74,38-48S116.37,24,94,24Zm0,80c-17.37,0-22-20.11-22-32s4.63-32,22-32,22,20.11,22,32S111.37,104,94,104Zm72,32c-22.37,0-38,19.74-38,48s15.63,48,38,48,38-19.74,38-48S188.37,136,166,136Zm0,80c-17.37,0-22-20.11-22-32s4.63-32,22-32,22,20.11,22,32S183.37,216,166,216ZM145,49.22a8,8,0,0,1,3.11-10.88l24-13.33A8,8,0,0,1,184,32v80a8,8,0,0,1-16,0V45.6l-12.12,6.73A8,8,0,0,1,145,49.22ZM104,144v80a8,8,0,0,1-16,0V157.6l-12.12,6.73a8,8,0,0,1-7.76-14l24-13.33A8,8,0,0,1,104,144Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/binary-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Binary",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "digital",
+      "0",
+      "1",
+      "programming",
+      "coding",
+      "executable"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "technology & development",
+    "system"
+  ],
+  "type": "registry:file"
+}

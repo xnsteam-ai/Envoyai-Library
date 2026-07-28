@@ -1,0 +1,56 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-tea-bag",
+  "title": "TeaBag",
+  "description": "Phosphor TeaBag icon in regular, bold, duotone weights. Also: drinks, beverages, sachet, caffeine, places, locations, bars, restaurants.",
+  "files": [
+    {
+      "path": "icons/phosphor/tea-bag-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,160a16,16,0,0,1-16-16V64A56,56,0,0,0,96,64v8H76.53a16.09,16.09,0,0,0-13.72,7.77L42.28,114A16.06,16.06,0,0,0,40,122.22V216a16,16,0,0,0,16,16h96a16,16,0,0,0,16-16V122.22a16.06,16.06,0,0,0-2.28-8.24L145.19,79.77A16.09,16.09,0,0,0,131.47,72H112V64a40,40,0,0,1,80,0v80a32,32,0,0,0,32,32,8,8,0,0,0,0-16ZM131.47,88,152,122.22V216H56V122.22L76.53,88H96v48a8,8,0,0,0,16,0V88Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/tea-bag-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/tea-bag-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,156a12,12,0,0,1-12-12V64A60,60,0,0,0,92,64v4H76.53a20.1,20.1,0,0,0-17.15,9.71L38.85,111.92A20.07,20.07,0,0,0,36,122.22V216a20,20,0,0,0,20,20h96a20,20,0,0,0,20-20V122.22a20,20,0,0,0-2.85-10.29L148.62,77.71A20.1,20.1,0,0,0,131.47,68H116V64a36,36,0,0,1,72,0v80a36,36,0,0,0,36,36,12,12,0,0,0,0-24ZM129.21,92,148,123.32V212H60V123.32L78.79,92H92v44a12,12,0,0,0,24,0V92Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/tea-bag-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/tea-bag-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M160,122.22V216a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V122.22a8,8,0,0,1,1.14-4.12L69.67,83.88A8,8,0,0,1,76.53,80h54.94a8,8,0,0,1,6.86,3.88l20.53,34.22A8,8,0,0,1,160,122.22Z\" opacity=\"0.2\"/><path d=\"M224,160a16,16,0,0,1-16-16V64A56,56,0,0,0,96,64v8H76.53a16.09,16.09,0,0,0-13.72,7.77L42.28,114A16.06,16.06,0,0,0,40,122.22V216a16,16,0,0,0,16,16h96a16,16,0,0,0,16-16V122.22a16.06,16.06,0,0,0-2.28-8.24L145.19,79.77A16.09,16.09,0,0,0,131.47,72H112V64a40,40,0,0,1,80,0v80a32,32,0,0,0,32,32,8,8,0,0,0,0-16ZM131.47,88,152,122.22V216H56V122.22L76.53,88H96v48a8,8,0,0,0,16,0V88Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/tea-bag-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "TeaBag",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "drinks",
+      "beverages",
+      "sachet",
+      "caffeine",
+      "places",
+      "locations",
+      "bars",
+      "restaurants",
+      "food",
+      "dining"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "commerce",
+    "maps & travel",
+    "objects"
+  ],
+  "type": "registry:file"
+}

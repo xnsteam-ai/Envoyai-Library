@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-notches",
+  "title": "Notches",
+  "description": "Phosphor Notches icon in regular, bold, duotone weights. Also: textarea, resize, drag handle, knurling.",
+  "files": [
+    {
+      "path": "icons/phosphor/notches-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M213.66,133.66l-80,80a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,11.32Zm-16-99.32a8,8,0,0,0-11.32,0l-152,152a8,8,0,0,0,11.32,11.32l152-152A8,8,0,0,0,197.66,34.34Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/notches-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/notches-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M216.49,136.49l-80,80a12,12,0,1,1-17-17l80-80a12,12,0,1,1,17,17Zm-16-105a12,12,0,0,0-17,0l-152,152a12,12,0,0,0,17,17l152-152A12,12,0,0,0,200.49,31.51Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/notches-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/notches-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M192,40V192H40Z\" opacity=\"0.2\"/><path d=\"M195.06,32.61a8,8,0,0,0-8.72,1.73l-152,152A8,8,0,0,0,40,200H192a8,8,0,0,0,8-8V40A8,8,0,0,0,195.06,32.61ZM184,184H59.31L184,59.31Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/notches-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Notches",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "textarea",
+      "resize",
+      "drag handle",
+      "knurling"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "system",
+    "editor"
+  ],
+  "type": "registry:file"
+}

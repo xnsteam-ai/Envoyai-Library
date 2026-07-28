@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-pix-logo",
+  "title": "PixLogo",
+  "description": "Phosphor PixLogo icon in regular, bold, duotone weights. Also: payments, paying, purchase, logos.",
+  "files": [
+    {
+      "path": "icons/phosphor/pix-logo-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M235.34,116.72,139.28,20.66a16,16,0,0,0-22.56,0L20.66,116.72a16,16,0,0,0,0,22.56l96.06,96.06a16,16,0,0,0,22.56,0l96.06-96.06A16,16,0,0,0,235.34,116.72ZM128,32,184,88H160a8,8,0,0,0-5.66,2.34L128,116.68,101.66,90.34A8,8,0,0,0,96,88H72ZM56,104H92.68l24,24-24,24H56L32,128Zm72,120L72,168H96a8,8,0,0,0,5.66-2.34L128,139.31l26.34,26.35A8,8,0,0,0,160,168h24Zm72-72H163.32l-24-24,24-24H200l24,24Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/pix-logo-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/pix-logo-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M238.16,113.89l-96-96a20,20,0,0,0-28.22,0l-96,96.05a20,20,0,0,0,0,28.22l96.05,96a20,20,0,0,0,28.22,0l96-96a20,20,0,0,0,0-28.22ZM128,37.68,174.32,84H160a12,12,0,0,0-8.49,3.51L128,111,104.49,87.51A12,12,0,0,0,96,84H81.68ZM57.68,108H91l20,20L91,148H57.68l-20-20ZM128,218.32,81.68,172H96a12,12,0,0,0,8.49-3.51L128,145l23.51,23.52A12,12,0,0,0,160,172h14.32ZM198.32,148H165l-20-20,20-20h33.35l20,20Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/pix-logo-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/pix-logo-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M229.67,133.62l-96,96a7.94,7.94,0,0,1-11.24,0l-96-96a7.94,7.94,0,0,1,0-11.24l96.05-96a7.94,7.94,0,0,1,11.24,0l96,96.05A7.94,7.94,0,0,1,229.67,133.62Z\" opacity=\"0.2\"/><path d=\"M235.34,116.72,139.28,20.66a16,16,0,0,0-22.56,0L20.66,116.72a16,16,0,0,0,0,22.56l96.06,96.06a16,16,0,0,0,22.56,0l96.06-96.06A16,16,0,0,0,235.34,116.72ZM128,32,184,88H160a8,8,0,0,0-5.66,2.34L128,116.68,101.66,90.34A8,8,0,0,0,96,88H72ZM56,104H92.68l24,24-24,24H56L32,128Zm72,120L72,168H96a8,8,0,0,0,5.66-2.34L128,139.31l26.34,26.35A8,8,0,0,0,160,168h24Zm72-72H163.32l-24-24,24-24H200l24,24Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/pix-logo-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "PixLogo",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "payments",
+      "paying",
+      "purchase",
+      "logos"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "commerce",
+    "finances"
+  ],
+  "type": "registry:file"
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-google-photos-logo",
+  "title": "GooglePhotosLogo",
+  "description": "Phosphor GooglePhotosLogo icon in regular, bold, duotone weights. Also: album, pictures, photography.",
+  "files": [
+    {
+      "path": "icons/phosphor/google-photos-logo-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M232,120H192.49A72,72,0,0,0,128,16a8,8,0,0,0-8,8V63.51A72,72,0,0,0,16,128a8,8,0,0,0,8,8H63.51A72,72,0,0,0,128,240a8,8,0,0,0,8-8V192.49A72,72,0,0,0,240,128,8,8,0,0,0,232,120ZM184,88A55.31,55.31,0,0,1,174,120H136V32.57A56.09,56.09,0,0,1,184,88ZM88,72a55.31,55.31,0,0,1,32,10v38H32.57A56.09,56.09,0,0,1,88,72ZM72,168a55.31,55.31,0,0,1,10-32h38v87.43A56.09,56.09,0,0,1,72,168Zm96,16A55.31,55.31,0,0,1,136,174V136h87.43A56.09,56.09,0,0,1,168,184Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/google-photos-logo-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/google-photos-logo-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M232,116H198.64A76,76,0,0,0,128,12a12,12,0,0,0-12,12V57.36A76,76,0,0,0,12,128a12,12,0,0,0,12,12H57.36A76,76,0,0,0,128,244a12,12,0,0,0,12-12V198.64A76,76,0,0,0,244,128,12,12,0,0,0,232,116ZM180,88a51.38,51.38,0,0,1-8.18,28H140V37.4A52.09,52.09,0,0,1,180,88ZM88,76a51.38,51.38,0,0,1,28,8.18V116H37.4A52.09,52.09,0,0,1,88,76ZM76,168a51.38,51.38,0,0,1,8.18-28H116v78.6A52.09,52.09,0,0,1,76,168Zm92,12a51.38,51.38,0,0,1-28-8.18V140h78.6A52.09,52.09,0,0,1,168,180Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/google-photos-logo-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/google-photos-logo-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M192,88a63.69,63.69,0,0,1-14,40H128V24A64,64,0,0,1,192,88ZM64,168a64,64,0,0,0,64,64V128H78A63.69,63.69,0,0,0,64,168Z\" opacity=\"0.2\"/><path d=\"M232,120H192.49A72,72,0,0,0,128,16a8,8,0,0,0-8,8V63.51A72,72,0,0,0,16,128a8,8,0,0,0,8,8H63.51A72,72,0,0,0,128,240a8,8,0,0,0,8-8V192.49A72,72,0,0,0,240,128,8,8,0,0,0,232,120ZM120,223.43A56.09,56.09,0,0,1,72,168a55.31,55.31,0,0,1,10-32h38ZM120,120H32.57A56.09,56.09,0,0,1,88,72a55.31,55.31,0,0,1,32,10Zm16-87.43A56.09,56.09,0,0,1,184,88,55.31,55.31,0,0,1,174,120H136ZM168,184A55.31,55.31,0,0,1,136,174V136h87.43A56.09,56.09,0,0,1,168,184Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/google-photos-logo-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "GooglePhotosLogo",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "album",
+      "pictures",
+      "photography"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "brands",
+    "media"
+  ],
+  "type": "registry:file"
+}

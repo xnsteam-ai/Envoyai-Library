@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-path",
+  "title": "Path",
+  "description": "Phosphor Path icon in regular, bold, duotone weights. Also: transit, travel, trail, gps, navigation, route, destination, vector.",
+  "files": [
+    {
+      "path": "icons/phosphor/path-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,168a32.06,32.06,0,0,0-31,24H72a32,32,0,0,1,0-64h96a40,40,0,0,0,0-80H72a8,8,0,0,0,0,16h96a24,24,0,0,1,0,48H72a48,48,0,0,0,0,96h97a32,32,0,1,0,31-40Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,200,216Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/path-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/path-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,164a36.07,36.07,0,0,0-33.94,24H72a28,28,0,0,1,0-56h96a44,44,0,0,0,0-88H72a12,12,0,0,0,0,24h96a20,20,0,0,1,0,40H72a52,52,0,0,0,0,104h94.06A36,36,0,1,0,200,164Zm0,48a12,12,0,1,1,12-12A12,12,0,0,1,200,212Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/path-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/path-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,200a24,24,0,1,1-24-24A24,24,0,0,1,224,200Z\" opacity=\"0.2\"/><path d=\"M200,168a32.06,32.06,0,0,0-31,24H72a32,32,0,0,1,0-64h96a40,40,0,0,0,0-80H72a8,8,0,0,0,0,16h96a24,24,0,0,1,0,48H72a48,48,0,0,0,0,96h97a32,32,0,1,0,31-40Zm0,48a16,16,0,1,1,16-16A16,16,0,0,1,200,216Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/path-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "Path",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "transit",
+      "travel",
+      "trail",
+      "gps",
+      "navigation",
+      "route",
+      "destination",
+      "vector"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "design",
+    "maps & travel"
+  ],
+  "type": "registry:file"
+}

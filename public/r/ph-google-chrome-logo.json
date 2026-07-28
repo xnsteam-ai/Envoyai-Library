@@ -1,0 +1,46 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-google-chrome-logo",
+  "title": "GoogleChromeLogo",
+  "description": "Phosphor GoogleChromeLogo icon in regular, bold, duotone weights. Also: web browsers, internet.",
+  "files": [
+    {
+      "path": "icons/phosphor/google-chrome-logo-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,16a88,88,0,0,1,73.72,40H128a48.08,48.08,0,0,0-45.6,33l-23.08-40A87.89,87.89,0,0,1,128,40Zm32,88a32,32,0,1,1-32-32A32,32,0,0,1,160,128ZM40,128a87.44,87.44,0,0,1,9.56-39.86L86.43,152c.06.1.13.19.19.28A48,48,0,0,0,137.82,175l-23.1,40A88.14,88.14,0,0,1,40,128Zm92.69,87.87L169.57,152c.08-.14.14-.28.22-.42a47.88,47.88,0,0,0-6-55.58H210a88,88,0,0,1-77.29,119.87Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/google-chrome-logo-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/google-chrome-logo-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M128,20A108,108,0,1,0,236,128,108.12,108.12,0,0,0,128,20Zm0,24a83.89,83.89,0,0,1,65.9,32H128a52.05,52.05,0,0,0-46.15,28.07L64.18,73.47A83.82,83.82,0,0,1,128,44Zm28,84a28,28,0,1,1-28-28A28,28,0,0,1,156,128ZM44,128a83.41,83.41,0,0,1,6-31.11L83,154c.06.11.14.2.2.3A52,52,0,0,0,128,180q1.19,0,2.34-.06l-17.68,30.63A84.12,84.12,0,0,1,44,128Zm96.05,83.12L173,154c.09-.15.16-.3.24-.46A51.81,51.81,0,0,0,171.78,100h35.4a83.95,83.95,0,0,1-67.13,111.12Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/google-chrome-logo-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/google-chrome-logo-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M168,128a40,40,0,1,1-40-40A40,40,0,0,1,168,128Z\" opacity=\"0.2\"/><path d=\"M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,16a88,88,0,0,1,73.72,40H128a48.08,48.08,0,0,0-45.6,33l-23.08-40A87.89,87.89,0,0,1,128,40Zm32,88a32,32,0,1,1-32-32A32,32,0,0,1,160,128Zm-45.28,87A88,88,0,0,1,49.56,88.14L86.43,152c.06.1.13.19.19.28A48,48,0,0,0,137.82,175Zm18,.87L169.57,152c.08-.14.14-.28.22-.42a47.88,47.88,0,0,0-6-55.58H210a88,88,0,0,1-77.29,119.87Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/google-chrome-logo-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "GoogleChromeLogo",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "web browsers",
+      "internet"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "brands"
+  ],
+  "type": "registry:file"
+}

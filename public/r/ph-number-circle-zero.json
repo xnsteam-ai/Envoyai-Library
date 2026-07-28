@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-number-circle-zero",
+  "title": "NumberCircleZero",
+  "description": "Phosphor NumberCircleZero icon in regular, bold, duotone weights. Also: 0, round, numbers, numerals, digits, mathematics, arithmetic, calculator.",
+  "files": [
+    {
+      "path": "icons/phosphor/number-circle-zero-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm0-144c-14.23,0-26,6.44-34,18.61-6.47,9.86-10,23.14-10,37.39s3.56,27.53,10,37.39c8,12.18,19.74,18.61,34,18.61s26-6.43,34-18.61c6.47-9.86,10-23.14,10-37.39s-3.56-27.53-10-37.39C154,78.44,142.23,72,128,72Zm0,96c-22.1,0-28-25.14-28-40s5.9-40,28-40,28,25.14,28,40S150.1,168,128,168Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/number-circle-zero-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/number-circle-zero-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M128,20A108,108,0,1,0,236,128,108.12,108.12,0,0,0,128,20Zm0,192a84,84,0,1,1,84-84A84.09,84.09,0,0,1,128,212Zm0-144c-28.26,0-48,24.67-48,60s19.74,60,48,60,48-24.67,48-60S156.26,68,128,68Zm0,96c-23.33,0-24-32.32-24-36s.67-36,24-36,24,32.32,24,36S151.33,164,128,164Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/number-circle-zero-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/number-circle-zero-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M224,128a96,96,0,1,1-96-96A96,96,0,0,1,224,128Z\" opacity=\"0.2\"/><path d=\"M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm0-144c-14.23,0-26,6.44-34,18.61-6.47,9.86-10,23.14-10,37.39s3.56,27.53,10,37.39c8,12.18,19.74,18.61,34,18.61s26-6.43,34-18.61c6.47-9.86,10-23.14,10-37.39s-3.56-27.53-10-37.39C154,78.44,142.23,72,128,72Zm0,96c-22.1,0-28-25.14-28-40s5.9-40,28-40,28,25.14,28,40S150.1,168,128,168Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/number-circle-zero-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "NumberCircleZero",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "0",
+      "round",
+      "numbers",
+      "numerals",
+      "digits",
+      "mathematics",
+      "arithmetic",
+      "calculator"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "finances"
+  ],
+  "type": "registry:file"
+}

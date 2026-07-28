@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-hourglass-simple-low",
+  "title": "HourglassSimpleLow",
+  "description": "Phosphor HourglassSimpleLow icon in regular, bold, duotone weights. Also: times, timer, alarms, clock, schedule, events, waiting, progress.",
+  "files": [
+    {
+      "path": "icons/phosphor/hourglass-simple-low-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M211.18,196.56,139.57,128l71.61-68.56a1.59,1.59,0,0,1,.13-.13A16,16,0,0,0,200,32H56A16,16,0,0,0,44.7,59.31l.12.13L116.43,128,44.82,196.56l-.12.13A16,16,0,0,0,56,224H200a16,16,0,0,0,11.32-27.31A1.59,1.59,0,0,1,211.18,196.56ZM56,48h0v0ZM158.21,168H97.79L128,139.08ZM200,48l-72,68.92L56,48ZM56,208l25.06-24h93.84L200,208Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/hourglass-simple-low-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/hourglass-simple-low-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M214,193.68,145.35,128,214,62.32l.18-.18A20,20,0,0,0,200,28H56A20,20,0,0,0,41.87,62.14l.18.18L110.65,128l-68.6,65.68-.18.18A20,20,0,0,0,56,228H200a20,20,0,0,0,14.14-34.14ZM148.25,164h-40.5L128,144.61ZM190,52l-62,59.39L66,52ZM66,204l16.71-16h90.62L190,204Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/hourglass-simple-low-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/hourglass-simple-low-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,216H56a8,8,0,0,1-5.66-13.66L77.87,176H178.13l27.51,26.34A8,8,0,0,1,200,216Z\" opacity=\"0.2\"/><path d=\"M211.18,196.56,139.57,128l71.61-68.56a1.59,1.59,0,0,1,.13-.13A16,16,0,0,0,200,32H56A16,16,0,0,0,44.69,59.31a1.59,1.59,0,0,1,.13.13L116.43,128,44.82,196.56a1.59,1.59,0,0,1-.13.13A16,16,0,0,0,56,224H200a16,16,0,0,0,11.32-27.31A1.59,1.59,0,0,1,211.18,196.56ZM56,48h0v0ZM158.21,168H97.79L128,139.08ZM200,48l-72,68.92L56,48ZM56,208l25.06-24h93.84L200,208Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/hourglass-simple-low-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "HourglassSimpleLow",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "times",
+      "timer",
+      "alarms",
+      "clock",
+      "schedule",
+      "events",
+      "waiting",
+      "progress"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "system",
+    "objects"
+  ],
+  "type": "registry:file"
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-align-center-vertical-simple",
+  "title": "AlignCenterVerticalSimple",
+  "description": "Phosphor AlignCenterVerticalSimple icon in regular, bold, duotone weights. Also: alignment, arrangement, layout, centered, middle.",
+  "files": [
+    {
+      "path": "icons/phosphor/align-center-vertical-simple-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,120H176V48a16,16,0,0,0-16-16H96A16,16,0,0,0,80,48v72H48a8,8,0,0,0,0,16H80v72a16,16,0,0,0,16,16h64a16,16,0,0,0,16-16V136h32a8,8,0,0,0,0-16Zm-48,88H96V48h64Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/align-center-vertical-simple-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/align-center-vertical-simple-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,116H180V48a20,20,0,0,0-20-20H96A20,20,0,0,0,76,48v68H48a12,12,0,0,0,0,24H76v68a20,20,0,0,0,20,20h64a20,20,0,0,0,20-20V140h28a12,12,0,0,0,0-24Zm-52,88H100V52h56Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/align-center-vertical-simple-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/align-center-vertical-simple-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M168,48V208a8,8,0,0,1-8,8H96a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8h64A8,8,0,0,1,168,48Z\" opacity=\"0.2\"/><path d=\"M208,120H176V48a16,16,0,0,0-16-16H96A16,16,0,0,0,80,48v72H48a8,8,0,0,0,0,16H80v72a16,16,0,0,0,16,16h64a16,16,0,0,0,16-16V136h32a8,8,0,0,0,0-16Zm-48,88H96V48h64Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/align-center-vertical-simple-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "AlignCenterVerticalSimple",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "alignment",
+      "arrangement",
+      "layout",
+      "centered",
+      "middle"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "design",
+    "editor"
+  ],
+  "type": "registry:file"
+}

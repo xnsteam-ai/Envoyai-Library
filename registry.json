@@ -9,6 +9,7 @@
     "icons/registry.json",
     "backgrounds/registry.json",
     "media/registry.json",
-    "logos/registry.json"
+    "logos/registry.json",
+    "icons/phosphor/registry.json"
   ]
 }

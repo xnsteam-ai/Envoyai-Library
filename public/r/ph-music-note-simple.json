@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-music-note-simple",
+  "title": "MusicNoteSimple",
+  "description": "Phosphor MusicNoteSimple icon in regular, bold, duotone weights. Also: songs, audio, playlist, albums.",
+  "files": [
+    {
+      "path": "icons/phosphor/music-note-simple-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M210.3,56.34l-80-24A8,8,0,0,0,120,40V148.26A48,48,0,1,0,136,184V50.75l69.7,20.91a8,8,0,1,0,4.6-15.32ZM88,216a32,32,0,1,1,32-32A32,32,0,0,1,88,216Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/music-note-simple-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/music-note-simple-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M211.45,52.51l-80-24A12,12,0,0,0,116,40V140.22A52,52,0,1,0,140,184V56.13l64.55,19.36a12,12,0,1,0,6.9-23ZM88,212a28,28,0,1,1,28-28A28,28,0,0,1,88,212Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/music-note-simple-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/music-note-simple-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M128,184a40,40,0,1,1-40-40A40,40,0,0,1,128,184Z\" opacity=\"0.2\"/><path d=\"M210.3,56.34l-80-24A8,8,0,0,0,120,40V148.26A48,48,0,1,0,136,184V50.75l69.7,20.91a8,8,0,1,0,4.6-15.32ZM88,216a32,32,0,1,1,32-32A32,32,0,0,1,88,216Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/music-note-simple-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "MusicNoteSimple",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "songs",
+      "audio",
+      "playlist",
+      "albums"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "media"
+  ],
+  "type": "registry:file"
+}

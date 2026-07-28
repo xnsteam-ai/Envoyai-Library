@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-microsoft-word-logo",
+  "title": "MicrosoftWordLogo",
+  "description": "Phosphor MicrosoftWordLogo icon in regular, bold, duotone weights. Also: documents, word processor, doc, docx.",
+  "files": [
+    {
+      "path": "icons/phosphor/microsoft-word-logo-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,24H72A16,16,0,0,0,56,40V64H40A16,16,0,0,0,24,80v96a16,16,0,0,0,16,16H56v24a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V40A16,16,0,0,0,200,24Zm-40,80h40v48H160ZM72,40H200V88H160V80a16,16,0,0,0-16-16H72ZM40,80H144v79.83c0,.06,0,.11,0,.17s0,.11,0,.17V176H40ZM72,216V192h72a16,16,0,0,0,16-16v-8h40v48Zm-3.76-62.06-12-48a8,8,0,1,1,15.52-3.88l6.76,27,6.32-12.66a8,8,0,0,1,14.32,0l6.32,12.66,6.76-27a8,8,0,0,1,15.52,3.88l-12,48a8,8,0,0,1-6.89,6,8.46,8.46,0,0,1-.87.05,8,8,0,0,1-7.16-4.42L92,137.89l-8.84,17.69a8,8,0,0,1-14.92-1.64Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/microsoft-word-logo-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/microsoft-word-logo-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,20H72A20,20,0,0,0,52,40V56H36A20,20,0,0,0,16,76V180a20,20,0,0,0,20,20H52v16a20,20,0,0,0,20,20H200a20,20,0,0,0,20-20V40A20,20,0,0,0,200,20Zm-32,88h28v40H168ZM76,44H196V84H168V76a20,20,0,0,0-20-20H76ZM40,80H144v96H40ZM76,212V200h72a20,20,0,0,0,20-20v-8h28v40ZM64.36,154.91l-12-48a12,12,0,1,1,23.28-5.82l4.13,16.53,1.5-3a12,12,0,0,1,21.46,0l1.5,3,4.13-16.53a12,12,0,0,1,23.28,5.82l-12,48a12,12,0,0,1-10.33,9A11.62,11.62,0,0,1,108,164a12,12,0,0,1-10.73-6.63L92,146.83l-5.27,10.54a12,12,0,0,1-22.37-2.46Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/microsoft-word-logo-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/microsoft-word-logo-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M152,80v96a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8H144A8,8,0,0,1,152,80Z\" opacity=\"0.2\"/><path d=\"M200,24H72A16,16,0,0,0,56,40V64H40A16,16,0,0,0,24,80v96a16,16,0,0,0,16,16H56v24a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V40A16,16,0,0,0,200,24Zm-40,80h40v48H160ZM72,40H200V88H160V80a16,16,0,0,0-16-16H72ZM40,80H144v79.83c0,.06,0,.11,0,.17s0,.11,0,.17V176H40ZM72,216V192h72a16,16,0,0,0,16-16v-8h40v48Zm-3.76-62.06-12-48a8,8,0,1,1,15.52-3.88l6.76,27,6.32-12.66a8,8,0,0,1,14.32,0l6.32,12.66,6.76-27a8,8,0,0,1,15.52,3.88l-12,48a8,8,0,0,1-6.89,6,8.46,8.46,0,0,1-.87.05,8,8,0,0,1-7.16-4.42L92,137.89l-8.84,17.69a8,8,0,0,1-14.92-1.64Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/microsoft-word-logo-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "MicrosoftWordLogo",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "documents",
+      "word processor",
+      "doc",
+      "docx"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "brands",
+    "editor",
+    "office"
+  ],
+  "type": "registry:file"
+}

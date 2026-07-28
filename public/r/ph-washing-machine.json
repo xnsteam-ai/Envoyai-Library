@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-washing-machine",
+  "title": "WashingMachine",
+  "description": "Phosphor WashingMachine icon in regular, bold, duotone weights. Also: clothing, laundry, cleaning.",
+  "files": [
+    {
+      "path": "icons/phosphor/washing-machine-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H48V48H208V208ZM128,64a64,64,0,1,0,64,64A64.07,64.07,0,0,0,128,64Zm0,112a48,48,0,1,1,48-48A48.05,48.05,0,0,1,128,176ZM200,68a12,12,0,1,1-12-12A12,12,0,0,1,200,68Zm-74.34,49.66-16,16a8,8,0,0,1-11.32-11.32l16-16a8,8,0,0,1,11.32,11.32Zm32-3.32a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32-11.32l32-32A8,8,0,0,1,157.66,114.34Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/washing-machine-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/washing-machine-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M160,80a16,16,0,1,1,16,16A16,16,0,0,1,160,80Zm72-36V212a20,20,0,0,1-20,20H44a20,20,0,0,1-20-20V44A20,20,0,0,1,44,24H212A20,20,0,0,1,232,44Zm-24,4H48V208H208Zm-68.49,75.51-16,16a12,12,0,0,0,17,17l16-16a12,12,0,1,0-17-17Zm-15-16a12,12,0,0,0-17,0l-8,8a12,12,0,0,0,17,17l8-8A12,12,0,0,0,124.49,107.51ZM128,196a68.05,68.05,0,0,0,67.19-78.52,12,12,0,0,0-23.72,3.69,44,44,0,1,1-36.64-36.64,12,12,0,0,0,3.69-23.72A68,68,0,1,0,128,196Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/washing-machine-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/washing-machine-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M184,128a56,56,0,1,1-56-56A56,56,0,0,1,184,128Z\" opacity=\"0.2\"/><path d=\"M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176H48V48H208V208ZM128,64a64,64,0,1,0,64,64A64.07,64.07,0,0,0,128,64Zm0,112a48,48,0,1,1,48-48A48.05,48.05,0,0,1,128,176ZM200,68a12,12,0,1,1-12-12A12,12,0,0,1,200,68Zm-74.34,49.66-16,16a8,8,0,0,1-11.32-11.32l16-16a8,8,0,0,1,11.32,11.32Zm32-3.32a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32-11.32l32-32A8,8,0,0,1,157.66,114.34Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/washing-machine-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "WashingMachine",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "clothing",
+      "laundry",
+      "cleaning"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "commerce",
+    "maps & travel",
+    "objects"
+  ],
+  "type": "registry:file"
+}

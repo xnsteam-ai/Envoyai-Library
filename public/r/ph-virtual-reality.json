@@ -1,0 +1,49 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-virtual-reality",
+  "title": "VirtualReality",
+  "description": "Phosphor VirtualReality icon in regular, bold, duotone weights. Also: virtual reality, vr, headset, metaverse.",
+  "files": [
+    {
+      "path": "icons/phosphor/virtual-reality-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M123.49,98.81l-24,64a8,8,0,0,1-15,0l-24-64a8,8,0,1,1,15-5.62l16.51,44,16.51-44a8,8,0,1,1,15,5.62ZM256,128a80.09,80.09,0,0,1-80,80H80A80,80,0,0,1,80,48h96A80.09,80.09,0,0,1,256,128Zm-16,0a64.07,64.07,0,0,0-64-64H80a64,64,0,0,0,0,128h96A64.07,64.07,0,0,0,240,128Zm-59.16,10.35L191,156a8,8,0,0,1-13.9,7.94l-11.44-20c-.53,0-1.07.05-1.61.05H152v16a8,8,0,0,1-16,0V96a8,8,0,0,1,8-8h20a28,28,0,0,1,16.84,50.35ZM152,128h12a12,12,0,0,0,0-24H152Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/virtual-reality-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/virtual-reality-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M127,104.73l-24,56a12,12,0,0,1-22.06,0l-24-56A12,12,0,0,1,79,95.27l13,30.27,13-30.27A12,12,0,0,1,127,104.73ZM256,128a84.09,84.09,0,0,1-84,84H84A84,84,0,0,1,84,44h88A84.09,84.09,0,0,1,256,128Zm-24,0a60.07,60.07,0,0,0-60-60H84a60,60,0,0,0,0,120h88A60.07,60.07,0,0,0,232,128Zm-32-8a31.85,31.85,0,0,1-7.93,21.05l5.69,8A12,12,0,1,1,178.24,163l-7.91-11.06c-.77.05-1.55.09-2.33.09h-8v4a12,12,0,0,1-24,0V100a12,12,0,0,1,12-12h20A32,32,0,0,1,200,120Zm-40,8h8a8,8,0,0,0,0-16h-8Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/virtual-reality-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/virtual-reality-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M248,128h0a72,72,0,0,1-72,72H80A72,72,0,0,1,8,128H8A72,72,0,0,1,80,56h96A72,72,0,0,1,248,128Z\" opacity=\"0.2\"/><path d=\"M123.49,98.81l-24,64a8,8,0,0,1-15,0l-24-64a8,8,0,1,1,15-5.62l16.51,44,16.51-44a8,8,0,1,1,15,5.62ZM256,128a80.09,80.09,0,0,1-80,80H80A80,80,0,0,1,80,48h96A80.09,80.09,0,0,1,256,128Zm-16,0a64.07,64.07,0,0,0-64-64H80a64,64,0,0,0,0,128h96A64.07,64.07,0,0,0,240,128Zm-59.16,10.35L191,156a8,8,0,0,1-13.9,7.94l-11.44-20c-.53,0-1.07.05-1.61.05H152v16a8,8,0,0,1-16,0V96a8,8,0,0,1,8-8h20a28,28,0,0,1,16.84,50.35ZM152,128h12a12,12,0,0,0,0-24H152Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/virtual-reality-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "VirtualReality",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "virtual reality",
+      "vr",
+      "headset",
+      "metaverse"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "games",
+    "media"
+  ],
+  "type": "registry:file"
+}

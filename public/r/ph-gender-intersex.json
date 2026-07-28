@@ -1,0 +1,46 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-gender-intersex",
+  "title": "GenderIntersex",
+  "description": "Phosphor GenderIntersex icon in regular, bold, duotone weights. Also: transgender, non-binary.",
+  "files": [
+    {
+      "path": "icons/phosphor/gender-intersex-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,24H168a8,8,0,0,0,0,16h20.69L163.54,65.15A64,64,0,1,0,112,175.48V192H88a8,8,0,0,0,0,16h24v24a8,8,0,0,0,16,0V208h24a8,8,0,0,0,0-16H128V175.48a63.92,63.92,0,0,0,45.84-98L200,51.31V72a8,8,0,0,0,16,0V32A8,8,0,0,0,208,24ZM120,160a48,48,0,1,1,48-48A48.05,48.05,0,0,1,120,160Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/gender-intersex-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/gender-intersex-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,20H168a12,12,0,0,0,0,24h11L163.36,59.67A68,68,0,1,0,108,178.92V192H88a12,12,0,0,0,0,24h20v16a12,12,0,0,0,24,0V216h20a12,12,0,0,0,0-24H132V178.92A67.93,67.93,0,0,0,178.9,78.08L196,61V72a12,12,0,0,0,24,0V32A12,12,0,0,0,208,20ZM120,156a44,44,0,1,1,44-44A44.05,44.05,0,0,1,120,156Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/gender-intersex-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/gender-intersex-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M176,112a56,56,0,1,1-56-56A56,56,0,0,1,176,112Z\" opacity=\"0.2\"/><path d=\"M208,24H168a8,8,0,0,0,0,16h20.69L163.54,65.15A64,64,0,1,0,112,175.48V192H88a8,8,0,0,0,0,16h24v24a8,8,0,0,0,16,0V208h24a8,8,0,0,0,0-16H128V175.48a63.92,63.92,0,0,0,45.84-98L200,51.31V72a8,8,0,0,0,16,0V32A8,8,0,0,0,208,24ZM120,160a48,48,0,1,1,48-48A48.05,48.05,0,0,1,120,160Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/gender-intersex-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "GenderIntersex",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "transgender",
+      "non-binary"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "people"
+  ],
+  "type": "registry:file"
+}

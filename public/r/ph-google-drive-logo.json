@@ -1,0 +1,48 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-google-drive-logo",
+  "title": "GoogleDriveLogo",
+  "description": "Phosphor GoogleDriveLogo icon in regular, bold, duotone weights. Also: cloud, storage, backup, logos.",
+  "files": [
+    {
+      "path": "icons/phosphor/google-drive-logo-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M237.6,143.78,169.13,31.52A15.91,15.91,0,0,0,155.56,24H100.43a15.89,15.89,0,0,0-13.56,7.52l-.05.07L18.44,143.7a16,16,0,0,0-.33,16.42l27.32,47.82A16,16,0,0,0,59.32,216H196.67a16,16,0,0,0,13.89-8.06l27.32-47.82A15.91,15.91,0,0,0,237.6,143.78ZM219,144H172.52L137.33,85.33l22.75-37.92Zm-116.87,0L128,100.88,153.87,144Zm61.34,16,24,40H68.53l24-40ZM128,69.78,110.12,40l35.78-.05ZM95.91,47.41l22.76,37.92L83.47,144H37ZM36.54,160H73.87L54.72,191.92Zm164.74,31.93L182.12,160h37.41Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/google-drive-logo-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/google-drive-logo-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M241,141.65,172.59,29.51l-.07-.11a19.85,19.85,0,0,0-17-9.4H100.44a19.85,19.85,0,0,0-17,9.4l-.07.11L15,141.65a20,20,0,0,0-.36,20.46L42,209.92A20,20,0,0,0,59.33,220H196.67A20,20,0,0,0,214,209.92l27.32-47.81A20,20,0,0,0,241,141.65ZM211.88,140H174.79L142,85.33l18.12-30.19ZM54.8,184,43.36,164H66.81Zm40-20h66.4l19.2,32H75.6Zm14.4-24L128,108.66,146.8,140Zm80,24h23.45L201.2,184ZM128,62,117.19,44h21.62ZM95.89,55.14,114,85.33,81.21,140H44.12Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/google-drive-logo-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/google-drive-logo-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M24,152H88L55.12,206.8A7.91,7.91,0,0,1,52.38,204L25.05,156.15A8,8,0,0,1,24,152Zm144,0,32.88,54.8a7.91,7.91,0,0,0,2.74-2.83l27.32-47.82A8,8,0,0,0,232,152ZM100.43,32a8.06,8.06,0,0,0-3.84,1L128,85.33,159.41,33a8.07,8.07,0,0,0-3.85-1Z\" opacity=\"0.2\"/><path d=\"M237.6,143.78,169.13,31.52A15.91,15.91,0,0,0,155.56,24H100.43a15.89,15.89,0,0,0-13.56,7.52l-.05.07L18.44,143.7a16,16,0,0,0-.33,16.42l27.32,47.82A16,16,0,0,0,59.32,216H196.67a16,16,0,0,0,13.89-8.06l27.32-47.82A15.91,15.91,0,0,0,237.6,143.78ZM219,144H172.52L137.33,85.33l22.75-37.92Zm-116.87,0L128,100.88,153.87,144Zm61.34,16,24,40H68.53l24-40ZM128,69.78,110.12,40l35.78-.05ZM95.91,47.41l22.76,37.92L83.47,144H37ZM36.54,160H73.87L54.72,191.92Zm164.74,31.93L182.12,160h37.41Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/google-drive-logo-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "GoogleDriveLogo",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "cloud",
+      "storage",
+      "backup",
+      "logos"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "brands"
+  ],
+  "type": "registry:file"
+}

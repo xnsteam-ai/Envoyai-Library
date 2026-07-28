@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-currency-kzt",
+  "title": "CurrencyKzt",
+  "description": "Phosphor CurrencyKzt icon in regular, bold, duotone weights. Also: money, kazakhstan, tenge, payment, paying, purchase.",
+  "files": [
+    {
+      "path": "icons/phosphor/currency-kzt-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M208,96a8,8,0,0,1-8,8H136V216a8,8,0,0,1-16,0V104H56a8,8,0,0,1,0-16H200A8,8,0,0,1,208,96ZM56,64H200a8,8,0,0,0,0-16H56a8,8,0,0,0,0,16Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/currency-kzt-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/currency-kzt-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M212,100a12,12,0,0,1-12,12H140V212a12,12,0,0,1-24,0V112H56a12,12,0,0,1,0-24H200A12,12,0,0,1,212,100ZM56,64H200a12,12,0,0,0,0-24H56a12,12,0,0,0,0,24Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/currency-kzt-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/currency-kzt-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M200,56V96H56V56Z\" opacity=\"0.2\"/><path d=\"M208,96a8,8,0,0,1-8,8H136V216a8,8,0,0,1-16,0V104H56a8,8,0,0,1,0-16H200A8,8,0,0,1,208,96ZM56,64H200a8,8,0,0,0,0-16H56a8,8,0,0,0,0,16Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/currency-kzt-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "CurrencyKzt",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "money",
+      "kazakhstan",
+      "tenge",
+      "payment",
+      "paying",
+      "purchase"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "commerce",
+    "finances"
+  ],
+  "type": "registry:file"
+}

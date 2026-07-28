@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-wave-triangle",
+  "title": "WaveTriangle",
+  "description": "Phosphor WaveTriangle icon in regular, bold, duotone weights. Also: synth, synthesizer, sound, audio, music, waveform.",
+  "files": [
+    {
+      "path": "icons/phosphor/wave-triangle-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M238.48,132.68l-52,72a8,8,0,0,1-13,0L76,69.66l-45.51,63a8,8,0,1,1-13-9.36l52-72a8,8,0,0,1,13,0l97.51,135,45.51-63a8,8,0,1,1,13,9.36Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/wave-triangle-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/wave-triangle-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M241.73,135l-52,72a12,12,0,0,1-19.46,0L76,76.5,33.73,135A12,12,0,1,1,14.27,121l52-72a12,12,0,0,1,19.46,0L180,179.5,222.27,121A12,12,0,1,1,241.73,135Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/wave-triangle-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/wave-triangle-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M76,56l52,72H24Zm156,72H128l52,72Z\" opacity=\"0.2\"/><path d=\"M238.48,132.68l-52,72a8,8,0,0,1-13,0L76,69.66l-45.51,63a8,8,0,1,1-13-9.36l52-72a8,8,0,0,1,13,0l97.51,135,45.51-63a8,8,0,1,1,13,9.36Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/wave-triangle-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "WaveTriangle",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "synth",
+      "synthesizer",
+      "sound",
+      "audio",
+      "music",
+      "waveform"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "media"
+  ],
+  "type": "registry:file"
+}

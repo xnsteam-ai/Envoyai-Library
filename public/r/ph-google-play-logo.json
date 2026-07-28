@@ -1,0 +1,55 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ph-google-play-logo",
+  "title": "GooglePlayLogo",
+  "description": "Phosphor GooglePlayLogo icon in regular, bold, duotone weights. Also: logos, games, apps, applications, play store, app store, phone, mobile.",
+  "files": [
+    {
+      "path": "icons/phosphor/google-play-logo-regular.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M239.82,114.19,72,18.16a16,16,0,0,0-16.12,0A15.68,15.68,0,0,0,48,31.87V224.13a15.68,15.68,0,0,0,7.92,13.67,16,16,0,0,0,16.12,0l167.78-96a15.75,15.75,0,0,0,0-27.62ZM64,212.67V43.33L148.69,128Zm96-73.36,18.92,18.92-88.5,50.66ZM90.4,47.1l88.53,50.67L160,116.69ZM193.31,150l-22-22,22-22,38.43,22Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/google-play-logo-regular.svg"
+    },
+    {
+      "path": "icons/phosphor/google-play-logo-bold.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M241.79,110.7,74,14.65a20.24,20.24,0,0,0-20.12.06A19.62,19.62,0,0,0,44,31.84V224.16a19.62,19.62,0,0,0,9.91,17.13,20.22,20.22,0,0,0,20.12.06l167.76-96a19.76,19.76,0,0,0,0-34.6ZM68,203V53l75,75ZM160,145l12.4,12.4-58,33.2ZM114.41,65.43l58,33.2L160,111ZM194,145l-17-17,17-17,29.72,17Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/google-play-logo-bold.svg"
+    },
+    {
+      "path": "icons/phosphor/google-play-logo-duotone.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\" fill=\"currentColor\"><path d=\"M160,128,58.32,230A7.7,7.7,0,0,1,56,224.45V31.55A7.7,7.7,0,0,1,58.32,26Z\" opacity=\"0.2\"/><path d=\"M239.82,114.18,72,18.16a16,16,0,0,0-16.12,0A15.68,15.68,0,0,0,48,31.87V224.13a15.68,15.68,0,0,0,7.92,13.67,16,16,0,0,0,16.12,0l167.78-96a15.76,15.76,0,0,0,0-27.64ZM64,212.67V43.33L148.69,128Zm96-73.36,18.92,18.92-88.5,50.66ZM90.4,47.1l88.53,50.67L160,116.69ZM193.31,150l-22-22,22-22,38.43,22Z\"/></svg>",
+      "type": "registry:file",
+      "target": "public/icons/phosphor/google-play-logo-duotone.svg"
+    }
+  ],
+  "meta": {
+    "set": "phosphor",
+    "pascalName": "GooglePlayLogo",
+    "weights": [
+      "regular",
+      "bold",
+      "duotone"
+    ],
+    "tags": [
+      "logos",
+      "games",
+      "apps",
+      "applications",
+      "play store",
+      "app store",
+      "phone",
+      "mobile",
+      "android"
+    ]
+  },
+  "categories": [
+    "icon",
+    "glyph",
+    "phosphor",
+    "brands",
+    "system",
+    "media"
+  ],
+  "type": "registry:file"
+}
