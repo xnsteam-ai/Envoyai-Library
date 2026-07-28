@@ -89,6 +89,11 @@
             "mood": "Cool, composed, editorial",
             "narrative": "A studio beauty portrait using colored gels to split the face into two lighting moods"
           }
+        },
+        "brief": {
+          "shotDescriptor": "Split-lit studio close-up",
+          "subjectLabel": "a woman in her mid-20s",
+          "summary": "A composed close-up split by cool blue and warm gel lighting against a plain studio backdrop."
         }
       },
       "files": [
@@ -171,6 +176,11 @@
             "mood": "Serious, intense, moody",
             "narrative": "A stark low-key black-and-white study isolating the face against pure black"
           }
+        },
+        "brief": {
+          "shotDescriptor": "Low-key black-and-white close-up",
+          "subjectLabel": "a man in his late 20s",
+          "summary": "A stark low-key black-and-white portrait isolating the face against pure black."
         }
       },
       "files": [
@@ -263,6 +273,11 @@
             "mood": "Intense, intimate, beauty-editorial",
             "narrative": "An extreme beauty close-up emphasizing eyes and lips against a cool backdrop"
           }
+        },
+        "brief": {
+          "shotDescriptor": "Extreme beauty close-up",
+          "subjectLabel": "a woman in her mid-20s",
+          "summary": "An intimate beauty close-up emphasizing the eyes and dark-red lips against a cool backdrop."
         }
       },
       "files": [
@@ -359,6 +374,11 @@
             "mood": "Mysterious, dramatic, noir",
             "narrative": "A film-noir-style half-face portrait lit by hard slatted window light"
           }
+        },
+        "brief": {
+          "shotDescriptor": "Film-noir half-face close-up",
+          "subjectLabel": "a woman in her late 20s to 30s",
+          "summary": "A moody half-face close-up lit by hard slatted window light, the other half lost to shadow."
         }
       },
       "files": [
@@ -452,6 +472,11 @@
             "mood": "Moody, atmospheric, cinematic",
             "narrative": "A cinematic dual-gel-lit portrait evoking a nightlife or cyberpunk mood"
           }
+        },
+        "brief": {
+          "shotDescriptor": "Dual-gel cinematic close-up",
+          "subjectLabel": "a man in his late 20s",
+          "summary": "A cinematic close-up lit by teal-green and warm red gels for a moody, atmospheric feel."
         }
       },
       "files": [
@@ -541,6 +566,11 @@
             "mood": "Warm, dreamy, relaxed",
             "narrative": "A candid golden-hour outdoor portrait backlit by the setting sun in a field"
           }
+        },
+        "brief": {
+          "shotDescriptor": "Golden-hour outdoor portrait",
+          "subjectLabel": "a young man in his early-to-mid 20s",
+          "summary": "A relaxed medium close-up backlit by golden-hour sun in a tall-grass field."
         }
       },
       "files": [
@@ -636,6 +666,11 @@
             "mood": "Intense, confrontational, raw",
             "narrative": "A raw, extremely tight black-and-white close-up focused entirely on the eyes"
           }
+        },
+        "brief": {
+          "shotDescriptor": "Extreme black-and-white eye close-up",
+          "subjectLabel": "a woman in her 20s",
+          "summary": "A raw, extremely tight black-and-white close-up focused entirely on the eyes."
         }
       },
       "files": [
@@ -720,6 +755,11 @@
             "mood": "Weathered, dignified, documentary",
             "narrative": "A warm-toned documentary character portrait emphasizing age and texture"
           }
+        },
+        "brief": {
+          "shotDescriptor": "Documentary character close-up",
+          "subjectLabel": "an older man in his 60s to 70s",
+          "summary": "A warm-toned documentary close-up emphasizing decades of weathered texture and character."
         }
       },
       "files": [
@@ -798,6 +838,11 @@
             "mood": "Melancholic, dreamy, ethereal",
             "narrative": "A soft, hazy monochrome portrait with an ethereal, dreamlike quality"
           }
+        },
+        "brief": {
+          "shotDescriptor": "Soft ethereal monochrome portrait",
+          "subjectLabel": "a young woman",
+          "summary": "A hazy, soft-focus monochrome portrait with a dreamlike, melancholic quality."
         }
       },
       "files": [
@@ -887,6 +932,11 @@
             "mood": "Isolated, intense, stark",
             "narrative": "A stark spotlight portrait with the face floating in an otherwise pure-black void"
           }
+        },
+        "brief": {
+          "shotDescriptor": "Spotlight void close-up",
+          "subjectLabel": "a woman in her 20s",
+          "summary": "A stark spotlit close-up with the face floating in an otherwise pure-black void."
         }
       },
       "files": [
