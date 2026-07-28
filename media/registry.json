@@ -2,5 +2,346 @@
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "envoyai-media",
   "homepage": "https://envoyai.xyz",
-  "items": []
+  "items": [
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "portrait-aiony",
+      "type": "registry:file",
+      "title": "Portrait — Aiony Haust",
+      "description": "Woman wearing black crew-neck shirt. Photo by Aiony Haust on Unsplash, free under the Unsplash License.",
+      "categories": [
+        "image",
+        "media",
+        "face",
+        "portrait",
+        "people"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "unsplash",
+        "photoId": "3TLl_97HNJo",
+        "credit": "Aiony Haust on Unsplash",
+        "photographer": "Aiony Haust",
+        "photographerUrl": "https://unsplash.com/@aiony?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/woman-wearing-black-crew-neck-shirt-3TLl_97HNJo?utm_source=envoyai&utm_medium=referral",
+        "licence": "Unsplash License",
+        "width": 3276,
+        "height": 4096,
+        "color": "#0c2640"
+      },
+      "files": [
+        {
+          "path": "faces/portrait-aiony.jpg",
+          "type": "registry:file",
+          "target": "public/media/faces/portrait-aiony.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "portrait-alyona",
+      "type": "registry:file",
+      "title": "Portrait — Alyona Grishina",
+      "description": "Man in black crew neck shirt. Photo by Alyona Grishina on Unsplash, free under the Unsplash License.",
+      "categories": [
+        "image",
+        "media",
+        "face",
+        "portrait",
+        "people"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "unsplash",
+        "photoId": "BBmi4nJjKk8",
+        "credit": "Alyona Grishina on Unsplash",
+        "photographer": "Alyona Grishina",
+        "photographerUrl": "https://unsplash.com/@thecrowdpick?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/man-in-black-crew-neck-shirt-BBmi4nJjKk8?utm_source=envoyai&utm_medium=referral",
+        "licence": "Unsplash License",
+        "width": 2965,
+        "height": 4448,
+        "color": "#c0c0c0"
+      },
+      "files": [
+        {
+          "path": "faces/portrait-alyona.jpg",
+          "type": "registry:file",
+          "target": "public/media/faces/portrait-alyona.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "portrait-jota",
+      "type": "registry:file",
+      "title": "Portrait — Jota Lao",
+      "description": "Close-up photo of woman's face with red lipstick. Photo by Jota Lao on Unsplash, free under the Unsplash License.",
+      "categories": [
+        "image",
+        "media",
+        "face",
+        "portrait",
+        "people"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "unsplash",
+        "photoId": "MphctUUI9vA",
+        "credit": "Jota Lao on Unsplash",
+        "photographer": "Jota Lao",
+        "photographerUrl": "https://unsplash.com/@jotalao?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/close-up-photo-of-womans-face-with-red-lipstick-MphctUUI9vA?utm_source=envoyai&utm_medium=referral",
+        "licence": "Unsplash License",
+        "width": 3605,
+        "height": 5425,
+        "color": "#404040"
+      },
+      "files": [
+        {
+          "path": "faces/portrait-jota.jpg",
+          "type": "registry:file",
+          "target": "public/media/faces/portrait-jota.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "portrait-richard",
+      "type": "registry:file",
+      "title": "Portrait — Richard Jaimes",
+      "description": "Grayscale photo of woman. Photo by Richard Jaimes on Unsplash, free under the Unsplash License.",
+      "categories": [
+        "image",
+        "media",
+        "face",
+        "portrait",
+        "people"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "unsplash",
+        "photoId": "s97-KYat9sA",
+        "credit": "Richard Jaimes on Unsplash",
+        "photographer": "Richard Jaimes",
+        "photographerUrl": "https://unsplash.com/@richardconr?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/grayscale-photo-of-woman-s97-KYat9sA?utm_source=envoyai&utm_medium=referral",
+        "licence": "Unsplash License",
+        "width": 3299,
+        "height": 4948,
+        "color": "#262626"
+      },
+      "files": [
+        {
+          "path": "faces/portrait-richard.jpg",
+          "type": "registry:file",
+          "target": "public/media/faces/portrait-richard.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "portrait-fernando",
+      "type": "registry:file",
+      "title": "Portrait — Fernando @cferdophotography",
+      "description": "Man in green crew neck shirt. Photo by Fernando @cferdophotography on Unsplash, free under the Unsplash License.",
+      "categories": [
+        "image",
+        "media",
+        "face",
+        "portrait",
+        "people"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "unsplash",
+        "photoId": "kyjUvRNAgoE",
+        "credit": "Fernando @cferdophotography on Unsplash",
+        "photographer": "Fernando @cferdophotography",
+        "photographerUrl": "https://unsplash.com/@cferdo?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/man-in-green-crew-neck-shirt-kyjUvRNAgoE?utm_source=envoyai&utm_medium=referral",
+        "licence": "Unsplash License",
+        "width": 1999,
+        "height": 3000,
+        "color": "#262626"
+      },
+      "files": [
+        {
+          "path": "faces/portrait-fernando.jpg",
+          "type": "registry:file",
+          "target": "public/media/faces/portrait-fernando.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "portrait-arjunsyah",
+      "type": "registry:file",
+      "title": "Portrait — Arjunsyah",
+      "description": "Shallow focus photography of man in yellow crew-neck shirt. Photo by Arjunsyah on Unsplash, free under the Unsplash License.",
+      "categories": [
+        "image",
+        "media",
+        "face",
+        "portrait",
+        "people"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "unsplash",
+        "photoId": "TBUA5KHJn6k",
+        "credit": "Arjunsyah on Unsplash",
+        "photographer": "Arjunsyah",
+        "photographerUrl": "https://unsplash.com/@arjunsyah_?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/shallow-focus-photography-of-man-in-yellow-crew-neck-shirt-TBUA5KHJn6k?utm_source=envoyai&utm_medium=referral",
+        "licence": "Unsplash License",
+        "width": 3456,
+        "height": 5184,
+        "color": "#f3f3f3"
+      },
+      "files": [
+        {
+          "path": "faces/portrait-arjunsyah.jpg",
+          "type": "registry:file",
+          "target": "public/media/faces/portrait-arjunsyah.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "portrait-alexander",
+      "type": "registry:file",
+      "title": "Portrait — Alexander Krivitskiy",
+      "description": "Grayscale woman face. Photo by Alexander Krivitskiy on Unsplash, free under the Unsplash License.",
+      "categories": [
+        "image",
+        "media",
+        "face",
+        "portrait",
+        "people"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "unsplash",
+        "photoId": "FUcupae92P4",
+        "credit": "Alexander Krivitskiy on Unsplash",
+        "photographer": "Alexander Krivitskiy",
+        "photographerUrl": "https://unsplash.com/@krivitskiy?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/grayscale-woman-face-FUcupae92P4?utm_source=envoyai&utm_medium=referral",
+        "licence": "Unsplash License",
+        "width": 4000,
+        "height": 6000,
+        "color": "#262626"
+      },
+      "files": [
+        {
+          "path": "faces/portrait-alexander.jpg",
+          "type": "registry:file",
+          "target": "public/media/faces/portrait-alexander.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "portrait-muizur",
+      "type": "registry:file",
+      "title": "Portrait — MuiZur",
+      "description": "Man in black hoodie with brown beard. Photo by MuiZur on Unsplash, free under the Unsplash License.",
+      "categories": [
+        "image",
+        "media",
+        "face",
+        "portrait",
+        "people"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "unsplash",
+        "photoId": "yObGLijqOUg",
+        "credit": "MuiZur on Unsplash",
+        "photographer": "MuiZur",
+        "photographerUrl": "https://unsplash.com/@muizur_syed?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/man-in-black-hoodie-with-brown-beard-yObGLijqOUg?utm_source=envoyai&utm_medium=referral",
+        "licence": "Unsplash License",
+        "width": 5773,
+        "height": 8660,
+        "color": "#402626"
+      },
+      "files": [
+        {
+          "path": "faces/portrait-muizur.jpg",
+          "type": "registry:file",
+          "target": "public/media/faces/portrait-muizur.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "portrait-leonid",
+      "type": "registry:file",
+      "title": "Portrait — Leonid Shaydulin",
+      "description": "A woman with long hair. Photo by Leonid Shaydulin on Unsplash, free under the Unsplash License.",
+      "categories": [
+        "image",
+        "media",
+        "face",
+        "portrait",
+        "people"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "unsplash",
+        "photoId": "Kp2nO4vhLHA",
+        "credit": "Leonid Shaydulin on Unsplash",
+        "photographer": "Leonid Shaydulin",
+        "photographerUrl": "https://unsplash.com/@leonshaydulin?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/a-woman-with-long-hair-Kp2nO4vhLHA?utm_source=envoyai&utm_medium=referral",
+        "licence": "Unsplash License",
+        "width": 3497,
+        "height": 4856,
+        "color": "#8c8c8c"
+      },
+      "files": [
+        {
+          "path": "faces/portrait-leonid.jpg",
+          "type": "registry:file",
+          "target": "public/media/faces/portrait-leonid.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "portrait-quinten",
+      "type": "registry:file",
+      "title": "Portrait — Quinten de Graaf",
+      "description": "Grayscale photography of woman looking straight. Photo by Quinten de Graaf on Unsplash, free under the Unsplash License.",
+      "categories": [
+        "image",
+        "media",
+        "face",
+        "portrait",
+        "people"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "unsplash",
+        "photoId": "Ox1jePviTRQ",
+        "credit": "Quinten de Graaf on Unsplash",
+        "photographer": "Quinten de Graaf",
+        "photographerUrl": "https://unsplash.com/@quinten149?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/grayscale-photography-of-woman-looking-straight-Ox1jePviTRQ?utm_source=envoyai&utm_medium=referral",
+        "licence": "Unsplash License",
+        "width": 3456,
+        "height": 4608,
+        "color": "#262626"
+      },
+      "files": [
+        {
+          "path": "faces/portrait-quinten.jpg",
+          "type": "registry:file",
+          "target": "public/media/faces/portrait-quinten.jpg"
+        }
+      ]
+    }
+  ]
 }

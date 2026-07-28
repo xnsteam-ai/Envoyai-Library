@@ -111,13 +111,36 @@ renaming it would fail validation and break `shadcn add`.
 
 ### Image & Video — `registry:file`
 
-Eight original gradient-mesh wallpapers, each under 2 KB of scalable SVG — no
-raster assets, no Git LFS, no bandwidth cost.
+Ten human-face portraits, one per photographer, at 1600px JPEG.
 
-`mesh-ember` · `mesh-noir` · `mesh-tide` · `mesh-moss` · `mesh-orchid` ·
-`mesh-dune` · `mesh-glacier` · `mesh-rosewood`
+```bash
+npx shadcn@latest add xnsteam-ai/Envoyai-Library/portrait-aiony
+```
 
-All land at `public/media/<name>.svg`.
+They land at `public/media/faces/<name>.jpg`.
+
+**Provenance.** Sourced through the official Unsplash API with `unsplash-js`,
+and every one is free under the [Unsplash License](https://unsplash.com/license)
+— none are Unsplash+ or Getty-partnered stock, which the licence would not
+cover. Each item's `meta` carries the photographer's name, their profile URL and
+the photo's page, so attribution travels with the asset:
+
+```json
+"meta": {
+  "photographer": "Aiony Haust",
+  "photographerUrl": "https://unsplash.com/@aiony?utm_source=envoyai&...",
+  "photoUrl": "https://unsplash.com/photos/...",
+  "licence": "Unsplash License"
+}
+```
+
+The Unsplash License does not *require* attribution, but their API Guidelines
+do, and it is the decent thing regardless — surface `photographer` and
+`photographerUrl` wherever these are displayed. The download endpoint was
+tracked for each photo at vendoring time, as the guidelines require.
+
+The gradient-mesh wallpapers that used to live here now ship as pure-CSS
+backgrounds — see the Background section.
 
 ## Structure
 
