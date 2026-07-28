@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "envoyai-themes",
+  "name": "envoyai-palettes",
   "homepage": "https://envoyai.xyz",
   "items": [
     {
@@ -8,8 +8,12 @@
       "name": "envoy-noir",
       "type": "registry:theme",
       "title": "Envoy Noir",
-      "description": "The envoyai house theme. Pure monochrome with neutral greys, high contrast in both modes.",
-      "categories": ["theme", "color", "monochrome"],
+      "description": "The envoyai house palette. Pure monochrome with neutral greys, high contrast in both modes.",
+      "categories": [
+        "palette",
+        "color",
+        "monochrome"
+      ],
       "cssVars": {
         "light": {
           "background": "oklch(1 0 0)",
@@ -59,7 +63,11 @@
       "type": "registry:theme",
       "title": "Envoy Ember",
       "description": "Warm ember accent over a near-black base — the original envoyai mark palette, tuned for UI.",
-      "categories": ["theme", "color", "warm"],
+      "categories": [
+        "palette",
+        "color",
+        "warm"
+      ],
       "cssVars": {
         "light": {
           "background": "oklch(0.995 0.004 60)",

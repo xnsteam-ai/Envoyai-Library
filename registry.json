@@ -5,7 +5,7 @@
   "include": [
     "components/registry.json",
     "templates/registry.json",
-    "themes/registry.json",
+    "palettes/registry.json",
     "icons/registry.json",
     "backgrounds/registry.json",
     "media/registry.json",

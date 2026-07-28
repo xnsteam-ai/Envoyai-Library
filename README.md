@@ -83,12 +83,16 @@ endorsement, and brand-guideline rules still apply to whoever ships it.
 | --- | --- |
 | `library-shell` | Browse layout: sidebar, search, category filters, results grid |
 
-### Theme & Color — `registry:theme`
+### Palette & Color — `registry:theme`
 
 | Item | Description |
 | --- | --- |
-| `envoy-noir` | House theme. Pure monochrome, high contrast in both modes |
+| `envoy-noir` | House palette. Pure monochrome, high contrast in both modes |
 | `envoy-ember` | Warm ember accent over a near-black base |
+
+These are tagged `palette` and live in `palettes/`. The item `type` stays
+`registry:theme` — that value is fixed by the shadcn registry schema, so
+renaming it would fail validation and break `shadcn add`.
 
 ### Icon & Logo — `registry:ui` + `registry:file`
 
@@ -124,7 +128,7 @@ each part is maintained separately.
 registry.json              ← root, include[] only
 components/registry.json   ← registry:ui
 templates/registry.json    ← registry:block
-themes/registry.json       ← registry:theme
+palettes/registry.json     ← registry:theme
 icons/registry.json        ← registry:ui + registry:file
 backgrounds/registry.json  ← registry:file (CSS)
 media/registry.json        ← registry:file (SVG)

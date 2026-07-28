@@ -148,7 +148,7 @@
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "envoy-noir",
       "title": "Envoy Noir",
-      "description": "The envoyai house theme. Pure monochrome with neutral greys, high contrast in both modes.",
+      "description": "The envoyai house palette. Pure monochrome with neutral greys, high contrast in both modes.",
       "cssVars": {
         "light": {
           "background": "oklch(1 0 0)",
@@ -192,7 +192,7 @@
         }
       },
       "categories": [
-        "theme",
+        "palette",
         "color",
         "monochrome"
       ],
@@ -246,7 +246,7 @@
         }
       },
       "categories": [
-        "theme",
+        "palette",
         "color",
         "warm"
       ],
