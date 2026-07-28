@@ -313,6 +313,206 @@
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "sparkle",
+      "title": "Sparkle",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: ai, magic, generate, star.",
+      "files": [
+        {
+          "path": "icons/glyphs/sparkle.svg",
+          "type": "registry:file",
+          "target": "public/icons/sparkle.svg"
+        }
+      ],
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "ai"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "bolt",
+      "title": "Bolt",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: fast, speed, energy, lightning.",
+      "files": [
+        {
+          "path": "icons/glyphs/bolt.svg",
+          "type": "registry:file",
+          "target": "public/icons/bolt.svg"
+        }
+      ],
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "action"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "cube",
+      "title": "Cube",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: package, component, 3d, box.",
+      "files": [
+        {
+          "path": "icons/glyphs/cube.svg",
+          "type": "registry:file",
+          "target": "public/icons/cube.svg"
+        }
+      ],
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "object"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "layers",
+      "title": "Layers",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: stack, levels, registry, group.",
+      "files": [
+        {
+          "path": "icons/glyphs/layers.svg",
+          "type": "registry:file",
+          "target": "public/icons/layers.svg"
+        }
+      ],
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "object"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "terminal",
+      "title": "Terminal",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: cli, console, shell, code.",
+      "files": [
+        {
+          "path": "icons/glyphs/terminal.svg",
+          "type": "registry:file",
+          "target": "public/icons/terminal.svg"
+        }
+      ],
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "development"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "plug",
+      "title": "Plug",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: connect, integration, install, power.",
+      "files": [
+        {
+          "path": "icons/glyphs/plug.svg",
+          "type": "registry:file",
+          "target": "public/icons/plug.svg"
+        }
+      ],
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "development"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "shield-check",
+      "title": "Shield Check",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: secure, safety, verified, trust.",
+      "files": [
+        {
+          "path": "icons/glyphs/shield-check.svg",
+          "type": "registry:file",
+          "target": "public/icons/shield-check.svg"
+        }
+      ],
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "status"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "compass",
+      "title": "Compass",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: explore, discover, browse, navigate.",
+      "files": [
+        {
+          "path": "icons/glyphs/compass.svg",
+          "type": "registry:file",
+          "target": "public/icons/compass.svg"
+        }
+      ],
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "navigation"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "pulse",
+      "title": "Pulse",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: activity, monitor, health, live.",
+      "files": [
+        {
+          "path": "icons/glyphs/pulse.svg",
+          "type": "registry:file",
+          "target": "public/icons/pulse.svg"
+        }
+      ],
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "status"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "orbit",
+      "title": "Orbit",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: network, distributed, system, satellite.",
+      "files": [
+        {
+          "path": "icons/glyphs/orbit.svg",
+          "type": "registry:file",
+          "target": "public/icons/orbit.svg"
+        }
+      ],
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "system"
+      ],
+      "type": "registry:file"
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "grid-background",
       "title": "Grid Background",
       "description": "A blueprint grid that fades toward the edges. Line colour derives from your --foreground token, so it works in both modes.",
@@ -352,160 +552,152 @@
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "mesh-dune",
-      "title": "Dune Wallpaper",
-      "description": "Original gradient-mesh wallpaper in the Dune palette. Scalable SVG, under 2 KB, no raster assets.",
+      "title": "Dune Mesh Background",
+      "description": "The Dune gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
       "files": [
         {
-          "path": "media/mesh-dune.svg",
+          "path": "backgrounds/mesh-dune.css",
           "type": "registry:file",
-          "target": "public/media/mesh-dune.svg"
+          "target": "styles/backgrounds/mesh-dune.css"
         }
       ],
       "categories": [
-        "image",
-        "wallpaper",
-        "gradient",
-        "svg"
+        "background",
+        "css",
+        "gradient"
       ],
       "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "mesh-ember",
-      "title": "Ember Wallpaper",
-      "description": "Original gradient-mesh wallpaper in the Ember palette. Scalable SVG, under 2 KB, no raster assets.",
+      "title": "Ember Mesh Background",
+      "description": "The Ember gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
       "files": [
         {
-          "path": "media/mesh-ember.svg",
+          "path": "backgrounds/mesh-ember.css",
           "type": "registry:file",
-          "target": "public/media/mesh-ember.svg"
+          "target": "styles/backgrounds/mesh-ember.css"
         }
       ],
       "categories": [
-        "image",
-        "wallpaper",
-        "gradient",
-        "svg"
+        "background",
+        "css",
+        "gradient"
       ],
       "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "mesh-glacier",
-      "title": "Glacier Wallpaper",
-      "description": "Original gradient-mesh wallpaper in the Glacier palette. Scalable SVG, under 2 KB, no raster assets.",
+      "title": "Glacier Mesh Background",
+      "description": "The Glacier gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
       "files": [
         {
-          "path": "media/mesh-glacier.svg",
+          "path": "backgrounds/mesh-glacier.css",
           "type": "registry:file",
-          "target": "public/media/mesh-glacier.svg"
+          "target": "styles/backgrounds/mesh-glacier.css"
         }
       ],
       "categories": [
-        "image",
-        "wallpaper",
-        "gradient",
-        "svg"
+        "background",
+        "css",
+        "gradient"
       ],
       "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "mesh-moss",
-      "title": "Moss Wallpaper",
-      "description": "Original gradient-mesh wallpaper in the Moss palette. Scalable SVG, under 2 KB, no raster assets.",
+      "title": "Moss Mesh Background",
+      "description": "The Moss gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
       "files": [
         {
-          "path": "media/mesh-moss.svg",
+          "path": "backgrounds/mesh-moss.css",
           "type": "registry:file",
-          "target": "public/media/mesh-moss.svg"
+          "target": "styles/backgrounds/mesh-moss.css"
         }
       ],
       "categories": [
-        "image",
-        "wallpaper",
-        "gradient",
-        "svg"
+        "background",
+        "css",
+        "gradient"
       ],
       "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "mesh-noir",
-      "title": "Noir Wallpaper",
-      "description": "Original gradient-mesh wallpaper in the Noir palette. Scalable SVG, under 2 KB, no raster assets.",
+      "title": "Noir Mesh Background",
+      "description": "The Noir gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
       "files": [
         {
-          "path": "media/mesh-noir.svg",
+          "path": "backgrounds/mesh-noir.css",
           "type": "registry:file",
-          "target": "public/media/mesh-noir.svg"
+          "target": "styles/backgrounds/mesh-noir.css"
         }
       ],
       "categories": [
-        "image",
-        "wallpaper",
-        "gradient",
-        "svg"
+        "background",
+        "css",
+        "gradient"
       ],
       "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "mesh-orchid",
-      "title": "Orchid Wallpaper",
-      "description": "Original gradient-mesh wallpaper in the Orchid palette. Scalable SVG, under 2 KB, no raster assets.",
+      "title": "Orchid Mesh Background",
+      "description": "The Orchid gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
       "files": [
         {
-          "path": "media/mesh-orchid.svg",
+          "path": "backgrounds/mesh-orchid.css",
           "type": "registry:file",
-          "target": "public/media/mesh-orchid.svg"
+          "target": "styles/backgrounds/mesh-orchid.css"
         }
       ],
       "categories": [
-        "image",
-        "wallpaper",
-        "gradient",
-        "svg"
+        "background",
+        "css",
+        "gradient"
       ],
       "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "mesh-rosewood",
-      "title": "Rosewood Wallpaper",
-      "description": "Original gradient-mesh wallpaper in the Rosewood palette. Scalable SVG, under 2 KB, no raster assets.",
+      "title": "Rosewood Mesh Background",
+      "description": "The Rosewood gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
       "files": [
         {
-          "path": "media/mesh-rosewood.svg",
+          "path": "backgrounds/mesh-rosewood.css",
           "type": "registry:file",
-          "target": "public/media/mesh-rosewood.svg"
+          "target": "styles/backgrounds/mesh-rosewood.css"
         }
       ],
       "categories": [
-        "image",
-        "wallpaper",
-        "gradient",
-        "svg"
+        "background",
+        "css",
+        "gradient"
       ],
       "type": "registry:file"
     },
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
       "name": "mesh-tide",
-      "title": "Tide Wallpaper",
-      "description": "Original gradient-mesh wallpaper in the Tide palette. Scalable SVG, under 2 KB, no raster assets.",
+      "title": "Tide Mesh Background",
+      "description": "The Tide gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
       "files": [
         {
-          "path": "media/mesh-tide.svg",
+          "path": "backgrounds/mesh-tide.css",
           "type": "registry:file",
-          "target": "public/media/mesh-tide.svg"
+          "target": "styles/backgrounds/mesh-tide.css"
         }
       ],
       "categories": [
-        "image",
-        "wallpaper",
-        "gradient",
-        "svg"
+        "background",
+        "css",
+        "gradient"
       ],
       "type": "registry:file"
     }

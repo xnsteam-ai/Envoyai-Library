@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "orbit",
+  "title": "Orbit",
+  "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: network, distributed, system, satellite.",
+  "files": [
+    {
+      "path": "icons/glyphs/orbit.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" role=\"img\" aria-label=\"Orbit\">\n  <title>Orbit</title>\n  <circle cx=\"12\" cy=\"12\" r=\"3.25\"/>\n  <ellipse cx=\"12\" cy=\"12\" rx=\"9.75\" ry=\"4.5\" transform=\"rotate(-30 12 12)\"/>\n  <circle cx=\"19.4\" cy=\"7.7\" r=\"1.6\"/>\n</svg>\n",
+      "type": "registry:file",
+      "target": "public/icons/orbit.svg"
+    }
+  ],
+  "categories": [
+    "icon",
+    "glyph",
+    "svg",
+    "system"
+  ],
+  "type": "registry:file"
+}

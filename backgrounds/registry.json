@@ -9,7 +9,11 @@
       "type": "registry:file",
       "title": "Grid Background",
       "description": "A blueprint grid that fades toward the edges. Line colour derives from your --foreground token, so it works in both modes.",
-      "categories": ["background", "css", "pattern"],
+      "categories": [
+        "background",
+        "css",
+        "pattern"
+      ],
       "files": [
         {
           "path": "grid-background.css",
@@ -24,12 +28,168 @@
       "type": "registry:file",
       "title": "Aurora Background",
       "description": "Three slow-drifting colour fields behind your content. Honours prefers-reduced-motion.",
-      "categories": ["background", "css", "animated"],
+      "categories": [
+        "background",
+        "css",
+        "animated"
+      ],
       "files": [
         {
           "path": "aurora-background.css",
           "type": "registry:file",
           "target": "styles/backgrounds/aurora-background.css"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mesh-dune",
+      "type": "registry:file",
+      "title": "Dune Mesh Background",
+      "description": "The Dune gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
+      "categories": [
+        "background",
+        "css",
+        "gradient"
+      ],
+      "files": [
+        {
+          "path": "mesh-dune.css",
+          "type": "registry:file",
+          "target": "styles/backgrounds/mesh-dune.css"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mesh-ember",
+      "type": "registry:file",
+      "title": "Ember Mesh Background",
+      "description": "The Ember gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
+      "categories": [
+        "background",
+        "css",
+        "gradient"
+      ],
+      "files": [
+        {
+          "path": "mesh-ember.css",
+          "type": "registry:file",
+          "target": "styles/backgrounds/mesh-ember.css"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mesh-glacier",
+      "type": "registry:file",
+      "title": "Glacier Mesh Background",
+      "description": "The Glacier gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
+      "categories": [
+        "background",
+        "css",
+        "gradient"
+      ],
+      "files": [
+        {
+          "path": "mesh-glacier.css",
+          "type": "registry:file",
+          "target": "styles/backgrounds/mesh-glacier.css"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mesh-moss",
+      "type": "registry:file",
+      "title": "Moss Mesh Background",
+      "description": "The Moss gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
+      "categories": [
+        "background",
+        "css",
+        "gradient"
+      ],
+      "files": [
+        {
+          "path": "mesh-moss.css",
+          "type": "registry:file",
+          "target": "styles/backgrounds/mesh-moss.css"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mesh-noir",
+      "type": "registry:file",
+      "title": "Noir Mesh Background",
+      "description": "The Noir gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
+      "categories": [
+        "background",
+        "css",
+        "gradient"
+      ],
+      "files": [
+        {
+          "path": "mesh-noir.css",
+          "type": "registry:file",
+          "target": "styles/backgrounds/mesh-noir.css"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mesh-orchid",
+      "type": "registry:file",
+      "title": "Orchid Mesh Background",
+      "description": "The Orchid gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
+      "categories": [
+        "background",
+        "css",
+        "gradient"
+      ],
+      "files": [
+        {
+          "path": "mesh-orchid.css",
+          "type": "registry:file",
+          "target": "styles/backgrounds/mesh-orchid.css"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mesh-rosewood",
+      "type": "registry:file",
+      "title": "Rosewood Mesh Background",
+      "description": "The Rosewood gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
+      "categories": [
+        "background",
+        "css",
+        "gradient"
+      ],
+      "files": [
+        {
+          "path": "mesh-rosewood.css",
+          "type": "registry:file",
+          "target": "styles/backgrounds/mesh-rosewood.css"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "mesh-tide",
+      "type": "registry:file",
+      "title": "Tide Mesh Background",
+      "description": "The Tide gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
+      "categories": [
+        "background",
+        "css",
+        "gradient"
+      ],
+      "files": [
+        {
+          "path": "mesh-tide.css",
+          "type": "registry:file",
+          "target": "styles/backgrounds/mesh-tide.css"
         }
       ]
     }

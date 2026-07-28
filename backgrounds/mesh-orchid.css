@@ -1,0 +1,39 @@
+/**
+ * envoyai — Orchid Mesh Background
+ *
+ * The Orchid gradient mesh as a pure-CSS background — no image file and no
+ * network request. Four soft colour fields over a diagonal base, matching the
+ * original 1200x800 artwork; positions and radii are percentages, so it scales
+ * to any element at any aspect ratio.
+ *
+ * These are fixed-palette artwork, not theme-derived: the colours stay put in
+ * light and dark. Pair with light text.
+ *
+ * Usage:  <div class="envoy-bg-mesh-orchid"> … </div>
+ */
+
+.envoy-bg-mesh-orchid {
+  background-color: #000000;
+  background-image:
+    radial-gradient(
+      ellipse 32% 48% at 12% 82%,
+      rgb(21 4 37 / 0.95),
+      rgb(21 4 37 / 0) 100%
+    ),
+    radial-gradient(
+      ellipse 45.33% 68% at 62% 78%,
+      rgb(88 28 135 / 0.95),
+      rgb(88 28 135 / 0) 100%
+    ),
+    radial-gradient(
+      ellipse 36% 54% at 78% 22%,
+      rgb(240 171 252 / 0.95),
+      rgb(240 171 252 / 0) 100%
+    ),
+    radial-gradient(
+      ellipse 41.33% 62% at 22% 28%,
+      rgb(192 132 252 / 0.95),
+      rgb(192 132 252 / 0) 100%
+    ),
+    linear-gradient(135deg, #150425 0%, #000000 100%);
+}

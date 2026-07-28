@@ -13,7 +13,7 @@ export function FeatureGrid() {
   return (
     <section className="bg-muted/40 py-16 dark:bg-transparent md:py-24">
       <div className="mx-auto max-w-5xl px-6">
-        <div className="grid gap-4 lg:grid-cols-2">
+        <div className="grid gap-4 md:grid-cols-2">
           <FeaturePanel
             icon={Search}
             title="Search that understands intent"
@@ -30,8 +30,8 @@ export function FeatureGrid() {
             <StackMock />
           </FeaturePanel>
 
-          <FeatureCard className="lg:col-span-2">
-            <div className="flex flex-col items-center gap-8 p-10 text-center">
+          <FeatureCard className="md:col-span-2">
+            <div className="flex flex-col items-center gap-8 p-6 text-center md:p-10">
               <p className="max-w-md text-2xl font-semibold text-balance">
                 One registry, every surface — components, templates, icons and themes stay in sync.
               </p>
@@ -100,8 +100,11 @@ function SearchMock() {
       <div
         className="pointer-events-none absolute inset-0 opacity-70"
         style={{
+          // color-mix, not hsl(var(--primary) / a): themes may define their vars in
+          // any colour space — shadcn's own default is oklch — and wrapping an
+          // oklch() value in hsl() is invalid CSS, so the whole gradient is dropped.
           background:
-            "radial-gradient(45% 60% at 20% 20%, hsl(var(--primary) / 0.16), transparent 70%), radial-gradient(40% 50% at 85% 75%, hsl(var(--primary) / 0.1), transparent 70%)",
+            "radial-gradient(45% 60% at 20% 20%, color-mix(in oklab, var(--primary) 16%, transparent), transparent 70%), radial-gradient(40% 50% at 85% 75%, color-mix(in oklab, var(--primary) 10%, transparent), transparent 70%)",
         }}
       />
       <div className="relative flex h-11 items-center gap-2.5 rounded-full border bg-background px-4 shadow-sm">

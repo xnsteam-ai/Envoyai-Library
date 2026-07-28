@@ -1,21 +1,20 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "mesh-moss",
-  "title": "Moss Wallpaper",
-  "description": "Original gradient-mesh wallpaper in the Moss palette. Scalable SVG, under 2 KB, no raster assets.",
+  "title": "Moss Mesh Background",
+  "description": "The Moss gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
   "files": [
     {
-      "path": "media/mesh-moss.svg",
-      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 800\" width=\"1200\" height=\"800\" role=\"img\" aria-label=\"envoyai Moss gradient mesh\">\n  <title>envoyai — Moss</title>\n  <defs>\n    <radialGradient id=\"mesh-moss-g0\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" stop-color=\"#4ade80\" stop-opacity=\"0.95\"/>\n      <stop offset=\"100%\" stop-color=\"#4ade80\" stop-opacity=\"0\"/>\n    </radialGradient>\n    <radialGradient id=\"mesh-moss-g1\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" stop-color=\"#a3e635\" stop-opacity=\"0.95\"/>\n      <stop offset=\"100%\" stop-color=\"#a3e635\" stop-opacity=\"0\"/>\n    </radialGradient>\n    <radialGradient id=\"mesh-moss-g2\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" stop-color=\"#14532d\" stop-opacity=\"0.95\"/>\n      <stop offset=\"100%\" stop-color=\"#14532d\" stop-opacity=\"0\"/>\n    </radialGradient>\n    <radialGradient id=\"mesh-moss-g3\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" stop-color=\"#04140a\" stop-opacity=\"0.95\"/>\n      <stop offset=\"100%\" stop-color=\"#04140a\" stop-opacity=\"0\"/>\n    </radialGradient>\n    <linearGradient id=\"mesh-moss-base\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#04140a\"/>\n      <stop offset=\"100%\" stop-color=\"#000000\"/>\n    </linearGradient>\n    <filter id=\"mesh-moss-grain\">\n      <feTurbulence type=\"fractalNoise\" baseFrequency=\"0.9\" numOctaves=\"3\" stitchTiles=\"stitch\"/>\n      <feColorMatrix type=\"saturate\" values=\"0\"/>\n    </filter>\n  </defs>\n  <rect width=\"1200\" height=\"800\" fill=\"url(#mesh-moss-base)\"/>\n    <circle cx=\"264\" cy=\"224.00000000000003\" r=\"496\" fill=\"url(#mesh-moss-g0)\"/>\n    <circle cx=\"936\" cy=\"176\" r=\"432\" fill=\"url(#mesh-moss-g1)\"/>\n    <circle cx=\"744\" cy=\"624\" r=\"544\" fill=\"url(#mesh-moss-g2)\"/>\n    <circle cx=\"144\" cy=\"656\" r=\"384\" fill=\"url(#mesh-moss-g3)\"/>\n  <rect width=\"1200\" height=\"800\" filter=\"url(#mesh-moss-grain)\" opacity=\"0.06\"/>\n</svg>\n",
+      "path": "backgrounds/mesh-moss.css",
+      "content": "/**\n * envoyai — Moss Mesh Background\n *\n * The Moss gradient mesh as a pure-CSS background — no image file and no\n * network request. Four soft colour fields over a diagonal base, matching the\n * original 1200x800 artwork; positions and radii are percentages, so it scales\n * to any element at any aspect ratio.\n *\n * These are fixed-palette artwork, not theme-derived: the colours stay put in\n * light and dark. Pair with light text.\n *\n * Usage:  <div class=\"envoy-bg-mesh-moss\"> … </div>\n */\n\n.envoy-bg-mesh-moss {\n  background-color: #000000;\n  background-image:\n    radial-gradient(\n      ellipse 32% 48% at 12% 82%,\n      rgb(4 20 10 / 0.95),\n      rgb(4 20 10 / 0) 100%\n    ),\n    radial-gradient(\n      ellipse 45.33% 68% at 62% 78%,\n      rgb(20 83 45 / 0.95),\n      rgb(20 83 45 / 0) 100%\n    ),\n    radial-gradient(\n      ellipse 36% 54% at 78% 22%,\n      rgb(163 230 53 / 0.95),\n      rgb(163 230 53 / 0) 100%\n    ),\n    radial-gradient(\n      ellipse 41.33% 62% at 22% 28%,\n      rgb(74 222 128 / 0.95),\n      rgb(74 222 128 / 0) 100%\n    ),\n    linear-gradient(135deg, #04140a 0%, #000000 100%);\n}\n",
       "type": "registry:file",
-      "target": "public/media/mesh-moss.svg"
+      "target": "styles/backgrounds/mesh-moss.css"
     }
   ],
   "categories": [
-    "image",
-    "wallpaper",
-    "gradient",
-    "svg"
+    "background",
+    "css",
+    "gradient"
   ],
   "type": "registry:file"
 }

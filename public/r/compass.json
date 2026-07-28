@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "compass",
+  "title": "Compass",
+  "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: explore, discover, browse, navigate.",
+  "files": [
+    {
+      "path": "icons/glyphs/compass.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" role=\"img\" aria-label=\"Compass\">\n  <title>Compass</title>\n  <circle cx=\"12\" cy=\"12\" r=\"9.25\"/>\n  <path d=\"M15.5 8.5l-2.05 5-5 2.05 2.05-5z\"/>\n</svg>\n",
+      "type": "registry:file",
+      "target": "public/icons/compass.svg"
+    }
+  ],
+  "categories": [
+    "icon",
+    "glyph",
+    "svg",
+    "navigation"
+  ],
+  "type": "registry:file"
+}

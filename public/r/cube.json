@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cube",
+  "title": "Cube",
+  "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: package, component, 3d, box.",
+  "files": [
+    {
+      "path": "icons/glyphs/cube.svg",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" role=\"img\" aria-label=\"Cube\">\n  <title>Cube</title>\n  <path d=\"M12 2.5l8 4.5v9l-8 4.5-8-4.5v-9z\"/>\n  <path d=\"M4 7l8 4.5L20 7\"/>\n  <path d=\"M12 11.5V20.5\"/>\n</svg>\n",
+      "type": "registry:file",
+      "target": "public/icons/cube.svg"
+    }
+  ],
+  "categories": [
+    "icon",
+    "glyph",
+    "svg",
+    "object"
+  ],
+  "type": "registry:file"
+}

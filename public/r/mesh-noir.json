@@ -1,21 +1,20 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "mesh-noir",
-  "title": "Noir Wallpaper",
-  "description": "Original gradient-mesh wallpaper in the Noir palette. Scalable SVG, under 2 KB, no raster assets.",
+  "title": "Noir Mesh Background",
+  "description": "The Noir gradient mesh as a pure-CSS background. Four soft colour fields over a diagonal base — no image file and no network request.",
   "files": [
     {
-      "path": "media/mesh-noir.svg",
-      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1200 800\" width=\"1200\" height=\"800\" role=\"img\" aria-label=\"envoyai Noir gradient mesh\">\n  <title>envoyai — Noir</title>\n  <defs>\n    <radialGradient id=\"mesh-noir-g0\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" stop-color=\"#3a3a3a\" stop-opacity=\"0.95\"/>\n      <stop offset=\"100%\" stop-color=\"#3a3a3a\" stop-opacity=\"0\"/>\n    </radialGradient>\n    <radialGradient id=\"mesh-noir-g1\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" stop-color=\"#8a8a8a\" stop-opacity=\"0.95\"/>\n      <stop offset=\"100%\" stop-color=\"#8a8a8a\" stop-opacity=\"0\"/>\n    </radialGradient>\n    <radialGradient id=\"mesh-noir-g2\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" stop-color=\"#1a1a1a\" stop-opacity=\"0.95\"/>\n      <stop offset=\"100%\" stop-color=\"#1a1a1a\" stop-opacity=\"0\"/>\n    </radialGradient>\n    <radialGradient id=\"mesh-noir-g3\" cx=\"50%\" cy=\"50%\" r=\"50%\">\n      <stop offset=\"0%\" stop-color=\"#050505\" stop-opacity=\"0.95\"/>\n      <stop offset=\"100%\" stop-color=\"#050505\" stop-opacity=\"0\"/>\n    </radialGradient>\n    <linearGradient id=\"mesh-noir-base\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#050505\"/>\n      <stop offset=\"100%\" stop-color=\"#000000\"/>\n    </linearGradient>\n    <filter id=\"mesh-noir-grain\">\n      <feTurbulence type=\"fractalNoise\" baseFrequency=\"0.9\" numOctaves=\"3\" stitchTiles=\"stitch\"/>\n      <feColorMatrix type=\"saturate\" values=\"0\"/>\n    </filter>\n  </defs>\n  <rect width=\"1200\" height=\"800\" fill=\"url(#mesh-noir-base)\"/>\n    <circle cx=\"264\" cy=\"224.00000000000003\" r=\"496\" fill=\"url(#mesh-noir-g0)\"/>\n    <circle cx=\"936\" cy=\"176\" r=\"432\" fill=\"url(#mesh-noir-g1)\"/>\n    <circle cx=\"744\" cy=\"624\" r=\"544\" fill=\"url(#mesh-noir-g2)\"/>\n    <circle cx=\"144\" cy=\"656\" r=\"384\" fill=\"url(#mesh-noir-g3)\"/>\n  <rect width=\"1200\" height=\"800\" filter=\"url(#mesh-noir-grain)\" opacity=\"0.06\"/>\n</svg>\n",
+      "path": "backgrounds/mesh-noir.css",
+      "content": "/**\n * envoyai — Noir Mesh Background\n *\n * The Noir gradient mesh as a pure-CSS background — no image file and no\n * network request. Four soft colour fields over a diagonal base, matching the\n * original 1200x800 artwork; positions and radii are percentages, so it scales\n * to any element at any aspect ratio.\n *\n * These are fixed-palette artwork, not theme-derived: the colours stay put in\n * light and dark. Pair with light text.\n *\n * Usage:  <div class=\"envoy-bg-mesh-noir\"> … </div>\n */\n\n.envoy-bg-mesh-noir {\n  background-color: #000000;\n  background-image:\n    radial-gradient(\n      ellipse 32% 48% at 12% 82%,\n      rgb(5 5 5 / 0.95),\n      rgb(5 5 5 / 0) 100%\n    ),\n    radial-gradient(\n      ellipse 45.33% 68% at 62% 78%,\n      rgb(26 26 26 / 0.95),\n      rgb(26 26 26 / 0) 100%\n    ),\n    radial-gradient(\n      ellipse 36% 54% at 78% 22%,\n      rgb(138 138 138 / 0.95),\n      rgb(138 138 138 / 0) 100%\n    ),\n    radial-gradient(\n      ellipse 41.33% 62% at 22% 28%,\n      rgb(58 58 58 / 0.95),\n      rgb(58 58 58 / 0) 100%\n    ),\n    linear-gradient(135deg, #050505 0%, #000000 100%);\n}\n",
       "type": "registry:file",
-      "target": "public/media/mesh-noir.svg"
+      "target": "styles/backgrounds/mesh-noir.css"
     }
   ],
   "categories": [
-    "image",
-    "wallpaper",
-    "gradient",
-    "svg"
+    "background",
+    "css",
+    "gradient"
   ],
   "type": "registry:file"
 }

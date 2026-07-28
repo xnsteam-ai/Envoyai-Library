@@ -115,8 +115,10 @@ export function PricingCards() {
               </CardContent>
 
               <CardFooter>
+                {/* h-11 below md: the default button height is 36px, under the ~44px
+                    comfortable touch target on phones. Desktop keeps the default. */}
                 <Button
-                  className="w-full"
+                  className="h-11 w-full md:h-9"
                   variant={tier.highlighted ? "default" : "outline"}
                 >
                   {tier.cta}

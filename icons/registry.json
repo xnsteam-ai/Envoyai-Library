@@ -9,7 +9,11 @@
       "type": "registry:ui",
       "title": "Envoy Logo",
       "description": "The envoyai mark as a React component with per-instance gradient ids, so several can share a page.",
-      "categories": ["icon", "logo", "brand"],
+      "categories": [
+        "icon",
+        "logo",
+        "brand"
+      ],
       "files": [
         {
           "path": "envoy-logo/envoy-logo.tsx",
@@ -24,7 +28,12 @@
       "type": "registry:file",
       "title": "Envoy Mark (SVG)",
       "description": "The envoyai badge mark as a standalone SVG asset, for favicons, og images and static use.",
-      "categories": ["icon", "logo", "brand", "svg"],
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
       "files": [
         {
           "path": "envoy-mark.svg",
@@ -39,12 +48,217 @@
       "type": "registry:file",
       "title": "Envoy Wordmark (SVG)",
       "description": "Mark plus wordmark lockup as a standalone SVG. The text inherits currentColor.",
-      "categories": ["icon", "logo", "brand", "svg"],
+      "categories": [
+        "icon",
+        "logo",
+        "brand",
+        "svg"
+      ],
       "files": [
         {
           "path": "envoy-wordmark.svg",
           "type": "registry:file",
           "target": "public/brand/envoy-wordmark.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "sparkle",
+      "type": "registry:file",
+      "title": "Sparkle",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: ai, magic, generate, star.",
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "ai"
+      ],
+      "files": [
+        {
+          "path": "glyphs/sparkle.svg",
+          "type": "registry:file",
+          "target": "public/icons/sparkle.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "bolt",
+      "type": "registry:file",
+      "title": "Bolt",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: fast, speed, energy, lightning.",
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "action"
+      ],
+      "files": [
+        {
+          "path": "glyphs/bolt.svg",
+          "type": "registry:file",
+          "target": "public/icons/bolt.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "cube",
+      "type": "registry:file",
+      "title": "Cube",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: package, component, 3d, box.",
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "object"
+      ],
+      "files": [
+        {
+          "path": "glyphs/cube.svg",
+          "type": "registry:file",
+          "target": "public/icons/cube.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "layers",
+      "type": "registry:file",
+      "title": "Layers",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: stack, levels, registry, group.",
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "object"
+      ],
+      "files": [
+        {
+          "path": "glyphs/layers.svg",
+          "type": "registry:file",
+          "target": "public/icons/layers.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "terminal",
+      "type": "registry:file",
+      "title": "Terminal",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: cli, console, shell, code.",
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "development"
+      ],
+      "files": [
+        {
+          "path": "glyphs/terminal.svg",
+          "type": "registry:file",
+          "target": "public/icons/terminal.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "plug",
+      "type": "registry:file",
+      "title": "Plug",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: connect, integration, install, power.",
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "development"
+      ],
+      "files": [
+        {
+          "path": "glyphs/plug.svg",
+          "type": "registry:file",
+          "target": "public/icons/plug.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "shield-check",
+      "type": "registry:file",
+      "title": "Shield Check",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: secure, safety, verified, trust.",
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "status"
+      ],
+      "files": [
+        {
+          "path": "glyphs/shield-check.svg",
+          "type": "registry:file",
+          "target": "public/icons/shield-check.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "compass",
+      "type": "registry:file",
+      "title": "Compass",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: explore, discover, browse, navigate.",
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "navigation"
+      ],
+      "files": [
+        {
+          "path": "glyphs/compass.svg",
+          "type": "registry:file",
+          "target": "public/icons/compass.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "pulse",
+      "type": "registry:file",
+      "title": "Pulse",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: activity, monitor, health, live.",
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "status"
+      ],
+      "files": [
+        {
+          "path": "glyphs/pulse.svg",
+          "type": "registry:file",
+          "target": "public/icons/pulse.svg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "orbit",
+      "type": "registry:file",
+      "title": "Orbit",
+      "description": "A 24px stroke glyph from the envoyai icon set. Inherits currentColor and scales cleanly. Keywords: network, distributed, system, satellite.",
+      "categories": [
+        "icon",
+        "glyph",
+        "svg",
+        "system"
+      ],
+      "files": [
+        {
+          "path": "glyphs/orbit.svg",
+          "type": "registry:file",
+          "target": "public/icons/orbit.svg"
         }
       ]
     }

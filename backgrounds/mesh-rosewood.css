@@ -1,0 +1,39 @@
+/**
+ * envoyai — Rosewood Mesh Background
+ *
+ * The Rosewood gradient mesh as a pure-CSS background — no image file and no
+ * network request. Four soft colour fields over a diagonal base, matching the
+ * original 1200x800 artwork; positions and radii are percentages, so it scales
+ * to any element at any aspect ratio.
+ *
+ * These are fixed-palette artwork, not theme-derived: the colours stay put in
+ * light and dark. Pair with light text.
+ *
+ * Usage:  <div class="envoy-bg-mesh-rosewood"> … </div>
+ */
+
+.envoy-bg-mesh-rosewood {
+  background-color: #000000;
+  background-image:
+    radial-gradient(
+      ellipse 32% 48% at 12% 82%,
+      rgb(28 4 9 / 0.95),
+      rgb(28 4 9 / 0) 100%
+    ),
+    radial-gradient(
+      ellipse 45.33% 68% at 62% 78%,
+      rgb(136 19 55 / 0.95),
+      rgb(136 19 55 / 0) 100%
+    ),
+    radial-gradient(
+      ellipse 36% 54% at 78% 22%,
+      rgb(244 63 94 / 0.95),
+      rgb(244 63 94 / 0) 100%
+    ),
+    radial-gradient(
+      ellipse 41.33% 62% at 22% 28%,
+      rgb(251 113 133 / 0.95),
+      rgb(251 113 133 / 0) 100%
+    ),
+    linear-gradient(135deg, #1c0409 0%, #000000 100%);
+}
