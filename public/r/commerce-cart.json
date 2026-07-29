@@ -2,7 +2,7 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "commerce-cart",
   "type": "registry:file",
-  "title": "A toy shopping cart — Shutter Speed",
+  "title": "Shopping Cart — Shutter Speed",
   "description": "A toy shopping cart. Photo by Shutter Speed, free for personal & commercial use.",
   "files": [
     {

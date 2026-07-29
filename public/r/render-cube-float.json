@@ -2,7 +2,7 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "render-cube-float",
   "type": "registry:file",
-  "title": "A cube that is floating in the air — Enis Can Ceyhan",
+  "title": "Voxel Cube — Enis Can Ceyhan",
   "description": "A cube that is floating in the air. Photo by Enis Can Ceyhan, free for personal & commercial use.",
   "files": [
     {
