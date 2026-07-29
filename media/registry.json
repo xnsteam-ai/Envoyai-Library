@@ -946,6 +946,966 @@
           "target": "public/media/faces/portrait-quinten.jpg"
         }
       ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "render-cubes",
+      "type": "registry:file",
+      "title": "Floating cubes and glowing yellow spheres — Sebastian Svenson",
+      "description": "Floating cubes and glowing yellow spheres. Photo by Sebastian Svenson, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "3d",
+        "render",
+        "abstract"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "d2w-_1LJioQ",
+        "credit": "Sebastian Svenson",
+        "photographer": "Sebastian Svenson",
+        "photographerUrl": "https://unsplash.com/@sebastiansvenson?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/floating-cubes-and-glowing-yellow-spheres-d2w-_1LJioQ?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 7680,
+        "height": 4320,
+        "color": "#0c2626",
+        "createdAt": "2021-06-03",
+        "tags": [
+          "wallpaper",
+          "abstract",
+          "minimalist",
+          "simple wallpaper",
+          "simple",
+          "minimalism",
+          "render",
+          "simple background",
+          "minimal background",
+          "asthetic",
+          "planes",
+          "3d art"
+        ]
+      },
+      "files": [
+        {
+          "path": "renders/render-cubes.jpg",
+          "type": "registry:file",
+          "target": "public/media/renders/render-cubes.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "render-cube-float",
+      "type": "registry:file",
+      "title": "A cube that is floating in the air — Enis Can Ceyhan",
+      "description": "A cube that is floating in the air. Photo by Enis Can Ceyhan, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "3d",
+        "render",
+        "abstract"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "1QGxRD55taw",
+        "credit": "Enis Can Ceyhan",
+        "photographer": "Enis Can Ceyhan",
+        "photographerUrl": "https://unsplash.com/@enisvisuals?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/a-cube-that-is-floating-in-the-air-1QGxRD55taw?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 1800,
+        "height": 3200,
+        "color": "#8cc0c0",
+        "createdAt": "2022-05-26",
+        "tags": [
+          "wallpaper",
+          "texture",
+          "abstract",
+          "art",
+          "blue",
+          "green",
+          "pattern",
+          "design",
+          "minimal",
+          "3d render",
+          "artwork",
+          "digital image"
+        ]
+      },
+      "files": [
+        {
+          "path": "renders/render-cube-float.jpg",
+          "type": "registry:file",
+          "target": "public/media/renders/render-cube-float.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "render-gradient",
+      "type": "registry:file",
+      "title": "A blue and purple object on a white surface — Milad Fakurian",
+      "description": "A blue and purple object on a white surface. Photo by Milad Fakurian, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "3d",
+        "render",
+        "abstract",
+        "gradient"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "3iFOosUelfk",
+        "credit": "Milad Fakurian",
+        "photographer": "Milad Fakurian",
+        "photographerUrl": "https://unsplash.com/@fakurian?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/a-blue-and-purple-object-on-a-white-surface-3iFOosUelfk?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 3000,
+        "height": 5333,
+        "color": "#c0d9d9",
+        "createdAt": "2023-02-14",
+        "tags": [
+          "digital image",
+          "render",
+          "abstract",
+          "portugal",
+          "lisbon"
+        ]
+      },
+      "files": [
+        {
+          "path": "renders/render-gradient.jpg",
+          "type": "registry:file",
+          "target": "public/media/renders/render-gradient.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "render-bubbles",
+      "type": "registry:file",
+      "title": "A group of soap bubbles floating on top of each other — Grigorii Shcheglov",
+      "description": "A group of soap bubbles floating on top of each other. Photo by Grigorii Shcheglov, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "3d",
+        "render",
+        "abstract"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "r1CuXSuG3JA",
+        "credit": "Grigorii Shcheglov",
+        "photographer": "Grigorii Shcheglov",
+        "photographerUrl": "https://unsplash.com/@scheglovgr?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/a-group-of-soap-bubbles-floating-on-top-of-each-other-r1CuXSuG3JA?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 3299,
+        "height": 2062,
+        "color": "#d9a6a6",
+        "createdAt": "2023-02-14",
+        "tags": [
+          "wallpaper",
+          "abstract",
+          "colors",
+          "render",
+          "shapes",
+          "rings",
+          "particles",
+          "round"
+        ]
+      },
+      "files": [
+        {
+          "path": "renders/render-bubbles.jpg",
+          "type": "registry:file",
+          "target": "public/media/renders/render-bubbles.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "commerce-cart",
+      "type": "registry:file",
+      "title": "A toy shopping cart — Shutter Speed",
+      "description": "A toy shopping cart. Photo by Shutter Speed, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "commerce",
+        "shopping",
+        "product"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "BQ9usyzHx_w",
+        "credit": "Shutter Speed",
+        "photographer": "Shutter Speed",
+        "photographerUrl": "https://unsplash.com/@shutter_speed_?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/a-toy-shopping-cart-BQ9usyzHx_w?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 3556,
+        "height": 2000,
+        "color": "#8cd9f3",
+        "createdAt": "2022-09-29",
+        "tags": [
+          "illustration",
+          "shopping",
+          "online shopping",
+          "3d render",
+          "e commerce",
+          "digital image",
+          "sale",
+          "render",
+          "shopping cart",
+          "black friday",
+          "boxes",
+          "commerce"
+        ]
+      },
+      "files": [
+        {
+          "path": "commerce/commerce-cart.jpg",
+          "type": "registry:file",
+          "target": "public/media/commerce/commerce-cart.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "commerce-shop-laptop",
+      "type": "registry:file",
+      "title": "Laptop computer displaying Mango pants — charlesdeluvio",
+      "description": "Laptop computer displaying Mango pants. Photo by charlesdeluvio, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "commerce",
+        "shopping",
+        "ecommerce"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "tcwNN4B9uWE",
+        "credit": "charlesdeluvio",
+        "photographer": "charlesdeluvio",
+        "photographerUrl": "https://unsplash.com/@charlesdeluvio?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/laptop-computer-displaying-mango-pants-tcwNN4B9uWE?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 3648,
+        "height": 5472,
+        "color": "#d9d9d9",
+        "createdAt": "2018-10-11",
+        "tags": [
+          "business",
+          "fashion",
+          "shopping",
+          "online shopping",
+          "ecommerce",
+          "brown",
+          "style",
+          "sale",
+          "spending money",
+          "fashion industry"
+        ]
+      },
+      "files": [
+        {
+          "path": "commerce/commerce-shop-laptop.jpg",
+          "type": "registry:file",
+          "target": "public/media/commerce/commerce-shop-laptop.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "commerce-shopping-bags",
+      "type": "registry:file",
+      "title": "A woman holding a tablet computer and shopping bags — Rifki Kurniawan",
+      "description": "A woman holding a tablet computer and shopping bags. Photo by Rifki Kurniawan, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "commerce",
+        "shopping",
+        "people"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "zg__oh_xu9g",
+        "credit": "Rifki Kurniawan",
+        "photographer": "Rifki Kurniawan",
+        "photographerUrl": "https://unsplash.com/@kurniawann?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/a-woman-holding-a-tablet-computer-and-shopping-bags-zg__oh_xu9g?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 5246,
+        "height": 3502,
+        "color": "#a6d9d9",
+        "createdAt": "2024-09-27",
+        "tags": [
+          "woman",
+          "human",
+          "face",
+          "female",
+          "happy",
+          "adult",
+          "bag",
+          "electronics",
+          "accessory",
+          "handbag",
+          "accessories",
+          "head"
+        ]
+      },
+      "files": [
+        {
+          "path": "commerce/commerce-shopping-bags.jpg",
+          "type": "registry:file",
+          "target": "public/media/commerce/commerce-shopping-bags.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "commerce-buy-button",
+      "type": "registry:file",
+      "title": "Red 'buy now!' button on a computer keyboard. — Money Knack",
+      "description": "Red 'buy now!' button on a computer keyboard.. Photo by Money Knack, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "commerce",
+        "shopping",
+        "ecommerce"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "Dl0ZuNo6wwA",
+        "credit": "Money Knack",
+        "photographer": "Money Knack",
+        "photographerUrl": "https://unsplash.com/@moneyknack?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/red-buy-now-button-on-a-computer-keyboard-Dl0ZuNo6wwA?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 3456,
+        "height": 2296,
+        "color": "#d9d9f3",
+        "createdAt": "2025-11-23",
+        "tags": [
+          "business",
+          "blue",
+          "pink",
+          "orange",
+          "shopping",
+          "digital marketing",
+          "keyboard",
+          "online shopping",
+          "e commerce",
+          "shop",
+          "payment",
+          "sale"
+        ]
+      },
+      "files": [
+        {
+          "path": "commerce/commerce-buy-button.jpg",
+          "type": "registry:file",
+          "target": "public/media/commerce/commerce-buy-button.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "pro-business-man",
+      "type": "registry:file",
+      "title": "Smiling man in blue blazer sitting on chair. — Md Ishak Rahman",
+      "description": "Smiling man in blue blazer sitting on chair.. Photo by Md Ishak Rahman, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "pro",
+        "professional",
+        "business",
+        "people"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "d7y0cuJP-G8",
+        "credit": "Md Ishak Rahman",
+        "photographer": "Md Ishak Rahman",
+        "photographerUrl": "https://unsplash.com/@mdishakrahman?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/smiling-man-in-blue-blazer-sitting-on-chair-d7y0cuJP-G8?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 2048,
+        "height": 3072,
+        "color": "#f3f3f3",
+        "createdAt": "2026-06-06",
+        "tags": [
+          "plant",
+          "chair",
+          "studio",
+          "jeans",
+          "entrepreneur",
+          "portrait photography",
+          "confident",
+          "sitting",
+          "professional headshot",
+          "studio portrait",
+          "job application",
+          "white shirt"
+        ]
+      },
+      "files": [
+        {
+          "path": "pro/pro-business-man.jpg",
+          "type": "registry:file",
+          "target": "public/media/pro/pro-business-man.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "pro-business-woman",
+      "type": "registry:file",
+      "title": "Woman with glasses and suit sitting in a wicker chair. — Md Ishak Rahman",
+      "description": "Woman with glasses and suit sitting in a wicker chair.. Photo by Md Ishak Rahman, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "pro",
+        "professional",
+        "business",
+        "people"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "niyAwrzx8jc",
+        "credit": "Md Ishak Rahman",
+        "photographer": "Md Ishak Rahman",
+        "photographerUrl": "https://unsplash.com/@mdishakrahman?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/woman-with-glasses-and-suit-sitting-in-a-wicker-chair-niyAwrzx8jc?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 2048,
+        "height": 3072,
+        "color": "#d9d9d9",
+        "createdAt": "2026-06-06",
+        "tags": [
+          "office",
+          "plant",
+          "business meeting",
+          "success",
+          "leadership",
+          "profile picture",
+          "chair",
+          "business woman",
+          "indoor",
+          "glasses",
+          "career",
+          "confidence"
+        ]
+      },
+      "files": [
+        {
+          "path": "pro/pro-business-woman.jpg",
+          "type": "registry:file",
+          "target": "public/media/pro/pro-business-woman.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "pro-photographer-man",
+      "type": "registry:file",
+      "title": "Man holding up Canon DSLR camera — Clem Onojeghuo",
+      "description": "Man holding up Canon DSLR camera. Photo by Clem Onojeghuo, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "pro",
+        "professional",
+        "photography",
+        "people"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "jUAcCtbMb0k",
+        "credit": "Clem Onojeghuo",
+        "photographer": "Clem Onojeghuo",
+        "photographerUrl": "https://unsplash.com/@clemono?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/man-holding-up-canon-dslr-camera-jUAcCtbMb0k?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 5400,
+        "height": 3702,
+        "color": "#a6c0c0",
+        "createdAt": "2016-09-30",
+        "tags": [
+          "man",
+          "photography",
+          "camera",
+          "photo",
+          "hands",
+          "photographer",
+          "male",
+          "brown",
+          "taking photo",
+          "guy",
+          "lens",
+          "filter"
+        ]
+      },
+      "files": [
+        {
+          "path": "pro/pro-photographer-man.jpg",
+          "type": "registry:file",
+          "target": "public/media/pro/pro-photographer-man.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "pro-photographer-woman",
+      "type": "registry:file",
+      "title": "Woman in green coat holding black dslr camera — Lucrezia Carnelos",
+      "description": "Woman in green coat holding black dslr camera. Photo by Lucrezia Carnelos, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "pro",
+        "professional",
+        "photography",
+        "people"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "69Ex4Tf2PDo",
+        "credit": "Lucrezia Carnelos",
+        "photographer": "Lucrezia Carnelos",
+        "photographerUrl": "https://unsplash.com/@ciabattespugnose?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/woman-in-green-coat-holding-black-dslr-camera-69Ex4Tf2PDo?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 4160,
+        "height": 6240,
+        "color": "#f3f3f3",
+        "createdAt": "2020-05-31",
+        "tags": [
+          "travel",
+          "photography",
+          "grass",
+          "vintage",
+          "grey",
+          "photo",
+          "luxury",
+          "photographer",
+          "watch",
+          "mirror",
+          "venice",
+          "fuji"
+        ]
+      },
+      "files": [
+        {
+          "path": "pro/pro-photographer-woman.jpg",
+          "type": "registry:file",
+          "target": "public/media/pro/pro-photographer-woman.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "classic-camera-flatlay",
+      "type": "registry:file",
+      "title": "Flat lay photography of classic cameras and films — Annie Spratt",
+      "description": "Flat lay photography of classic cameras and films. Photo by Annie Spratt, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "classic",
+        "vintage",
+        "camera"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "-mSNJ5sSeGc",
+        "credit": "Annie Spratt",
+        "photographer": "Annie Spratt",
+        "photographerUrl": "https://unsplash.com/@anniespratt?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/flat-lay-photography-of-classic-cameras-and-films--mSNJ5sSeGc?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 2557,
+        "height": 3723,
+        "color": "#262626",
+        "createdAt": "2018-01-22",
+        "tags": [
+          "books",
+          "paper",
+          "book",
+          "photography",
+          "vintage",
+          "camera",
+          "grey",
+          "photo",
+          "old",
+          "gear",
+          "flatlay",
+          "antique"
+        ]
+      },
+      "files": [
+        {
+          "path": "classic/classic-camera-flatlay.jpg",
+          "type": "registry:file",
+          "target": "public/media/classic/classic-camera-flatlay.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "classic-rolleiflex",
+      "type": "registry:file",
+      "title": "Vintage black Rolleiflex camera — Ardi Evans",
+      "description": "Vintage black Rolleiflex camera. Photo by Ardi Evans, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "classic",
+        "vintage",
+        "camera"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "1oke6gf5vKo",
+        "credit": "Ardi Evans",
+        "photographer": "Ardi Evans",
+        "photographerUrl": "https://unsplash.com/@ardievans?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/vintage-black-rolleiflex-camera-1oke6gf5vKo?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 4000,
+        "height": 5333,
+        "color": "#0c2626",
+        "createdAt": "2017-11-08",
+        "tags": [
+          "wallpaper",
+          "camera",
+          "grey",
+          "market",
+          "fresh",
+          "ancient",
+          "good",
+          "best",
+          "detail",
+          "epic",
+          "awesome",
+          "gorgeous"
+        ]
+      },
+      "files": [
+        {
+          "path": "classic/classic-rolleiflex.jpg",
+          "type": "registry:file",
+          "target": "public/media/classic/classic-rolleiflex.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "classic-car",
+      "type": "registry:file",
+      "title": "Grayscale photo of classic car — Brandon Russell",
+      "description": "Grayscale photo of classic car. Photo by Brandon Russell, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "classic",
+        "vintage"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "21HjOBHKeec",
+        "credit": "Brandon Russell",
+        "photographer": "Brandon Russell",
+        "photographerUrl": "https://unsplash.com/@brandonrussell?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/grayscale-photo-of-classic-car-21HjOBHKeec?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 2048,
+        "height": 3088,
+        "color": "#c0c0c0",
+        "createdAt": "2020-05-27",
+        "tags": [
+          "vintage",
+          "grey",
+          "film",
+          "vintage car",
+          "film photography",
+          "classic car",
+          "classic",
+          "film photo",
+          "analogue photography",
+          "35mm",
+          "old school",
+          "shot on film"
+        ]
+      },
+      "files": [
+        {
+          "path": "classic/classic-car.jpg",
+          "type": "registry:file",
+          "target": "public/media/classic/classic-car.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "classic-film-strip",
+      "type": "registry:file",
+      "title": "A set of six film strips with a picture of a cat — Shannia Christanty",
+      "description": "A set of six film strips with a picture of a cat. Photo by Shannia Christanty, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "classic",
+        "vintage",
+        "film"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "uUUy1YnTcfQ",
+        "credit": "Shannia Christanty",
+        "photographer": "Shannia Christanty",
+        "photographerUrl": "https://unsplash.com/@shanniacy?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/a-set-of-six-film-strips-with-a-picture-of-a-cat-uUUy1YnTcfQ?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 4000,
+        "height": 6000,
+        "color": "#f3f3f3",
+        "createdAt": "2022-04-07",
+        "tags": [
+          "orange",
+          "film",
+          "film photography",
+          "35mm film",
+          "analogue photography",
+          "kodak",
+          "films",
+          "analog photography",
+          "kodak film",
+          "analog camera",
+          "negative film"
+        ]
+      },
+      "files": [
+        {
+          "path": "classic/classic-film-strip.jpg",
+          "type": "registry:file",
+          "target": "public/media/classic/classic-film-strip.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "modern-living-room",
+      "type": "registry:file",
+      "title": "A modern living room with a large window — Prydumano Design",
+      "description": "A modern living room with a large window. Photo by Prydumano Design, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "modern",
+        "minimal",
+        "interior"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "vIbxvHj9m9g",
+        "credit": "Prydumano Design",
+        "photographer": "Prydumano Design",
+        "photographerUrl": "https://unsplash.com/@prydumanodesign?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/a-modern-living-room-with-a-large-window-vIbxvHj9m9g?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 4000,
+        "height": 2500,
+        "color": "#737373",
+        "createdAt": "2024-08-25",
+        "tags": [
+          "living room",
+          "sofa",
+          "digital image",
+          "minimalism",
+          "render",
+          "modern design",
+          "living room interior"
+        ]
+      },
+      "files": [
+        {
+          "path": "modern/modern-living-room.jpg",
+          "type": "registry:file",
+          "target": "public/media/modern/modern-living-room.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "modern-cabinet",
+      "type": "registry:file",
+      "title": "White and black wooden cabinet — André François McKenzie",
+      "description": "White and black wooden cabinet. Photo by André François McKenzie, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "modern",
+        "minimal",
+        "furniture"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "XlGwDBZh_mM",
+        "credit": "André François McKenzie",
+        "photographer": "André François McKenzie",
+        "photographerUrl": "https://unsplash.com/@silverhousehd?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/white-and-black-wooden-cabinet-XlGwDBZh_mM?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 4243,
+        "height": 2835,
+        "color": "#c0c0c0",
+        "createdAt": "2021-07-24",
+        "tags": [
+          "real estate",
+          "grey",
+          "modern architecture",
+          "modern interior",
+          "real estate interior",
+          "indoors",
+          "interior home"
+        ]
+      },
+      "files": [
+        {
+          "path": "modern/modern-cabinet.jpg",
+          "type": "registry:file",
+          "target": "public/media/modern/modern-cabinet.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "modern-sofa",
+      "type": "registry:file",
+      "title": "White leather 2 seat sofa — Zac Gudakov",
+      "description": "White leather 2 seat sofa. Photo by Zac Gudakov, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "modern",
+        "minimal",
+        "furniture"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "IOWG5lg7BWc",
+        "credit": "Zac Gudakov",
+        "photographer": "Zac Gudakov",
+        "photographerUrl": "https://unsplash.com/@zacgudakov?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/white-leather-2-seat-sofa-IOWG5lg7BWc?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 6240,
+        "height": 4160,
+        "color": "#d9d9d9",
+        "createdAt": "2021-08-12",
+        "tags": [
+          "living room",
+          "grey",
+          "luxury house",
+          "modern house",
+          "beautiful house",
+          "modern architecture",
+          "modern",
+          "luxury home",
+          "luxury interior",
+          "big house",
+          "modern interior",
+          "living room interior design"
+        ]
+      },
+      "files": [
+        {
+          "path": "modern/modern-sofa.jpg",
+          "type": "registry:file",
+          "target": "public/media/modern/modern-sofa.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "modern-architecture",
+      "type": "registry:file",
+      "title": "White concrete building under gray sky — Justus Menke",
+      "description": "White concrete building under gray sky. Photo by Justus Menke, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "modern",
+        "minimal",
+        "architecture"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "LA8S1EHDqlc",
+        "credit": "Justus Menke",
+        "photographer": "Justus Menke",
+        "photographerUrl": "https://unsplash.com/@justusmenke?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/white-concrete-building-under-gray-sky-LA8S1EHDqlc?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 3832,
+        "height": 5748,
+        "color": "#262626",
+        "createdAt": "2020-04-29",
+        "tags": [
+          "wallpaper",
+          "building",
+          "blue",
+          "architecture",
+          "home",
+          "design",
+          "grey",
+          "minimal",
+          "backgrounds",
+          "clean",
+          "modern",
+          "cloudy"
+        ]
+      },
+      "files": [
+        {
+          "path": "modern/modern-architecture.jpg",
+          "type": "registry:file",
+          "target": "public/media/modern/modern-architecture.jpg"
+        }
+      ]
     }
   ]
 }
