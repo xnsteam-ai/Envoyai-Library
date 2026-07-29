@@ -31,7 +31,51 @@
       "abstract",
       "portugal",
       "lisbon"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Isometric glass render",
+      "subjectLabel": "translucent geometric objects",
+      "summary": "Glass bars, rings, tubes and cubes rest on a fine grid, splitting light into yellow, blue and violet."
+    },
+    "masterPrompt": {
+      "subject": {
+        "kind": "object",
+        "category": "An arrangement of translucent glass and acrylic primitives — a long flat bar, stacked rings, a rounded tube, several open cubes and a concentric disc",
+        "materials": "Polished transparent glass and acrylic with strong refraction, internal caustics and iridescent dispersion; one tube reads as chrome-tinted",
+        "form": "Objects laid out on an isometric grid, some overlapping and some standing proud, arranged along a diagonal running lower-left to upper-right",
+        "condition": "Flawless and immaculate — no dust, scratches or fingerprints",
+        "colorway": "Cool white base shot through with amber-yellow, cyan, violet and magenta where the glass disperses light"
+      },
+      "composition": {
+        "shotType": "Tight isometric tabletop arrangement, edge-to-edge",
+        "angle": "Elevated isometric, roughly 45° above the plane",
+        "placement": "Objects fill the frame and run off all four edges",
+        "distance": "Close — no object is seen whole",
+        "depthOfField": "Deep; sharp corner to corner",
+        "focusPoint": "The central cluster of small clear cubes"
+      },
+      "environment": {
+        "setting": "Bright white studio plane ruled with a fine grid",
+        "background": "Pale blue-white surface printed with thin dark grid lines and small tick marks, acting as both floor and backdrop",
+        "depthLayers": "Two, deliberately compressed: objects sit directly on the grid with almost no air between"
+      },
+      "lighting": {
+        "quality": "Bright, even and shadow-light — high-key",
+        "direction": "Broad top-down illumination with no single dominant key",
+        "colorTemp": "Cool daylight, with warm dispersion appearing only through the glass",
+        "shadows": "Minimal and pale; refracted caustics read more strongly than any cast shadow"
+      },
+      "camera": {
+        "lensFeel": "Orthographic / long telephoto isometric — parallel lines stay parallel",
+        "quality": "Very high resolution, crisp, clean CG",
+        "artifacts": "Deliberate chromatic dispersion through the glass; no lens flaws",
+        "aesthetic": "Clean, bright, technical; glassmorphism and design-system key art"
+      },
+      "atmosphere": {
+        "mood": "Precise, optimistic, engineered",
+        "narrative": "A designer's material study laid out on a measuring grid"
+      }
+    }
   },
   "categories": [
     "image",

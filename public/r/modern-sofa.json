@@ -38,7 +38,51 @@
       "big house",
       "modern interior",
       "living room interior design"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Staged interior photograph",
+      "subjectLabel": "a grey velvet living room",
+      "summary": "Two grey velvet sofas face a linear fireplace in a bright, freshly staged living room."
+    },
+    "masterPrompt": {
+      "subject": {
+        "kind": "scene",
+        "category": "A staged formal living room — two large grey velvet sofas on brass legs, white scatter cushions, a marble-and-brass coffee table, a linear gas fireplace and a potted olive tree",
+        "materials": "Crushed grey velvet upholstery, brushed brass legs and frames, marble tabletop, textured grey tile fireplace surround, wide white-oak flooring, pale silk rug",
+        "form": "The sofas sit at right angles facing the fireplace, one running across the foreground and the other along the far wall; the rug defines the seating zone",
+        "condition": "Immaculate and freshly staged — cushions plumped and squared, nothing out of place",
+        "colorway": "Near-white walls and pale oak floor with grey velvet, white cushions and brass accents; a live orange flame is the only strong colour"
+      },
+      "composition": {
+        "shotType": "Wide interior establishing shot",
+        "angle": "Eye level, slightly angled two-point perspective",
+        "placement": "Foreground sofa leads in from the lower left; the fireplace anchors the centre-left; the entry hall recedes right",
+        "distance": "Wide — the full room and entryway are in frame",
+        "depthOfField": "Deep; sharp throughout",
+        "focusPoint": "The fireplace and the far sofa"
+      },
+      "environment": {
+        "setting": "The formal living room of a newly built house",
+        "background": "White walls, recessed downlights, a black-framed front door with sidelights, a round wall mirror, a chandelier over the entry, and a glazed wall at the left",
+        "depthLayers": "Four: near sofa, seating group and fireplace, entry hall, the glazing beyond"
+      },
+      "lighting": {
+        "quality": "Bright, soft and very even",
+        "direction": "Daylight through the left glazing and the entry sidelights, plus uniform recessed ceiling light",
+        "colorTemp": "Neutral-cool overall, with a warm accent from the fire and chandelier",
+        "shadows": "Very soft and short, almost shadowless"
+      },
+      "camera": {
+        "lensFeel": "Wide angle with corrected verticals",
+        "quality": "Sharp, bright, cleanly exposed digital capture",
+        "artifacts": "None; perspective corrected",
+        "aesthetic": "Real-estate listing photography; bright, airy, transitional styling"
+      },
+      "atmosphere": {
+        "mood": "Polished, welcoming, showroom-fresh",
+        "narrative": "A room dressed for a viewing, still untouched"
+      }
+    }
   },
   "categories": [
     "image",

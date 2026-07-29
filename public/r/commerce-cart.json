@@ -38,7 +38,51 @@
       "black friday",
       "boxes",
       "commerce"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Bright 3D commerce render",
+      "subjectLabel": "an overflowing shopping cart",
+      "summary": "A chrome shopping trolley piled with cardboard boxes sits on a glossy blue floor scattered with parcels."
+    },
+    "masterPrompt": {
+      "subject": {
+        "kind": "object",
+        "category": "A supermarket shopping trolley overloaded with plain cardboard cartons, surrounded by smaller parcels and paper bags",
+        "materials": "Polished chrome wire basket and frame, matte kraft-card boxes, glossy blue plastic handle, red rubber castors",
+        "form": "Trolley in profile facing right, boxes stacked well above the basket line with two tipping off the top; small parcels and bags scattered across the floor around it",
+        "condition": "New and unblemished — boxes are unlabelled, sealed and undented",
+        "colorway": "Warm kraft brown against cool sky blue, with chrome silver and red-and-blue accents on the trolley"
+      },
+      "composition": {
+        "shotType": "Wide product hero shot with surrounding props",
+        "angle": "Slightly below eye level, looking marginally up at the stack",
+        "placement": "Trolley centred, box stack rising through the upper half; props fill the lower corners",
+        "distance": "Mid — the whole trolley sits clear within the frame",
+        "depthOfField": "Deep; everything sharp front to back",
+        "focusPoint": "The stacked boxes in the basket"
+      },
+      "environment": {
+        "setting": "Seamless studio sweep with a reflective floor",
+        "background": "Flat mid-blue infinity backdrop, no horizon seam, brightest directly behind the trolley",
+        "depthLayers": "Three: scattered foreground parcels, the trolley, the seamless blue sweep"
+      },
+      "lighting": {
+        "quality": "Bright, even, softly diffused",
+        "direction": "Broad frontal-top key with generous fill from both sides",
+        "colorTemp": "Neutral-to-cool, keeping the blue clean and the card warm",
+        "shadows": "Soft contact shadows under every object, plus faint mirror reflections in the glossy floor"
+      },
+      "camera": {
+        "lensFeel": "Normal lens, mild perspective",
+        "quality": "Clean commercial CG, crisp edges",
+        "artifacts": "None",
+        "aesthetic": "Bright, friendly e-commerce key art; explainer-illustration 3D"
+      },
+      "atmosphere": {
+        "mood": "Upbeat, abundant, commercial",
+        "narrative": "The moment a shopping haul outgrows its trolley"
+      }
+    }
   },
   "categories": [
     "image",

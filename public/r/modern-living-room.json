@@ -33,7 +33,51 @@
       "render",
       "modern design",
       "living room interior"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Interior architectural render",
+      "subjectLabel": "a minimalist living room",
+      "summary": "A modular grey sofa faces a garden window in a warm, dim, monochrome room."
+    },
+    "masterPrompt": {
+      "subject": {
+        "kind": "scene",
+        "category": "A minimalist open-plan living room — a low modular sofa in three sections, a sculptural dark-wood coffee table, an arc floor lamp, tall dark shelving and a woven rug",
+        "materials": "Bouclé upholstery, matte dark timber, polished concrete flooring, textured wool rug, matte painted walls",
+        "form": "The sofa runs across the middle of the frame facing the window; shelving stacks up the right side; the rug anchors the foreground",
+        "condition": "New, pristine and lightly styled — a few books, a vase and a ceramic set placed with restraint",
+        "colorway": "Warm greys and taupe throughout, with near-black timber accents and a single green note from the garden outside"
+      },
+      "composition": {
+        "shotType": "Wide interior establishing shot",
+        "angle": "Eye level, one-point perspective square to the back wall",
+        "placement": "Sofa centred on the horizontal; the window anchors the left third, shelving the right",
+        "distance": "Wide — the full room is in frame",
+        "depthOfField": "Deep; sharp throughout",
+        "focusPoint": "The central sofa and coffee table"
+      },
+      "environment": {
+        "setting": "A contemporary house interior opening onto a garden",
+        "background": "A grey feature wall, a full-height glazed door onto a lawn with dense green trees, a dark floor-length curtain, and a glimpse of a wood-panelled kitchen at the far right",
+        "depthLayers": "Four: rug foreground, seating group, back wall and shelving, the garden beyond the glass"
+      },
+      "lighting": {
+        "quality": "Soft and layered — bright daylight balanced against warm interior sources",
+        "direction": "Strong daylight from the window at left; concealed cove lighting and downlights fill the ceiling",
+        "colorTemp": "Cool daylight on the left against warm artificial light on the right",
+        "shadows": "Soft and long, stretching right from the window across the floor"
+      },
+      "camera": {
+        "lensFeel": "Wide angle with verticals corrected, architectural convention",
+        "quality": "Clean high-resolution interior render, no grain",
+        "artifacts": "None; perfectly straight verticals",
+        "aesthetic": "Contemporary minimalism; architectural visualisation"
+      },
+      "atmosphere": {
+        "mood": "Calm, refined, unhurried",
+        "narrative": "A quiet, unoccupied room waiting at the end of the day"
+      }
+    }
   },
   "categories": [
     "image",

@@ -38,7 +38,51 @@
       "guy",
       "lens",
       "filter"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Candid street portrait",
+      "subjectLabel": "a photographer at work",
+      "summary": "A man in a black jacket raises a DSLR to his eye on a street, face half-hidden behind the lens."
+    },
+    "masterPrompt": {
+      "subject": {
+        "ageRange": "Late 30s to 50s",
+        "descentCues": "White / European features",
+        "hair": "Tousled mid-brown hair with sunglasses pushed up onto the crown; light stubble",
+        "features": "Weathered face with pronounced brow lines, visible only from the nose up; both hands raised, one cupping the lens barrel, a wedding band on the ring finger",
+        "expression": "Absorbed and unaware of the camera — eye pressed to the viewfinder, mid-shot",
+        "clothing": "Black leather jacket with an open zip over a grey t-shirt; a red-and-black Canon strap loops from the body"
+      },
+      "composition": {
+        "shotType": "Close candid portrait, hands and camera included",
+        "angle": "Eye level, slightly to the subject's right",
+        "placement": "Subject fills the frame; the lens barrel juts prominently into the right half",
+        "distance": "Close — head and hands only",
+        "depthOfField": "Shallow; the street behind dissolves completely",
+        "focusPoint": "The subject's face and the camera body"
+      },
+      "environment": {
+        "setting": "Urban street in daylight",
+        "background": "Heavily blurred streetscape with a blue parked car at the right and a pale wall behind",
+        "depthLayers": "Three: the extended lens, the subject, the dissolved street"
+      },
+      "lighting": {
+        "quality": "Soft, flat, overcast daylight",
+        "direction": "Ambient and open, no directional key",
+        "colorTemp": "Cool teal-shifted grade with warm skin held against it",
+        "shadows": "Soft and minimal, mostly under the brow and jaw"
+      },
+      "camera": {
+        "lensFeel": "Fast normal prime wide open",
+        "quality": "Sharp on the subject with pronounced bokeh; a filmic grade with lifted blacks",
+        "artifacts": "Deliberate teal-orange colour grade; slight vignetting",
+        "aesthetic": "Documentary street photography; moody, cinematic, editorial"
+      },
+      "atmosphere": {
+        "mood": "Focused, intent, workmanlike",
+        "narrative": "A photographer mid-frame, oblivious to being photographed himself"
+      }
+    }
   },
   "categories": [
     "image",

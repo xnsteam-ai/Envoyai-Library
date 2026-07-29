@@ -38,7 +38,51 @@
       "35mm",
       "old school",
       "shot on film"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Black-and-white car detail",
+      "subjectLabel": "a 1960s Chevrolet Camaro",
+      "summary": "Grainy monochrome film catches a Camaro's front corner, with a classic roadster parked behind."
+    },
+    "masterPrompt": {
+      "subject": {
+        "kind": "object",
+        "category": "The front quarter of a first-generation Chevrolet Camaro — dual round headlights, mesh grille, chrome bumper and a script 'Chevrolet Camaro' fender badge",
+        "materials": "Smooth painted steel bodywork, polished chrome trim and bumper, glass headlight lenses",
+        "form": "The bonnet sweeps in from the lower left and the frame cuts the car at the front wheel arch; a second, paler classic roadster with wire wheels sits behind and above",
+        "condition": "Well kept and show-ready — straight panels, clean chrome, no visible damage",
+        "colorway": "Full monochrome: mid-grey body, bright chrome highlights, dark grille recesses, pale asphalt with white parking lines"
+      },
+      "composition": {
+        "shotType": "Tight diagonal detail shot",
+        "angle": "Slightly above the bonnet line, looking down along the car",
+        "placement": "The Camaro runs corner to corner along the lower-left diagonal; the roadster occupies the upper right",
+        "distance": "Close — neither car is seen whole",
+        "depthOfField": "Moderate; the Camaro is sharp while the car behind softens",
+        "focusPoint": "The fender badge and headlight cluster"
+      },
+      "environment": {
+        "setting": "An outdoor car park or show field",
+        "background": "A second classic roadster with wire wheels, and asphalt marked with white bay lines",
+        "depthLayers": "Three: the Camaro, the roadster behind, the marked tarmac"
+      },
+      "lighting": {
+        "quality": "Soft, flat, overcast",
+        "direction": "Diffuse overhead with no hard key",
+        "colorTemp": "N/A — black-and-white",
+        "shadows": "Soft and open, with gentle gradients along the panels"
+      },
+      "camera": {
+        "lensFeel": "Normal to short telephoto, mild compression",
+        "quality": "Visible 35mm film grain, smooth mid-tones, softly rolled highlights",
+        "artifacts": "Deliberate grain and analogue tonality",
+        "aesthetic": "Classic black-and-white film photography; automotive documentary"
+      },
+      "atmosphere": {
+        "mood": "Nostalgic, restrained, timeless",
+        "narrative": "Two eras of car design parked side by side on a grey afternoon"
+      }
+    }
   },
   "categories": [
     "image",

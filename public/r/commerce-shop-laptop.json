@@ -36,7 +36,51 @@
       "sale",
       "spending money",
       "fashion industry"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Shallow-focus screen detail",
+      "subjectLabel": "an online store on a laptop",
+      "summary": "A laptop screen shows a minimal fashion storefront, its keyboard falling away into soft blur."
+    },
+    "masterPrompt": {
+      "subject": {
+        "kind": "object",
+        "category": "An open laptop displaying an e-commerce clothing catalogue — a model in a coral tee and white wide-leg trousers above a product title, a struck-through price and colour swatches",
+        "materials": "Matte laptop screen, brushed aluminium body, low-profile dark keys",
+        "form": "Laptop occupies the frame corner-on; the screen fills the upper two-thirds while the keyboard sweeps out of focus across the bottom third",
+        "condition": "Clean and current-generation, no wear or dust",
+        "colorway": "Near-white and pale grey dominated, with a single coral-red accent from the garment on screen"
+      },
+      "composition": {
+        "shotType": "Close detail shot of a screen, tightly cropped",
+        "angle": "Low, roughly level with the keyboard deck, looking up at the display",
+        "placement": "Screen content held in the upper two-thirds; the laptop body cuts a strong diagonal",
+        "distance": "Very close — the laptop is cropped on three sides",
+        "depthOfField": "Very shallow; falls off sharply into the keyboard",
+        "focusPoint": "The product listing text and price on screen"
+      },
+      "environment": {
+        "setting": "Bright minimal interior, likely a desk by a window",
+        "background": "Softly blurred pale wall with an out-of-focus green plant frond at the right edge",
+        "depthLayers": "Three: blurred keyboard foreground, sharp screen, blurred wall and plant behind"
+      },
+      "lighting": {
+        "quality": "Soft, natural, diffused",
+        "direction": "Ambient window light from the right, no hard key",
+        "colorTemp": "Neutral-cool daylight with a faint green cast from the foliage",
+        "shadows": "Very gentle, almost shadowless; the screen provides its own glow"
+      },
+      "camera": {
+        "lensFeel": "Fast normal or short telephoto prime, wide open",
+        "quality": "Sharp at the focal plane with creamy fall-off; fine natural grain",
+        "artifacts": "Heavy intentional bokeh; slight edge softness",
+        "aesthetic": "Clean editorial lifestyle; Scandinavian e-commerce minimalism"
+      },
+      "atmosphere": {
+        "mood": "Calm, considered, aspirational",
+        "narrative": "Someone browsing a clothing sale, caught mid-scroll"
+      }
+    }
   },
   "categories": [
     "image",

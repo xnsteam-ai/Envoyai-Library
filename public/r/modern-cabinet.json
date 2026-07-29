@@ -33,7 +33,51 @@
       "real estate interior",
       "indoors",
       "interior home"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Bright interior photograph",
+      "subjectLabel": "a modern kitchen and living space",
+      "summary": "A marble waterfall island and stone feature wall anchor a bright white open-plan interior."
+    },
+    "masterPrompt": {
+      "subject": {
+        "kind": "scene",
+        "category": "An open-plan kitchen and living area — a waterfall-edge stone island with dark cabinetry, a full-height stone feature wall with a linear fireplace, tall white joinery and a floating staircase",
+        "materials": "Grey veined marble, matte black cabinet fronts, pale travertine cladding with a fluted upper panel, wide-plank white-oak flooring, glass balustrade, brass pendant",
+        "form": "The island runs diagonally in from the left; the feature wall fills the right; the staircase recedes through the centre",
+        "condition": "Brand new and unoccupied — no appliances out, no clutter, no wear on the floor",
+        "colorway": "White and pale oak dominant, with charcoal-to-black cabinetry, grey marble veining and a single brass accent"
+      },
+      "composition": {
+        "shotType": "Wide interior establishing shot",
+        "angle": "Eye level, verticals held straight",
+        "placement": "Island in the left third, feature wall in the right, staircase drawing the eye through the centre",
+        "distance": "Wide — a large volume of the room is included",
+        "depthOfField": "Deep; sharp front to back",
+        "focusPoint": "The marble island's waterfall edge"
+      },
+      "environment": {
+        "setting": "A newly built contemporary house",
+        "background": "White walls and ceiling with recessed downlights and a concealed cove, a dark-framed window to a green exterior at the left, and an oak-clad wall by the stairs",
+        "depthLayers": "Four: bare oak floor foreground, the island, the mid-ground joinery and stairs, the window beyond"
+      },
+      "lighting": {
+        "quality": "Bright, even and high-key",
+        "direction": "Daylight from the left window plus abundant recessed ceiling light",
+        "colorTemp": "Neutral-cool daylight with a warm tint from the cove lighting and pendant",
+        "shadows": "Soft, short and unobtrusive"
+      },
+      "camera": {
+        "lensFeel": "Wide angle with corrected verticals, real-estate convention",
+        "quality": "Sharp, clean, evenly exposed digital capture",
+        "artifacts": "None; perspective corrected in post",
+        "aesthetic": "Contemporary luxury real estate; bright architectural photography"
+      },
+      "atmosphere": {
+        "mood": "Crisp, spacious, aspirational",
+        "narrative": "A finished home photographed before anyone moves in"
+      }
+    }
   },
   "categories": [
     "image",

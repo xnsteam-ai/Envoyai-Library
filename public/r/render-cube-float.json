@@ -38,7 +38,51 @@
       "3d render",
       "artwork",
       "digital image"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Monochrome voxel render",
+      "subjectLabel": "a dissolving cube",
+      "summary": "A large cube built from hundreds of smaller cubes hovers in a soft mint void, its edges breaking apart into drifting blocks."
+    },
+    "masterPrompt": {
+      "subject": {
+        "kind": "object",
+        "category": "A single large cube composed of a dense grid of small cubes, with its outer layer fragmenting into detached floating blocks",
+        "materials": "Matte clay / soft-touch plastic shader; entirely non-reflective, no specular highlights",
+        "form": "Voxelised cube seen corner-on so three faces show; density is solid at the core and thins toward the edges, where individual cubes scatter into the surrounding space",
+        "condition": "Clean and unweathered — the fragmentation is by design, not damage",
+        "colorway": "Single-hue sage/mint green throughout, separated only by shading; the subject and background share the same palette"
+      },
+      "composition": {
+        "shotType": "Centred vertical hero shot",
+        "angle": "Slightly below the cube's midline, looking marginally up",
+        "placement": "Dead centre, floating in the upper two-thirds",
+        "distance": "Mid-distance, with clear margin on all sides",
+        "depthOfField": "Deep, with a very slight softening on the outermost drifting cubes",
+        "focusPoint": "The cube's front vertical edge"
+      },
+      "environment": {
+        "setting": "Seamless infinity-curve studio backdrop",
+        "background": "Flat mint-green sweep with a soft gradient, darker at the top corners, no visible seam or horizon",
+        "depthLayers": "Two: the levitating cube, and the seamless backdrop with its cast shadow"
+      },
+      "lighting": {
+        "quality": "Very soft, broad and diffuse — large-source studio light",
+        "direction": "Frontal-top, slightly to the left",
+        "colorTemp": "Neutral, letting the single green hue carry the entire colour story",
+        "shadows": "Gentle, wide, low-contrast; a soft ellipse pools directly beneath the floating cube"
+      },
+      "camera": {
+        "lensFeel": "Normal to slightly long lens, near-orthographic feel",
+        "quality": "Smooth high-resolution render with clean anti-aliasing",
+        "artifacts": "None; deliberately flat and noiseless",
+        "aesthetic": "Soft minimal monochrome; clay render, tactile and calm"
+      },
+      "atmosphere": {
+        "mood": "Serene, weightless, contemplative",
+        "narrative": "A solid form quietly coming apart, frozen at the moment of dissolution"
+      }
+    }
   },
   "categories": [
     "image",

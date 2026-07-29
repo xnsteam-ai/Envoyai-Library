@@ -38,7 +38,51 @@
       "clean",
       "modern",
       "cloudy"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Minimal architecture study",
+      "subjectLabel": "a cantilevered concrete roofline",
+      "summary": "A white parapet and raw concrete edge cut across an overcast sky in stark geometry."
+    },
+    "masterPrompt": {
+      "subject": {
+        "kind": "object",
+        "category": "The upper corner of a modernist building — a white cantilevered roof slab and parapet meeting a board-marked exposed concrete wall, with a dark recessed soffit between",
+        "materials": "Smooth white-rendered or panelled cladding with visible joint lines, raw board-formed concrete, a thin metal capping rail",
+        "form": "Two overlapping horizontal planes cut strong diagonals across the lower half; the concrete pier rises up the left edge; a dark void opens beneath the overhang",
+        "condition": "Weathered but sound — faint staining and mineral streaks on the concrete, panel joints and fixings visible",
+        "colorway": "White and pale grey against a soft grey-white sky, with warm ochre reflected light in the recess and near-black shadow beneath"
+      },
+      "composition": {
+        "shotType": "Minimal architectural detail with dominant negative space",
+        "angle": "Low, looking up at the roofline from below",
+        "placement": "The building occupies only the lower third; the upper two-thirds are empty sky",
+        "distance": "Medium — a fragment of the structure, never the whole building",
+        "depthOfField": "Deep; uniformly sharp",
+        "focusPoint": "The cantilevered roof edge where the two planes meet"
+      },
+      "environment": {
+        "setting": "Outdoors beneath an overcast sky",
+        "background": "Flat, near-featureless pale grey cloud cover with only the faintest tonal variation",
+        "depthLayers": "Two: the building fragment and the empty sky behind it"
+      },
+      "lighting": {
+        "quality": "Soft, flat, fully diffused overcast daylight",
+        "direction": "Ambient and omnidirectional, with no visible sun",
+        "colorTemp": "Cool and slightly desaturated, warmed only in the sheltered recess",
+        "shadows": "Soft and open on the exterior; deep and unlit inside the overhang"
+      },
+      "camera": {
+        "lensFeel": "Normal to short telephoto, verticals kept straight",
+        "quality": "Clean, sharp, low-contrast digital capture",
+        "artifacts": "None",
+        "aesthetic": "Minimalist architectural photography; brutalist geometry, generous negative space"
+      },
+      "atmosphere": {
+        "mood": "Austere, still, contemplative",
+        "narrative": "A building reduced to pure line and plane against a blank sky"
+      }
+    }
   },
   "categories": [
     "image",

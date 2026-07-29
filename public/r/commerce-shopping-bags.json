@@ -38,7 +38,51 @@
       "handbag",
       "accessories",
       "head"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Studio commerce portrait",
+      "subjectLabel": "a young woman with shopping bags",
+      "summary": "A woman in a burgundy beret winks while presenting a blank-screen phone and a fan of pastel shopping bags."
+    },
+    "masterPrompt": {
+      "subject": {
+        "ageRange": "Early-to-mid 20s",
+        "descentCues": "East or Southeast Asian features",
+        "hair": "Long dark brown hair, worn loose over one shoulder in a soft braid",
+        "features": "Round face, full cheeks, upright and open posture with both arms raised and extended toward camera",
+        "expression": "Playful and animated — one eye winking, mouth open in a broad laugh",
+        "clothing": "Deep burgundy wool beret, cream short-sleeve knit top, navy velvet pleated midi skirt; holds a large blank-screen smartphone in the right hand and four pastel yellow and mint paper shopping bags in the left"
+      },
+      "composition": {
+        "shotType": "Three-quarter-length studio portrait",
+        "angle": "Straight-on at chest height",
+        "placement": "Centred, with the phone pushed well forward into the left third",
+        "distance": "Mid — head to mid-thigh in frame",
+        "depthOfField": "Deep; subject and props all sharp",
+        "focusPoint": "The face and the phone's blank screen, held on the same plane"
+      },
+      "environment": {
+        "setting": "Seamless studio backdrop",
+        "background": "Flat pale blue sweep, unbroken and propless",
+        "depthLayers": "Two: subject with props, and the seamless backdrop"
+      },
+      "lighting": {
+        "quality": "Soft, broad, near-shadowless commercial lighting",
+        "direction": "Large frontal key with balanced fill from both sides",
+        "colorTemp": "Neutral daylight, keeping the pastels accurate",
+        "shadows": "Barely present — a faint soft shadow behind the subject only"
+      },
+      "camera": {
+        "lensFeel": "Normal to short telephoto, minimal distortion",
+        "quality": "Clean, sharp, evenly exposed commercial capture",
+        "artifacts": "None; the blank phone screen is intentional mockup space",
+        "aesthetic": "Bright, upbeat stock commerce; advertising-ready"
+      },
+      "atmosphere": {
+        "mood": "Cheerful, energetic, promotional",
+        "narrative": "A shopper delighted by a deal, presenting a screen left blank for a message"
+      }
+    }
   },
   "categories": [
     "image",

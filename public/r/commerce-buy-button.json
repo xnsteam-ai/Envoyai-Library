@@ -38,7 +38,51 @@
       "shop",
       "payment",
       "sale"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Macro keyboard detail",
+      "subjectLabel": "a red Buy Now key",
+      "summary": "A red 'Buy Now!' key with a shopping-cart icon sits among pale keys in extremely shallow focus."
+    },
+    "masterPrompt": {
+      "subject": {
+        "kind": "object",
+        "category": "A single oversized red keyboard key printed with a shopping-trolley glyph and the words 'Buy Now!', set into an otherwise ordinary keyboard",
+        "materials": "Slightly textured matte keycap plastic with a soft sheen along the top edge; surrounding keys are smooth pale plastic",
+        "form": "The red key runs diagonally across the frame in the Enter position, flanked by Shift, Page Up and Page Down keys and an arrow key",
+        "condition": "Clean and unworn, with only the faintest surface texture visible at this magnification",
+        "colorway": "Saturated scarlet key with white legend against a field of cool white, silver-grey and charcoal keys"
+      },
+      "composition": {
+        "shotType": "Extreme macro detail",
+        "angle": "Low and oblique, close to the plane of the keyboard",
+        "placement": "Red key crosses the centre diagonally, filling the middle band",
+        "distance": "Very close — only a handful of keys are in frame",
+        "depthOfField": "Extremely shallow; sharpness holds for barely the width of the key",
+        "focusPoint": "The 'Buy Now!' legend and the cart glyph"
+      },
+      "environment": {
+        "setting": "The keyboard surface itself — no wider scene",
+        "background": "Surrounding keycaps dissolving into soft grey-blue blur at the top and bottom of the frame",
+        "depthLayers": "Three: blurred near keys, the sharp red key, blurred far keys"
+      },
+      "lighting": {
+        "quality": "Soft and directional with a bright specular roll across the key top",
+        "direction": "Key light from upper left, grazing along the keycap faces",
+        "colorTemp": "Cool blue-grey ambient making the red key read hotter by contrast",
+        "shadows": "Deep between the keycaps, defining every gap"
+      },
+      "camera": {
+        "lensFeel": "True macro lens at close focus, wide aperture",
+        "quality": "Crisp at the focal plane with rapid fall-off; visible fine detail on the keycap",
+        "artifacts": "Strong bokeh; slight edge vignetting",
+        "aesthetic": "Stock-photo commerce metaphor; punchy, high-contrast macro"
+      },
+      "atmosphere": {
+        "mood": "Urgent, decisive, transactional",
+        "narrative": "The instant before a purchase is committed"
+      }
+    }
   },
   "categories": [
     "image",

@@ -34,7 +34,51 @@
       "rings",
       "particles",
       "round"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Soft-focus 3D render",
+      "subjectLabel": "glass spheres and rings",
+      "summary": "Iridescent blue tori and clear glass bubbles drift across a warm dusty-pink field."
+    },
+    "masterPrompt": {
+      "subject": {
+        "kind": "object",
+        "category": "Several thick torus rings and a set of transparent spheres of varying size floating at different depths",
+        "materials": "Rings are smooth matte-to-satin with a pearlescent sheen; spheres are clear refractive glass carrying inverted reflections of the scene",
+        "form": "Rings enter from the left, upper-right and right edges, angled differently; spheres occupy the open centre and lower-right, one cropped by the bottom edge",
+        "condition": "Pristine, softly polished, no wear",
+        "colorway": "Deep cobalt and navy rings shading to violet where they meet the background; spheres tint warm pink from what they refract"
+      },
+      "composition": {
+        "shotType": "Close abstract arrangement, subjects cropped by the frame",
+        "angle": "Straight-on, eye level with the floating elements",
+        "placement": "Rings anchor the edges, spheres hold the centre — a deliberate ring-around-void layout",
+        "distance": "Close; every ring runs out of frame",
+        "depthOfField": "Shallow to moderate — the nearest sphere and the far-right ring soften noticeably",
+        "focusPoint": "The central glass sphere"
+      },
+      "environment": {
+        "setting": "Flat coloured studio void with no floor line",
+        "background": "Uniform dusty rose-pink field, marginally brighter behind the centre",
+        "depthLayers": "Three: foreground sphere, mid-ground rings and spheres, flat colour field behind"
+      },
+      "lighting": {
+        "quality": "Soft and enveloping, large-source",
+        "direction": "Diffuse frontal-left key with broad fill from above",
+        "colorTemp": "Warm background against cool blue subjects — complementary by design",
+        "shadows": "Very soft and low-contrast; the rings self-shade rather than casting onto anything"
+      },
+      "camera": {
+        "lensFeel": "Medium telephoto with gentle compression",
+        "quality": "High-resolution render, smooth gradients, no grain",
+        "artifacts": "Intentional refraction and light bending inside the spheres",
+        "aesthetic": "Soft, tactile, pastel-abstract; blobby premium 3D"
+      },
+      "atmosphere": {
+        "mood": "Playful, dreamy, buoyant",
+        "narrative": "Forms suspended mid-drift, as though underwater"
+      }
+    }
   },
   "categories": [
     "image",

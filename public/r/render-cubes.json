@@ -38,7 +38,51 @@
       "asthetic",
       "planes",
       "3d art"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Dark studio 3D render",
+      "subjectLabel": "floating geometric solids",
+      "summary": "Matte cubes and cylinders tumble through a near-black void, lit by two small glowing yellow spheres."
+    },
+    "masterPrompt": {
+      "subject": {
+        "kind": "object",
+        "category": "A loose cluster of primitive 3D solids — two large cubes, two short cylinders, a tilted slab, and two small self-illuminated spheres",
+        "materials": "Matte, non-reflective shader with a faint sheen on edges; the spheres read as emissive light sources rather than lit objects",
+        "form": "Solids tumble at unrelated angles around a central hero cube, spaced so none fully occludes another; the arrangement drifts from upper-left to lower-right",
+        "condition": "Pristine, clean-edged CG geometry with no wear, texture noise or surface imperfection",
+        "colorway": "Desaturated slate and charcoal bodies taking a warm amber gradient where the light hits; the two spheres are saturated lemon yellow"
+      },
+      "composition": {
+        "shotType": "Wide product-style render with generous negative space",
+        "angle": "Straight-on, near eye level with the hero cube",
+        "placement": "Cluster centred slightly left of frame, occupying roughly the middle third",
+        "distance": "Mid-distance — objects float clear of every edge",
+        "depthOfField": "Deep; all geometry stays sharp",
+        "focusPoint": "The large central cube's lit top-right face"
+      },
+      "environment": {
+        "setting": "Infinite dark studio void with an implied floor plane",
+        "background": "Unbroken deep navy-charcoal gradient, slightly lighter behind the subject, with no horizon line visible",
+        "depthLayers": "Three: emissive spheres nearest, the tumbling solids mid-ground, the seamless void behind"
+      },
+      "lighting": {
+        "quality": "Soft and directional, with a hard warm accent from the emissive spheres",
+        "direction": "Key from upper right; the yellow spheres act as small local fill inside the cluster",
+        "colorTemp": "Cool blue-grey ambient against warm amber accent — a deliberate two-temperature split",
+        "shadows": "Deep, soft-edged; a single diffuse contact shadow pools on the floor beneath the lowest solid"
+      },
+      "camera": {
+        "lensFeel": "Long-ish normal lens, minimal perspective distortion",
+        "quality": "Clean high-resolution CG render, no grain",
+        "artifacts": "None — no chromatic aberration, bloom kept subtle around the spheres",
+        "aesthetic": "Minimal, moody, dark-mode product render; abstract 3D key art"
+      },
+      "atmosphere": {
+        "mood": "Calm, weightless, quietly premium",
+        "narrative": "Objects caught mid-float, as if gravity had just been switched off"
+      }
+    }
   },
   "categories": [
     "image",

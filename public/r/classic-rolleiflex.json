@@ -38,7 +38,51 @@
       "epic",
       "awesome",
       "gorgeous"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Moody product close-up",
+      "subjectLabel": "a vintage Rolleiflex camera",
+      "summary": "A heavily worn twin-lens Rolleiflex stands on a wooden shelf, its chrome pitted and paint flaking."
+    },
+    "masterPrompt": {
+      "subject": {
+        "kind": "object",
+        "category": "A twin-lens reflex medium-format camera — a Rolleiflex with a Synchro-Compur shutter, marked Franke & Heidecke Braunschweig",
+        "materials": "Black leatherette body panels, pitted chrome bezels, glass taking and viewing lenses, knurled metal winding knob",
+        "form": "Standing upright and square to the camera, both lenses stacked vertically down the centre of the body",
+        "condition": "Heavily aged — flaking paint, oxidised and corroded chrome, dust in the lens recesses, decades of visible wear",
+        "colorway": "Black and tarnished silver with green-brown corrosion, cooled by a teal cast across the whole frame"
+      },
+      "composition": {
+        "shotType": "Vertical product close-up",
+        "angle": "Slightly below the camera's midline, close to shelf level",
+        "placement": "Subject centred, filling most of the frame height",
+        "distance": "Close — the camera nearly fills the frame",
+        "depthOfField": "Shallow; the shelf and surroundings fall away quickly",
+        "focusPoint": "The Rolleiflex nameplate and upper viewing lens"
+      },
+      "environment": {
+        "setting": "A wooden shelf in a dim interior, likely a shop or workshop",
+        "background": "Near-black darkness with a pale teal enamel mug blurred at the left and a soft grey form at the right",
+        "depthLayers": "Three: the wooden shelf edge, the camera, the dark surround"
+      },
+      "lighting": {
+        "quality": "Soft and directional, falling off fast",
+        "direction": "Single window-like source from the front left",
+        "colorTemp": "Cool teal-cyan grade throughout",
+        "shadows": "Deep and enveloping; the background reads almost black"
+      },
+      "camera": {
+        "lensFeel": "Short telephoto prime, wide aperture",
+        "quality": "Sharp on the front plane with a soft, painterly fall-off",
+        "artifacts": "Strong teal colour grade; vignetting",
+        "aesthetic": "Moody vintage still life; collector's-piece portraiture"
+      },
+      "atmosphere": {
+        "mood": "Nostalgic, weathered, dignified",
+        "narrative": "A working tool retired to a shelf, wearing its service history"
+      }
+    }
   },
   "categories": [
     "image",

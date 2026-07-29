@@ -38,7 +38,51 @@
       "studio portrait",
       "job application",
       "white shirt"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Corporate seated portrait",
+      "subjectLabel": "a man in his 40s",
+      "summary": "A relaxed businessman in a navy blazer sits on a wicker chair against a bright white wall."
+    },
+    "masterPrompt": {
+      "subject": {
+        "ageRange": "Late 30s to mid 40s",
+        "descentCues": "White / European features",
+        "hair": "Short light-brown hair, neatly cut and swept to one side; clean-shaven",
+        "features": "Broad face, blue eyes, heavier build; seated leaning slightly forward with both hands resting flat on his knees",
+        "expression": "Warm, easy, closed-mouth smile directed straight at the lens",
+        "clothing": "Navy wool blazer with a small lapel pin over an open-collar white shirt, worn with dark indigo jeans"
+      },
+      "composition": {
+        "shotType": "Three-quarter-length seated portrait",
+        "angle": "Eye level, straight on",
+        "placement": "Subject centred, occupying the lower two-thirds with clean wall above",
+        "distance": "Mid — head to shin in frame",
+        "depthOfField": "Moderately shallow; the plant behind softens slightly",
+        "focusPoint": "The eyes"
+      },
+      "environment": {
+        "setting": "Corner of a bright, sparsely furnished white studio room",
+        "background": "Plain white wall meeting at a corner, with a tall artificial bamboo plant to the right and the edge of a softbox visible at the far right",
+        "depthLayers": "Three: subject, plant and wicker chair, back wall"
+      },
+      "lighting": {
+        "quality": "Soft, broad, high-key studio lighting",
+        "direction": "Large key from the right, with the white walls bouncing generous fill",
+        "colorTemp": "Neutral, marginally warm on the skin",
+        "shadows": "Light and open; a soft shadow falls to the subject's left"
+      },
+      "camera": {
+        "lensFeel": "Short telephoto portrait lens, flattering compression",
+        "quality": "Clean, sharp, professionally lit and retouched",
+        "artifacts": "None",
+        "aesthetic": "Bright corporate headshot; approachable business editorial"
+      },
+      "atmosphere": {
+        "mood": "Confident, friendly, approachable",
+        "narrative": "A relaxed professional sitting for a company profile"
+      }
+    }
   },
   "categories": [
     "image",

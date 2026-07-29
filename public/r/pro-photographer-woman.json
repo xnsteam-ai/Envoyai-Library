@@ -38,7 +38,51 @@
       "mirror",
       "venice",
       "fuji"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Foliage-framed candid",
+      "subjectLabel": "a young photographer",
+      "summary": "Seen through bamboo leaves, a photographer in a white tee raises a silver rangefinder to shoot back."
+    },
+    "masterPrompt": {
+      "subject": {
+        "ageRange": "Early-to-mid 20s",
+        "descentCues": "White / European features",
+        "hair": "Short, softly tousled blond hair falling over the forehead",
+        "features": "Slim build, face largely concealed behind the raised camera; both elbows lifted, sunglasses hooked into the collar",
+        "expression": "Concealed by the camera — the posture reads as concentrated and still",
+        "clothing": "Plain white printed t-shirt and blue jeans, a pale green watch on the left wrist, an olive canvas camera strap crossing the chest; holds a silver-and-black Fujifilm rangefinder"
+      },
+      "composition": {
+        "shotType": "Full-length candid shot through a natural frame",
+        "angle": "Eye level, straight on",
+        "placement": "Subject centred but partially obscured, occupying the middle third",
+        "distance": "Medium-long — most of the body in frame",
+        "depthOfField": "Very shallow, with foliage soft in both foreground and background",
+        "focusPoint": "The camera in the subject's hands"
+      },
+      "environment": {
+        "setting": "Outdoors beside a bamboo planting, with buildings beyond",
+        "background": "Warm terracotta and cream building facades dissolved into broad blur",
+        "depthLayers": "Four: near bamboo leaves, the subject, far bamboo, the building behind"
+      },
+      "lighting": {
+        "quality": "Soft, bright, diffused daylight",
+        "direction": "Open overhead light filtering through the leaves",
+        "colorTemp": "Warm, with a green cast from the surrounding foliage",
+        "shadows": "Soft and dappled where leaves cross the subject"
+      },
+      "camera": {
+        "lensFeel": "Telephoto shot from a distance, strongly compressed",
+        "quality": "Sharp on the subject, with the foreground leaves rendered as translucent veils",
+        "artifacts": "Intentional foreground occlusion; heavy bokeh",
+        "aesthetic": "Voyeuristic candid; layered, painterly, natural"
+      },
+      "atmosphere": {
+        "mood": "Quiet, observant, mutual",
+        "narrative": "Two photographers photographing each other through the leaves"
+      }
+    }
   },
   "categories": [
     "image",

@@ -38,7 +38,51 @@
       "gear",
       "flatlay",
       "antique"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Overhead vintage flat lay",
+      "subjectLabel": "antique photography gear",
+      "summary": "Folding cameras, light meters, almanacs and old snapshots are laid out in a grid on scratched dark metal."
+    },
+    "masterPrompt": {
+      "subject": {
+        "kind": "object",
+        "category": "A curated collection of vintage photographic equipment and ephemera — two folding bellows cameras, two Weston Master light meters, hardbound British Journal Photographic Almanacs dated 1953, 1957 and 1958, a Kodak film wallet, boxed plates, instruction booklets and small black-and-white snapshots",
+        "materials": "Aged black leatherette and chrome on the cameras, cloth-bound gilt-lettered books, yellowed paper, bakelite meter bodies",
+        "form": "Objects arranged in a loose four-column grid with even spacing, all squared to the frame",
+        "condition": "Genuinely old and well used — scuffed leather, foxed paper, tarnished chrome, worn box corners",
+        "colorway": "Near-monochrome — black, charcoal and steel grey, warmed only by cream paper and gold lettering, with one small orange Agfa badge and a teal Kodak wallet"
+      },
+      "composition": {
+        "shotType": "Overhead flat lay, tightly filling the frame",
+        "angle": "Directly top-down, perpendicular to the surface",
+        "placement": "Objects distributed across the full frame in a grid",
+        "distance": "Mid — the whole arrangement is included",
+        "depthOfField": "Deep; every object sharp",
+        "focusPoint": "The central folding camera"
+      },
+      "environment": {
+        "setting": "A scratched dark metal or slate work surface",
+        "background": "The surface itself — mottled grey with visible scoring, scuffs and patina",
+        "depthLayers": "Two: the laid-out objects and the surface beneath"
+      },
+      "lighting": {
+        "quality": "Soft, broad, directional",
+        "direction": "Diffuse window light from the upper left",
+        "colorTemp": "Cool and slightly desaturated, with warm notes from the aged paper",
+        "shadows": "Gentle and short, hugging each object and giving it weight"
+      },
+      "camera": {
+        "lensFeel": "Normal lens shot from overhead, mild perspective",
+        "quality": "Sharp and detailed with rich, moody tonality",
+        "artifacts": "Deliberately crushed shadows; low-key grade",
+        "aesthetic": "Moody vintage flat lay; museum-catalogue styling"
+      },
+      "atmosphere": {
+        "mood": "Nostalgic, reverent, archival",
+        "narrative": "A photographer's inheritance laid out and catalogued"
+      }
+    }
   },
   "categories": [
     "image",

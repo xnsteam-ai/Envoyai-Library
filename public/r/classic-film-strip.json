@@ -37,7 +37,51 @@
       "kodak film",
       "analog camera",
       "negative film"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Backlit film scan",
+      "subjectLabel": "35mm colour negatives",
+      "summary": "Six strips of orange-masked colour negative lie on a lightbox, sprocket holes glowing white."
+    },
+    "masterPrompt": {
+      "subject": {
+        "kind": "object",
+        "category": "Six cut strips of developed 35mm colour negative film, each holding two to three frames, with edge markings, frame numbers and FUJI codes visible",
+        "materials": "Translucent acetate film base with an orange mask, backlit so the emulsion glows",
+        "form": "Strips laid in two rows of three, running vertically, evenly spaced with white gaps between them",
+        "condition": "Developed and handled — dust specks, minor scratches, uneven frame spacing, some frames blank",
+        "colorway": "Dominant amber-orange from the negative mask, with cyan-blue inverted subjects and pure white sprocket holes and gaps"
+      },
+      "composition": {
+        "shotType": "Overhead flat lay filling the frame",
+        "angle": "Directly top-down",
+        "placement": "Strips fill the frame edge to edge in a regular grid",
+        "distance": "Close — individual sprocket perforations are clearly readable",
+        "depthOfField": "Deep; uniformly sharp",
+        "focusPoint": "The frame numbers and edge markings along the strips"
+      },
+      "environment": {
+        "setting": "A photographic lightbox or light table",
+        "background": "Pure white illuminated surface showing between and around the strips",
+        "depthLayers": "Two: the film strips and the glowing surface beneath"
+      },
+      "lighting": {
+        "quality": "Even, diffuse transmitted light from directly behind",
+        "direction": "Backlit through the film",
+        "colorTemp": "Neutral white source, coloured entirely by the film's own orange mask",
+        "shadows": "None — backlighting removes them completely"
+      },
+      "camera": {
+        "lensFeel": "Macro or close-focus normal lens, top-down",
+        "quality": "High detail with visible film grain and dust",
+        "artifacts": "Real dust and scratches on the film, kept rather than cleaned",
+        "aesthetic": "Analogue-process documentary; darkroom and archival"
+      },
+      "atmosphere": {
+        "mood": "Nostalgic, procedural, quietly anticipatory",
+        "narrative": "A freshly developed roll laid out for the first look"
+      }
+    }
   },
   "categories": [
     "image",

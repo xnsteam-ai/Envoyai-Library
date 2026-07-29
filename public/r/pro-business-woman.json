@@ -38,7 +38,51 @@
       "glasses",
       "career",
       "confidence"
-    ]
+    ],
+    "brief": {
+      "shotDescriptor": "Corporate seated portrait",
+      "subjectLabel": "a woman in her 30s",
+      "summary": "A professional in a navy suit and bold tortoiseshell glasses sits composed against a white wall."
+    },
+    "masterPrompt": {
+      "subject": {
+        "ageRange": "Late 20s to mid 30s",
+        "descentCues": "White / European features",
+        "hair": "Shoulder-length blonde hair with a side parting, worn straight and tucked behind one ear",
+        "features": "Oval face framed by large square tortoiseshell glasses; seated upright with legs crossed and hands clasped in her lap",
+        "expression": "Composed, gently amused closed-mouth smile toward the lens",
+        "clothing": "Navy tailored blazer and matching trousers over a champagne satin blouse; small white flower earring, a diamond ring, patterned manicure"
+      },
+      "composition": {
+        "shotType": "Three-quarter-length seated portrait",
+        "angle": "Eye level, straight on",
+        "placement": "Subject centred, occupying the lower two-thirds with clean wall above",
+        "distance": "Mid — head to shin in frame",
+        "depthOfField": "Moderately shallow; the plant behind softens slightly",
+        "focusPoint": "The eyes behind the glasses"
+      },
+      "environment": {
+        "setting": "Corner of a bright, sparsely furnished white studio room — the same set as its companion frame",
+        "background": "Plain white wall meeting at a corner, with a tall artificial bamboo plant to the right and the edge of a softbox visible at the far right",
+        "depthLayers": "Three: subject, plant and wicker chair, back wall"
+      },
+      "lighting": {
+        "quality": "Soft, broad, high-key studio lighting",
+        "direction": "Large key from the left, with the white walls bouncing generous fill",
+        "colorTemp": "Neutral, marginally warm on the skin",
+        "shadows": "Light and open, with a faint shadow behind the shoulders"
+      },
+      "camera": {
+        "lensFeel": "Short telephoto portrait lens, flattering compression",
+        "quality": "Clean, sharp, professionally lit and retouched",
+        "artifacts": "None",
+        "aesthetic": "Bright corporate headshot; polished business editorial"
+      },
+      "atmosphere": {
+        "mood": "Assured, competent, warm",
+        "narrative": "An executive sitting for a leadership-page portrait"
+      }
+    }
   },
   "categories": [
     "image",

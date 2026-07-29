@@ -986,7 +986,51 @@
           "asthetic",
           "planes",
           "3d art"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Dark studio 3D render",
+          "subjectLabel": "floating geometric solids",
+          "summary": "Matte cubes and cylinders tumble through a near-black void, lit by two small glowing yellow spheres."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "object",
+            "category": "A loose cluster of primitive 3D solids — two large cubes, two short cylinders, a tilted slab, and two small self-illuminated spheres",
+            "materials": "Matte, non-reflective shader with a faint sheen on edges; the spheres read as emissive light sources rather than lit objects",
+            "form": "Solids tumble at unrelated angles around a central hero cube, spaced so none fully occludes another; the arrangement drifts from upper-left to lower-right",
+            "condition": "Pristine, clean-edged CG geometry with no wear, texture noise or surface imperfection",
+            "colorway": "Desaturated slate and charcoal bodies taking a warm amber gradient where the light hits; the two spheres are saturated lemon yellow"
+          },
+          "composition": {
+            "shotType": "Wide product-style render with generous negative space",
+            "angle": "Straight-on, near eye level with the hero cube",
+            "placement": "Cluster centred slightly left of frame, occupying roughly the middle third",
+            "distance": "Mid-distance — objects float clear of every edge",
+            "depthOfField": "Deep; all geometry stays sharp",
+            "focusPoint": "The large central cube's lit top-right face"
+          },
+          "environment": {
+            "setting": "Infinite dark studio void with an implied floor plane",
+            "background": "Unbroken deep navy-charcoal gradient, slightly lighter behind the subject, with no horizon line visible",
+            "depthLayers": "Three: emissive spheres nearest, the tumbling solids mid-ground, the seamless void behind"
+          },
+          "lighting": {
+            "quality": "Soft and directional, with a hard warm accent from the emissive spheres",
+            "direction": "Key from upper right; the yellow spheres act as small local fill inside the cluster",
+            "colorTemp": "Cool blue-grey ambient against warm amber accent — a deliberate two-temperature split",
+            "shadows": "Deep, soft-edged; a single diffuse contact shadow pools on the floor beneath the lowest solid"
+          },
+          "camera": {
+            "lensFeel": "Long-ish normal lens, minimal perspective distortion",
+            "quality": "Clean high-resolution CG render, no grain",
+            "artifacts": "None — no chromatic aberration, bloom kept subtle around the spheres",
+            "aesthetic": "Minimal, moody, dark-mode product render; abstract 3D key art"
+          },
+          "atmosphere": {
+            "mood": "Calm, weightless, quietly premium",
+            "narrative": "Objects caught mid-float, as if gravity had just been switched off"
+          }
+        }
       },
       "files": [
         {
@@ -1035,7 +1079,51 @@
           "3d render",
           "artwork",
           "digital image"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Monochrome voxel render",
+          "subjectLabel": "a dissolving cube",
+          "summary": "A large cube built from hundreds of smaller cubes hovers in a soft mint void, its edges breaking apart into drifting blocks."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "object",
+            "category": "A single large cube composed of a dense grid of small cubes, with its outer layer fragmenting into detached floating blocks",
+            "materials": "Matte clay / soft-touch plastic shader; entirely non-reflective, no specular highlights",
+            "form": "Voxelised cube seen corner-on so three faces show; density is solid at the core and thins toward the edges, where individual cubes scatter into the surrounding space",
+            "condition": "Clean and unweathered — the fragmentation is by design, not damage",
+            "colorway": "Single-hue sage/mint green throughout, separated only by shading; the subject and background share the same palette"
+          },
+          "composition": {
+            "shotType": "Centred vertical hero shot",
+            "angle": "Slightly below the cube's midline, looking marginally up",
+            "placement": "Dead centre, floating in the upper two-thirds",
+            "distance": "Mid-distance, with clear margin on all sides",
+            "depthOfField": "Deep, with a very slight softening on the outermost drifting cubes",
+            "focusPoint": "The cube's front vertical edge"
+          },
+          "environment": {
+            "setting": "Seamless infinity-curve studio backdrop",
+            "background": "Flat mint-green sweep with a soft gradient, darker at the top corners, no visible seam or horizon",
+            "depthLayers": "Two: the levitating cube, and the seamless backdrop with its cast shadow"
+          },
+          "lighting": {
+            "quality": "Very soft, broad and diffuse — large-source studio light",
+            "direction": "Frontal-top, slightly to the left",
+            "colorTemp": "Neutral, letting the single green hue carry the entire colour story",
+            "shadows": "Gentle, wide, low-contrast; a soft ellipse pools directly beneath the floating cube"
+          },
+          "camera": {
+            "lensFeel": "Normal to slightly long lens, near-orthographic feel",
+            "quality": "Smooth high-resolution render with clean anti-aliasing",
+            "artifacts": "None; deliberately flat and noiseless",
+            "aesthetic": "Soft minimal monochrome; clay render, tactile and calm"
+          },
+          "atmosphere": {
+            "mood": "Serene, weightless, contemplative",
+            "narrative": "A solid form quietly coming apart, frozen at the moment of dissolution"
+          }
+        }
       },
       "files": [
         {
@@ -1078,7 +1166,51 @@
           "abstract",
           "portugal",
           "lisbon"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Isometric glass render",
+          "subjectLabel": "translucent geometric objects",
+          "summary": "Glass bars, rings, tubes and cubes rest on a fine grid, splitting light into yellow, blue and violet."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "object",
+            "category": "An arrangement of translucent glass and acrylic primitives — a long flat bar, stacked rings, a rounded tube, several open cubes and a concentric disc",
+            "materials": "Polished transparent glass and acrylic with strong refraction, internal caustics and iridescent dispersion; one tube reads as chrome-tinted",
+            "form": "Objects laid out on an isometric grid, some overlapping and some standing proud, arranged along a diagonal running lower-left to upper-right",
+            "condition": "Flawless and immaculate — no dust, scratches or fingerprints",
+            "colorway": "Cool white base shot through with amber-yellow, cyan, violet and magenta where the glass disperses light"
+          },
+          "composition": {
+            "shotType": "Tight isometric tabletop arrangement, edge-to-edge",
+            "angle": "Elevated isometric, roughly 45° above the plane",
+            "placement": "Objects fill the frame and run off all four edges",
+            "distance": "Close — no object is seen whole",
+            "depthOfField": "Deep; sharp corner to corner",
+            "focusPoint": "The central cluster of small clear cubes"
+          },
+          "environment": {
+            "setting": "Bright white studio plane ruled with a fine grid",
+            "background": "Pale blue-white surface printed with thin dark grid lines and small tick marks, acting as both floor and backdrop",
+            "depthLayers": "Two, deliberately compressed: objects sit directly on the grid with almost no air between"
+          },
+          "lighting": {
+            "quality": "Bright, even and shadow-light — high-key",
+            "direction": "Broad top-down illumination with no single dominant key",
+            "colorTemp": "Cool daylight, with warm dispersion appearing only through the glass",
+            "shadows": "Minimal and pale; refracted caustics read more strongly than any cast shadow"
+          },
+          "camera": {
+            "lensFeel": "Orthographic / long telephoto isometric — parallel lines stay parallel",
+            "quality": "Very high resolution, crisp, clean CG",
+            "artifacts": "Deliberate chromatic dispersion through the glass; no lens flaws",
+            "aesthetic": "Clean, bright, technical; glassmorphism and design-system key art"
+          },
+          "atmosphere": {
+            "mood": "Precise, optimistic, engineered",
+            "narrative": "A designer's material study laid out on a measuring grid"
+          }
+        }
       },
       "files": [
         {
@@ -1123,7 +1255,51 @@
           "rings",
           "particles",
           "round"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Soft-focus 3D render",
+          "subjectLabel": "glass spheres and rings",
+          "summary": "Iridescent blue tori and clear glass bubbles drift across a warm dusty-pink field."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "object",
+            "category": "Several thick torus rings and a set of transparent spheres of varying size floating at different depths",
+            "materials": "Rings are smooth matte-to-satin with a pearlescent sheen; spheres are clear refractive glass carrying inverted reflections of the scene",
+            "form": "Rings enter from the left, upper-right and right edges, angled differently; spheres occupy the open centre and lower-right, one cropped by the bottom edge",
+            "condition": "Pristine, softly polished, no wear",
+            "colorway": "Deep cobalt and navy rings shading to violet where they meet the background; spheres tint warm pink from what they refract"
+          },
+          "composition": {
+            "shotType": "Close abstract arrangement, subjects cropped by the frame",
+            "angle": "Straight-on, eye level with the floating elements",
+            "placement": "Rings anchor the edges, spheres hold the centre — a deliberate ring-around-void layout",
+            "distance": "Close; every ring runs out of frame",
+            "depthOfField": "Shallow to moderate — the nearest sphere and the far-right ring soften noticeably",
+            "focusPoint": "The central glass sphere"
+          },
+          "environment": {
+            "setting": "Flat coloured studio void with no floor line",
+            "background": "Uniform dusty rose-pink field, marginally brighter behind the centre",
+            "depthLayers": "Three: foreground sphere, mid-ground rings and spheres, flat colour field behind"
+          },
+          "lighting": {
+            "quality": "Soft and enveloping, large-source",
+            "direction": "Diffuse frontal-left key with broad fill from above",
+            "colorTemp": "Warm background against cool blue subjects — complementary by design",
+            "shadows": "Very soft and low-contrast; the rings self-shade rather than casting onto anything"
+          },
+          "camera": {
+            "lensFeel": "Medium telephoto with gentle compression",
+            "quality": "High-resolution render, smooth gradients, no grain",
+            "artifacts": "Intentional refraction and light bending inside the spheres",
+            "aesthetic": "Soft, tactile, pastel-abstract; blobby premium 3D"
+          },
+          "atmosphere": {
+            "mood": "Playful, dreamy, buoyant",
+            "narrative": "Forms suspended mid-drift, as though underwater"
+          }
+        }
       },
       "files": [
         {
@@ -1172,7 +1348,51 @@
           "black friday",
           "boxes",
           "commerce"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Bright 3D commerce render",
+          "subjectLabel": "an overflowing shopping cart",
+          "summary": "A chrome shopping trolley piled with cardboard boxes sits on a glossy blue floor scattered with parcels."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "object",
+            "category": "A supermarket shopping trolley overloaded with plain cardboard cartons, surrounded by smaller parcels and paper bags",
+            "materials": "Polished chrome wire basket and frame, matte kraft-card boxes, glossy blue plastic handle, red rubber castors",
+            "form": "Trolley in profile facing right, boxes stacked well above the basket line with two tipping off the top; small parcels and bags scattered across the floor around it",
+            "condition": "New and unblemished — boxes are unlabelled, sealed and undented",
+            "colorway": "Warm kraft brown against cool sky blue, with chrome silver and red-and-blue accents on the trolley"
+          },
+          "composition": {
+            "shotType": "Wide product hero shot with surrounding props",
+            "angle": "Slightly below eye level, looking marginally up at the stack",
+            "placement": "Trolley centred, box stack rising through the upper half; props fill the lower corners",
+            "distance": "Mid — the whole trolley sits clear within the frame",
+            "depthOfField": "Deep; everything sharp front to back",
+            "focusPoint": "The stacked boxes in the basket"
+          },
+          "environment": {
+            "setting": "Seamless studio sweep with a reflective floor",
+            "background": "Flat mid-blue infinity backdrop, no horizon seam, brightest directly behind the trolley",
+            "depthLayers": "Three: scattered foreground parcels, the trolley, the seamless blue sweep"
+          },
+          "lighting": {
+            "quality": "Bright, even, softly diffused",
+            "direction": "Broad frontal-top key with generous fill from both sides",
+            "colorTemp": "Neutral-to-cool, keeping the blue clean and the card warm",
+            "shadows": "Soft contact shadows under every object, plus faint mirror reflections in the glossy floor"
+          },
+          "camera": {
+            "lensFeel": "Normal lens, mild perspective",
+            "quality": "Clean commercial CG, crisp edges",
+            "artifacts": "None",
+            "aesthetic": "Bright, friendly e-commerce key art; explainer-illustration 3D"
+          },
+          "atmosphere": {
+            "mood": "Upbeat, abundant, commercial",
+            "narrative": "The moment a shopping haul outgrows its trolley"
+          }
+        }
       },
       "files": [
         {
@@ -1219,7 +1439,51 @@
           "sale",
           "spending money",
           "fashion industry"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Shallow-focus screen detail",
+          "subjectLabel": "an online store on a laptop",
+          "summary": "A laptop screen shows a minimal fashion storefront, its keyboard falling away into soft blur."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "object",
+            "category": "An open laptop displaying an e-commerce clothing catalogue — a model in a coral tee and white wide-leg trousers above a product title, a struck-through price and colour swatches",
+            "materials": "Matte laptop screen, brushed aluminium body, low-profile dark keys",
+            "form": "Laptop occupies the frame corner-on; the screen fills the upper two-thirds while the keyboard sweeps out of focus across the bottom third",
+            "condition": "Clean and current-generation, no wear or dust",
+            "colorway": "Near-white and pale grey dominated, with a single coral-red accent from the garment on screen"
+          },
+          "composition": {
+            "shotType": "Close detail shot of a screen, tightly cropped",
+            "angle": "Low, roughly level with the keyboard deck, looking up at the display",
+            "placement": "Screen content held in the upper two-thirds; the laptop body cuts a strong diagonal",
+            "distance": "Very close — the laptop is cropped on three sides",
+            "depthOfField": "Very shallow; falls off sharply into the keyboard",
+            "focusPoint": "The product listing text and price on screen"
+          },
+          "environment": {
+            "setting": "Bright minimal interior, likely a desk by a window",
+            "background": "Softly blurred pale wall with an out-of-focus green plant frond at the right edge",
+            "depthLayers": "Three: blurred keyboard foreground, sharp screen, blurred wall and plant behind"
+          },
+          "lighting": {
+            "quality": "Soft, natural, diffused",
+            "direction": "Ambient window light from the right, no hard key",
+            "colorTemp": "Neutral-cool daylight with a faint green cast from the foliage",
+            "shadows": "Very gentle, almost shadowless; the screen provides its own glow"
+          },
+          "camera": {
+            "lensFeel": "Fast normal or short telephoto prime, wide open",
+            "quality": "Sharp at the focal plane with creamy fall-off; fine natural grain",
+            "artifacts": "Heavy intentional bokeh; slight edge softness",
+            "aesthetic": "Clean editorial lifestyle; Scandinavian e-commerce minimalism"
+          },
+          "atmosphere": {
+            "mood": "Calm, considered, aspirational",
+            "narrative": "Someone browsing a clothing sale, caught mid-scroll"
+          }
+        }
       },
       "files": [
         {
@@ -1268,7 +1532,51 @@
           "handbag",
           "accessories",
           "head"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Studio commerce portrait",
+          "subjectLabel": "a young woman with shopping bags",
+          "summary": "A woman in a burgundy beret winks while presenting a blank-screen phone and a fan of pastel shopping bags."
+        },
+        "masterPrompt": {
+          "subject": {
+            "ageRange": "Early-to-mid 20s",
+            "descentCues": "East or Southeast Asian features",
+            "hair": "Long dark brown hair, worn loose over one shoulder in a soft braid",
+            "features": "Round face, full cheeks, upright and open posture with both arms raised and extended toward camera",
+            "expression": "Playful and animated — one eye winking, mouth open in a broad laugh",
+            "clothing": "Deep burgundy wool beret, cream short-sleeve knit top, navy velvet pleated midi skirt; holds a large blank-screen smartphone in the right hand and four pastel yellow and mint paper shopping bags in the left"
+          },
+          "composition": {
+            "shotType": "Three-quarter-length studio portrait",
+            "angle": "Straight-on at chest height",
+            "placement": "Centred, with the phone pushed well forward into the left third",
+            "distance": "Mid — head to mid-thigh in frame",
+            "depthOfField": "Deep; subject and props all sharp",
+            "focusPoint": "The face and the phone's blank screen, held on the same plane"
+          },
+          "environment": {
+            "setting": "Seamless studio backdrop",
+            "background": "Flat pale blue sweep, unbroken and propless",
+            "depthLayers": "Two: subject with props, and the seamless backdrop"
+          },
+          "lighting": {
+            "quality": "Soft, broad, near-shadowless commercial lighting",
+            "direction": "Large frontal key with balanced fill from both sides",
+            "colorTemp": "Neutral daylight, keeping the pastels accurate",
+            "shadows": "Barely present — a faint soft shadow behind the subject only"
+          },
+          "camera": {
+            "lensFeel": "Normal to short telephoto, minimal distortion",
+            "quality": "Clean, sharp, evenly exposed commercial capture",
+            "artifacts": "None; the blank phone screen is intentional mockup space",
+            "aesthetic": "Bright, upbeat stock commerce; advertising-ready"
+          },
+          "atmosphere": {
+            "mood": "Cheerful, energetic, promotional",
+            "narrative": "A shopper delighted by a deal, presenting a screen left blank for a message"
+          }
+        }
       },
       "files": [
         {
@@ -1317,7 +1625,51 @@
           "shop",
           "payment",
           "sale"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Macro keyboard detail",
+          "subjectLabel": "a red Buy Now key",
+          "summary": "A red 'Buy Now!' key with a shopping-cart icon sits among pale keys in extremely shallow focus."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "object",
+            "category": "A single oversized red keyboard key printed with a shopping-trolley glyph and the words 'Buy Now!', set into an otherwise ordinary keyboard",
+            "materials": "Slightly textured matte keycap plastic with a soft sheen along the top edge; surrounding keys are smooth pale plastic",
+            "form": "The red key runs diagonally across the frame in the Enter position, flanked by Shift, Page Up and Page Down keys and an arrow key",
+            "condition": "Clean and unworn, with only the faintest surface texture visible at this magnification",
+            "colorway": "Saturated scarlet key with white legend against a field of cool white, silver-grey and charcoal keys"
+          },
+          "composition": {
+            "shotType": "Extreme macro detail",
+            "angle": "Low and oblique, close to the plane of the keyboard",
+            "placement": "Red key crosses the centre diagonally, filling the middle band",
+            "distance": "Very close — only a handful of keys are in frame",
+            "depthOfField": "Extremely shallow; sharpness holds for barely the width of the key",
+            "focusPoint": "The 'Buy Now!' legend and the cart glyph"
+          },
+          "environment": {
+            "setting": "The keyboard surface itself — no wider scene",
+            "background": "Surrounding keycaps dissolving into soft grey-blue blur at the top and bottom of the frame",
+            "depthLayers": "Three: blurred near keys, the sharp red key, blurred far keys"
+          },
+          "lighting": {
+            "quality": "Soft and directional with a bright specular roll across the key top",
+            "direction": "Key light from upper left, grazing along the keycap faces",
+            "colorTemp": "Cool blue-grey ambient making the red key read hotter by contrast",
+            "shadows": "Deep between the keycaps, defining every gap"
+          },
+          "camera": {
+            "lensFeel": "True macro lens at close focus, wide aperture",
+            "quality": "Crisp at the focal plane with rapid fall-off; visible fine detail on the keycap",
+            "artifacts": "Strong bokeh; slight edge vignetting",
+            "aesthetic": "Stock-photo commerce metaphor; punchy, high-contrast macro"
+          },
+          "atmosphere": {
+            "mood": "Urgent, decisive, transactional",
+            "narrative": "The instant before a purchase is committed"
+          }
+        }
       },
       "files": [
         {
@@ -1367,7 +1719,51 @@
           "studio portrait",
           "job application",
           "white shirt"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Corporate seated portrait",
+          "subjectLabel": "a man in his 40s",
+          "summary": "A relaxed businessman in a navy blazer sits on a wicker chair against a bright white wall."
+        },
+        "masterPrompt": {
+          "subject": {
+            "ageRange": "Late 30s to mid 40s",
+            "descentCues": "White / European features",
+            "hair": "Short light-brown hair, neatly cut and swept to one side; clean-shaven",
+            "features": "Broad face, blue eyes, heavier build; seated leaning slightly forward with both hands resting flat on his knees",
+            "expression": "Warm, easy, closed-mouth smile directed straight at the lens",
+            "clothing": "Navy wool blazer with a small lapel pin over an open-collar white shirt, worn with dark indigo jeans"
+          },
+          "composition": {
+            "shotType": "Three-quarter-length seated portrait",
+            "angle": "Eye level, straight on",
+            "placement": "Subject centred, occupying the lower two-thirds with clean wall above",
+            "distance": "Mid — head to shin in frame",
+            "depthOfField": "Moderately shallow; the plant behind softens slightly",
+            "focusPoint": "The eyes"
+          },
+          "environment": {
+            "setting": "Corner of a bright, sparsely furnished white studio room",
+            "background": "Plain white wall meeting at a corner, with a tall artificial bamboo plant to the right and the edge of a softbox visible at the far right",
+            "depthLayers": "Three: subject, plant and wicker chair, back wall"
+          },
+          "lighting": {
+            "quality": "Soft, broad, high-key studio lighting",
+            "direction": "Large key from the right, with the white walls bouncing generous fill",
+            "colorTemp": "Neutral, marginally warm on the skin",
+            "shadows": "Light and open; a soft shadow falls to the subject's left"
+          },
+          "camera": {
+            "lensFeel": "Short telephoto portrait lens, flattering compression",
+            "quality": "Clean, sharp, professionally lit and retouched",
+            "artifacts": "None",
+            "aesthetic": "Bright corporate headshot; approachable business editorial"
+          },
+          "atmosphere": {
+            "mood": "Confident, friendly, approachable",
+            "narrative": "A relaxed professional sitting for a company profile"
+          }
+        }
       },
       "files": [
         {
@@ -1417,7 +1813,51 @@
           "glasses",
           "career",
           "confidence"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Corporate seated portrait",
+          "subjectLabel": "a woman in her 30s",
+          "summary": "A professional in a navy suit and bold tortoiseshell glasses sits composed against a white wall."
+        },
+        "masterPrompt": {
+          "subject": {
+            "ageRange": "Late 20s to mid 30s",
+            "descentCues": "White / European features",
+            "hair": "Shoulder-length blonde hair with a side parting, worn straight and tucked behind one ear",
+            "features": "Oval face framed by large square tortoiseshell glasses; seated upright with legs crossed and hands clasped in her lap",
+            "expression": "Composed, gently amused closed-mouth smile toward the lens",
+            "clothing": "Navy tailored blazer and matching trousers over a champagne satin blouse; small white flower earring, a diamond ring, patterned manicure"
+          },
+          "composition": {
+            "shotType": "Three-quarter-length seated portrait",
+            "angle": "Eye level, straight on",
+            "placement": "Subject centred, occupying the lower two-thirds with clean wall above",
+            "distance": "Mid — head to shin in frame",
+            "depthOfField": "Moderately shallow; the plant behind softens slightly",
+            "focusPoint": "The eyes behind the glasses"
+          },
+          "environment": {
+            "setting": "Corner of a bright, sparsely furnished white studio room — the same set as its companion frame",
+            "background": "Plain white wall meeting at a corner, with a tall artificial bamboo plant to the right and the edge of a softbox visible at the far right",
+            "depthLayers": "Three: subject, plant and wicker chair, back wall"
+          },
+          "lighting": {
+            "quality": "Soft, broad, high-key studio lighting",
+            "direction": "Large key from the left, with the white walls bouncing generous fill",
+            "colorTemp": "Neutral, marginally warm on the skin",
+            "shadows": "Light and open, with a faint shadow behind the shoulders"
+          },
+          "camera": {
+            "lensFeel": "Short telephoto portrait lens, flattering compression",
+            "quality": "Clean, sharp, professionally lit and retouched",
+            "artifacts": "None",
+            "aesthetic": "Bright corporate headshot; polished business editorial"
+          },
+          "atmosphere": {
+            "mood": "Assured, competent, warm",
+            "narrative": "An executive sitting for a leadership-page portrait"
+          }
+        }
       },
       "files": [
         {
@@ -1467,7 +1907,51 @@
           "guy",
           "lens",
           "filter"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Candid street portrait",
+          "subjectLabel": "a photographer at work",
+          "summary": "A man in a black jacket raises a DSLR to his eye on a street, face half-hidden behind the lens."
+        },
+        "masterPrompt": {
+          "subject": {
+            "ageRange": "Late 30s to 50s",
+            "descentCues": "White / European features",
+            "hair": "Tousled mid-brown hair with sunglasses pushed up onto the crown; light stubble",
+            "features": "Weathered face with pronounced brow lines, visible only from the nose up; both hands raised, one cupping the lens barrel, a wedding band on the ring finger",
+            "expression": "Absorbed and unaware of the camera — eye pressed to the viewfinder, mid-shot",
+            "clothing": "Black leather jacket with an open zip over a grey t-shirt; a red-and-black Canon strap loops from the body"
+          },
+          "composition": {
+            "shotType": "Close candid portrait, hands and camera included",
+            "angle": "Eye level, slightly to the subject's right",
+            "placement": "Subject fills the frame; the lens barrel juts prominently into the right half",
+            "distance": "Close — head and hands only",
+            "depthOfField": "Shallow; the street behind dissolves completely",
+            "focusPoint": "The subject's face and the camera body"
+          },
+          "environment": {
+            "setting": "Urban street in daylight",
+            "background": "Heavily blurred streetscape with a blue parked car at the right and a pale wall behind",
+            "depthLayers": "Three: the extended lens, the subject, the dissolved street"
+          },
+          "lighting": {
+            "quality": "Soft, flat, overcast daylight",
+            "direction": "Ambient and open, no directional key",
+            "colorTemp": "Cool teal-shifted grade with warm skin held against it",
+            "shadows": "Soft and minimal, mostly under the brow and jaw"
+          },
+          "camera": {
+            "lensFeel": "Fast normal prime wide open",
+            "quality": "Sharp on the subject with pronounced bokeh; a filmic grade with lifted blacks",
+            "artifacts": "Deliberate teal-orange colour grade; slight vignetting",
+            "aesthetic": "Documentary street photography; moody, cinematic, editorial"
+          },
+          "atmosphere": {
+            "mood": "Focused, intent, workmanlike",
+            "narrative": "A photographer mid-frame, oblivious to being photographed himself"
+          }
+        }
       },
       "files": [
         {
@@ -1517,7 +2001,51 @@
           "mirror",
           "venice",
           "fuji"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Foliage-framed candid",
+          "subjectLabel": "a young photographer",
+          "summary": "Seen through bamboo leaves, a photographer in a white tee raises a silver rangefinder to shoot back."
+        },
+        "masterPrompt": {
+          "subject": {
+            "ageRange": "Early-to-mid 20s",
+            "descentCues": "White / European features",
+            "hair": "Short, softly tousled blond hair falling over the forehead",
+            "features": "Slim build, face largely concealed behind the raised camera; both elbows lifted, sunglasses hooked into the collar",
+            "expression": "Concealed by the camera — the posture reads as concentrated and still",
+            "clothing": "Plain white printed t-shirt and blue jeans, a pale green watch on the left wrist, an olive canvas camera strap crossing the chest; holds a silver-and-black Fujifilm rangefinder"
+          },
+          "composition": {
+            "shotType": "Full-length candid shot through a natural frame",
+            "angle": "Eye level, straight on",
+            "placement": "Subject centred but partially obscured, occupying the middle third",
+            "distance": "Medium-long — most of the body in frame",
+            "depthOfField": "Very shallow, with foliage soft in both foreground and background",
+            "focusPoint": "The camera in the subject's hands"
+          },
+          "environment": {
+            "setting": "Outdoors beside a bamboo planting, with buildings beyond",
+            "background": "Warm terracotta and cream building facades dissolved into broad blur",
+            "depthLayers": "Four: near bamboo leaves, the subject, far bamboo, the building behind"
+          },
+          "lighting": {
+            "quality": "Soft, bright, diffused daylight",
+            "direction": "Open overhead light filtering through the leaves",
+            "colorTemp": "Warm, with a green cast from the surrounding foliage",
+            "shadows": "Soft and dappled where leaves cross the subject"
+          },
+          "camera": {
+            "lensFeel": "Telephoto shot from a distance, strongly compressed",
+            "quality": "Sharp on the subject, with the foreground leaves rendered as translucent veils",
+            "artifacts": "Intentional foreground occlusion; heavy bokeh",
+            "aesthetic": "Voyeuristic candid; layered, painterly, natural"
+          },
+          "atmosphere": {
+            "mood": "Quiet, observant, mutual",
+            "narrative": "Two photographers photographing each other through the leaves"
+          }
+        }
       },
       "files": [
         {
@@ -1566,7 +2094,51 @@
           "gear",
           "flatlay",
           "antique"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Overhead vintage flat lay",
+          "subjectLabel": "antique photography gear",
+          "summary": "Folding cameras, light meters, almanacs and old snapshots are laid out in a grid on scratched dark metal."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "object",
+            "category": "A curated collection of vintage photographic equipment and ephemera — two folding bellows cameras, two Weston Master light meters, hardbound British Journal Photographic Almanacs dated 1953, 1957 and 1958, a Kodak film wallet, boxed plates, instruction booklets and small black-and-white snapshots",
+            "materials": "Aged black leatherette and chrome on the cameras, cloth-bound gilt-lettered books, yellowed paper, bakelite meter bodies",
+            "form": "Objects arranged in a loose four-column grid with even spacing, all squared to the frame",
+            "condition": "Genuinely old and well used — scuffed leather, foxed paper, tarnished chrome, worn box corners",
+            "colorway": "Near-monochrome — black, charcoal and steel grey, warmed only by cream paper and gold lettering, with one small orange Agfa badge and a teal Kodak wallet"
+          },
+          "composition": {
+            "shotType": "Overhead flat lay, tightly filling the frame",
+            "angle": "Directly top-down, perpendicular to the surface",
+            "placement": "Objects distributed across the full frame in a grid",
+            "distance": "Mid — the whole arrangement is included",
+            "depthOfField": "Deep; every object sharp",
+            "focusPoint": "The central folding camera"
+          },
+          "environment": {
+            "setting": "A scratched dark metal or slate work surface",
+            "background": "The surface itself — mottled grey with visible scoring, scuffs and patina",
+            "depthLayers": "Two: the laid-out objects and the surface beneath"
+          },
+          "lighting": {
+            "quality": "Soft, broad, directional",
+            "direction": "Diffuse window light from the upper left",
+            "colorTemp": "Cool and slightly desaturated, with warm notes from the aged paper",
+            "shadows": "Gentle and short, hugging each object and giving it weight"
+          },
+          "camera": {
+            "lensFeel": "Normal lens shot from overhead, mild perspective",
+            "quality": "Sharp and detailed with rich, moody tonality",
+            "artifacts": "Deliberately crushed shadows; low-key grade",
+            "aesthetic": "Moody vintage flat lay; museum-catalogue styling"
+          },
+          "atmosphere": {
+            "mood": "Nostalgic, reverent, archival",
+            "narrative": "A photographer's inheritance laid out and catalogued"
+          }
+        }
       },
       "files": [
         {
@@ -1615,7 +2187,51 @@
           "epic",
           "awesome",
           "gorgeous"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Moody product close-up",
+          "subjectLabel": "a vintage Rolleiflex camera",
+          "summary": "A heavily worn twin-lens Rolleiflex stands on a wooden shelf, its chrome pitted and paint flaking."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "object",
+            "category": "A twin-lens reflex medium-format camera — a Rolleiflex with a Synchro-Compur shutter, marked Franke & Heidecke Braunschweig",
+            "materials": "Black leatherette body panels, pitted chrome bezels, glass taking and viewing lenses, knurled metal winding knob",
+            "form": "Standing upright and square to the camera, both lenses stacked vertically down the centre of the body",
+            "condition": "Heavily aged — flaking paint, oxidised and corroded chrome, dust in the lens recesses, decades of visible wear",
+            "colorway": "Black and tarnished silver with green-brown corrosion, cooled by a teal cast across the whole frame"
+          },
+          "composition": {
+            "shotType": "Vertical product close-up",
+            "angle": "Slightly below the camera's midline, close to shelf level",
+            "placement": "Subject centred, filling most of the frame height",
+            "distance": "Close — the camera nearly fills the frame",
+            "depthOfField": "Shallow; the shelf and surroundings fall away quickly",
+            "focusPoint": "The Rolleiflex nameplate and upper viewing lens"
+          },
+          "environment": {
+            "setting": "A wooden shelf in a dim interior, likely a shop or workshop",
+            "background": "Near-black darkness with a pale teal enamel mug blurred at the left and a soft grey form at the right",
+            "depthLayers": "Three: the wooden shelf edge, the camera, the dark surround"
+          },
+          "lighting": {
+            "quality": "Soft and directional, falling off fast",
+            "direction": "Single window-like source from the front left",
+            "colorTemp": "Cool teal-cyan grade throughout",
+            "shadows": "Deep and enveloping; the background reads almost black"
+          },
+          "camera": {
+            "lensFeel": "Short telephoto prime, wide aperture",
+            "quality": "Sharp on the front plane with a soft, painterly fall-off",
+            "artifacts": "Strong teal colour grade; vignetting",
+            "aesthetic": "Moody vintage still life; collector's-piece portraiture"
+          },
+          "atmosphere": {
+            "mood": "Nostalgic, weathered, dignified",
+            "narrative": "A working tool retired to a shelf, wearing its service history"
+          }
+        }
       },
       "files": [
         {
@@ -1663,7 +2279,51 @@
           "35mm",
           "old school",
           "shot on film"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Black-and-white car detail",
+          "subjectLabel": "a 1960s Chevrolet Camaro",
+          "summary": "Grainy monochrome film catches a Camaro's front corner, with a classic roadster parked behind."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "object",
+            "category": "The front quarter of a first-generation Chevrolet Camaro — dual round headlights, mesh grille, chrome bumper and a script 'Chevrolet Camaro' fender badge",
+            "materials": "Smooth painted steel bodywork, polished chrome trim and bumper, glass headlight lenses",
+            "form": "The bonnet sweeps in from the lower left and the frame cuts the car at the front wheel arch; a second, paler classic roadster with wire wheels sits behind and above",
+            "condition": "Well kept and show-ready — straight panels, clean chrome, no visible damage",
+            "colorway": "Full monochrome: mid-grey body, bright chrome highlights, dark grille recesses, pale asphalt with white parking lines"
+          },
+          "composition": {
+            "shotType": "Tight diagonal detail shot",
+            "angle": "Slightly above the bonnet line, looking down along the car",
+            "placement": "The Camaro runs corner to corner along the lower-left diagonal; the roadster occupies the upper right",
+            "distance": "Close — neither car is seen whole",
+            "depthOfField": "Moderate; the Camaro is sharp while the car behind softens",
+            "focusPoint": "The fender badge and headlight cluster"
+          },
+          "environment": {
+            "setting": "An outdoor car park or show field",
+            "background": "A second classic roadster with wire wheels, and asphalt marked with white bay lines",
+            "depthLayers": "Three: the Camaro, the roadster behind, the marked tarmac"
+          },
+          "lighting": {
+            "quality": "Soft, flat, overcast",
+            "direction": "Diffuse overhead with no hard key",
+            "colorTemp": "N/A — black-and-white",
+            "shadows": "Soft and open, with gentle gradients along the panels"
+          },
+          "camera": {
+            "lensFeel": "Normal to short telephoto, mild compression",
+            "quality": "Visible 35mm film grain, smooth mid-tones, softly rolled highlights",
+            "artifacts": "Deliberate grain and analogue tonality",
+            "aesthetic": "Classic black-and-white film photography; automotive documentary"
+          },
+          "atmosphere": {
+            "mood": "Nostalgic, restrained, timeless",
+            "narrative": "Two eras of car design parked side by side on a grey afternoon"
+          }
+        }
       },
       "files": [
         {
@@ -1711,7 +2371,51 @@
           "kodak film",
           "analog camera",
           "negative film"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Backlit film scan",
+          "subjectLabel": "35mm colour negatives",
+          "summary": "Six strips of orange-masked colour negative lie on a lightbox, sprocket holes glowing white."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "object",
+            "category": "Six cut strips of developed 35mm colour negative film, each holding two to three frames, with edge markings, frame numbers and FUJI codes visible",
+            "materials": "Translucent acetate film base with an orange mask, backlit so the emulsion glows",
+            "form": "Strips laid in two rows of three, running vertically, evenly spaced with white gaps between them",
+            "condition": "Developed and handled — dust specks, minor scratches, uneven frame spacing, some frames blank",
+            "colorway": "Dominant amber-orange from the negative mask, with cyan-blue inverted subjects and pure white sprocket holes and gaps"
+          },
+          "composition": {
+            "shotType": "Overhead flat lay filling the frame",
+            "angle": "Directly top-down",
+            "placement": "Strips fill the frame edge to edge in a regular grid",
+            "distance": "Close — individual sprocket perforations are clearly readable",
+            "depthOfField": "Deep; uniformly sharp",
+            "focusPoint": "The frame numbers and edge markings along the strips"
+          },
+          "environment": {
+            "setting": "A photographic lightbox or light table",
+            "background": "Pure white illuminated surface showing between and around the strips",
+            "depthLayers": "Two: the film strips and the glowing surface beneath"
+          },
+          "lighting": {
+            "quality": "Even, diffuse transmitted light from directly behind",
+            "direction": "Backlit through the film",
+            "colorTemp": "Neutral white source, coloured entirely by the film's own orange mask",
+            "shadows": "None — backlighting removes them completely"
+          },
+          "camera": {
+            "lensFeel": "Macro or close-focus normal lens, top-down",
+            "quality": "High detail with visible film grain and dust",
+            "artifacts": "Real dust and scratches on the film, kept rather than cleaned",
+            "aesthetic": "Analogue-process documentary; darkroom and archival"
+          },
+          "atmosphere": {
+            "mood": "Nostalgic, procedural, quietly anticipatory",
+            "narrative": "A freshly developed roll laid out for the first look"
+          }
+        }
       },
       "files": [
         {
@@ -1755,7 +2459,51 @@
           "render",
           "modern design",
           "living room interior"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Interior architectural render",
+          "subjectLabel": "a minimalist living room",
+          "summary": "A modular grey sofa faces a garden window in a warm, dim, monochrome room."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "scene",
+            "category": "A minimalist open-plan living room — a low modular sofa in three sections, a sculptural dark-wood coffee table, an arc floor lamp, tall dark shelving and a woven rug",
+            "materials": "Bouclé upholstery, matte dark timber, polished concrete flooring, textured wool rug, matte painted walls",
+            "form": "The sofa runs across the middle of the frame facing the window; shelving stacks up the right side; the rug anchors the foreground",
+            "condition": "New, pristine and lightly styled — a few books, a vase and a ceramic set placed with restraint",
+            "colorway": "Warm greys and taupe throughout, with near-black timber accents and a single green note from the garden outside"
+          },
+          "composition": {
+            "shotType": "Wide interior establishing shot",
+            "angle": "Eye level, one-point perspective square to the back wall",
+            "placement": "Sofa centred on the horizontal; the window anchors the left third, shelving the right",
+            "distance": "Wide — the full room is in frame",
+            "depthOfField": "Deep; sharp throughout",
+            "focusPoint": "The central sofa and coffee table"
+          },
+          "environment": {
+            "setting": "A contemporary house interior opening onto a garden",
+            "background": "A grey feature wall, a full-height glazed door onto a lawn with dense green trees, a dark floor-length curtain, and a glimpse of a wood-panelled kitchen at the far right",
+            "depthLayers": "Four: rug foreground, seating group, back wall and shelving, the garden beyond the glass"
+          },
+          "lighting": {
+            "quality": "Soft and layered — bright daylight balanced against warm interior sources",
+            "direction": "Strong daylight from the window at left; concealed cove lighting and downlights fill the ceiling",
+            "colorTemp": "Cool daylight on the left against warm artificial light on the right",
+            "shadows": "Soft and long, stretching right from the window across the floor"
+          },
+          "camera": {
+            "lensFeel": "Wide angle with verticals corrected, architectural convention",
+            "quality": "Clean high-resolution interior render, no grain",
+            "artifacts": "None; perfectly straight verticals",
+            "aesthetic": "Contemporary minimalism; architectural visualisation"
+          },
+          "atmosphere": {
+            "mood": "Calm, refined, unhurried",
+            "narrative": "A quiet, unoccupied room waiting at the end of the day"
+          }
+        }
       },
       "files": [
         {
@@ -1799,7 +2547,51 @@
           "real estate interior",
           "indoors",
           "interior home"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Bright interior photograph",
+          "subjectLabel": "a modern kitchen and living space",
+          "summary": "A marble waterfall island and stone feature wall anchor a bright white open-plan interior."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "scene",
+            "category": "An open-plan kitchen and living area — a waterfall-edge stone island with dark cabinetry, a full-height stone feature wall with a linear fireplace, tall white joinery and a floating staircase",
+            "materials": "Grey veined marble, matte black cabinet fronts, pale travertine cladding with a fluted upper panel, wide-plank white-oak flooring, glass balustrade, brass pendant",
+            "form": "The island runs diagonally in from the left; the feature wall fills the right; the staircase recedes through the centre",
+            "condition": "Brand new and unoccupied — no appliances out, no clutter, no wear on the floor",
+            "colorway": "White and pale oak dominant, with charcoal-to-black cabinetry, grey marble veining and a single brass accent"
+          },
+          "composition": {
+            "shotType": "Wide interior establishing shot",
+            "angle": "Eye level, verticals held straight",
+            "placement": "Island in the left third, feature wall in the right, staircase drawing the eye through the centre",
+            "distance": "Wide — a large volume of the room is included",
+            "depthOfField": "Deep; sharp front to back",
+            "focusPoint": "The marble island's waterfall edge"
+          },
+          "environment": {
+            "setting": "A newly built contemporary house",
+            "background": "White walls and ceiling with recessed downlights and a concealed cove, a dark-framed window to a green exterior at the left, and an oak-clad wall by the stairs",
+            "depthLayers": "Four: bare oak floor foreground, the island, the mid-ground joinery and stairs, the window beyond"
+          },
+          "lighting": {
+            "quality": "Bright, even and high-key",
+            "direction": "Daylight from the left window plus abundant recessed ceiling light",
+            "colorTemp": "Neutral-cool daylight with a warm tint from the cove lighting and pendant",
+            "shadows": "Soft, short and unobtrusive"
+          },
+          "camera": {
+            "lensFeel": "Wide angle with corrected verticals, real-estate convention",
+            "quality": "Sharp, clean, evenly exposed digital capture",
+            "artifacts": "None; perspective corrected in post",
+            "aesthetic": "Contemporary luxury real estate; bright architectural photography"
+          },
+          "atmosphere": {
+            "mood": "Crisp, spacious, aspirational",
+            "narrative": "A finished home photographed before anyone moves in"
+          }
+        }
       },
       "files": [
         {
@@ -1848,7 +2640,51 @@
           "big house",
           "modern interior",
           "living room interior design"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Staged interior photograph",
+          "subjectLabel": "a grey velvet living room",
+          "summary": "Two grey velvet sofas face a linear fireplace in a bright, freshly staged living room."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "scene",
+            "category": "A staged formal living room — two large grey velvet sofas on brass legs, white scatter cushions, a marble-and-brass coffee table, a linear gas fireplace and a potted olive tree",
+            "materials": "Crushed grey velvet upholstery, brushed brass legs and frames, marble tabletop, textured grey tile fireplace surround, wide white-oak flooring, pale silk rug",
+            "form": "The sofas sit at right angles facing the fireplace, one running across the foreground and the other along the far wall; the rug defines the seating zone",
+            "condition": "Immaculate and freshly staged — cushions plumped and squared, nothing out of place",
+            "colorway": "Near-white walls and pale oak floor with grey velvet, white cushions and brass accents; a live orange flame is the only strong colour"
+          },
+          "composition": {
+            "shotType": "Wide interior establishing shot",
+            "angle": "Eye level, slightly angled two-point perspective",
+            "placement": "Foreground sofa leads in from the lower left; the fireplace anchors the centre-left; the entry hall recedes right",
+            "distance": "Wide — the full room and entryway are in frame",
+            "depthOfField": "Deep; sharp throughout",
+            "focusPoint": "The fireplace and the far sofa"
+          },
+          "environment": {
+            "setting": "The formal living room of a newly built house",
+            "background": "White walls, recessed downlights, a black-framed front door with sidelights, a round wall mirror, a chandelier over the entry, and a glazed wall at the left",
+            "depthLayers": "Four: near sofa, seating group and fireplace, entry hall, the glazing beyond"
+          },
+          "lighting": {
+            "quality": "Bright, soft and very even",
+            "direction": "Daylight through the left glazing and the entry sidelights, plus uniform recessed ceiling light",
+            "colorTemp": "Neutral-cool overall, with a warm accent from the fire and chandelier",
+            "shadows": "Very soft and short, almost shadowless"
+          },
+          "camera": {
+            "lensFeel": "Wide angle with corrected verticals",
+            "quality": "Sharp, bright, cleanly exposed digital capture",
+            "artifacts": "None; perspective corrected",
+            "aesthetic": "Real-estate listing photography; bright, airy, transitional styling"
+          },
+          "atmosphere": {
+            "mood": "Polished, welcoming, showroom-fresh",
+            "narrative": "A room dressed for a viewing, still untouched"
+          }
+        }
       },
       "files": [
         {
@@ -1897,7 +2733,51 @@
           "clean",
           "modern",
           "cloudy"
-        ]
+        ],
+        "brief": {
+          "shotDescriptor": "Minimal architecture study",
+          "subjectLabel": "a cantilevered concrete roofline",
+          "summary": "A white parapet and raw concrete edge cut across an overcast sky in stark geometry."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "object",
+            "category": "The upper corner of a modernist building — a white cantilevered roof slab and parapet meeting a board-marked exposed concrete wall, with a dark recessed soffit between",
+            "materials": "Smooth white-rendered or panelled cladding with visible joint lines, raw board-formed concrete, a thin metal capping rail",
+            "form": "Two overlapping horizontal planes cut strong diagonals across the lower half; the concrete pier rises up the left edge; a dark void opens beneath the overhang",
+            "condition": "Weathered but sound — faint staining and mineral streaks on the concrete, panel joints and fixings visible",
+            "colorway": "White and pale grey against a soft grey-white sky, with warm ochre reflected light in the recess and near-black shadow beneath"
+          },
+          "composition": {
+            "shotType": "Minimal architectural detail with dominant negative space",
+            "angle": "Low, looking up at the roofline from below",
+            "placement": "The building occupies only the lower third; the upper two-thirds are empty sky",
+            "distance": "Medium — a fragment of the structure, never the whole building",
+            "depthOfField": "Deep; uniformly sharp",
+            "focusPoint": "The cantilevered roof edge where the two planes meet"
+          },
+          "environment": {
+            "setting": "Outdoors beneath an overcast sky",
+            "background": "Flat, near-featureless pale grey cloud cover with only the faintest tonal variation",
+            "depthLayers": "Two: the building fragment and the empty sky behind it"
+          },
+          "lighting": {
+            "quality": "Soft, flat, fully diffused overcast daylight",
+            "direction": "Ambient and omnidirectional, with no visible sun",
+            "colorTemp": "Cool and slightly desaturated, warmed only in the sheltered recess",
+            "shadows": "Soft and open on the exterior; deep and unlit inside the overhang"
+          },
+          "camera": {
+            "lensFeel": "Normal to short telephoto, verticals kept straight",
+            "quality": "Clean, sharp, low-contrast digital capture",
+            "artifacts": "None",
+            "aesthetic": "Minimalist architectural photography; brutalist geometry, generous negative space"
+          },
+          "atmosphere": {
+            "mood": "Austere, still, contemplative",
+            "narrative": "A building reduced to pure line and plane against a blank sky"
+          }
+        }
       },
       "files": [
         {
