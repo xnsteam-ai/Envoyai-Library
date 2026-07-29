@@ -4,9 +4,10 @@
   "private": true,
   "description": "The envoyai component registry. Installable with the shadcn CLI.",
   "scripts": {
-    "registry:build": "shadcn build"
+    "registry:build": "cd components && npx shadcn@latest build registry.json -o ../public/r && cd .. && node scripts/build-index.mjs .",
+    "registry:validate": "npx shadcn@latest registry validate registry.json"
   },
   "devDependencies": {
-    "shadcn": "^2.5.0"
+    "shadcn": "^4.16.0"
   }
 }
