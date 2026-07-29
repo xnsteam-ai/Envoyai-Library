@@ -2786,6 +2786,931 @@
           "target": "public/media/modern/modern-architecture.jpg"
         }
       ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "people-coffee-highfive",
+      "type": "registry:file",
+      "title": "Coffee High-Five — Toa Heftiba",
+      "description": "Four friends laughing and high fiving over coffee. Photo by Toa Heftiba, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "people",
+        "candid",
+        "friends"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "l_ExpFwwOEg",
+        "credit": "Toa Heftiba",
+        "photographer": "Toa Heftiba",
+        "photographerUrl": "https://unsplash.com/@heftiba?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/four-friends-laughing-and-high-fiving-over-coffee-l_ExpFwwOEg?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 3653,
+        "height": 5480,
+        "color": "#c0c0c0",
+        "createdAt": "2020-02-21",
+        "tags": [
+          "portrait",
+          "people",
+          "grey",
+          "hands",
+          "best friends",
+          "hand gestures",
+          "friend"
+        ],
+        "brief": {
+          "shotDescriptor": "Candid indoor group shot",
+          "subjectLabel": "four friends over tea",
+          "summary": "Four housemates laugh on a sunlit balcony floor, two of them meeting in a high-five above the teapot."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "scene",
+            "category": "Four young adults in their 20s sitting cross-legged on the floor of a glazed balcony, mid-laugh; two reach up to complete a high-five while the others hold mugs",
+            "materials": "Chunky knitwear, fleece hoodies, checked flannel pyjama trousers, glazed ceramic mugs, a pale mint teapot, cork coasters, light wood table",
+            "form": "Bodies arranged in a loose arc across the lower two-thirds; the high-five forms an apex near the top of frame; the tea table anchors the bottom edge",
+            "condition": "Relaxed and lived-in — hair loose and unstyled, sleeves pushed up, an unposed weekend-morning scene",
+            "colorway": "Forest green, heather grey and navy clothing against white walls and pale wood, warmed by low winter sun"
+          },
+          "composition": {
+            "shotType": "Vertical candid group shot, environmental",
+            "angle": "Low, roughly at the seated subjects' eye level",
+            "placement": "Group fills the middle band; a cropped figure anchors the left edge; the high-five sits on the upper-third line",
+            "distance": "Close-mid — one subject is cut by the frame edge",
+            "depthOfField": "Moderate; the window and background soften slightly",
+            "focusPoint": "The two laughing faces at centre-right"
+          },
+          "environment": {
+            "setting": "An enclosed balcony or sunroom of a flat in winter",
+            "background": "White-framed windows onto bare trees and a neighbouring apartment block, a white cabinet and a small wooden easel",
+            "depthLayers": "Four: the tea table, the near cropped figure, the group, the windows and view beyond"
+          },
+          "lighting": {
+            "quality": "Bright, soft, diffused natural daylight",
+            "direction": "Broad window light entering from the left and behind",
+            "colorTemp": "Cool daylight, slightly desaturated",
+            "shadows": "Soft and open, with gentle contrast on the faces"
+          },
+          "camera": {
+            "lensFeel": "Wide-normal lens close in, mild edge distortion",
+            "quality": "Sharp with natural grain and a lifted, matte grade",
+            "artifacts": "Deliberate foreground cropping; slight highlight bloom at the windows",
+            "aesthetic": "Warm documentary lifestyle; unposed and editorial"
+          },
+          "atmosphere": {
+            "mood": "Joyful, easy, companionable",
+            "narrative": "A shared joke landing over a pot of tea"
+          }
+        }
+      },
+      "files": [
+        {
+          "path": "people/people-coffee-highfive.jpg",
+          "type": "registry:file",
+          "target": "public/media/people/people-coffee-highfive.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "people-friends-laughing",
+      "type": "registry:file",
+      "title": "Friends Laughing — Helena Lopes",
+      "description": "Three men and one woman laughing during daytime. Photo by Helena Lopes, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "people",
+        "candid",
+        "friends"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "e3OUQGT9bWU",
+        "credit": "Helena Lopes",
+        "photographer": "Helena Lopes",
+        "photographerUrl": "https://unsplash.com/@helenalopesph?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/three-men-and-one-woman-laughing-during-daytime-e3OUQGT9bWU?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 5090,
+        "height": 3393,
+        "color": "#f3f3f3",
+        "createdAt": "2017-11-29",
+        "tags": [
+          "woman",
+          "man",
+          "sunset",
+          "summer",
+          "female",
+          "friends",
+          "happy",
+          "group",
+          "smile",
+          "dance",
+          "male",
+          "friendship"
+        ],
+        "brief": {
+          "shotDescriptor": "Backlit candid group shot",
+          "subjectLabel": "four friends at golden hour",
+          "summary": "Four friends laugh and gesture against a blown-out sky, rimmed in low golden sun."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "scene",
+            "category": "Four adults in their 20s standing in a loose circle outdoors, talking and laughing; one raises a hand mid-gesture, another tips their head back",
+            "materials": "Light chambray and denim, a white cotton vest, a printed scarf, a ribbed tank top, sunglasses and wristwatches",
+            "form": "Two subjects on the left facing right, two on the right facing left, leaving an open gap of bright sky through the centre",
+            "condition": "Casual and warm-weather — sleeves rolled, shirts untucked, sunglasses on or in hand",
+            "colorway": "Pale blue, white and denim clothing rendered warm gold by the low sun, against a near-white sky"
+          },
+          "composition": {
+            "shotType": "Wide candid group shot",
+            "angle": "Slightly low, looking marginally up at the standing figures",
+            "placement": "Subjects split left and right with negative space at the centre; heads sit along the upper third",
+            "distance": "Mid — waist-up on all four",
+            "depthOfField": "Shallow; the landscape behind dissolves entirely",
+            "focusPoint": "The two laughing faces at centre-right"
+          },
+          "environment": {
+            "setting": "An open elevated outdoor spot at golden hour",
+            "background": "A completely blown-out pale sky with a faint hazy horizon low in the frame",
+            "depthLayers": "Three: the near subjects, the far subjects, the dissolved sky"
+          },
+          "lighting": {
+            "quality": "Strong, low, directional backlight",
+            "direction": "Sun low and behind the group, rimming hair and shoulders",
+            "colorTemp": "Very warm golden hour, with orange flare bleeding across the frame",
+            "shadows": "Faces sit in soft open shade; heavy lens flare crosses the left and right thirds"
+          },
+          "camera": {
+            "lensFeel": "Fast telephoto wide open, strong compression",
+            "quality": "Sharp on the subjects with creamy fall-off and blown highlights",
+            "artifacts": "Deliberate anamorphic-style flare and veiling glare",
+            "aesthetic": "Sun-drenched lifestyle; warm, filmic, advertising-ready"
+          },
+          "atmosphere": {
+            "mood": "Carefree, sociable, sunlit",
+            "narrative": "A group settling into an evening together as the light goes"
+          }
+        }
+      },
+      "files": [
+        {
+          "path": "people/people-friends-laughing.jpg",
+          "type": "registry:file",
+          "target": "public/media/people/people-friends-laughing.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "people-sunset-group",
+      "type": "registry:file",
+      "title": "Sunset Group — Helena Lopes",
+      "description": "Four person hands wrap around shoulders while looking at sunset. Photo by Helena Lopes, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "people",
+        "group",
+        "outdoors"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "PGnqT0rXWLs",
+        "credit": "Helena Lopes",
+        "photographer": "Helena Lopes",
+        "photographerUrl": "https://unsplash.com/@helenalopesph?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/four-person-hands-wrap-around-shoulders-while-looking-at-sunset-PGnqT0rXWLs?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 5472,
+        "height": 3648,
+        "color": "#f3f3f3",
+        "createdAt": "2017-11-25",
+        "tags": [
+          "woman",
+          "man",
+          "sunset",
+          "summer",
+          "female",
+          "white",
+          "friends",
+          "group",
+          "male",
+          "friendship",
+          "hug",
+          "golden hour"
+        ],
+        "brief": {
+          "shotDescriptor": "Backlit silhouette group",
+          "subjectLabel": "four friends at a lookout",
+          "summary": "Four friends stand arm in arm facing a hazy sunset over rolling hills, seen from behind."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "scene",
+            "category": "Four young adults standing shoulder to shoulder with arms across each other's backs, all facing away from camera toward the sun",
+            "materials": "Light denim jacket, white tees, cotton shorts and dark jeans, a patterned shirt worn over the shoulders, a wristwatch",
+            "form": "A single tight row across the centre of frame, evenly spaced, each figure linked to the next; backpacks and a bottle sit on the ground at the lower left",
+            "condition": "Warm-weather hiking dress, relaxed and settled after a walk",
+            "colorway": "Whites and pale denim turned amber by the sun, against golden grass and a hazy white sky"
+          },
+          "composition": {
+            "shotType": "Wide environmental group shot from behind",
+            "angle": "Eye level, straight on",
+            "placement": "The row of figures spans the centre; the sun burns through a gap between two of them",
+            "distance": "Full-length — all four seen head to foot",
+            "depthOfField": "Deep, softened overall by atmospheric haze",
+            "focusPoint": "The linked arms and shoulders at centre frame"
+          },
+          "environment": {
+            "setting": "A grassy hilltop lookout over a wide valley at sunset",
+            "background": "Layered hazy hills receding into a pale, washed-out sky",
+            "depthLayers": "Four: foreground grass and bags, the group, the valley, the distant ridges"
+          },
+          "lighting": {
+            "quality": "Strong low backlight heavily diffused by haze",
+            "direction": "Sun directly behind the group, near the horizon",
+            "colorTemp": "Intensely warm amber and gold throughout",
+            "shadows": "Long shadows run toward the camera; the figures read as near-silhouettes"
+          },
+          "camera": {
+            "lensFeel": "Normal lens, natural perspective",
+            "quality": "Soft overall with pronounced grain and lifted, hazy blacks",
+            "artifacts": "Heavy veiling glare, visible grain, a faint sun-star between two figures",
+            "aesthetic": "Nostalgic film travel photography; warm, grainy, romantic"
+          },
+          "atmosphere": {
+            "mood": "Reflective, close, elegiac",
+            "narrative": "Friends pausing together to watch the day end"
+          }
+        }
+      },
+      "files": [
+        {
+          "path": "people/people-sunset-group.jpg",
+          "type": "registry:file",
+          "target": "public/media/people/people-sunset-group.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "people-hill-jump",
+      "type": "registry:file",
+      "title": "Hilltop Jump — Bhong Bahala",
+      "description": "Six friends jumping joyfully on a grassy hill.. Photo by Bhong Bahala, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "people",
+        "group",
+        "outdoors"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "CjiMyoJpeCw",
+        "credit": "Bhong Bahala",
+        "photographer": "Bhong Bahala",
+        "photographerUrl": "https://unsplash.com/@bhongbahala10?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/six-friends-jumping-joyfully-on-a-grassy-hill-CjiMyoJpeCw?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 5000,
+        "height": 4000,
+        "color": "#d9f3f3",
+        "createdAt": "2025-09-23",
+        "tags": [
+          "blue",
+          "outdoor",
+          "grass",
+          "celebration",
+          "vacation",
+          "friendship",
+          "joy",
+          "fun",
+          "group of friends",
+          "outdoors",
+          "teal",
+          "active lifestyle"
+        ],
+        "brief": {
+          "shotDescriptor": "Mid-air group action shot",
+          "subjectLabel": "six friends jumping",
+          "summary": "Six friends leap in unison off a grassy hilltop against a vivid turquoise sky."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "scene",
+            "category": "Six young adults caught mid-jump above a grassy mound, arms flung up or out, several flashing peace signs, all facing camera",
+            "materials": "Athletic tees and tanks, running shorts and leggings, flip-flops and sandals, a baseball cap, a bucket hat, a sling bag, a handheld camera",
+            "form": "Figures spread evenly across a horizontal line at the crest of the hill, all airborne at slightly different heights and poses",
+            "condition": "Hot-weather casual — relaxed, sweaty, mid-outing",
+            "colorway": "Black, charcoal and white clothing against green grass and a saturated turquoise sky"
+          },
+          "composition": {
+            "shotType": "Wide full-length action group shot",
+            "angle": "Low, shooting up the slope so the horizon sits low",
+            "placement": "The row of jumpers runs across the upper third; the grassy mound fills the lower half",
+            "distance": "Full-length — all six seen head to foot",
+            "depthOfField": "Deep; everything sharp",
+            "focusPoint": "The central pair of jumpers"
+          },
+          "environment": {
+            "setting": "The crest of a grassy hill under an open sky",
+            "background": "A broad expanse of turquoise sky with thin high cloud",
+            "depthLayers": "Three: foreground grass, the hill crest with the jumpers, the open sky"
+          },
+          "lighting": {
+            "quality": "Bright, hard, open daylight",
+            "direction": "High sun, close to frontal",
+            "colorTemp": "Neutral-to-cool daylight with the sky pushed toward cyan in grade",
+            "shadows": "Short and hard beneath the figures; the grass holds strong contrast"
+          },
+          "camera": {
+            "lensFeel": "Normal to short telephoto, fast shutter freezing the motion",
+            "quality": "Sharp and clean with high colour saturation",
+            "artifacts": "Deliberate teal push in the sky",
+            "aesthetic": "Upbeat travel and group-holiday photography; bright and punchy"
+          },
+          "atmosphere": {
+            "mood": "Exuberant, celebratory, energetic",
+            "narrative": "The obligatory jump shot at the top of a climb"
+          }
+        }
+      },
+      "files": [
+        {
+          "path": "people/people-hill-jump.jpg",
+          "type": "registry:file",
+          "target": "public/media/people/people-hill-jump.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "people-team-laptop",
+      "type": "registry:file",
+      "title": "Team Huddle — Jud Mackrill",
+      "description": "Four coworkers smiling around laptop at table. Photo by Jud Mackrill, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "people",
+        "work",
+        "office"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "Of_m3hMsoAA",
+        "credit": "Jud Mackrill",
+        "photographer": "Jud Mackrill",
+        "photographerUrl": "https://unsplash.com/@judmackrill?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/four-coworkers-smiling-around-laptop-at-table-Of_m3hMsoAA?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 5760,
+        "height": 3840,
+        "color": "#d9d9d9",
+        "createdAt": "2019-10-25",
+        "tags": [
+          "office",
+          "business",
+          "meeting",
+          "working",
+          "macbook",
+          "young man",
+          "young woman",
+          "working together",
+          "apple watch",
+          "macbook pro",
+          "people working",
+          "young adult"
+        ],
+        "brief": {
+          "shotDescriptor": "Candid workplace group",
+          "subjectLabel": "four colleagues at a laptop",
+          "summary": "Four colleagues cluster around an open laptop, smiling as one points at the screen."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "scene",
+            "category": "Four colleagues around a light wood table — one seated at an open laptop, two standing behind, one seated to the right; the standing colleague leans in and points at the screen",
+            "materials": "Cotton tees, a polka-dot button shirt, a denim jacket, an open laptop, a smartwatch, a glass water bottle, a paper notebook and pen",
+            "form": "Three figures clustered around the left and centre with the fourth at the right edge; the pointing arm draws a diagonal into the screen",
+            "condition": "Relaxed workplace-casual — untucked shirts, sleeves rolled, an unstaged working moment",
+            "colorway": "Warm neutrals and denim blues against a white wall, with a large colourful abstract painting behind"
+          },
+          "composition": {
+            "shotType": "Wide candid group shot at table height",
+            "angle": "Slightly below standing eye level, level with the seated subjects",
+            "placement": "Subjects fill the upper two-thirds; the table runs across the bottom edge",
+            "distance": "Mid — waist-up on the standing figures",
+            "depthOfField": "Moderate; the artwork behind softens a little",
+            "focusPoint": "The seated subject's face and the laptop lid"
+          },
+          "environment": {
+            "setting": "A bright open-plan office or studio meeting space",
+            "background": "A white wall hung with two large expressionist paintings in muted reds, greens and creams",
+            "depthLayers": "Three: the table and laptops, the group, the artwork and wall"
+          },
+          "lighting": {
+            "quality": "Soft, bright, evenly diffused",
+            "direction": "Broad daylight from the front left, no hard key",
+            "colorTemp": "Neutral-warm",
+            "shadows": "Light and open, with soft modelling on the faces"
+          },
+          "camera": {
+            "lensFeel": "Normal lens, natural perspective",
+            "quality": "Clean, sharp, well-exposed digital capture",
+            "artifacts": "None",
+            "aesthetic": "Bright corporate lifestyle; authentic workplace stock"
+          },
+          "atmosphere": {
+            "mood": "Collaborative, upbeat, engaged",
+            "narrative": "A team reacting to something that just worked"
+          }
+        }
+      },
+      "files": [
+        {
+          "path": "people/people-team-laptop.jpg",
+          "type": "registry:file",
+          "target": "public/media/people/people-team-laptop.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "people-meeting",
+      "type": "registry:file",
+      "title": "Team Meeting — Mario Gogh",
+      "description": "Group of people having a meeting. Photo by Mario Gogh, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "people",
+        "work",
+        "office"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "VBLHICVh-lI",
+        "credit": "Mario Gogh",
+        "photographer": "Mario Gogh",
+        "photographerUrl": "https://unsplash.com/@mariogogh?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/group-of-people-having-a-meeting-VBLHICVh-lI?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 5551,
+        "height": 3701,
+        "color": "#0c2626",
+        "createdAt": "2018-11-09",
+        "tags": [
+          "office",
+          "business",
+          "meeting",
+          "room",
+          "grey",
+          "network",
+          "studio",
+          "office building",
+          "talk",
+          "startup",
+          "workplace",
+          "brainstorm"
+        ],
+        "brief": {
+          "shotDescriptor": "Observed office scene",
+          "subjectLabel": "a team meeting after dark",
+          "summary": "Seen through glass from a dim corridor, a team works late around a laptop-lit table."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "scene",
+            "category": "Five or six colleagues around a meeting-room table with open laptops — most seated, one standing at the near end in a white shirt, faces lit by their screens",
+            "materials": "Glass partition walls with a white wave graphic, exposed concrete, aluminium mesh office chairs, a light wood table, a glass water jug",
+            "form": "The meeting room occupies the left half behind glass; an empty corridor recedes down the right half toward a lit far end",
+            "condition": "An ordinary working evening — chairs pushed about, papers and cups on the table, nothing staged",
+            "colorway": "Desaturated slate greys and near-black, broken by cool laptop-screen blue and warm tungsten pools down the corridor"
+          },
+          "composition": {
+            "shotType": "Wide observational interior, shot through glass",
+            "angle": "Eye level, from the corridor looking in",
+            "placement": "The meeting fills the left half; the corridor's one-point perspective pulls the eye right",
+            "distance": "Wide — the whole room and corridor are in frame",
+            "depthOfField": "Deep; sharp throughout",
+            "focusPoint": "The seated group around the table"
+          },
+          "environment": {
+            "setting": "A modern open-plan office in the evening",
+            "background": "A long corridor of glass-walled rooms with warm wood panelling and downlights receding into the distance",
+            "depthLayers": "Four: the near glass and standing figure, the meeting table, the corridor, the lit far end"
+          },
+          "lighting": {
+            "quality": "Low, mixed and practical — no added light",
+            "direction": "Laptop screens uplighting the faces, ceiling downlights and track spots overhead",
+            "colorTemp": "Strongly mixed: cool blue screens against warm tungsten, on a cool grey base",
+            "shadows": "Deep and prevalent; large parts of the frame fall to near-black"
+          },
+          "camera": {
+            "lensFeel": "Wide angle, verticals near-straight",
+            "quality": "Available-light capture with visible shadow noise and a muted low-contrast grade",
+            "artifacts": "Reflections and the printed graphic on the glass sit between camera and subject",
+            "aesthetic": "Moody documentary; startup-at-night reportage"
+          },
+          "atmosphere": {
+            "mood": "Focused, quiet, industrious",
+            "narrative": "A team still working after the rest of the floor has emptied"
+          }
+        }
+      },
+      "files": [
+        {
+          "path": "people/people-meeting.jpg",
+          "type": "registry:file",
+          "target": "public/media/people/people-meeting.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "people-street-crowd",
+      "type": "registry:file",
+      "title": "Street Crowd — Rich Smith",
+      "description": "People walking on street during daytime. Photo by Rich Smith, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "people",
+        "street",
+        "city"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "R1obAiNAD5Y",
+        "credit": "Rich Smith",
+        "photographer": "Rich Smith",
+        "photographerUrl": "https://unsplash.com/@richwilliamsmith?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/people-walking-on-street-during-daytime-R1obAiNAD5Y?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 3932,
+        "height": 2614,
+        "color": "#8c8c73",
+        "createdAt": "2019-07-10",
+        "tags": [
+          "woman",
+          "city",
+          "road",
+          "women",
+          "street",
+          "france",
+          "urban",
+          "walking",
+          "walk",
+          "busy",
+          "bordeaux",
+          "pavement"
+        ],
+        "brief": {
+          "shotDescriptor": "Street documentary shot",
+          "subjectLabel": "shoppers on a city street",
+          "summary": "Pedestrians move both ways down a European shopping street under sale banners."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "scene",
+            "category": "Twenty or more pedestrians of mixed ages filling a pedestrianised shopping street — a woman in a white top and floral skirt walking toward camera at centre, others receding, plus a toddler in sunglasses being steadied at the left",
+            "materials": "Summer cotton — sun dresses, shorts, linen, tote and shoulder bags, sunglasses, sandals and trainers",
+            "form": "Two opposing flows of foot traffic converge along the street's vanishing point; the central walking figure is the only one fully facing camera",
+            "condition": "A hot ordinary shopping afternoon, entirely unposed",
+            "colorway": "Warm sandstone buildings and pale paving with white, tan and mint clothing; red and navy shop signage supplies the accents"
+          },
+          "composition": {
+            "shotType": "Wide street documentary, deep perspective",
+            "angle": "Eye level, straight down the street",
+            "placement": "The central figure sits on the middle vertical; buildings frame both sides and converge at the top centre",
+            "distance": "Mid to far — figures range from a few metres to a block away",
+            "depthOfField": "Moderately deep, with the far end softening",
+            "focusPoint": "The woman walking toward camera at centre"
+          },
+          "environment": {
+            "setting": "A pedestrianised shopping street in a French city in summer",
+            "background": "Nineteenth-century stone facades with wrought-iron balconies, shopfronts and hanging signs, and fabric BRADERIE sale banners strung overhead",
+            "depthLayers": "Five or more: near pedestrians, mid-ground walkers, the central figure, distant crowd, the buildings and banners above"
+          },
+          "lighting": {
+            "quality": "Bright but flat, diffused by high overcast",
+            "direction": "Open overhead daylight, no hard key",
+            "colorTemp": "Warm, with a golden cast pushed further in grade",
+            "shadows": "Soft and short; a bright blown-out sky closes the street's far end"
+          },
+          "camera": {
+            "lensFeel": "Short telephoto compressing the street's depth",
+            "quality": "Sharp with a warm, slightly faded film-like grade",
+            "artifacts": "Deliberate warm-toned grade and lifted blacks",
+            "aesthetic": "Classic street photography; European summer reportage"
+          },
+          "atmosphere": {
+            "mood": "Busy, sunlit, everyday",
+            "narrative": "A city street mid-afternoon during the summer sales"
+          }
+        }
+      },
+      "files": [
+        {
+          "path": "people/people-street-crowd.jpg",
+          "type": "registry:file",
+          "target": "public/media/people/people-street-crowd.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "people-night-crossing",
+      "type": "registry:file",
+      "title": "Night Crossing — Donny Jiang",
+      "description": "People walking on pedestrian lane during night time. Photo by Donny Jiang, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "people",
+        "street",
+        "city"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "OWrC7nDbeM0",
+        "credit": "Donny Jiang",
+        "photographer": "Donny Jiang",
+        "photographerUrl": "https://unsplash.com/@dotnny?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/people-walking-on-pedestrian-lane-during-night-time-OWrC7nDbeM0?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 2000,
+        "height": 3000,
+        "color": "#262626",
+        "createdAt": "2020-03-05",
+        "tags": [
+          "city",
+          "people",
+          "sunset",
+          "dark",
+          "blue",
+          "cars",
+          "night",
+          "street",
+          "crowd",
+          "bus",
+          "silhouette",
+          "moody"
+        ],
+        "brief": {
+          "shotDescriptor": "Elevated night street scene",
+          "subjectLabel": "commuters crossing in the rain",
+          "summary": "Commuters cross a wet downtown street at dusk, headlights streaking gold across the tarmac."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "scene",
+            "category": "A dozen or more commuters in winter coats crossing a wide downtown street at two separate crossings, several carrying backpacks and bags; a transit bus waits at the left",
+            "materials": "Heavy winter coats, beanies and flat caps, backpacks, a wet asphalt roadway, a glass skyway bridge",
+            "form": "Two horizontal bands of pedestrians — one mid-frame, one across the foreground — cut across the vertical flow of stopped traffic",
+            "condition": "Cold, wet and grey — melting snow banked at the kerbs, standing water across the road",
+            "colorway": "Cool blue-grey dusk broken by intense warm gold from headlights and their reflections"
+          },
+          "composition": {
+            "shotType": "Wide elevated street scene",
+            "angle": "High, looking down from a skyway or upper floor",
+            "placement": "The road recedes up the centre; the two pedestrian bands stack across the lower half",
+            "distance": "Far — figures are small within the wider scene",
+            "depthOfField": "Deep; sharp throughout",
+            "focusPoint": "The mid-frame group crossing in front of the stopped cars"
+          },
+          "environment": {
+            "setting": "A downtown intersection at dusk in winter, after rain or snowmelt",
+            "background": "Tall office towers, an enclosed glass skyway bridge spanning the street, a lit transit bus and rows of stopped cars",
+            "depthLayers": "Five: foreground crossing, the bus and near cars, the mid crossing, the traffic queue, the towers and skyway above"
+          },
+          "lighting": {
+            "quality": "Mixed and practical — fading daylight against artificial sources",
+            "direction": "Headlights raking from the far end toward camera, with ambient dusk from above",
+            "colorTemp": "Strong split: cold blue-grey ambient against hot amber headlights",
+            "shadows": "Long specular reflections streak down the wet road; figures read as near-silhouettes"
+          },
+          "camera": {
+            "lensFeel": "Telephoto from a height, strongly compressed",
+            "quality": "Sharp with rich shadow detail and a cinematic contrast grade",
+            "artifacts": "Deliberate teal-and-orange grade; wet-road specular flare",
+            "aesthetic": "Cinematic urban documentary; moody commuter reportage"
+          },
+          "atmosphere": {
+            "mood": "Cold, anonymous, atmospheric",
+            "narrative": "The evening commute on a wet winter night"
+          }
+        }
+      },
+      "files": [
+        {
+          "path": "people/people-night-crossing.jpg",
+          "type": "registry:file",
+          "target": "public/media/people/people-night-crossing.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "people-family-reading",
+      "type": "registry:file",
+      "title": "Family Reading — Ann Danilina",
+      "description": "Girl and boy reading book sitting between man and woman beside Christmas tree. Photo by Ann Danilina, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "people",
+        "family",
+        "home"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "c_rnPbSYVFM",
+        "credit": "Ann Danilina",
+        "photographer": "Ann Danilina",
+        "photographerUrl": "https://unsplash.com/@annhwa?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/girl-and-boy-reading-book-sitting-between-man-and-woman-beside-christmas-tree-c_rnPbSYVFM?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 5184,
+        "height": 3456,
+        "color": "#262626",
+        "createdAt": "2019-02-03",
+        "tags": [
+          "wallpaper",
+          "people",
+          "family",
+          "vintage",
+          "grey",
+          "happy",
+          "new year",
+          "kids",
+          "cozy",
+          "family time",
+          "canon",
+          "family together"
+        ],
+        "brief": {
+          "shotDescriptor": "Warm domestic family scene",
+          "subjectLabel": "a family reading together",
+          "summary": "Two parents and two children read a picture book on the floor beside a frosted Christmas tree."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "scene",
+            "category": "A family of four sitting on the floor around an open picture book — a woman at the left resting her chin on her hand, a girl and a younger boy at centre, a man at the right, all looking down at the pages",
+            "materials": "A navy textured knit jumper, a dark fluffy top, blue jeans, striped cotton tops, white tights and socks, a hardback picture book, a soft cream rug",
+            "form": "The four form a shallow arc around the book at the lower centre, everyone's gaze converging on it; the tree fills the upper right",
+            "condition": "Cosy and domestic — socks and bare feet, hair loose, an unguarded moment",
+            "colorway": "Cool blues and teals in the clothing against a white-flocked tree with blush and silver baubles, all under a desaturated cool grade"
+          },
+          "composition": {
+            "shotType": "Wide domestic group shot at floor level",
+            "angle": "Low, level with the seated family",
+            "placement": "Family spans the lower two-thirds; the book anchors the bottom centre; the tree occupies the right third",
+            "distance": "Mid — all four seen from the knees up",
+            "depthOfField": "Moderate; the tree and window soften slightly",
+            "focusPoint": "The children's faces and the open book"
+          },
+          "environment": {
+            "setting": "A living room at Christmas, beside a large window",
+            "background": "A tall white-flocked Christmas tree with pine cones, baubles, ribbons and warm fairy lights; a bright window and a wooden lantern with a candle at the left",
+            "depthLayers": "Four: the book and rug, the family, the tree and lantern, the window behind"
+          },
+          "lighting": {
+            "quality": "Soft, bright, diffused window light",
+            "direction": "Large window from the left, with warm fairy lights as a small practical accent",
+            "colorTemp": "Cool desaturated overall, with small warm points from the tree lights and candle",
+            "shadows": "Very soft and open, with gentle modelling on the faces"
+          },
+          "camera": {
+            "lensFeel": "Normal lens, natural perspective",
+            "quality": "Clean and sharp with a cool, slightly matte grade",
+            "artifacts": "Deliberate cool colour grade and lifted blacks",
+            "aesthetic": "Cosy seasonal lifestyle; soft Scandinavian-toned family stock"
+          },
+          "atmosphere": {
+            "mood": "Tender, calm, intimate",
+            "narrative": "A story being read together on a winter morning"
+          }
+        }
+      },
+      "files": [
+        {
+          "path": "people/people-family-reading.jpg",
+          "type": "registry:file",
+          "target": "public/media/people/people-family-reading.jpg"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "people-board-games",
+      "type": "registry:file",
+      "title": "Board Games — National Cancer Institute",
+      "description": "Family playing board games. Photo by National Cancer Institute, free for personal & commercial use.",
+      "categories": [
+        "image",
+        "media",
+        "people",
+        "family",
+        "home"
+      ],
+      "meta": {
+        "kind": "image",
+        "source": "envoyai",
+        "photoId": "VJVsEnR_vNE",
+        "credit": "National Cancer Institute",
+        "photographer": "National Cancer Institute",
+        "photographerUrl": "https://unsplash.com/@nci?utm_source=envoyai&utm_medium=referral",
+        "photoUrl": "https://unsplash.com/photos/family-playing-board-games-VJVsEnR_vNE?utm_source=envoyai&utm_medium=referral",
+        "licence": "Free for personal & commercial use",
+        "width": 12000,
+        "height": 7972,
+        "color": "#a68c8c",
+        "createdAt": "2020-01-01",
+        "tags": [
+          "girl",
+          "man",
+          "family",
+          "female",
+          "grey",
+          "happy",
+          "boy",
+          "child",
+          "mother",
+          "father",
+          "togetherness",
+          "coffee table"
+        ],
+        "brief": {
+          "shotDescriptor": "Candid living-room scene",
+          "subjectLabel": "a family playing a board game",
+          "summary": "Two parents and two boys lean over a board game on the coffee table, mid-turn."
+        },
+        "masterPrompt": {
+          "subject": {
+            "kind": "scene",
+            "category": "A family of four around a wooden coffee table playing a property board game — a man in the left foreground seen from behind, a woman beside him reaching for the board, and two boys leaning in from the right",
+            "materials": "A striped short-sleeve shirt, a coral button blouse, a striped orange tee, a cream tee, chinos and jeans, a folding game board with plastic houses, paper money and cards",
+            "form": "The four enclose the table on three sides; the board fills the lower centre with everyone's attention converging on it",
+            "condition": "Mid-game and lived-in — money and cards spread loose, pieces scattered, an unstaged domestic moment",
+            "colorway": "Warm beiges, taupes and browns through the room, lifted by coral and orange in the clothing and the game's red and green pieces"
+          },
+          "composition": {
+            "shotType": "Wide candid group shot at table height",
+            "angle": "Low, level with the seated players",
+            "placement": "Figures ring the frame edges; the board sits at the lower centre as the compositional anchor",
+            "distance": "Mid — the foreground figure is cropped by the frame",
+            "depthOfField": "Moderate; the sofa and windows behind soften",
+            "focusPoint": "The two boys' faces and their hands at the board"
+          },
+          "environment": {
+            "setting": "A suburban family living room in daytime",
+            "background": "A taupe sofa with fringed and olive cushions, white-framed sash windows onto a deck, beige walls",
+            "depthLayers": "Four: the cropped foreground figure, the table and board, the seated family, the sofa and windows"
+          },
+          "lighting": {
+            "quality": "Soft, warm, natural",
+            "direction": "Daylight through the windows behind, with warm ambient fill from the room",
+            "colorTemp": "Warm and slightly golden",
+            "shadows": "Soft and low-contrast, with gentle modelling on the faces"
+          },
+          "camera": {
+            "lensFeel": "Normal lens at close range, mild perspective",
+            "quality": "Sharp with natural colour and modest contrast",
+            "artifacts": "None",
+            "aesthetic": "Naturalistic family lifestyle; candid documentary stock"
+          },
+          "atmosphere": {
+            "mood": "Playful, engaged, companionable",
+            "narrative": "A family game night with a turn about to be taken"
+          }
+        }
+      },
+      "files": [
+        {
+          "path": "people/people-board-games.jpg",
+          "type": "registry:file",
+          "target": "public/media/people/people-board-games.jpg"
+        }
+      ]
     }
   ]
 }
