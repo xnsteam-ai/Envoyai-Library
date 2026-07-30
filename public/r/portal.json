@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "portal",
+  "title": "Portal",
+  "description": "Renders children into a different part of the DOM tree, mounted client-side only to avoid an SSR markup mismatch.",
+  "files": [
+    {
+      "path": "portal/portal.tsx",
+      "content": "\"use client\";\n\nimport * as React from \"react\";\nimport { createPortal } from \"react-dom\";\n\nexport interface PortalProps {\n  children: React.ReactNode;\n  /** Node to render into. Defaults to `document.body`. */\n  container?: Element | DocumentFragment | null;\n}\n\n/**\n * Renders its children into a different part of the DOM tree — the same job\n * Radix's own overlay primitives do internally, exposed here for cases that\n * need it directly (e.g. escaping an `overflow: hidden` ancestor for\n * something that isn't already a Dialog/Popover/Tooltip).\n *\n * Mounts after the first render rather than during it: `document` doesn't\n * exist during SSR, and portaling before hydration completes can produce a\n * server/client markup mismatch.\n */\nexport function Portal({ children, container }: PortalProps) {\n  const [mounted, setMounted] = React.useState(false);\n\n  React.useEffect(() => {\n    setMounted(true);\n  }, []);\n\n  if (!mounted) return null;\n\n  return createPortal(children, container ?? document.body);\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/portal.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "utility"
+  ],
+  "type": "registry:ui"
+}

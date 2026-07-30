@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tag",
+  "title": "Tag",
+  "description": "A dismissible/interactive chip for one item in a set the user picked — distinct from Badge, which is a static status indicator.",
+  "dependencies": [
+    "@radix-ui/react-slot",
+    "lucide-react"
+  ],
+  "files": [
+    {
+      "path": "tag/tag.tsx",
+      "content": "\"use client\";\n\nimport * as React from \"react\";\nimport { Slot } from \"@radix-ui/react-slot\";\nimport { cva, type VariantProps } from \"class-variance-authority\";\nimport { XIcon } from \"lucide-react\";\n\nimport { cn } from \"@/lib/utils\";\n\nconst tagVariants = cva(\n  \"inline-flex w-fit shrink-0 items-center gap-1.5 overflow-hidden rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap transition-[color,box-shadow] [&>svg]:size-3 [&>svg]:shrink-0 [&>svg]:pointer-events-none\",\n  {\n    variants: {\n      variant: {\n        default: \"border-transparent bg-secondary text-secondary-foreground\",\n        outline: \"text-foreground\",\n        accent: \"border-transparent bg-primary/10 text-primary\",\n      },\n    },\n    defaultVariants: { variant: \"default\" },\n  }\n);\n\nexport interface TagProps\n  extends React.ComponentProps<\"span\">,\n    VariantProps<typeof tagVariants> {\n  asChild?: boolean;\n  /** Renders a remove button; the tag disappears from selection, not just visually. */\n  onRemove?: () => void;\n  disabled?: boolean;\n}\n\n/**\n * A dismissible/interactive chip — distinct from `Badge`, which is a static\n * status indicator. A `Tag` represents one item in a set the user picked\n * (filters, recipients, selected options) and can be removed from that set.\n */\nexport function Tag({\n  className,\n  variant,\n  asChild = false,\n  onRemove,\n  disabled,\n  children,\n  ...props\n}: TagProps) {\n  const Comp = asChild ? Slot : \"span\";\n\n  return (\n    <Comp\n      data-slot=\"tag\"\n      data-disabled={disabled ? \"\" : undefined}\n      className={cn(\n        tagVariants({ variant }),\n        \"data-[disabled]:pointer-events-none data-[disabled]:opacity-50\",\n        className\n      )}\n      {...props}\n    >\n      {children}\n      {onRemove && (\n        <button\n          type=\"button\"\n          onClick={onRemove}\n          disabled={disabled}\n          aria-label=\"Remove\"\n          className=\"-mr-0.5 ml-0.5 inline-flex rounded-sm outline-none hover:bg-foreground/10 focus-visible:ring-1 focus-visible:ring-ring\"\n        >\n          <XIcon />\n        </button>\n      )}\n    </Comp>\n  );\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/tag.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "input",
+    "selection"
+  ],
+  "type": "registry:ui"
+}

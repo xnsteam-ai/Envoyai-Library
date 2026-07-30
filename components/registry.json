@@ -84,6 +84,104 @@
           "target": "components/ui/cta-banner.tsx"
         }
       ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "portal",
+      "type": "registry:ui",
+      "title": "Portal",
+      "description": "Renders children into a different part of the DOM tree, mounted client-side only to avoid an SSR markup mismatch.",
+      "categories": ["component", "utility"],
+      "files": [
+        {
+          "path": "portal/portal.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/portal.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "image",
+      "type": "registry:ui",
+      "title": "Image",
+      "description": "An img with real loading and error states — a skeleton while it loads, a fallback panel if it fails — instead of a blank box or a broken-image icon.",
+      "categories": ["component", "utility", "loading"],
+      "dependencies": ["lucide-react"],
+      "registryDependencies": ["aspect-ratio", "skeleton"],
+      "files": [
+        {
+          "path": "image/image.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/image.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "list",
+      "type": "registry:ui",
+      "title": "List",
+      "description": "A structured list of rows — plain, divided or bordered — with title/description sub-parts for real content instead of a bare ul/li.",
+      "categories": ["component", "layout", "data"],
+      "dependencies": ["@radix-ui/react-slot"],
+      "files": [
+        {
+          "path": "list/list.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/list.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "info-label",
+      "type": "registry:ui",
+      "title": "Info Label",
+      "description": "A form label with an inline info icon that reveals help text in a tooltip, instead of a permanent description line.",
+      "categories": ["component", "form", "tooltip"],
+      "dependencies": ["lucide-react"],
+      "registryDependencies": ["label", "tooltip"],
+      "files": [
+        {
+          "path": "info-label/info-label.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/info-label.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "search-box",
+      "type": "registry:ui",
+      "title": "Search Box",
+      "description": "A search field built on InputGroup — leading icon, a clear button once there's text, and an optional shortcut hint when there isn't.",
+      "categories": ["component", "form", "input"],
+      "dependencies": ["lucide-react"],
+      "registryDependencies": ["input-group"],
+      "files": [
+        {
+          "path": "search-box/search-box.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/search-box.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "tag",
+      "type": "registry:ui",
+      "title": "Tag",
+      "description": "A dismissible/interactive chip for one item in a set the user picked — distinct from Badge, which is a static status indicator.",
+      "categories": ["component", "input", "selection"],
+      "dependencies": ["@radix-ui/react-slot", "lucide-react"],
+      "files": [
+        {
+          "path": "tag/tag.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/tag.tsx"
+        }
+      ]
     }
   ]
 }

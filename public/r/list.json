@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "list",
+  "title": "List",
+  "description": "A structured list of rows — plain, divided or bordered — with title/description sub-parts for real content instead of a bare ul/li.",
+  "dependencies": [
+    "@radix-ui/react-slot"
+  ],
+  "files": [
+    {
+      "path": "list/list.tsx",
+      "content": "import * as React from \"react\";\nimport { Slot } from \"@radix-ui/react-slot\";\nimport { cva, type VariantProps } from \"class-variance-authority\";\n\nimport { cn } from \"@/lib/utils\";\n\nconst listVariants = cva(\"flex flex-col text-sm\", {\n  variants: {\n    variant: {\n      plain: \"gap-1\",\n      divided: \"divide-y divide-border\",\n      bordered: \"divide-y divide-border rounded-md border\",\n    },\n  },\n  defaultVariants: { variant: \"plain\" },\n});\n\nexport interface ListProps\n  extends React.ComponentProps<\"ul\">,\n    VariantProps<typeof listVariants> {}\n\n/** A structured list of rows — `divided`/`bordered` styles for real content, `plain` for a bare stack. */\nfunction List({ className, variant, ...props }: ListProps) {\n  return (\n    <ul data-slot=\"list\" className={cn(listVariants({ variant }), className)} {...props} />\n  );\n}\n\nexport interface ListItemProps extends React.ComponentProps<\"li\"> {\n  asChild?: boolean;\n  /** Marks the row selected/current — same convention as a menu item. */\n  active?: boolean;\n  disabled?: boolean;\n}\n\nfunction ListItem({\n  className,\n  asChild = false,\n  active,\n  disabled,\n  ...props\n}: ListItemProps) {\n  const Comp = asChild ? Slot : \"li\";\n  return (\n    <Comp\n      data-slot=\"list-item\"\n      data-active={active ? \"\" : undefined}\n      data-disabled={disabled ? \"\" : undefined}\n      className={cn(\n        \"flex items-center gap-3 px-3 py-2.5 [.divide-y_>&]:px-4\",\n        \"data-[active]:bg-accent data-[active]:text-accent-foreground\",\n        \"data-[disabled]:pointer-events-none data-[disabled]:opacity-50\",\n        className\n      )}\n      {...props}\n    />\n  );\n}\n\nfunction ListItemContent({ className, ...props }: React.ComponentProps<\"div\">) {\n  return (\n    <div\n      data-slot=\"list-item-content\"\n      className={cn(\"flex min-w-0 flex-1 flex-col gap-0.5\", className)}\n      {...props}\n    />\n  );\n}\n\nfunction ListItemTitle({ className, ...props }: React.ComponentProps<\"span\">) {\n  return (\n    <span\n      data-slot=\"list-item-title\"\n      className={cn(\"truncate font-medium\", className)}\n      {...props}\n    />\n  );\n}\n\nfunction ListItemDescription({ className, ...props }: React.ComponentProps<\"span\">) {\n  return (\n    <span\n      data-slot=\"list-item-description\"\n      className={cn(\"truncate text-muted-foreground\", className)}\n      {...props}\n    />\n  );\n}\n\nexport { List, ListItem, ListItemContent, ListItemTitle, ListItemDescription };\n",
+      "type": "registry:ui",
+      "target": "components/ui/list.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "layout",
+    "data"
+  ],
+  "type": "registry:ui"
+}

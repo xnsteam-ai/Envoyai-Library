@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "info-label",
+  "title": "Info Label",
+  "description": "A form label with an inline info icon that reveals help text in a tooltip, instead of a permanent description line.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "label",
+    "tooltip"
+  ],
+  "files": [
+    {
+      "path": "info-label/info-label.tsx",
+      "content": "\"use client\";\n\nimport * as React from \"react\";\nimport { InfoIcon } from \"lucide-react\";\n\nimport { cn } from \"@/lib/utils\";\nimport { Label } from \"@/components/ui/label\";\nimport { Tooltip, TooltipContent, TooltipTrigger } from \"@/components/ui/tooltip\";\n\nexport interface InfoLabelProps extends React.ComponentProps<typeof Label> {\n  /** The help text shown in the tooltip. */\n  info: React.ReactNode;\n}\n\n/**\n * A form label with an inline info icon — hovering or focusing it reveals\n * `info` in a tooltip, without pushing a permanent description line into the\n * form layout.\n */\nexport function InfoLabel({ className, info, children, ...props }: InfoLabelProps) {\n  return (\n    <Label className={cn(\"gap-1.5\", className)} {...props}>\n      {children}\n      <Tooltip>\n        <TooltipTrigger asChild>\n          <button\n            type=\"button\"\n            className=\"inline-flex text-muted-foreground outline-none transition-colors hover:text-foreground focus-visible:text-foreground\"\n            aria-label=\"More information\"\n          >\n            <InfoIcon className=\"size-3.5\" />\n          </button>\n        </TooltipTrigger>\n        <TooltipContent>{info}</TooltipContent>\n      </Tooltip>\n    </Label>\n  );\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/info-label.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "form",
+    "tooltip"
+  ],
+  "type": "registry:ui"
+}

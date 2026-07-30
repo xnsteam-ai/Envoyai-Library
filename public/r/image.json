@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "image",
+  "title": "Image",
+  "description": "An img with real loading and error states — a skeleton while it loads, a fallback panel if it fails — instead of a blank box or a broken-image icon.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "aspect-ratio",
+    "skeleton"
+  ],
+  "files": [
+    {
+      "path": "image/image.tsx",
+      "content": "\"use client\";\n\nimport * as React from \"react\";\nimport { ImageOffIcon } from \"lucide-react\";\nimport { cva, type VariantProps } from \"class-variance-authority\";\n\nimport { cn } from \"@/lib/utils\";\nimport { AspectRatio } from \"@/components/ui/aspect-ratio\";\nimport { Skeleton } from \"@/components/ui/skeleton\";\n\nconst imageVariants = cva(\"size-full\", {\n  variants: {\n    fit: {\n      cover: \"object-cover\",\n      contain: \"object-contain\",\n      fill: \"object-fill\",\n      none: \"object-none\",\n    },\n  },\n  defaultVariants: { fit: \"cover\" },\n});\n\nexport interface ImageProps\n  extends Omit<React.ComponentProps<\"img\">, \"onLoad\" | \"onError\">,\n    VariantProps<typeof imageVariants> {\n  /** Locks the frame to a ratio (e.g. `16 / 9`) and centers the image within it. */\n  ratio?: number;\n  /** Skips the loading skeleton — the caller already knows the image is cached. */\n  skipSkeleton?: boolean;\n}\n\n/**\n * An `<img>` with real loading and error states instead of a blank box or a\n * broken-image icon: a skeleton while the network request is in flight, and\n * a muted fallback panel if it fails, so a broken URL never looks like a\n * layout bug.\n */\nexport function Image({\n  className,\n  fit,\n  ratio,\n  skipSkeleton = false,\n  alt,\n  ...props\n}: ImageProps) {\n  const [status, setStatus] = React.useState<\"loading\" | \"loaded\" | \"error\">(\n    skipSkeleton ? \"loaded\" : \"loading\"\n  );\n\n  const content = (\n    <div className=\"relative size-full overflow-hidden rounded-md bg-muted\">\n      {status === \"loading\" && <Skeleton className=\"absolute inset-0 rounded-md\" />}\n\n      {status === \"error\" ? (\n        <div className=\"flex size-full flex-col items-center justify-center gap-2 text-muted-foreground\">\n          <ImageOffIcon className=\"size-6\" />\n          <span className=\"text-xs\">Image failed to load</span>\n        </div>\n      ) : (\n        <img\n          alt={alt}\n          className={cn(\n            imageVariants({ fit }),\n            status === \"loading\" && \"opacity-0\",\n            \"transition-opacity duration-200\",\n            className\n          )}\n          onLoad={() => setStatus(\"loaded\")}\n          onError={() => setStatus(\"error\")}\n          {...props}\n        />\n      )}\n    </div>\n  );\n\n  if (ratio) {\n    return <AspectRatio ratio={ratio}>{content}</AspectRatio>;\n  }\n\n  return content;\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/image.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "utility",
+    "loading"
+  ],
+  "type": "registry:ui"
+}

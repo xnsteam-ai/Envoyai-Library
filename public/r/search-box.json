@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "search-box",
+  "title": "Search Box",
+  "description": "A search field built on InputGroup — leading icon, a clear button once there's text, and an optional shortcut hint when there isn't.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "input-group"
+  ],
+  "files": [
+    {
+      "path": "search-box/search-box.tsx",
+      "content": "\"use client\";\n\nimport * as React from \"react\";\nimport { SearchIcon, XIcon } from \"lucide-react\";\n\nimport {\n  InputGroup,\n  InputGroupAddon,\n  InputGroupButton,\n  InputGroupInput,\n} from \"@/components/ui/input-group\";\n\nexport interface SearchBoxProps\n  extends Omit<React.ComponentProps<typeof InputGroupInput>, \"value\" | \"defaultValue\"> {\n  value?: string;\n  defaultValue?: string;\n  onValueChange?: (value: string) => void;\n  /** A shortcut hint shown on the trailing edge when the field is empty, e.g. `\"⌘K\"`. */\n  shortcut?: string;\n}\n\n/**\n * A search field: leading icon, trailing clear button once there's text (or\n * a shortcut hint when there isn't), built on `InputGroup` rather than a\n * bare `Input` with absolutely-positioned icons.\n */\nexport function SearchBox({\n  value,\n  defaultValue,\n  onValueChange,\n  shortcut,\n  placeholder = \"Search…\",\n  ...props\n}: SearchBoxProps) {\n  const isControlled = value !== undefined;\n  const [internal, setInternal] = React.useState(defaultValue ?? \"\");\n  const current = isControlled ? value : internal;\n\n  const setValue = (next: string) => {\n    if (!isControlled) setInternal(next);\n    onValueChange?.(next);\n  };\n\n  return (\n    <InputGroup>\n      <InputGroupAddon>\n        <SearchIcon />\n      </InputGroupAddon>\n      <InputGroupInput\n        value={current}\n        placeholder={placeholder}\n        onChange={(e) => setValue(e.target.value)}\n        {...props}\n      />\n      <InputGroupAddon align=\"inline-end\">\n        {current ? (\n          <InputGroupButton aria-label=\"Clear search\" onClick={() => setValue(\"\")}>\n            <XIcon />\n          </InputGroupButton>\n        ) : (\n          shortcut && (\n            <kbd className=\"rounded border bg-muted px-1.5 py-0.5 font-mono text-[10px] text-muted-foreground\">\n              {shortcut}\n            </kbd>\n          )\n        )}\n      </InputGroupAddon>\n    </InputGroup>\n  );\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/search-box.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "form",
+    "input"
+  ],
+  "type": "registry:ui"
+}
