@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "spin-button",
+  "title": "Spin Button",
+  "description": "A number field with increment/decrement steppers — arrow keys and the button pair both move by step, clamped to min/max.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "input-group"
+  ],
+  "files": [
+    {
+      "path": "spin-button/spin-button.tsx",
+      "content": "\"use client\";\n\nimport * as React from \"react\";\nimport { ChevronDownIcon, ChevronUpIcon } from \"lucide-react\";\n\nimport {\n  InputGroup,\n  InputGroupAddon,\n  InputGroupButton,\n  InputGroupInput,\n} from \"@/components/ui/input-group\";\n\nexport interface SpinButtonProps {\n  value?: number;\n  defaultValue?: number;\n  onValueChange?: (value: number) => void;\n  min?: number;\n  max?: number;\n  step?: number;\n  disabled?: boolean;\n  className?: string;\n}\n\nfunction clamp(n: number, min?: number, max?: number) {\n  if (min !== undefined) n = Math.max(min, n);\n  if (max !== undefined) n = Math.min(max, n);\n  return n;\n}\n\n/**\n * A number field with increment/decrement steppers — arrow keys and the\n * button pair both move by `step`, clamped to `min`/`max`. Built on\n * InputGroup rather than a raw Input with two absolutely-positioned buttons.\n */\nexport function SpinButton({\n  value,\n  defaultValue = 0,\n  onValueChange,\n  min,\n  max,\n  step = 1,\n  disabled,\n  className,\n}: SpinButtonProps) {\n  const isControlled = value !== undefined;\n  const [internal, setInternal] = React.useState(defaultValue);\n  const current = isControlled ? value : internal;\n\n  const commit = (next: number) => {\n    const clamped = clamp(next, min, max);\n    if (!isControlled) setInternal(clamped);\n    onValueChange?.(clamped);\n  };\n\n  return (\n    <InputGroup className={className}>\n      <InputGroupInput\n        type=\"text\"\n        inputMode=\"decimal\"\n        role=\"spinbutton\"\n        aria-valuenow={current}\n        aria-valuemin={min}\n        aria-valuemax={max}\n        disabled={disabled}\n        value={current}\n        onChange={(e) => {\n          const n = Number(e.target.value);\n          if (!Number.isNaN(n)) commit(n);\n        }}\n        onKeyDown={(e) => {\n          if (e.key === \"ArrowUp\") {\n            e.preventDefault();\n            commit(current + step);\n          } else if (e.key === \"ArrowDown\") {\n            e.preventDefault();\n            commit(current - step);\n          }\n        }}\n      />\n      <InputGroupAddon align=\"inline-end\" className=\"flex-col gap-0 py-0 pr-1\">\n        <InputGroupButton\n          aria-label=\"Increment\"\n          disabled={disabled || (max !== undefined && current >= max)}\n          onClick={() => commit(current + step)}\n          className=\"size-4\"\n        >\n          <ChevronUpIcon />\n        </InputGroupButton>\n        <InputGroupButton\n          aria-label=\"Decrement\"\n          disabled={disabled || (min !== undefined && current <= min)}\n          onClick={() => commit(current - step)}\n          className=\"size-4\"\n        >\n          <ChevronDownIcon />\n        </InputGroupButton>\n      </InputGroupAddon>\n    </InputGroup>\n  );\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/spin-button.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "form",
+    "input"
+  ],
+  "type": "registry:ui"
+}

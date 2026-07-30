@@ -231,6 +231,88 @@
           "target": "components/ui/app-provider.tsx"
         }
       ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "spin-button",
+      "type": "registry:ui",
+      "title": "Spin Button",
+      "description": "A number field with increment/decrement steppers — arrow keys and the button pair both move by step, clamped to min/max.",
+      "categories": ["component", "form", "input"],
+      "dependencies": ["lucide-react"],
+      "registryDependencies": ["input-group"],
+      "files": [
+        {
+          "path": "spin-button/spin-button.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/spin-button.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "rating",
+      "type": "registry:ui",
+      "title": "Rating",
+      "description": "An interactive star rating input, with optional half-star clicks and keyboard-free hover feedback.",
+      "categories": ["component", "form", "input"],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "rating/rating.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/rating.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "rating-display",
+      "type": "registry:ui",
+      "title": "Rating Display",
+      "description": "A read-only rating — filled/partial/empty stars plus an optional review count — for showing an average rather than collecting one.",
+      "categories": ["component", "data"],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "rating-display/rating-display.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/rating-display.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "swatch-picker",
+      "type": "registry:ui",
+      "title": "Swatch Picker",
+      "description": "A grid of preset color swatches on a single RadioGroup, so selection and keyboard navigation come for free.",
+      "categories": ["component", "form", "color"],
+      "dependencies": ["lucide-react"],
+      "registryDependencies": ["radio-group"],
+      "files": [
+        {
+          "path": "swatch-picker/swatch-picker.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/swatch-picker.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "color-picker",
+      "type": "registry:ui",
+      "title": "Color Picker",
+      "description": "A saturation/value area, a hue slider and a hex input kept in sync through one HSV state, built without a color-math dependency.",
+      "categories": ["component", "form", "color"],
+      "registryDependencies": ["input"],
+      "files": [
+        {
+          "path": "color-picker/color-picker.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/color-picker.tsx"
+        }
+      ]
     }
   ]
 }

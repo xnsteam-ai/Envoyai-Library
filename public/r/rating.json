@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "rating",
+  "title": "Rating",
+  "description": "An interactive star rating input, with optional half-star clicks and keyboard-free hover feedback.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "files": [
+    {
+      "path": "rating/rating.tsx",
+      "content": "\"use client\";\n\nimport * as React from \"react\";\nimport { StarIcon } from \"lucide-react\";\n\nimport { cn } from \"@/lib/utils\";\n\nexport interface RatingProps {\n  value?: number;\n  defaultValue?: number;\n  onValueChange?: (value: number) => void;\n  max?: number;\n  /** Lets each star register a half-value click on its left half. */\n  allowHalf?: boolean;\n  disabled?: boolean;\n  size?: \"sm\" | \"default\" | \"lg\";\n  className?: string;\n}\n\nconst SIZE_CLASS = { sm: \"size-4\", default: \"size-5\", lg: \"size-6\" };\n\n/**\n * An interactive star rating input. Each star is two overlapping buttons\n * (left half / right half) when `allowHalf` is set, so a half-value click\n * doesn't need pointer-position math — just two normal click targets.\n */\nexport function Rating({\n  value,\n  defaultValue = 0,\n  onValueChange,\n  max = 5,\n  allowHalf = false,\n  disabled = false,\n  size = \"default\",\n  className,\n}: RatingProps) {\n  const isControlled = value !== undefined;\n  const [internal, setInternal] = React.useState(defaultValue);\n  const [hovered, setHovered] = React.useState<number | null>(null);\n\n  const current = isControlled ? value! : internal;\n  const displayed = hovered ?? current;\n\n  const commit = (next: number) => {\n    if (!isControlled) setInternal(next);\n    onValueChange?.(next);\n  };\n\n  return (\n    <div\n      role=\"radiogroup\"\n      aria-label=\"Rating\"\n      className={cn(\"inline-flex items-center gap-0.5\", className)}\n      onMouseLeave={() => setHovered(null)}\n    >\n      {Array.from({ length: max }, (_, i) => {\n        const starValue = i + 1;\n        const fill = clampFill(displayed - i);\n\n        return (\n          <div key={i} className={cn(\"relative\", SIZE_CLASS[size])}>\n            <StarIcon\n              className={cn(\"absolute inset-0 size-full text-muted-foreground/40\")}\n              fill=\"currentColor\"\n            />\n            {fill > 0 && (\n              <div className=\"absolute inset-0 overflow-hidden\" style={{ width: `${fill * 100}%` }}>\n                <StarIcon className={cn(SIZE_CLASS[size], \"text-amber-500\")} fill=\"currentColor\" />\n              </div>\n            )}\n            {!disabled && (\n              <>\n                {allowHalf && (\n                  <button\n                    type=\"button\"\n                    aria-label={`Rate ${starValue - 0.5}`}\n                    className=\"absolute inset-y-0 left-0 w-1/2 cursor-pointer\"\n                    onMouseEnter={() => setHovered(starValue - 0.5)}\n                    onClick={() => commit(starValue - 0.5)}\n                  />\n                )}\n                <button\n                  type=\"button\"\n                  aria-label={`Rate ${starValue}`}\n                  className={cn(\"absolute inset-y-0 cursor-pointer\", allowHalf ? \"left-1/2 w-1/2\" : \"inset-x-0\")}\n                  onMouseEnter={() => setHovered(starValue)}\n                  onClick={() => commit(starValue)}\n                />\n              </>\n            )}\n          </div>\n        );\n      })}\n    </div>\n  );\n}\n\nfunction clampFill(n: number) {\n  return Math.max(0, Math.min(1, n));\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/rating.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "form",
+    "input"
+  ],
+  "type": "registry:ui"
+}
