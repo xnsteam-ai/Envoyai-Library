@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "app-provider",
+  "title": "App Provider",
+  "description": "The one wrapper an app mounts at its root: theme, a shared tooltip provider and the toast viewport.",
+  "dependencies": [
+    "next-themes"
+  ],
+  "registryDependencies": [
+    "tooltip",
+    "sonner"
+  ],
+  "files": [
+    {
+      "path": "app-provider/app-provider.tsx",
+      "content": "\"use client\";\n\nimport * as React from \"react\";\nimport { ThemeProvider } from \"next-themes\";\n\nimport { TooltipProvider } from \"@/components/ui/tooltip\";\nimport { Toaster } from \"@/components/ui/sonner\";\n\nexport interface AppProviderProps {\n  children: React.ReactNode;\n  defaultTheme?: \"light\" | \"dark\" | \"system\";\n}\n\n/**\n * The one wrapper an app mounts at its root: theme (light/dark/system via\n * `next-themes`), a shared `TooltipProvider` so every tooltip in the tree\n * uses one delay group instead of re-mounting its own, and the toast\n * viewport. Fluent UI calls this `FluentProvider`; kept neutral here since\n * this registry isn't shipping the Fluent design system, just the same\n * \"wrap the app once\" role.\n */\nexport function AppProvider({ children, defaultTheme = \"system\" }: AppProviderProps) {\n  return (\n    <ThemeProvider attribute=\"class\" defaultTheme={defaultTheme} enableSystem>\n      <TooltipProvider>\n        {children}\n        <Toaster />\n      </TooltipProvider>\n    </ThemeProvider>\n  );\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/app-provider.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "utility",
+    "provider"
+  ],
+  "type": "registry:ui"
+}

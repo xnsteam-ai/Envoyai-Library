@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "avatar-group",
+  "title": "Avatar Group",
+  "description": "Overlapping avatars with a max cutoff that collapses the rest into a single \"+N\" circle.",
+  "registryDependencies": [
+    "avatar"
+  ],
+  "files": [
+    {
+      "path": "avatar-group/avatar-group.tsx",
+      "content": "\"use client\";\n\nimport * as React from \"react\";\n\nimport { cn } from \"@/lib/utils\";\nimport { Avatar, AvatarFallback } from \"@/components/ui/avatar\";\n\nexport interface AvatarGroupProps extends React.ComponentProps<\"div\"> {\n  /** Avatars beyond this count collapse into a single \"+N\" circle. */\n  max?: number;\n}\n\n/**\n * Overlapping avatars for \"N people on this thing\" — a stack with a `max`\n * cutoff, not just a row. Composes over the existing `Avatar` rather than\n * requiring a newer size-aware Avatar variant, so it works with whatever\n * Avatar is already installed.\n */\nexport function AvatarGroup({ className, max, children, ...props }: AvatarGroupProps) {\n  const items = React.Children.toArray(children);\n  const visible = max ? items.slice(0, max) : items;\n  const overflow = max ? items.length - visible.length : 0;\n\n  return (\n    <div\n      data-slot=\"avatar-group\"\n      className={cn(\"flex -space-x-3\", className)}\n      {...props}\n    >\n      {visible.map((child, i) => (\n        <div key={i} className=\"rounded-full ring-2 ring-background\">\n          {child}\n        </div>\n      ))}\n      {overflow > 0 && (\n        <div className=\"rounded-full ring-2 ring-background\">\n          <Avatar>\n            <AvatarFallback className=\"text-xs\">+{overflow}</AvatarFallback>\n          </Avatar>\n        </div>\n      )}\n    </div>\n  );\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/avatar-group.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "identity"
+  ],
+  "type": "registry:ui"
+}

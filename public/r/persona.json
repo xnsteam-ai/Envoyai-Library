@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "persona",
+  "title": "Persona",
+  "description": "An avatar paired with name, secondary text and a presence indicator — the \"who is this\" unit used across lists, headers and cards.",
+  "registryDependencies": [
+    "avatar"
+  ],
+  "files": [
+    {
+      "path": "persona/persona.tsx",
+      "content": "import * as React from \"react\";\n\nimport { cn } from \"@/lib/utils\";\nimport { Avatar, AvatarFallback, AvatarImage } from \"@/components/ui/avatar\";\n\nexport type PersonaPresence = \"online\" | \"away\" | \"busy\" | \"offline\";\n\nconst PRESENCE_COLOR: Record<PersonaPresence, string> = {\n  online: \"bg-emerald-500\",\n  away: \"bg-amber-500\",\n  busy: \"bg-red-500\",\n  offline: \"bg-muted-foreground/40\",\n};\n\nconst SIZES = {\n  sm: { avatar: \"size-8\", dot: \"size-2.5\", name: \"text-sm\", secondary: \"text-xs\" },\n  default: { avatar: \"size-10\", dot: \"size-3\", name: \"text-sm\", secondary: \"text-xs\" },\n  lg: { avatar: \"size-12\", dot: \"size-3.5\", name: \"text-base\", secondary: \"text-sm\" },\n} as const;\n\nexport interface PersonaProps extends React.ComponentProps<\"div\"> {\n  name: string;\n  secondaryText?: React.ReactNode;\n  avatarSrc?: string;\n  /** Falls back to initials from `name` when omitted. */\n  avatarFallback?: React.ReactNode;\n  presence?: PersonaPresence;\n  size?: keyof typeof SIZES;\n}\n\nfunction initials(name: string) {\n  const parts = name.trim().split(/\\s+/);\n  return ((parts[0]?.[0] ?? \"\") + (parts[parts.length - 1]?.[0] ?? \"\")).toUpperCase();\n}\n\n/** An avatar paired with name, secondary text and a presence indicator — the \"who is this\" unit used across lists, headers and cards. */\nexport function Persona({\n  className,\n  name,\n  secondaryText,\n  avatarSrc,\n  avatarFallback,\n  presence,\n  size = \"default\",\n  ...props\n}: PersonaProps) {\n  const s = SIZES[size];\n\n  return (\n    <div data-slot=\"persona\" className={cn(\"flex items-center gap-3\", className)} {...props}>\n      <div className=\"relative shrink-0\">\n        <Avatar className={s.avatar}>\n          {avatarSrc && <AvatarImage src={avatarSrc} alt={name} />}\n          <AvatarFallback>{avatarFallback ?? initials(name)}</AvatarFallback>\n        </Avatar>\n        {presence && (\n          <span\n            className={cn(\n              \"absolute right-0 bottom-0 rounded-full ring-2 ring-background\",\n              PRESENCE_COLOR[presence],\n              s.dot\n            )}\n            aria-label={`Presence: ${presence}`}\n          />\n        )}\n      </div>\n      <div className=\"flex min-w-0 flex-col\">\n        <span className={cn(\"truncate font-medium\", s.name)}>{name}</span>\n        {secondaryText && (\n          <span className={cn(\"truncate text-muted-foreground\", s.secondary)}>\n            {secondaryText}\n          </span>\n        )}\n      </div>\n    </div>\n  );\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/persona.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "identity"
+  ],
+  "type": "registry:ui"
+}

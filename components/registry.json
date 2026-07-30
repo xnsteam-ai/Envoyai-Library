@@ -182,6 +182,55 @@
           "target": "components/ui/tag.tsx"
         }
       ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "avatar-group",
+      "type": "registry:ui",
+      "title": "Avatar Group",
+      "description": "Overlapping avatars with a max cutoff that collapses the rest into a single \"+N\" circle.",
+      "categories": ["component", "identity"],
+      "registryDependencies": ["avatar"],
+      "files": [
+        {
+          "path": "avatar-group/avatar-group.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/avatar-group.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "persona",
+      "type": "registry:ui",
+      "title": "Persona",
+      "description": "An avatar paired with name, secondary text and a presence indicator — the \"who is this\" unit used across lists, headers and cards.",
+      "categories": ["component", "identity"],
+      "registryDependencies": ["avatar"],
+      "files": [
+        {
+          "path": "persona/persona.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/persona.tsx"
+        }
+      ]
+    },
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "app-provider",
+      "type": "registry:ui",
+      "title": "App Provider",
+      "description": "The one wrapper an app mounts at its root: theme, a shared tooltip provider and the toast viewport.",
+      "categories": ["component", "utility", "provider"],
+      "dependencies": ["next-themes"],
+      "registryDependencies": ["tooltip", "sonner"],
+      "files": [
+        {
+          "path": "app-provider/app-provider.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/app-provider.tsx"
+        }
+      ]
     }
   ]
 }
