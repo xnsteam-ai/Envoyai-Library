@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "toolbar",
+  "title": "Toolbar",
+  "description": "A row of grouped actions on Radix's Toolbar primitive — proper roving-tabindex keyboard navigation between buttons, links and toggle groups.",
+  "dependencies": [
+    "@radix-ui/react-toolbar"
+  ],
+  "registryDependencies": [
+    "button",
+    "toggle"
+  ],
+  "files": [
+    {
+      "path": "toolbar/toolbar.tsx",
+      "content": "\"use client\";\n\nimport * as React from \"react\";\nimport * as ToolbarPrimitive from \"@radix-ui/react-toolbar\";\nimport { type VariantProps } from \"class-variance-authority\";\n\nimport { cn } from \"@/lib/utils\";\nimport { buttonVariants } from \"@/components/ui/button\";\nimport { toggleVariants } from \"@/components/ui/toggle\";\n\nfunction Toolbar({ className, ...props }: React.ComponentProps<typeof ToolbarPrimitive.Root>) {\n  return (\n    <ToolbarPrimitive.Root\n      data-slot=\"toolbar\"\n      className={cn(\"flex items-center gap-1 rounded-md border bg-background p-1\", className)}\n      {...props}\n    />\n  );\n}\n\nfunction ToolbarButton({\n  className,\n  variant = \"ghost\",\n  size = \"sm\",\n  ...props\n}: React.ComponentProps<typeof ToolbarPrimitive.Button> & VariantProps<typeof buttonVariants>) {\n  return (\n    <ToolbarPrimitive.Button\n      data-slot=\"toolbar-button\"\n      className={cn(buttonVariants({ variant, size }), className)}\n      {...props}\n    />\n  );\n}\n\nfunction ToolbarLink({ className, ...props }: React.ComponentProps<typeof ToolbarPrimitive.Link>) {\n  return (\n    <ToolbarPrimitive.Link\n      data-slot=\"toolbar-link\"\n      className={cn(buttonVariants({ variant: \"ghost\", size: \"sm\" }), className)}\n      {...props}\n    />\n  );\n}\n\nfunction ToolbarSeparator({ className, ...props }: React.ComponentProps<typeof ToolbarPrimitive.Separator>) {\n  return (\n    <ToolbarPrimitive.Separator\n      data-slot=\"toolbar-separator\"\n      className={cn(\"mx-1 h-6 w-px bg-border\", className)}\n      {...props}\n    />\n  );\n}\n\nfunction ToolbarToggleGroup({ className, ...props }: React.ComponentProps<typeof ToolbarPrimitive.ToggleGroup>) {\n  return (\n    <ToolbarPrimitive.ToggleGroup\n      data-slot=\"toolbar-toggle-group\"\n      className={cn(\"flex items-center gap-1\", className)}\n      {...props}\n    />\n  );\n}\n\nfunction ToolbarToggleItem({\n  className,\n  variant,\n  size = \"sm\",\n  ...props\n}: React.ComponentProps<typeof ToolbarPrimitive.ToggleItem> & VariantProps<typeof toggleVariants>) {\n  return (\n    <ToolbarPrimitive.ToggleItem\n      data-slot=\"toolbar-toggle-item\"\n      className={cn(toggleVariants({ variant, size }), className)}\n      {...props}\n    />\n  );\n}\n\nexport {\n  Toolbar,\n  ToolbarButton,\n  ToolbarLink,\n  ToolbarSeparator,\n  ToolbarToggleGroup,\n  ToolbarToggleItem,\n};\n",
+      "type": "registry:ui",
+      "target": "components/ui/toolbar.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "layout",
+    "actions"
+  ],
+  "type": "registry:ui"
+}

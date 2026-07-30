@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "overflow",
+  "title": "Overflow",
+  "description": "Renders as many items as fit on one line and collapses the rest into a \"+N\" dropdown, measured against the real container width rather than a guessed breakpoint.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "button",
+    "dropdown-menu"
+  ],
+  "files": [
+    {
+      "path": "overflow/overflow.tsx",
+      "content": "\"use client\";\n\nimport * as React from \"react\";\nimport { MoreHorizontalIcon } from \"lucide-react\";\n\nimport { cn } from \"@/lib/utils\";\nimport { Button, buttonVariants } from \"@/components/ui/button\";\nimport {\n  DropdownMenu,\n  DropdownMenuContent,\n  DropdownMenuItem,\n  DropdownMenuTrigger,\n} from \"@/components/ui/dropdown-menu\";\n\nexport interface OverflowItem {\n  id: string;\n  label: React.ReactNode;\n  onSelect?: () => void;\n}\n\nexport interface OverflowProps {\n  items: OverflowItem[];\n  className?: string;\n}\n\nconst MENU_TRIGGER_WIDTH = 44; // reserved space for the \"+N\" button, incl. gap\n\n/**\n * Renders as many items as fit on one line and collapses the rest into a\n * \"+N\" dropdown — for a toolbar or tab row that has to work at any width,\n * not just the one it happened to be designed at.\n *\n * Measures every item in a hidden row first (`visibility: hidden`, not\n * `display: none` — a non-participating element reports zero size) to get\n * real widths, then decides the visible count from the container's actual\n * width. A CSS-only approach (`overflow: hidden` + `flex-wrap: nowrap`)\n * can hide items but can't tell you *how many* it hid, which is what the\n * \"+N\" count needs.\n */\nexport function Overflow({ items, className }: OverflowProps) {\n  const containerRef = React.useRef<HTMLDivElement>(null);\n  const measureRefs = React.useRef<(HTMLDivElement | null)[]>([]);\n  const [visibleCount, setVisibleCount] = React.useState(items.length);\n\n  React.useLayoutEffect(() => {\n    const container = containerRef.current;\n    if (!container) return;\n\n    const recompute = () => {\n      const containerWidth = container.offsetWidth;\n      const widths = measureRefs.current.map((el) => el?.offsetWidth ?? 0);\n      const totalWidth = widths.reduce((a, b) => a + b, 0);\n\n      if (totalWidth <= containerWidth) {\n        setVisibleCount(items.length);\n        return;\n      }\n\n      let used = 0;\n      let count = 0;\n      for (const w of widths) {\n        if (used + w > containerWidth - MENU_TRIGGER_WIDTH) break;\n        used += w;\n        count++;\n      }\n      setVisibleCount(Math.max(0, count));\n    };\n\n    recompute();\n    const observer = new ResizeObserver(recompute);\n    observer.observe(container);\n    return () => observer.disconnect();\n  }, [items]);\n\n  const visible = items.slice(0, visibleCount);\n  const overflowed = items.slice(visibleCount);\n\n  return (\n    <div ref={containerRef} className={cn(\"relative flex min-w-0 items-center gap-1\", className)}>\n      {/* Hidden measurement row: same content, laid out off-screen so every item reports its real width. */}\n      <div className=\"absolute inset-x-0 top-0 flex items-center gap-1 opacity-0\" aria-hidden style={{ visibility: \"hidden\" }}>\n        {items.map((item, i) => (\n          <div key={item.id} ref={(el) => { measureRefs.current[i] = el; }} className=\"shrink-0\">\n            <Button variant=\"ghost\" size=\"sm\">{item.label}</Button>\n          </div>\n        ))}\n      </div>\n\n      {visible.map((item) => (\n        <Button key={item.id} variant=\"ghost\" size=\"sm\" onClick={item.onSelect} className=\"shrink-0\">\n          {item.label}\n        </Button>\n      ))}\n\n      {overflowed.length > 0 && (\n        <DropdownMenu>\n          {/* No asChild+Button here: Button isn't wrapped in React.forwardRef,\n              so Radix can't attach the ref it needs to an asChild'd Button.\n              Applying the same classes to the trigger directly sidesteps it. */}\n          <DropdownMenuTrigger\n            className={cn(buttonVariants({ variant: \"ghost\", size: \"sm\" }), \"shrink-0\")}\n            aria-label={`${overflowed.length} more`}\n          >\n            <MoreHorizontalIcon />\n          </DropdownMenuTrigger>\n          <DropdownMenuContent align=\"start\">\n            {overflowed.map((item) => (\n              <DropdownMenuItem key={item.id} onSelect={item.onSelect}>\n                {item.label}\n              </DropdownMenuItem>\n            ))}\n          </DropdownMenuContent>\n        </DropdownMenu>\n      )}\n    </div>\n  );\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/overflow.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "layout",
+    "utility"
+  ],
+  "type": "registry:ui"
+}

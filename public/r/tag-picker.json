@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tag-picker",
+  "title": "Tag Picker",
+  "description": "A multi-select combobox that renders its selection as removable Tags — Popover for the surface, Command for the searchable list.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "popover",
+    "command",
+    "xnsteam-ai/Envoyai-Library/tag"
+  ],
+  "files": [
+    {
+      "path": "tag-picker/tag-picker.tsx",
+      "content": "\"use client\";\n\nimport * as React from \"react\";\nimport { CheckIcon, ChevronDownIcon } from \"lucide-react\";\n\nimport { cn } from \"@/lib/utils\";\nimport { Popover, PopoverContent, PopoverTrigger } from \"@/components/ui/popover\";\nimport {\n  Command,\n  CommandEmpty,\n  CommandGroup,\n  CommandInput,\n  CommandItem,\n  CommandList,\n} from \"@/components/ui/command\";\nimport { Tag } from \"@/components/ui/tag\";\n\nexport interface TagPickerOption {\n  value: string;\n  label: string;\n}\n\nexport interface TagPickerProps {\n  options: TagPickerOption[];\n  value: string[];\n  onValueChange: (value: string[]) => void;\n  placeholder?: string;\n  className?: string;\n}\n\n/**\n * A multi-select combobox that renders its selection as removable Tags —\n * Popover for the trigger surface, Command for the searchable option list,\n * Tag for what's already picked.\n *\n * The row of Tags sits in a plain div, not inside the trigger button\n * itself: a Tag's remove control is a real `<button>`, and nesting that\n * inside the trigger's own `<button>` is invalid HTML and makes the inner\n * button unreliably clickable. Only the small chevron affordance opens the\n * popover.\n */\nexport function TagPicker({ options, value, onValueChange, placeholder = \"Select…\", className }: TagPickerProps) {\n  const [open, setOpen] = React.useState(false);\n\n  const toggle = (optionValue: string) => {\n    onValueChange(\n      value.includes(optionValue) ? value.filter((v) => v !== optionValue) : [...value, optionValue]\n    );\n  };\n\n  const selectedLabels = new Map(options.map((o) => [o.value, o.label]));\n\n  return (\n    <div\n      className={cn(\n        \"flex min-h-9 w-full flex-wrap items-center gap-1.5 rounded-md border border-input bg-transparent px-2 py-1.5 text-sm\",\n        className\n      )}\n    >\n      {value.length === 0 && <span className=\"text-muted-foreground\">{placeholder}</span>}\n      {value.map((v) => (\n        <Tag key={v} onRemove={() => toggle(v)}>\n          {selectedLabels.get(v) ?? v}\n        </Tag>\n      ))}\n\n      <Popover open={open} onOpenChange={setOpen}>\n        <PopoverTrigger asChild>\n          <button\n            type=\"button\"\n            aria-label=\"Add tag\"\n            className=\"ml-auto inline-flex shrink-0 rounded-sm text-muted-foreground outline-none hover:text-foreground focus-visible:ring-2 focus-visible:ring-ring\"\n          >\n            <ChevronDownIcon className=\"size-4\" />\n          </button>\n        </PopoverTrigger>\n        <PopoverContent className=\"w-64 p-0\" align=\"end\">\n          <Command>\n            <CommandInput placeholder=\"Search…\" />\n            <CommandList>\n              <CommandEmpty>No results.</CommandEmpty>\n              <CommandGroup>\n                {options.map((option) => {\n                  const selected = value.includes(option.value);\n                  return (\n                    <CommandItem key={option.value} onSelect={() => toggle(option.value)}>\n                      <CheckIcon className={cn(\"size-4\", selected ? \"opacity-100\" : \"opacity-0\")} />\n                      {option.label}\n                    </CommandItem>\n                  );\n                })}\n              </CommandGroup>\n            </CommandList>\n          </Command>\n        </PopoverContent>\n      </Popover>\n    </div>\n  );\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/tag-picker.tsx"
+    }
+  ],
+  "categories": [
+    "component",
+    "form",
+    "selection"
+  ],
+  "type": "registry:ui"
+}
